@@ -1,0 +1,15 @@
+/workspaces/ros2-coding/install/ros2_controllers/share/ament_index/resource_index/package_run_dependencies/ros2_controllers
+/workspaces/ros2-coding/install/ros2_controllers/share/ament_index/resource_index/parent_prefix_path/ros2_controllers
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/environment/ament_prefix_path.sh
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/environment/ament_prefix_path.dsv
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/environment/path.sh
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/environment/path.dsv
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/local_setup.bash
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/local_setup.sh
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/local_setup.zsh
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/local_setup.dsv
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/package.dsv
+/workspaces/ros2-coding/install/ros2_controllers/share/ament_index/resource_index/packages/ros2_controllers
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/cmake/ros2_controllersConfig.cmake
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/cmake/ros2_controllersConfig-version.cmake
+/workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/package.xml

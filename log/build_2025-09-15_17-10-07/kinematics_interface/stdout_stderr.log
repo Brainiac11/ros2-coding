@@ -1,0 +1,55 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ros2_control_cmake: 0.2.1 (/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Configuring done (3.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspaces/ros2-coding/build/kinematics_interface
+[ 50%] [32mBuilding CXX object CMakeFiles/kinematics_interface.dir/src/kinematics_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libkinematics_interface.so[0m
+[100%] Built target kinematics_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/include/kinematics_interface/kinematics_interface/kinematics_interface.hpp
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/environment/library_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/environment/library_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/ament_index/resource_index/package_run_dependencies/kinematics_interface
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/ament_index/resource_index/parent_prefix_path/kinematics_interface
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/ament_index/resource_index/packages/kinematics_interface
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/package.xml
+-- Installing: /workspaces/ros2-coding/install/kinematics_interface/lib/libkinematics_interface.so
+-- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/kinematics_interface/lib/libkinematics_interface.so" to ""
+-- Installing: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport.cmake
+-- Installing: /workspaces/ros2-coding/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport-noconfig.cmake

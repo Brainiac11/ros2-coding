@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/gz_ros2_control/ament_cmake_environment_hooks/local_setup.bash

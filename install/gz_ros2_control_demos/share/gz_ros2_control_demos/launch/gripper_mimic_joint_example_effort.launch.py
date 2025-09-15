@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control_demos/launch/gripper_mimic_joint_example_effort.launch.py

@@ -1,0 +1,224 @@
+[0.042s] Invoking command in '/workspaces/ros2-coding/build/control_toolbox': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/control_toolbox
+[0.311s] -- The CXX compiler identification is GNU 13.3.0
+[0.372s] -- Detecting CXX compiler ABI info
+[0.803s] -- Detecting CXX compiler ABI info - done
+[0.847s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.847s] -- Detecting CXX compile features
+[0.849s] -- Detecting CXX compile features - done
+[0.854s] -- Found ros2_control_cmake: 0.2.1 (/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[0.855s] -- Compiler warnings enabled for GNU
+[0.856s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.873s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.438s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.576s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.749s] -- Found control_msgs: 5.5.0 (/workspaces/ros2-coding/install/control_msgs/share/control_msgs/cmake)
+[1.946s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.004s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.058s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.121s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.708s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.939s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.973s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.240s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.279s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.508s] -- Found realtime_tools: 3.8.0 (/workspaces/ros2-coding/install/realtime_tools/share/realtime_tools/cmake)
+[3.921s] -- Found filters: 2.2.2 (/opt/ros/jazzy/share/filters/cmake)
+[4.174s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[4.184s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[4.303s] -- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[4.401s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[4.458s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.463s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.463s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.719s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[4.733s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.813s] -- The C compiler identification is GNU 13.3.0
+[4.841s] -- Detecting C compiler ABI info
+[5.035s] -- Detecting C compiler ABI info - done
+[5.057s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.058s] -- Detecting C compile features
+[5.059s] -- Detecting C compile features - done
+[5.101s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[5.101s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.289s] -- Configuring done (5.2s)
+[5.576s] -- Generating done (0.2s)
+[5.660s] -- Build files have been written to: /workspaces/ros2-coding/build/control_toolbox
+[5.686s] Invoked command in '/workspaces/ros2-coding/build/control_toolbox' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/control_toolbox
+[5.689s] Invoking command in '/workspaces/ros2-coding/build/control_toolbox': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/control_toolbox -- -j2 -l2
+[5.847s] [  1%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/dither.cpp.o[0m
+[7.122s] [  3%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/limited_proxy.cpp.o[0m
+[7.552s] [  5%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/pid_ros.cpp.o[0m
+[10.302s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:[m[K In member function ‘[01m[Kvoid control_toolbox::PidROS::[01;32m[KinitPid[m[K(double, double, double, double, double, bool)[m[K’:
+[10.302s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:733:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool control_toolbox::PidROS::[01;32m[Kinitialize_from_args[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use initialize_from_args with AntiWindupStrategy instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.304s]   733 |   [01;35m[Kinitialize_from_args(p, i, d, i_max, i_min, antiwindup)[m[K;
+[10.304s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.307s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:336:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.307s]   336 | bool [01;36m[KPidROS[m[K::initialize_from_args(
+[10.307s]       |      [01;36m[K^~~~~~[m[K
+[10.308s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:[m[K In member function ‘[01m[Kvoid control_toolbox::PidROS::[01;32m[KinitPid[m[K(double, double, double, double, double, bool, bool)[m[K’:
+[10.309s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:739:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool control_toolbox::PidROS::[01;32m[Kinitialize_from_args[m[K(double, double, double, double, double, bool, bool)[m[K’ is deprecated: Use initialize_from_args with AntiWindupStrategy instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.309s]   739 |   [01;35m[Kinitialize_from_args(p, i, d, i_max, i_min, antiwindup, save_i_term)[m[K;
+[10.309s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.310s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:349:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.310s]   349 | bool [01;36m[KPidROS[m[K::initialize_from_args(
+[10.310s]       |      [01;36m[K^~~~~~[m[K
+[10.314s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:[m[K In member function ‘[01m[Kvoid control_toolbox::PidROS::[01;32m[KsetGains[m[K(double, double, double, double, double, bool)[m[K’:
+[10.314s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:761:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool control_toolbox::PidROS::[01;32m[Kset_gains[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use set_gains with AntiWindupStrategy instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.314s]   761 |   [01;35m[Kset_gains(p, i, d, i_max, i_min, antiwindup)[m[K;
+[10.315s]       |   [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.315s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:450:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.317s]   450 | bool [01;36m[KPidROS[m[K::set_gains(double p, double i, double d, double i_max, double i_min, bool antiwindup)
+[10.319s]       |      [01;36m[K^~~~~~[m[K
+[10.319s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:[m[K In member function ‘[01m[Kvoid control_toolbox::PidROS::[01;32m[Kinitialize[m[K(std::string)[m[K’:
+[10.320s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:804:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid control_toolbox::PidROS::[01;32m[Kset_prefixes[m[K(const std::string&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.320s]   804 | dROS::initialize(std::string topic_prefix) { [01;35m[Kset_prefixes(topic_prefix)[m[K; }
+[10.321s]       |                                              [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[10.321s] 
+[10.321s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/pid_ros.cpp:141:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.321s]   141 | void [01;36m[KPidROS[m[K::set_prefixes(const std::string & topic_prefix)
+[10.322s]       |      [01;36m[K^~~~~~[m[K
+[14.002s] [  7%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/pid.cpp.o[0m
+[15.748s] [  9%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/sine_sweep.cpp.o[0m
+[16.724s] [ 11%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/sinusoid.cpp.o[0m
+[17.624s] [ 13%] [32m[1mLinking CXX shared library libcontrol_toolbox.so[0m
+[18.009s] [ 13%] Built target control_toolbox
+[18.052s] [ 15%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /workspaces/ros2-coding/build/control_toolbox/include/control_toolbox/gravity_compensation_filter_parameters.hpp /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/control_filters/gravity_compensation_filter_parameters.yaml `[0m
+[19.285s] [ 17%] [34m[1mCreating deprecated header file /workspaces/ros2-coding/build/control_toolbox/include/gravity_compensation_filter_parameters.hpp[0m
+[19.322s] [ 17%] Built target gravity_compensation_filter_parameters
+[19.365s] [ 19%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /workspaces/ros2-coding/build/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/control_filters/low_pass_filter_parameters.yaml `[0m
+[20.603s] [ 21%] [34m[1mCreating deprecated header file /workspaces/ros2-coding/build/control_toolbox/include/low_pass_filter_parameters.hpp[0m
+[20.640s] [ 21%] Built target low_pass_filter_parameters
+[20.684s] [ 23%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /workspaces/ros2-coding/build/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/control_filters/rate_limiter_parameters.yaml custom_validators.hpp`[0m
+[22.007s] [ 25%] [34m[1mCreating deprecated header file /workspaces/ros2-coding/build/control_toolbox/include/rate_limiter_parameters.hpp[0m
+[22.043s] [ 25%] Built target rate_limiter_parameters
+[22.082s] [ 26%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /workspaces/ros2-coding/build/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/control_toolbox/control_toolbox/src/control_filters/exponential_filter_parameters.yaml custom_validators.hpp`[0m
+[23.042s] [ 28%] [34m[1mCreating deprecated header file /workspaces/ros2-coding/build/control_toolbox/include/exponential_filter_parameters.hpp[0m
+[23.082s] [ 28%] Built target exponential_filter_parameters
+[23.131s] [ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[25.089s] [ 32%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[25.159s] [ 32%] Built target gmock_main
+[25.199s] [ 34%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[31.847s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[34.983s] [ 38%] [32m[1mLinking CXX static library libgmock.a[0m
+[35.138s] [ 38%] Built target gmock
+[35.184s] [ 40%] [32mBuilding CXX object CMakeFiles/gravity_compensation.dir/src/control_filters/gravity_compensation.cpp.o[0m
+[44.255s] [ 42%] [32m[1mLinking CXX shared library libgravity_compensation.so[0m
+[44.715s] [ 42%] Built target gravity_compensation
+[44.755s] [ 44%] [32mBuilding CXX object CMakeFiles/low_pass_filter.dir/src/control_filters/low_pass_filter.cpp.o[0m
+[53.495s] [ 46%] [32m[1mLinking CXX shared library liblow_pass_filter.so[0m
+[53.821s] [ 46%] Built target low_pass_filter
+[53.864s] [ 48%] [32mBuilding CXX object CMakeFiles/rate_limiter.dir/src/control_filters/rate_limiter.cpp.o[0m
+[62.108s] [ 50%] [32m[1mLinking CXX shared library librate_limiter.so[0m
+[62.323s] [ 50%] Built target rate_limiter
+[62.366s] [ 51%] [32mBuilding CXX object CMakeFiles/exponential_filter.dir/src/control_filters/exponential_filter.cpp.o[0m
+[68.508s] [ 53%] [32m[1mLinking CXX shared library libexponential_filter.so[0m
+[68.764s] [ 53%] Built target exponential_filter
+[68.809s] [ 55%] [32mBuilding CXX object CMakeFiles/pid_tests.dir/test/pid_tests.cpp.o[0m
+[72.204s] [ 57%] [32m[1mLinking CXX executable pid_tests[0m
+[72.667s] [ 57%] Built target pid_tests
+[72.710s] [ 59%] [32mBuilding CXX object CMakeFiles/rate_limiter_tests.dir/test/rate_limiter.cpp.o[0m
+[74.968s] [ 61%] [32m[1mLinking CXX executable rate_limiter_tests[0m
+[75.523s] [ 61%] Built target rate_limiter_tests
+[75.578s] [ 63%] [32mBuilding CXX object CMakeFiles/pid_ros_parameters_tests.dir/test/pid_ros_parameters_tests.cpp.o[0m
+[86.048s] [ 65%] [32m[1mLinking CXX executable pid_ros_parameters_tests[0m
+[86.713s] [ 65%] Built target pid_ros_parameters_tests
+[86.820s] [ 67%] [32mBuilding CXX object CMakeFiles/pid_ros_publisher_tests.dir/test/pid_ros_publisher_tests.cpp.o[0m
+[102.705s] [ 69%] [32m[1mLinking CXX executable pid_ros_publisher_tests[0m
+[103.610s] [ 69%] Built target pid_ros_publisher_tests
+[103.650s] [ 71%] [32mBuilding CXX object CMakeFiles/test_gravity_compensation.dir/test/control_filters/test_gravity_compensation.cpp.o[0m
+[113.808s] [ 73%] [32m[1mLinking CXX executable test_gravity_compensation[0m
+[114.263s] [ 73%] Built target test_gravity_compensation
+[114.308s] [ 75%] [32mBuilding CXX object CMakeFiles/test_load_gravity_compensation.dir/test/control_filters/test_load_gravity_compensation.cpp.o[0m
+[125.744s] [ 76%] [32m[1mLinking CXX executable test_load_gravity_compensation[0m
+[126.219s] [ 76%] Built target test_load_gravity_compensation
+[126.278s] [ 78%] [32mBuilding CXX object CMakeFiles/test_exponential_filter.dir/test/control_filters/test_exponential_filter.cpp.o[0m
+[138.952s] [ 80%] [32m[1mLinking CXX executable test_exponential_filter[0m
+[140.019s] [ 80%] Built target test_exponential_filter
+[140.123s] [ 82%] [32mBuilding CXX object CMakeFiles/test_load_exponential_filter.dir/test/control_filters/test_load_exponential_filter.cpp.o[0m
+[160.328s] [ 84%] [32m[1mLinking CXX executable test_load_exponential_filter[0m
+[161.174s] [ 84%] Built target test_load_exponential_filter
+[161.225s] [ 86%] [32mBuilding CXX object CMakeFiles/test_low_pass_filter.dir/test/control_filters/test_low_pass_filter.cpp.o[0m
+[177.554s] [ 88%] [32m[1mLinking CXX executable test_low_pass_filter[0m
+[178.622s] [ 88%] Built target test_low_pass_filter
+[178.738s] [ 90%] [32mBuilding CXX object CMakeFiles/test_load_low_pass_filter.dir/test/control_filters/test_load_low_pass_filter.cpp.o[0m
+[203.763s] [ 92%] [32m[1mLinking CXX executable test_load_low_pass_filter[0m
+[204.912s] [ 92%] Built target test_load_low_pass_filter
+[205.009s] [ 94%] [32mBuilding CXX object CMakeFiles/test_rate_limiter.dir/test/control_filters/test_rate_limiter.cpp.o[0m
+[221.098s] [ 96%] [32m[1mLinking CXX executable test_rate_limiter[0m
+[221.602s] [ 96%] Built target test_rate_limiter
+[221.642s] [ 98%] [32mBuilding CXX object CMakeFiles/test_load_rate_limiter.dir/test/control_filters/test_load_rate_limiter.cpp.o[0m
+[233.896s] [100%] [32m[1mLinking CXX executable test_load_rate_limiter[0m
+[234.405s] [100%] Built target test_load_rate_limiter
+[234.442s] Invoked command in '/workspaces/ros2-coding/build/control_toolbox' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/control_toolbox -- -j2 -l2
+[234.445s] Invoking command in '/workspaces/ros2-coding/build/control_toolbox': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/control_toolbox
+[234.462s] -- Install configuration: ""
+[234.464s] -- Execute custom install script
+[234.468s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[234.486s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[234.503s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/gravity_compensation_filter_parameters.hpp
+[234.538s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[234.555s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[234.573s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[234.579s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[234.579s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/gravity_compensation_filter_parameters.hpp
+[234.579s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[234.580s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[234.581s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[234.581s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[234.581s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/gravity_compensation_filter_parameters.hpp
+[234.583s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[234.583s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[234.584s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[234.586s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[234.586s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/gravity_compensation_filter_parameters.hpp
+[234.586s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[234.587s] -- Up-to-date symlink: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[234.587s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox//control_filters.xml
+[234.601s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_filters/custom_validators.hpp
+[234.621s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_filters/exponential_filter.hpp
+[234.636s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_filters/gravity_compensation.hpp
+[234.657s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_filters/low_pass_filter.hpp
+[234.673s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_filters/rate_limiter.hpp
+[234.691s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_toolbox/dither.hpp
+[234.726s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_toolbox/filters.hpp
+[234.763s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_toolbox/limited_proxy.hpp
+[234.795s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_toolbox/low_pass_filter.hpp
+[234.827s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_toolbox/pid.hpp
+[234.865s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_toolbox/pid_ros.hpp
+[234.891s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_toolbox/rate_limiter.hpp
+[234.911s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_toolbox/sine_sweep.hpp
+[234.926s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/include/control_toolbox/control_toolbox/sinusoid.hpp
+[234.944s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/environment/library_path.sh
+[234.962s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/environment/library_path.dsv
+[234.981s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/ament_index/resource_index/package_run_dependencies/control_toolbox
+[234.998s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/ament_index/resource_index/parent_prefix_path/control_toolbox
+[235.013s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/environment/ament_prefix_path.sh
+[235.029s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/environment/ament_prefix_path.dsv
+[235.046s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/environment/path.sh
+[235.064s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/environment/path.dsv
+[235.091s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/local_setup.bash
+[235.106s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/local_setup.sh
+[235.125s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/local_setup.zsh
+[235.149s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/local_setup.dsv
+[235.164s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/package.dsv
+[235.188s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/ament_index/resource_index/packages/control_toolbox
+[235.208s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/ament_index/resource_index/filters__pluginlib__plugin/control_toolbox
+[235.240s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[235.257s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[235.276s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/cmake/control_toolboxConfig.cmake
+[235.324s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/cmake/control_toolboxConfig-version.cmake
+[235.374s] -- Symlinking: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/package.xml
+[235.413s] -- Installing: /workspaces/ros2-coding/install/control_toolbox/lib/libcontrol_toolbox.so
+[235.432s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/control_toolbox/lib/libcontrol_toolbox.so" to ""
+[235.432s] -- Installing: /workspaces/ros2-coding/install/control_toolbox/lib/liblow_pass_filter.so
+[235.440s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/control_toolbox/lib/liblow_pass_filter.so" to ""
+[235.443s] -- Installing: /workspaces/ros2-coding/install/control_toolbox/lib/librate_limiter.so
+[235.443s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/control_toolbox/lib/librate_limiter.so" to ""
+[235.444s] -- Installing: /workspaces/ros2-coding/install/control_toolbox/lib/libexponential_filter.so
+[235.457s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/control_toolbox/lib/libexponential_filter.so" to ""
+[235.458s] -- Installing: /workspaces/ros2-coding/install/control_toolbox/lib/libgravity_compensation.so
+[235.476s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/control_toolbox/lib/libgravity_compensation.so" to ""
+[235.477s] -- Installing: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/cmake/export_control_toolboxExport.cmake
+[235.477s] -- Installing: /workspaces/ros2-coding/install/control_toolbox/share/control_toolbox/cmake/export_control_toolboxExport-noconfig.cmake
+[235.480s] Invoked command in '/workspaces/ros2-coding/build/control_toolbox' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/control_toolbox

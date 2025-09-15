@@ -1,0 +1,23 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspaces/ros2-coding/build/ros2_controllers
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ament_index/resource_index/package_run_dependencies/ros2_controllers
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ament_index/resource_index/parent_prefix_path/ros2_controllers
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ament_index/resource_index/packages/ros2_controllers
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/cmake/ros2_controllersConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/cmake/ros2_controllersConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/ros2_controllers/share/ros2_controllers/package.xml

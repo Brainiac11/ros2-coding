@@ -1,0 +1,29 @@
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool gz_ros2_control::GZResourceManager::[01;32m[Kload_and_initialize_components[m[K(const std::string&, unsigned int)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:116:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid hardware_interface::ResourceManager::[01;32m[Kimport_component[m[K(std::unique_ptr<hardware_interface::SystemInterface>, const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use import_component(std::unique_ptr<SystemInterface> system, const HardwareComponentParams & params) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  116 |       [01;35m[Kimport_component(std::move(gzSimSystem), individual_hardware_info)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_manager/include/controller_manager/controller_manager/controller_manager.hpp:43[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:458:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  458 |   [01;36m[Kimport_component[m[K(std::unique_ptr<SystemInterface> system, const HardwareInfo & hardware_info);
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:[m[K In member function ‘[01m[Kvirtual gz_ros2_control::CallbackReturn gz_ros2_control::GazeboSimSystem::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:581:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  581 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp:27[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system.hpp:24[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:15[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:209:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  209 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info)
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool gz_ros2_control::GZResourceManager::[01;32m[Kload_and_initialize_components[m[K(const std::string&, unsigned int)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:116:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid hardware_interface::ResourceManager::[01;32m[Kimport_component[m[K(std::unique_ptr<hardware_interface::SystemInterface>, const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use import_component(std::unique_ptr<SystemInterface> system, const HardwareComponentParams & params) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  116 |       [01;35m[Kimport_component(std::move(gzSimSystem), individual_hardware_info)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_manager/include/controller_manager/controller_manager/controller_manager.hpp:43[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:458:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  458 |   [01;36m[Kimport_component[m[K(std::unique_ptr<SystemInterface> system, const HardwareInfo & hardware_info);
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K

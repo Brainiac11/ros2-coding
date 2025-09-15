@@ -1,0 +1,32 @@
+[2.323s] Invoking command in '/workspaces/ros2-coding/build/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/build --no-deps symlink_data
+[2.972s] running develop
+[3.339s] running egg_info
+[3.340s] creating rqt_joint_trajectory_controller.egg-info
+[3.378s] writing rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[3.380s] writing dependency_links to rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[3.380s] writing entry points to rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[3.381s] writing requirements to rqt_joint_trajectory_controller.egg-info/requires.txt
+[3.382s] writing top-level names to rqt_joint_trajectory_controller.egg-info/top_level.txt
+[3.384s] writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[3.478s] reading manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[3.480s] writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[3.516s] running build_ext
+[3.517s] Creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+[3.518s] Installing rqt_joint_trajectory_controller script to /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[3.519s] 
+[3.519s] Installed /workspaces/ros2-coding/build/rqt_joint_trajectory_controller
+[3.520s] running symlink_data
+[3.520s] creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/ament_index
+[3.521s] creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/ament_index/resource_index
+[3.521s] creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[3.521s] symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/rqt_joint_trajectory_controller -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[3.521s] symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/package.xml -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[3.522s] creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.523s] symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/joint_trajectory_controller.ui -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.523s] symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/off.svg -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.524s] symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/double_editor.ui -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.525s] symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/scope.svg -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.525s] symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/on.svg -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.525s] symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/scope.png -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.525s] symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/plugin.xml -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[3.562s] Invoked command in '/workspaces/ros2-coding/build/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/build --no-deps symlink_data

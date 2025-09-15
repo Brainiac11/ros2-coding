@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/parallel_gripper_controller/ament_cmake_core/parallel_gripper_controllerConfig.cmake

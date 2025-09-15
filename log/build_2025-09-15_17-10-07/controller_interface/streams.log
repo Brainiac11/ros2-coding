@@ -1,0 +1,128 @@
+[0.102s] Invoking command in '/workspaces/ros2-coding/build/controller_interface': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/controller_interface
+[0.307s] -- The CXX compiler identification is GNU 13.3.0
+[0.344s] -- Detecting CXX compiler ABI info
+[0.594s] -- Detecting CXX compiler ABI info - done
+[0.626s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.627s] -- Detecting CXX compile features
+[0.635s] -- Detecting CXX compile features - done
+[0.639s] -- Found ros2_control_cmake: 0.2.1 (/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[0.643s] -- Compiler warnings enabled for GNU
+[0.643s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.665s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.116s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.280s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.525s] -- Found hardware_interface: 4.37.0 (/workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/cmake)
+[1.718s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.808s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.818s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.012s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.026s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.115s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.281s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.290s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.335s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.344s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.360s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.380s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.344s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[4.358s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.452s] -- The C compiler identification is GNU 13.3.0
+[4.481s] -- Detecting C compiler ABI info
+[4.679s] -- Detecting C compiler ABI info - done
+[4.697s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.698s] -- Detecting C compile features
+[4.700s] -- Detecting C compile features - done
+[4.736s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[4.740s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.937s] -- Configuring done (4.8s)
+[5.502s] -- Generating done (0.5s)
+[5.583s] -- Build files have been written to: /workspaces/ros2-coding/build/controller_interface
+[5.609s] Invoked command in '/workspaces/ros2-coding/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/controller_interface
+[5.610s] Invoking command in '/workspaces/ros2-coding/build/controller_interface': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/controller_interface -- -j2 -l2
+[5.727s] [  3%] [34m[1mGenerating controller_interface/version.h[0m
+[5.760s] [  3%] Built target ament_generate_version_header__controller_interface
+[5.800s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[7.618s] [ 10%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[7.708s] [ 10%] Built target gmock_main
+[7.779s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[14.607s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[17.575s] [ 20%] [32m[1mLinking CXX static library libgmock.a[0m
+[17.774s] [ 20%] Built target gmock
+[17.819s] [ 23%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface_base.cpp.o[0m
+[25.522s] [ 26%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[32.056s] [ 30%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/chainable_controller_interface.cpp.o[0m
+[41.808s] [ 33%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[42.241s] [ 33%] Built target controller_interface
+[42.288s] [ 36%] [32mBuilding CXX object CMakeFiles/test_controller_interface.dir/test/test_controller_interface.cpp.o[0m
+[50.785s] [ 40%] [32m[1mLinking CXX executable test_controller_interface[0m
+[51.456s] [ 40%] Built target test_controller_interface
+[51.504s] [ 43%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[60.074s] [ 46%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[60.659s] [ 46%] Built target test_controller_with_options
+[60.703s] [ 50%] [32mBuilding CXX object CMakeFiles/test_chainable_controller_interface.dir/test/test_chainable_controller_interface.cpp.o[0m
+[70.039s] [ 53%] [32m[1mLinking CXX executable test_chainable_controller_interface[0m
+[70.729s] [ 53%] Built target test_chainable_controller_interface
+[70.765s] [ 56%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[79.087s] [ 60%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[79.568s] [ 60%] Built target test_semantic_component_interface
+[79.617s] [ 63%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[88.065s] [ 66%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[88.608s] [ 66%] Built target test_force_torque_sensor
+[88.661s] [ 70%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[97.990s] [ 73%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[98.575s] [ 73%] Built target test_imu_sensor
+[98.629s] [ 76%] [32mBuilding CXX object CMakeFiles/test_pose_sensor.dir/test/test_pose_sensor.cpp.o[0m
+[107.568s] [ 80%] [32m[1mLinking CXX executable test_pose_sensor[0m
+[108.074s] [ 80%] Built target test_pose_sensor
+[108.116s] [ 83%] [32mBuilding CXX object CMakeFiles/test_gps_sensor.dir/test/test_gps_sensor.cpp.o[0m
+[118.281s] [ 86%] [32m[1mLinking CXX executable test_gps_sensor[0m
+[119.813s] [ 86%] Built target test_gps_sensor
+[119.936s] [ 90%] [32mBuilding CXX object CMakeFiles/test_semantic_component_command_interface.dir/test/test_semantic_component_command_interface.cpp.o[0m
+[130.030s] [ 93%] [32m[1mLinking CXX executable test_semantic_component_command_interface[0m
+[130.556s] [ 93%] Built target test_semantic_component_command_interface
+[130.601s] [ 96%] [32mBuilding CXX object CMakeFiles/test_led_rgb_device.dir/test/test_led_rgb_device.cpp.o[0m
+[138.932s] [100%] [32m[1mLinking CXX executable test_led_rgb_device[0m
+[139.534s] [100%] Built target test_led_rgb_device
+[139.587s] Invoked command in '/workspaces/ros2-coding/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/controller_interface -- -j2 -l2
+[139.592s] Invoking command in '/workspaces/ros2-coding/build/controller_interface': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/controller_interface
+[139.607s] -- Install configuration: ""
+[139.608s] -- Execute custom install script
+[139.611s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp
+[139.628s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface.hpp
+[139.648s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp
+[139.669s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/helpers.hpp
+[139.687s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/semantic_components/force_torque_sensor.hpp
+[139.711s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/semantic_components/gps_sensor.hpp
+[139.727s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/semantic_components/imu_sensor.hpp
+[139.750s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/semantic_components/led_rgb_device.hpp
+[139.771s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/semantic_components/pose_sensor.hpp
+[139.788s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/semantic_components/range_sensor.hpp
+[139.806s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/semantic_components/semantic_component_command_interface.hpp
+[139.825s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/semantic_components/semantic_component_interface.hpp
+[139.842s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/environment/library_path.sh
+[139.859s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[139.876s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[139.892s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[139.910s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[139.927s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[139.943s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/environment/path.sh
+[139.959s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/environment/path.dsv
+[139.974s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/local_setup.bash
+[139.992s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/local_setup.sh
+[140.009s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/local_setup.zsh
+[140.024s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/local_setup.dsv
+[140.042s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/package.dsv
+[140.061s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[140.078s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_targets-extras.cmake
+[140.097s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[140.115s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[140.131s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[140.149s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/package.xml
+[140.167s] -- Symlinking: /workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/version.h
+[140.188s] -- Installing: /workspaces/ros2-coding/install/controller_interface/lib/libcontroller_interface.so
+[140.192s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/controller_interface/lib/libcontroller_interface.so" to ""
+[140.194s] -- Installing: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport.cmake
+[140.198s] -- Installing: /workspaces/ros2-coding/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport-noconfig.cmake
+[140.199s] Invoked command in '/workspaces/ros2-coding/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/controller_interface

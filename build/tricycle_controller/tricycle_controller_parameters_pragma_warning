@@ -1,0 +1,1 @@
+#pragma message("#include \"tricycle_controller_parameters.hpp\" is deprecated. Use #include <tricycle_controller/tricycle_controller_parameters.hpp> instead.")

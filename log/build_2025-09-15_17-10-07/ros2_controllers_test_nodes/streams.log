@@ -1,0 +1,28 @@
+[2.123s] Invoking command in '/workspaces/ros2-coding/build/ros2_controllers_test_nodes': PYTHONPATH=/workspaces/ros2-coding/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/ros2_controllers_test_nodes/build --no-deps symlink_data
+[3.004s] running develop
+[3.575s] running egg_info
+[3.576s] creating ros2_controllers_test_nodes.egg-info
+[3.615s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[3.619s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[3.619s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[3.621s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[3.621s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[3.625s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.712s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.713s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.767s] running build_ext
+[3.767s] Creating /workspaces/ros2-coding/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[3.770s] Installing publisher_forward_position_controller script to /workspaces/ros2-coding/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.771s] Installing publisher_joint_trajectory_controller script to /workspaces/ros2-coding/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.771s] 
+[3.774s] Installed /workspaces/ros2-coding/build/ros2_controllers_test_nodes
+[3.774s] running symlink_data
+[3.774s] creating /workspaces/ros2-coding/install/ros2_controllers_test_nodes/share/ament_index
+[3.774s] creating /workspaces/ros2-coding/install/ros2_controllers_test_nodes/share/ament_index/resource_index
+[3.774s] creating /workspaces/ros2-coding/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[3.775s] symbolically linking /workspaces/ros2-coding/build/ros2_controllers_test_nodes/resource/ros2_controllers_test_nodes -> /workspaces/ros2-coding/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[3.775s] symbolically linking /workspaces/ros2-coding/build/ros2_controllers_test_nodes/package.xml -> /workspaces/ros2-coding/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[3.775s] creating /workspaces/ros2-coding/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[3.775s] symbolically linking /workspaces/ros2-coding/build/ros2_controllers_test_nodes/test/rrbot_joint_trajectory_publisher.yaml -> /workspaces/ros2-coding/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[3.785s] symbolically linking /workspaces/ros2-coding/build/ros2_controllers_test_nodes/test/rrbot_forward_position_publisher.yaml -> /workspaces/ros2-coding/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[3.827s] Invoked command in '/workspaces/ros2-coding/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/ros2_controllers_test_nodes/build --no-deps symlink_data

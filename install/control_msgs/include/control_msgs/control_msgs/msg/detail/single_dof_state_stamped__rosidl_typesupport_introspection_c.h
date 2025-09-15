@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/control_msgs/rosidl_typesupport_introspection_c/control_msgs/msg/detail/single_dof_state_stamped__rosidl_typesupport_introspection_c.h

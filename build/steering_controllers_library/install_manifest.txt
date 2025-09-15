@@ -1,0 +1,3 @@
+/workspaces/ros2-coding/install/steering_controllers_library/lib/libsteering_controllers_library.so
+/workspaces/ros2-coding/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport.cmake
+/workspaces/ros2-coding/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport-noconfig.cmake

@@ -1,0 +1,17 @@
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake/ros2_control.cmake
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ament_index/resource_index/package_run_dependencies/ros2_control_cmake
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ament_index/resource_index/parent_prefix_path/ros2_control_cmake
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/environment/ament_prefix_path.sh
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/environment/ament_prefix_path.dsv
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/environment/path.sh
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/environment/path.dsv
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/local_setup.bash
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/local_setup.sh
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/local_setup.zsh
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/local_setup.dsv
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/package.dsv
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ament_index/resource_index/packages/ros2_control_cmake
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake/ros2_control_cmake-extras.cmake
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake/ros2_control_cmakeConfig.cmake
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake/ros2_control_cmakeConfig-version.cmake
+/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/package.xml

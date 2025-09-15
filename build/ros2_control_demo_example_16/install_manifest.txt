@@ -1,0 +1,3 @@
+/workspaces/ros2-coding/install/ros2_control_demo_example_16/lib/libros2_control_demo_example_16.so
+/workspaces/ros2-coding/install/ros2_control_demo_example_16/share/ros2_control_demo_example_16/cmake/export_ros2_control_demo_example_16Export.cmake
+/workspaces/ros2-coding/install/ros2_control_demo_example_16/share/ros2_control_demo_example_16/cmake/export_ros2_control_demo_example_16Export-noconfig.cmake
