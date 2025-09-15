@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/gripper_controllers/ament_cmake_core/gripper_controllersConfig.cmake

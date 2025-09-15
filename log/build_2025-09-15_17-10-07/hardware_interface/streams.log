@@ -1,0 +1,299 @@
+[0.033s] Invoking command in '/workspaces/ros2-coding/build/hardware_interface': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/hardware_interface
+[0.217s] -- The CXX compiler identification is GNU 13.3.0
+[0.288s] -- Detecting CXX compiler ABI info
+[0.662s] -- Detecting CXX compiler ABI info - done
+[0.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.683s] -- Detecting CXX compile features
+[0.683s] -- Detecting CXX compile features - done
+[0.685s] -- Found ros2_control_cmake: 0.2.1 (/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[0.686s] -- Compiler warnings enabled for GNU
+[0.686s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.700s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.027s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.226s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.428s] -- Found control_msgs: 5.5.0 (/workspaces/ros2-coding/install/control_msgs/share/control_msgs/cmake)
+[1.597s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.659s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.775s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.282s] -- Found lifecycle_msgs: 2.0.3 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[2.324s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[2.398s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.410s] -- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.536s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.548s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.621s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.756s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.763s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.795s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.799s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.824s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.091s] -- Found realtime_tools: 3.8.0 (/workspaces/ros2-coding/install/realtime_tools/share/realtime_tools/cmake)
+[3.424s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.426s] -- Found joint_limits: 4.37.0 (/workspaces/ros2-coding/install/joint_limits/share/joint_limits/cmake)
+[3.548s] -- Found pal_statistics: 2.6.4 (/opt/ros/jazzy/share/pal_statistics/cmake)
+[3.626s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[3.628s] -- Found ros2_control_test_assets: 4.37.0 (/workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.640s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.732s] -- The C compiler identification is GNU 13.3.0
+[3.775s] -- Detecting C compiler ABI info
+[3.992s] -- Detecting C compiler ABI info - done
+[4.008s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.008s] -- Detecting C compile features
+[4.009s] -- Detecting C compile features - done
+[4.042s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[4.044s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.056s] -- Found Threads: TRUE  
+[4.249s] -- Configuring done (4.2s)
+[4.720s] -- Generating done (0.4s)
+[4.795s] -- Build files have been written to: /workspaces/ros2-coding/build/hardware_interface
+[4.823s] Invoked command in '/workspaces/ros2-coding/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/hardware_interface
+[4.824s] Invoking command in '/workspaces/ros2-coding/build/hardware_interface': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/hardware_interface -- -j2 -l2
+[4.965s] [  2%] [34m[1mGenerating hardware_interface/version.h[0m
+[5.005s] [  2%] Built target ament_generate_version_header__hardware_interface
+[5.046s] [  4%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[6.804s] [  7%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.869s] [  7%] Built target gmock_main
+[6.911s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[13.611s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[16.436s] [ 14%] [32m[1mLinking CXX static library libgmock.a[0m
+[16.611s] [ 14%] Built target gmock
+[16.667s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[18.377s] [ 19%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[18.520s] [ 19%] Built target gtest_main
+[18.610s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[28.868s] [ 24%] [32m[1mLinking CXX static library libgtest.a[0m
+[29.013s] [ 24%] Built target gtest
+[29.059s] [ 26%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/component_parser.cpp.o[0m
+[35.095s] [ 29%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o[0m
+[39.983s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator_interface.hpp:18[m[K,
+[39.983s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator.hpp:18[m[K,
+[39.983s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/resource_manager.hpp:23[m[K,
+[39.983s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/src/resource_manager.cpp:15[m[K:
+[39.984s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[39.985s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[39.985s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[39.985s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[39.985s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[39.986s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[39.987s]       |                  [01;36m[K^~~~[m[K
+[40.764s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/src/resource_manager.cpp:[m[K In member function ‘[01m[Kvirtual bool hardware_interface::ResourceManager::[01;32m[Kload_and_initialize_components[m[K(const hardware_interface::ResourceManagerParams&)[m[K’:
+[40.765s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/src/resource_manager.cpp:1516:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual bool hardware_interface::ResourceManager::[01;32m[Kload_and_initialize_components[m[K(const std::string&, unsigned int)[m[K’ is deprecated: Use load_and_initialize_components(const ResourceManagerParams & params) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[40.765s]  1516 |   return [01;35m[Kload_and_initialize_components(params.robot_description, params.update_rate)[m[K;
+[40.765s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[40.765s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/src/resource_manager.cpp:1419:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[40.765s]  1419 | bool [01;36m[KResourceManager[m[K::load_and_initialize_components(
+[40.765s]       |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[51.920s] [ 31%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/hardware_component.cpp.o[0m
+[56.780s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component.hpp:23[m[K,
+[56.781s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/src/hardware_component.cpp:15[m[K:
+[56.781s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[56.781s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[56.781s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[56.782s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[56.783s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[56.785s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[56.785s]       |                  [01;36m[K^~~~[m[K
+[60.975s] [ 34%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/lexical_casts.cpp.o[0m
+[64.631s] [ 36%] [32m[1mLinking CXX shared library libhardware_interface.so[0m
+[65.419s] [ 36%] Built target hardware_interface
+[65.471s] [ 39%] [32mBuilding CXX object CMakeFiles/test_macros.dir/test/test_macros.cpp.o[0m
+[67.474s] [ 41%] [32m[1mLinking CXX executable test_macros[0m
+[67.741s] [ 41%] Built target test_macros
+[67.786s] [ 43%] [32mBuilding CXX object CMakeFiles/mock_components.dir/src/mock_components/generic_system.cpp.o[0m
+[72.194s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp:18[m[K,
+[72.198s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/mock_components/generic_system.hpp:28[m[K,
+[72.198s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/src/mock_components/generic_system.cpp:17[m[K:
+[72.198s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[72.199s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[72.200s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[72.200s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[72.201s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[72.201s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[72.201s]       |                  [01;36m[K^~~~[m[K
+[77.454s] [ 46%] [32m[1mLinking CXX shared library libmock_components.so[0m
+[77.931s] [ 46%] Built target mock_components
+[77.966s] [ 48%] [32mBuilding CXX object CMakeFiles/test_inst_hardwares.dir/test/test_inst_hardwares.cpp.o[0m
+[82.637s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator_interface.hpp:18[m[K,
+[82.637s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator.hpp:18[m[K,
+[82.638s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/test/test_inst_hardwares.cpp:16[m[K:
+[82.639s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[82.640s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[82.640s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[82.640s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[82.640s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[82.643s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[82.643s]       |                  [01;36m[K^~~~[m[K
+[85.710s] [ 51%] [32m[1mLinking CXX executable test_inst_hardwares[0m
+[86.237s] [ 51%] Built target test_inst_hardwares
+[86.281s] [ 53%] [32mBuilding CXX object CMakeFiles/test_joint_handle.dir/test/test_handle.cpp.o[0m
+[94.639s] [ 56%] [32m[1mLinking CXX executable test_joint_handle[0m
+[95.329s] [ 56%] Built target test_joint_handle
+[95.435s] [ 58%] [32mBuilding CXX object CMakeFiles/test_helpers.dir/test/test_helpers.cpp.o[0m
+[98.548s] [ 60%] [32m[1mLinking CXX executable test_helpers[0m
+[99.523s] [ 60%] Built target test_helpers
+[99.570s] [ 63%] [32mBuilding CXX object CMakeFiles/test_lexical_casts.dir/test/test_lexical_casts.cpp.o[0m
+[105.357s] [ 65%] [32m[1mLinking CXX executable test_lexical_casts[0m
+[107.198s] [ 65%] Built target test_lexical_casts
+[107.333s] [ 68%] [32mBuilding CXX object CMakeFiles/test_component_interfaces.dir/test/test_component_interfaces.cpp.o[0m
+[115.717s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator_interface.hpp:18[m[K,
+[115.717s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator.hpp:18[m[K,
+[115.718s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/test/test_component_interfaces.cpp:24[m[K:
+[115.718s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[115.718s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[115.719s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[115.719s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[115.722s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[115.723s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[115.723s]       |                  [01;36m[K^~~~[m[K
+[123.243s] [ 70%] [32m[1mLinking CXX executable test_component_interfaces[0m
+[124.102s] [ 70%] Built target test_component_interfaces
+[124.153s] [ 73%] [32mBuilding CXX object CMakeFiles/test_component_interfaces_custom_export.dir/test/test_component_interfaces_custom_export.cpp.o[0m
+[129.547s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator_interface.hpp:18[m[K,
+[129.547s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator.hpp:18[m[K,
+[129.547s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/test/test_component_interfaces_custom_export.cpp:23[m[K:
+[129.548s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[129.548s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[129.548s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[129.548s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[129.550s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[129.550s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[129.550s]       |                  [01;36m[K^~~~[m[K
+[135.233s] [ 75%] [32m[1mLinking CXX executable test_component_interfaces_custom_export[0m
+[136.059s] [ 75%] Built target test_component_interfaces_custom_export
+[136.124s] [ 78%] [32mBuilding CXX object CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o[0m
+[151.096s] [ 80%] [32m[1mLinking CXX executable test_component_parser[0m
+[151.843s] [ 80%] Built target test_component_parser
+[151.885s] [ 82%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_single_joint_actuator.cpp.o[0m
+[160.366s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator_interface.hpp:18[m[K,
+[160.366s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_single_joint_actuator.cpp:17[m[K:
+[160.366s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[160.367s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[160.367s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[160.367s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[160.367s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[160.367s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[160.367s]       |                  [01;36m[K^~~~[m[K
+[167.395s] [ 85%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_force_torque_sensor.cpp.o[0m
+[177.223s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/sensor_interface.hpp:20[m[K,
+[177.223s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_force_torque_sensor.cpp:19[m[K:
+[177.228s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[177.228s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[177.228s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[177.231s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[177.231s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[177.231s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[177.231s]       |                  [01;36m[K^~~~[m[K
+[185.978s] [ 87%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_imu_sensor.cpp.o[0m
+[193.737s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/sensor_interface.hpp:20[m[K,
+[193.737s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_imu_sensor.cpp:24[m[K:
+[193.738s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[193.740s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[193.741s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[193.744s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[193.745s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[193.745s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[193.746s]       |                  [01;36m[K^~~~[m[K
+[201.268s] [ 90%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o[0m
+[208.405s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp:18[m[K,
+[208.405s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_two_joint_system.cpp:18[m[K:
+[208.406s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[208.409s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[208.409s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[208.409s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[208.409s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[208.410s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[208.410s]       |                  [01;36m[K^~~~[m[K
+[216.567s] [ 92%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_system_with_command_modes.cpp.o[0m
+[226.135s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp:18[m[K,
+[226.142s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_system_with_command_modes.cpp:19[m[K:
+[226.142s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[226.143s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[226.143s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[226.143s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[226.143s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[226.143s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[226.144s]       |                  [01;36m[K^~~~[m[K
+[233.760s] [ 95%] [32m[1mLinking CXX shared library libtest_hardware_components.so[0m
+[236.000s] [ 95%] Built target test_hardware_components
+[236.202s] [ 97%] [32mBuilding CXX object CMakeFiles/test_generic_system.dir/test/mock_components/test_generic_system.cpp.o[0m
+[245.618s] In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator_interface.hpp:18[m[K,
+[245.620s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator.hpp:18[m[K,
+[245.620s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/resource_manager.hpp:23[m[K,
+[245.620s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/test/mock_components/test_generic_system.cpp:28[m[K:
+[245.622s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’:
+[245.623s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:96:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kinit[m[K(const hardware_interface::HardwareInfo&, rclcpp::Logger, rclcpp::Clock::SharedPtr)[m[K’ is deprecated: Replaced by CallbackReturn init(const hardware_interface::HardwareComponentParams & params). Initialization is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[245.624s]    96 |     return [01;35m[Kthis->init(hardware_info, logger, clock_interface->get_clock())[m[K;
+[245.627s]       |            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[245.627s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:111:18:[m[K [01;36m[Knote: [m[Kdeclared here
+[245.627s]   111 |   CallbackReturn [01;36m[Kinit[m[K(
+[245.627s]       |                  [01;36m[K^~~~[m[K
+[252.339s] [100%] [32m[1mLinking CXX executable test_generic_system[0m
+[253.545s] [100%] Built target test_generic_system
+[253.579s] Invoked command in '/workspaces/ros2-coding/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/hardware_interface -- -j2 -l2
+[253.694s] Invoking command in '/workspaces/ros2-coding/build/hardware_interface': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/hardware_interface
+[253.701s] -- Install configuration: ""
+[253.702s] -- Execute custom install script
+[253.702s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface//mock_components_plugin_description.xml
+[253.740s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/lib/libtest_hardware_components.so
+[253.763s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[253.781s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/actuator.hpp
+[253.804s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/actuator_interface.hpp
+[253.823s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/async_components.hpp
+[253.842s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/component_parser.hpp
+[253.862s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/controller_info.hpp
+[253.886s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp
+[253.900s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/hardware_component.hpp
+[253.920s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/hardware_component_info.hpp
+[253.932s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/hardware_component_interface.hpp
+[253.947s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/hardware_info.hpp
+[253.969s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/helpers.hpp
+[253.986s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/introspection.hpp
+[254.007s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/lexical_casts.hpp
+[254.025s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/lifecycle_helpers.hpp
+[254.044s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp
+[254.067s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp
+[254.084s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/macros.hpp
+[254.104s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp
+[254.123s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/sensor.hpp
+[254.144s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/sensor_interface.hpp
+[254.160s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/system.hpp
+[254.179s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/system_interface.hpp
+[254.198s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/types/hardware_component_interface_params.hpp
+[254.218s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/types/hardware_component_params.hpp
+[254.240s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/types/hardware_interface_return_values.hpp
+[254.257s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/types/hardware_interface_type_values.hpp
+[254.280s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/types/lifecycle_state_names.hpp
+[254.311s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/types/resource_manager_params.hpp
+[254.352s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/types/statistics_types.hpp
+[254.374s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/types/trigger_type.hpp
+[254.391s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/mock_components/generic_system.hpp
+[254.428s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[254.459s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[254.500s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[254.530s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[254.555s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[254.582s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[254.603s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/environment/path.sh
+[254.627s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[254.651s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/local_setup.bash
+[254.690s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/local_setup.sh
+[254.720s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[254.738s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[254.755s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/package.dsv
+[254.776s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[254.798s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[254.820s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[254.841s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[254.856s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[254.874s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[254.893s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/package.xml
+[254.912s] -- Symlinking: /workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/version.h
+[254.929s] -- Installing: /workspaces/ros2-coding/install/hardware_interface/lib/libmock_components.so
+[254.956s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/hardware_interface/lib/libmock_components.so" to ""
+[254.959s] -- Installing: /workspaces/ros2-coding/install/hardware_interface/lib/libhardware_interface.so
+[255.002s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/hardware_interface/lib/libhardware_interface.so" to ""
+[255.005s] -- Installing: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interfaceExport.cmake
+[255.005s] -- Installing: /workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interfaceExport-noconfig.cmake
+[255.014s] Invoked command in '/workspaces/ros2-coding/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/hardware_interface

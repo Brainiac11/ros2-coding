@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8f69ad86e0c62c9f8e2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_control_demo_example_8",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_demo_example_8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_demo_example_8-f0a8f1d34d026da9afdc.json",
+					"name" : "ros2_control_demo_example_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_demo_example_8_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_demo_example_8_uninstall-8097dc0d88ab585b7818.json",
+					"name" : "ros2_control_demo_example_8_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-21537c5e343497991ed9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/ros2-coding/build/ros2_control_demo_example_8",
+		"source" : "/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control_demos/example_8"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

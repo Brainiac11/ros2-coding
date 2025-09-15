@@ -1,0 +1,207 @@
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn steering_controllers_library::SteeringControllersLibrary::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:532:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  532 |     [01;35m[Kcommand_interfaces_[i].set_value(std::numeric_limits<double>::quiet_NaN())[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/include/steering_controllers_library/steering_controllers_library.hpp:23[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:15[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type steering_controllers_library::SteeringControllersLibrary::[01;32m[Kupdate_and_write_commands[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:577:39:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  577 |       [01;35m[Kcommand_interfaces_[i].set_value(timeout ? 0.0 : traction_commands[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:581:78:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  581 |       [01;35m[Kcommand_interfaces_[i + params_.traction_joints_names.size()].set_value(steering_commands[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:632:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  632 |           [01;35m[Kstate_interfaces_[i].get_value()[m[K);
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:637:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  637 |           [01;35m[Kstate_interfaces_[i].get_value()[m[K);
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:640:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  640 |         [01;35m[Kcommand_interfaces_[i].get_value()[m[K);
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:646:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  646 |         [01;35m[Kstate_interfaces_[number_of_traction_wheels + i].get_value()[m[K);
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:648:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  648 |         [01;35m[Kcommand_interfaces_[number_of_traction_wheels + i].get_value()[m[K);
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.hpp:18[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:21[m[K:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:[m[K In member function ‘[01m[Kvirtual void SteeringControllersLibraryTest_test_both_update_methods_for_ref_timeout_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:149:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  149 |   EXPECT_EQ([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, 0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:144:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  144 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1869:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+ 1869 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:149:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+  149 |   [01;36m[KEXPECT_EQ[m[K(controller_->command_interfaces_[0].get_value(), 0);
+      |   [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.hpp:26[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:150:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  150 |   EXPECT_EQ([01;35m[Kcontroller_->command_interfaces_[1].get_value()[m[K, 0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:144:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  144 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1869:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+ 1869 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:150:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+  150 |   [01;36m[KEXPECT_EQ[m[K(controller_->command_interfaces_[1].get_value(), 0);
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:153:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  153 |   EXPECT_NEAR([01;35m[Kcontroller_->command_interfaces_[2].get_value()[m[K, 0.575875, 1e-6);
+      |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+  183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+ 1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:153:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+  153 |   [01;36m[KEXPECT_NEAR[m[K(controller_->command_interfaces_[2].get_value(), 0.575875, 1e-6);
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:154:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  154 |   EXPECT_NEAR([01;35m[Kcontroller_->command_interfaces_[3].get_value()[m[K, 0.575875, 1e-6);
+      |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+  183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+ 1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:154:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+  154 |   [01;36m[KEXPECT_NEAR[m[K(controller_->command_interfaces_[3].get_value(), 0.575875, 1e-6);
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:193:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  193 |   EXPECT_EQ([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, 0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:144:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  144 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1869:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+ 1869 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:193:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+  193 |   [01;36m[KEXPECT_EQ[m[K(controller_->command_interfaces_[0].get_value(), 0);
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:194:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  194 |   EXPECT_EQ([01;35m[Kcontroller_->command_interfaces_[1].get_value()[m[K, 0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:144:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  144 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1869:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+ 1869 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:194:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+  194 |   [01;36m[KEXPECT_EQ[m[K(controller_->command_interfaces_[1].get_value(), 0);
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:197:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  197 |   EXPECT_NEAR([01;35m[Kcontroller_->command_interfaces_[2].get_value()[m[K, 0.575875, 1e-6);
+      |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+  183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+ 1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:197:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+  197 |   [01;36m[KEXPECT_NEAR[m[K(controller_->command_interfaces_[2].get_value(), 0.575875, 1e-6);
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:198:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  198 |   EXPECT_NEAR([01;35m[Kcontroller_->command_interfaces_[3].get_value()[m[K, 0.575875, 1e-6);
+      |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+  183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+ 1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/steering_controllers_library/test/test_steering_controllers_library.cpp:198:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+  198 |   [01;36m[KEXPECT_NEAR[m[K(controller_->command_interfaces_[3].get_value(), 0.575875, 1e-6);
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K

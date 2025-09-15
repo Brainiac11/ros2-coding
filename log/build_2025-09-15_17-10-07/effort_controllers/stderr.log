@@ -1,0 +1,167 @@
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/src/joint_group_effort_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn effort_controllers::JointGroupEffortController::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/src/joint_group_effort_controller.cpp:62:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   62 |     [01;35m[Kcommand_interface.set_value(0.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/src/joint_group_effort_controller.cpp:17[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.hpp:18[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:23[m[K:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:[m[K In member function ‘[01m[Kvirtual void JointGroupEffortControllerTest_CommandSuccessTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:109:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  109 |   ASSERT_EQ([01;35m[Kjoint_1_cmd_.get_value()[m[K, 1.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:24[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:20[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:110:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  110 |   ASSERT_EQ([01;35m[Kjoint_2_cmd_.get_value()[m[K, 2.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:111:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  111 |   ASSERT_EQ([01;35m[Kjoint_3_cmd_.get_value()[m[K, 3.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:124:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  124 |   ASSERT_EQ([01;35m[Kjoint_1_cmd_.get_value()[m[K, 10.0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:125:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  125 |   ASSERT_EQ([01;35m[Kjoint_2_cmd_.get_value()[m[K, 20.0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:126:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  126 |   ASSERT_EQ([01;35m[Kjoint_3_cmd_.get_value()[m[K, 30.0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:[m[K In member function ‘[01m[Kvirtual void JointGroupEffortControllerTest_WrongCommandCheckTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:146:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  146 |   ASSERT_EQ([01;35m[Kjoint_1_cmd_.get_value()[m[K, 1.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:147:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  147 |   ASSERT_EQ([01;35m[Kjoint_2_cmd_.get_value()[m[K, 2.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:148:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  148 |   ASSERT_EQ([01;35m[Kjoint_3_cmd_.get_value()[m[K, 3.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:[m[K In member function ‘[01m[Kvirtual void JointGroupEffortControllerTest_NoCommandCheckTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:163:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  163 |   ASSERT_EQ([01;35m[Kjoint_1_cmd_.get_value()[m[K, 1.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:164:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  164 |   ASSERT_EQ([01;35m[Kjoint_2_cmd_.get_value()[m[K, 2.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:165:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  165 |   ASSERT_EQ([01;35m[Kjoint_3_cmd_.get_value()[m[K, 3.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:[m[K In member function ‘[01m[Kvirtual void JointGroupEffortControllerTest_CommandCallbackTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:174:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  174 |   ASSERT_EQ([01;35m[Kjoint_1_cmd_.get_value()[m[K, 1.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:175:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  175 |   ASSERT_EQ([01;35m[Kjoint_2_cmd_.get_value()[m[K, 2.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:176:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  176 |   ASSERT_EQ([01;35m[Kjoint_3_cmd_.get_value()[m[K, 3.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:207:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  207 |   ASSERT_EQ([01;35m[Kjoint_1_cmd_.get_value()[m[K, 10.0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:208:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  208 |   ASSERT_EQ([01;35m[Kjoint_2_cmd_.get_value()[m[K, 20.0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:209:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  209 |   ASSERT_EQ([01;35m[Kjoint_3_cmd_.get_value()[m[K, 30.0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:[m[K In member function ‘[01m[Kvirtual void JointGroupEffortControllerTest_StopJointsOnDeactivateTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:221:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  221 |   ASSERT_EQ([01;35m[Kjoint_1_cmd_.get_value()[m[K, 1.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:222:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  222 |   ASSERT_EQ([01;35m[Kjoint_2_cmd_.get_value()[m[K, 2.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:223:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  223 |   ASSERT_EQ([01;35m[Kjoint_3_cmd_.get_value()[m[K, 3.1);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:229:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  229 |   ASSERT_EQ([01;35m[Kjoint_1_cmd_.get_value()[m[K, 0.0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:230:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  230 |   ASSERT_EQ([01;35m[Kjoint_2_cmd_.get_value()[m[K, 0.0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.cpp:231:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  231 |   ASSERT_EQ([01;35m[Kjoint_3_cmd_.get_value()[m[K, 0.0);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K

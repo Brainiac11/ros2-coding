@@ -1,0 +1,43 @@
+[0.015s] Invoking command in '/workspaces/ros2-coding/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros2_control_test_assets
+[0.135s] -- The CXX compiler identification is GNU 13.3.0
+[0.182s] -- Detecting CXX compiler ABI info
+[0.484s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.513s] -- Detecting CXX compile features
+[0.516s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.865s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.985s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.303s] -- Configuring done (1.3s)
+[1.311s] -- Generating done (0.0s)
+[1.314s] -- Build files have been written to: /workspaces/ros2-coding/build/ros2_control_test_assets
+[1.322s] Invoked command in '/workspaces/ros2-coding/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros2_control_test_assets
+[1.323s] Invoking command in '/workspaces/ros2-coding/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/ros2_control_test_assets -- -j2 -l2
+[1.399s] Invoked command in '/workspaces/ros2-coding/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/ros2_control_test_assets -- -j2 -l2
+[1.400s] Invoking command in '/workspaces/ros2-coding/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/ros2_control_test_assets
+[1.417s] -- Install configuration: ""
+[1.417s] -- Execute custom install script
+[1.419s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/components_urdfs.hpp
+[1.439s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/descriptions.hpp
+[1.454s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/test_hardware_interface_constants.hpp
+[1.470s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/urdf/test_hardware_components.urdf
+[1.485s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.sh
+[1.501s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.dsv
+[1.513s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[1.527s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[1.542s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[1.557s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[1.574s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[1.590s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[1.604s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[1.619s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[1.635s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[1.660s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[1.682s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[1.699s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[1.717s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake
+[1.734s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[1.751s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[1.774s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[1.789s] -- Installing: /workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake
+[1.796s] Invoked command in '/workspaces/ros2-coding/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/ros2_control_test_assets

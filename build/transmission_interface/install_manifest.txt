@@ -1,0 +1,3 @@
+/workspaces/ros2-coding/install/transmission_interface/lib/libtransmission_interface.so
+/workspaces/ros2-coding/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport.cmake
+/workspaces/ros2-coding/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport-noconfig.cmake

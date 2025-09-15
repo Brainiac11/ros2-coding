@@ -1,0 +1,365 @@
+[0.112s] Invoking command in '/workspaces/ros2-coding/build/gz_ros2_control': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/gz_ros2_control
+[0.276s] -- The C compiler identification is GNU 13.3.0
+[0.419s] -- The CXX compiler identification is GNU 13.3.0
+[0.468s] -- Detecting C compiler ABI info
+[0.646s] -- Detecting C compiler ABI info - done
+[0.666s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.667s] -- Detecting C compile features
+[0.667s] -- Detecting C compile features - done
+[0.706s] -- Detecting CXX compiler ABI info
+[0.955s] -- Detecting CXX compiler ABI info - done
+[1.009s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.009s] -- Detecting CXX compile features
+[1.009s] -- Detecting CXX compile features - done
+[1.014s] -- Found ros2_control_cmake: 0.2.1 (/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[1.014s] -- Compiler warnings enabled for GNU
+[1.014s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[1.028s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.402s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.543s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.750s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[1.752s] -- Found controller_manager: 4.37.0 (/workspaces/ros2-coding/install/controller_manager/share/controller_manager/cmake)
+[1.930s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.974s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.026s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.308s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.323s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.546s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.586s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.631s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.278s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[4.280s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[4.292s] -- Found gz_sim_vendor: 0.0.8 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)
+[4.720s] -- Looking for gz-sim8 -- found version 8.9.0
+[4.755s] -- Searching for dependencies of gz-sim8
+[4.766s] -- Looking for sdformat14 -- found version 14.8.0
+[4.767s] -- Searching for dependencies of sdformat14
+[4.777s] -- Checking for module 'tinyxml2'
+[4.806s] --   Found tinyxml2, version 10.0.0
+[4.875s] -- Looking for gz-math7 -- found version 7.5.2
+[4.876s] -- Searching for dependencies of gz-math7
+[4.890s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.890s] -- Searching for dependencies of gz-utils2
+[4.895s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.896s] -- Searching for dependencies of gz-utils2
+[4.898s] -- Searching for <gz-utils2> component [cli]
+[4.913s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[4.914s] -- Searching for dependencies of gz-utils2-cli
+[4.952s] -- Looking for gz-plugin2 -- found version 2.0.4
+[4.953s] -- Searching for dependencies of gz-plugin2
+[4.956s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.956s] -- Searching for <gz-plugin2> component [loader]
+[4.966s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[4.967s] -- Searching for dependencies of gz-plugin2-loader
+[4.972s] -- Searching for <gz-plugin2> component [register]
+[4.989s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[4.989s] -- Searching for dependencies of gz-plugin2-register
+[5.002s] -- Looking for gz-transport13 -- found version 13.4.1
+[5.004s] -- Searching for dependencies of gz-transport13
+[5.159s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[5.213s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.220s] -- Checking for module 'libzmq >= 4'
+[5.253s] --   Found libzmq, version 4.3.5
+[5.344s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.358s] -- Checking for module 'uuid'
+[5.388s] --   Found uuid, version 2.39.3
+[5.449s] -- Found UUID: TRUE  
+[5.450s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.470s] -- Looking for gz-msgs10 -- found version 10.3.2
+[5.472s] -- Searching for dependencies of gz-msgs10
+[5.558s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.560s] -- Looking for gz-math7 -- found version 7.5.2
+[5.580s] -- Searching for <gz-transport13> component [log]
+[5.600s] -- Looking for gz-transport13-log -- found version 13.4.1
+[5.601s] -- Searching for dependencies of gz-transport13-log
+[5.603s] -- Searching for <gz-transport13> component [parameters]
+[5.619s] -- Looking for gz-transport13-parameters -- found version 13.4.1
+[5.620s] -- Searching for dependencies of gz-transport13-parameters
+[5.625s] -- Looking for gz-msgs10 -- found version 10.3.2
+[5.648s] -- Looking for gz-common5 -- found version 5.7.1
+[5.648s] -- Searching for dependencies of gz-common5
+[5.648s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.651s] -- Looking for dlfcn.h - found
+[5.655s] -- Looking for libdl - found
+[5.657s] -- Found DL: TRUE  
+[5.672s] -- Searching for <gz-common5> component [av]
+[5.683s] -- Looking for gz-common5-av -- found version 5.7.1
+[5.685s] -- Searching for dependencies of gz-common5-av
+[5.693s] -- Checking for module 'libswscale'
+[5.724s] --   Found libswscale, version 7.5.100
+[5.789s] -- Found SWSCALE: TRUE  
+[5.798s] -- Checking for module 'libavdevice >= 56.4.100'
+[5.827s] --   Found libavdevice, version 60.3.100
+[5.924s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[5.934s] -- Checking for module 'libavformat'
+[5.969s] --   Found libavformat, version 60.16.100
+[6.104s] -- Found AVFORMAT: TRUE  
+[6.112s] -- Checking for module 'libavcodec'
+[6.148s] --   Found libavcodec, version 60.31.102
+[6.224s] -- Found AVCODEC: TRUE  
+[6.234s] -- Checking for module 'libavutil'
+[6.265s] --   Found libavutil, version 58.29.100
+[6.349s] -- Found AVUTIL: TRUE  
+[6.351s] -- Searching for <gz-common5> component [events]
+[6.362s] -- Looking for gz-common5-events -- found version 5.7.1
+[6.364s] -- Searching for dependencies of gz-common5-events
+[6.365s] -- Looking for gz-math7 -- found version 7.5.2
+[6.367s] -- Searching for <gz-common5> component [graphics]
+[6.380s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[6.382s] -- Searching for dependencies of gz-common5-graphics
+[6.383s] -- Looking for gz-math7 -- found version 7.5.2
+[6.408s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[6.409s] -- Searching for <gz-common5> component [io]
+[6.420s] -- Looking for gz-common5-io -- found version 5.7.1
+[6.421s] -- Searching for dependencies of gz-common5-io
+[6.424s] -- Searching for <gz-common5> component [profiler]
+[6.432s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[6.433s] -- Searching for dependencies of gz-common5-profiler
+[6.629s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[6.632s] -- Searching for dependencies of gz-fuel_tools9
+[6.850s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[6.888s] -- Checking for module 'jsoncpp'
+[6.918s] --   Found jsoncpp, version 1.9.5
+[6.980s] -- Found JSONCPP: TRUE  
+[7.031s] -- Checking for module 'yaml-0.1'
+[7.060s] --   Found yaml-0.1, version 0.2.5
+[7.123s] -- Found YAML: TRUE  
+[7.130s] -- Checking for module 'libzip'
+[7.160s] --   Found libzip, version 1.7.3
+[7.224s] -- Found ZIP: TRUE  
+[7.224s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.225s] -- Looking for gz-common5 -- found version 5.7.1
+[7.227s] -- Searching for dependencies of gz-common5
+[7.227s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.228s] -- Looking for dlfcn.h - found
+[7.229s] -- Looking for libdl - found
+[7.239s] -- Searching for <gz-common5> component [testing]
+[7.249s] -- Looking for gz-common5-testing -- found version 5.7.1
+[7.250s] -- Searching for dependencies of gz-common5-testing
+[7.252s] -- Looking for gz-math7 -- found version 7.5.2
+[7.254s] -- Looking for gz-msgs10 -- found version 10.3.2
+[7.265s] -- Looking for gz-gui8 -- found version 8.4.0
+[7.266s] -- Searching for dependencies of gz-gui8
+[7.333s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.335s] -- Looking for gz-math7 -- found version 7.5.2
+[7.337s] -- Looking for gz-common5 -- found version 5.7.1
+[7.338s] -- Looking for gz-plugin2 -- found version 2.0.4
+[7.339s] -- Looking for gz-transport13 -- found version 13.4.1
+[7.351s] -- Looking for gz-rendering8 -- found version 8.2.2
+[7.353s] -- Searching for dependencies of gz-rendering8
+[7.354s] -- Looking for gz-math7 -- found version 7.5.2
+[7.355s] -- Searching for dependencies of gz-math7
+[7.356s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.357s] -- Searching for <gz-math7> component [eigen3]
+[7.368s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[7.369s] -- Searching for dependencies of gz-math7-eigen3
+[7.372s] -- Looking for gz-common5 -- found version 5.7.1
+[7.374s] -- Searching for dependencies of gz-common5
+[7.374s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.374s] -- Looking for dlfcn.h - found
+[7.374s] -- Looking for libdl - found
+[7.387s] -- Searching for <gz-common5> component [graphics]
+[7.387s] -- Searching for <gz-common5> component [events]
+[7.387s] -- Searching for <gz-common5> component [geospatial]
+[7.404s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[7.404s] -- Searching for dependencies of gz-common5-geospatial
+[7.405s] -- Looking for gz-math7 -- found version 7.5.2
+[7.407s] -- Looking for gz-common5 -- found version 5.7.1
+[7.412s] -- Looking for gz-plugin2 -- found version 2.0.4
+[7.413s] -- Searching for dependencies of gz-plugin2
+[7.414s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.415s] -- Searching for <gz-plugin2> component [all]
+[7.427s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[7.429s] -- Looking for gz-plugin2 -- found version 2.0.4
+[7.432s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.493s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[7.497s] -- Looking for gz-msgs10 -- found version 10.3.2
+[7.610s] -- Looking for gz-physics7 -- found version 7.5.0
+[7.611s] -- Searching for dependencies of gz-physics7
+[7.612s] -- Looking for gz-common5 -- found version 5.7.1
+[7.613s] -- Looking for gz-math7 -- found version 7.5.2
+[7.614s] -- Looking for gz-plugin2 -- found version 2.0.4
+[7.615s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.620s] -- Searching for <gz-physics7> component [heightmap]
+[7.627s] -- Looking for gz-physics7-heightmap -- found version 7.5.0
+[7.630s] -- Searching for dependencies of gz-physics7-heightmap
+[7.630s] -- Looking for gz-common5 -- found version 5.7.1
+[7.630s] -- Searching for <gz-physics7> component [mesh]
+[7.639s] -- Looking for gz-physics7-mesh -- found version 7.5.0
+[7.639s] -- Searching for dependencies of gz-physics7-mesh
+[7.640s] -- Looking for gz-common5 -- found version 5.7.1
+[7.641s] -- Searching for <gz-physics7> component [sdf]
+[7.652s] -- Looking for gz-physics7-sdf -- found version 7.5.0
+[7.653s] -- Searching for dependencies of gz-physics7-sdf
+[7.654s] -- Looking for sdformat14 -- found version 14.8.0
+[7.672s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.672s] -- Searching for dependencies of gz-sensors8
+[7.726s] -- Looking for gz-math7 -- found version 7.5.2
+[7.728s] -- Looking for gz-common5 -- found version 5.7.1
+[7.728s] -- Looking for gz-transport13 -- found version 13.4.1
+[7.729s] -- Looking for gz-rendering8 -- found version 8.2.2
+[7.730s] -- Looking for gz-msgs10 -- found version 10.3.2
+[7.732s] -- Looking for sdformat14 -- found version 14.8.0
+[7.734s] -- Searching for <gz-sensors8> component [air_pressure]
+[7.742s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[7.743s] -- Searching for dependencies of gz-sensors8-air_pressure
+[7.745s] -- Searching for <gz-sensors8> component [air_speed]
+[7.752s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[7.753s] -- Searching for dependencies of gz-sensors8-air_speed
+[7.757s] -- Searching for <gz-sensors8> component [altimeter]
+[7.763s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[7.763s] -- Searching for dependencies of gz-sensors8-altimeter
+[7.764s] -- Searching for <gz-sensors8> component [imu]
+[7.772s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[7.773s] -- Searching for dependencies of gz-sensors8-imu
+[7.775s] -- Searching for <gz-sensors8> component [force_torque]
+[7.782s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[7.783s] -- Searching for dependencies of gz-sensors8-force_torque
+[7.785s] -- Searching for <gz-sensors8> component [logical_camera]
+[7.792s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[7.793s] -- Searching for dependencies of gz-sensors8-logical_camera
+[7.794s] -- Searching for <gz-sensors8> component [magnetometer]
+[7.802s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[7.803s] -- Searching for dependencies of gz-sensors8-magnetometer
+[7.804s] -- Searching for <gz-sensors8> component [navsat]
+[7.812s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[7.813s] -- Searching for dependencies of gz-sensors8-navsat
+[7.814s] -- Searching for <gz-sensors8> component [dvl]
+[7.823s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[7.823s] -- Searching for dependencies of gz-sensors8-dvl
+[7.825s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.825s] -- Searching for dependencies of gz-sensors8
+[7.879s] -- Looking for gz-math7 -- found version 7.5.2
+[7.881s] -- Looking for gz-common5 -- found version 5.7.1
+[7.881s] -- Looking for gz-transport13 -- found version 13.4.1
+[7.882s] -- Looking for gz-rendering8 -- found version 8.2.2
+[7.884s] -- Looking for gz-msgs10 -- found version 10.3.2
+[7.884s] -- Looking for sdformat14 -- found version 14.8.0
+[7.885s] -- Searching for <gz-sensors8> component [rendering]
+[7.894s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[7.894s] -- Searching for dependencies of gz-sensors8-rendering
+[7.897s] -- Searching for <gz-sensors8> component [rendering]
+[7.898s] -- Searching for <gz-sensors8> component [lidar]
+[7.905s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[7.906s] -- Searching for dependencies of gz-sensors8-lidar
+[7.907s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.911s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[7.916s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[7.917s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[7.918s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.920s] -- Searching for <gz-sensors8> component [camera]
+[7.927s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[7.929s] -- Searching for dependencies of gz-sensors8-camera
+[7.929s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.930s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[7.939s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[7.939s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[7.941s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[7.948s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[7.950s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[7.950s] -- Searching for <gz-sensors8> component [depth_camera]
+[7.962s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[7.963s] -- Searching for dependencies of gz-sensors8-depth_camera
+[7.963s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.965s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[7.973s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[7.973s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[7.975s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.976s] -- Searching for <gz-sensors8> component [thermal_camera]
+[7.984s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[7.985s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[7.985s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.987s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[7.995s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[7.995s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[7.998s] -- Looking for gz-rendering8 -- found version 8.2.2
+[7.999s] -- Looking for gz-math7 -- found version 7.5.2
+[8.000s] -- Looking for gz-utils2 -- found version 2.2.1
+[8.061s] -- Looking for gz-plugin2 -- found version 2.0.4
+[8.095s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.474s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.481s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.481s] -- Configured cppcheck include dirs: /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/include
+[8.483s] -- Configured cppcheck exclude dirs and/or files: 
+[8.488s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.488s] -- Configured cpplint exclude dirs and/or files: 
+[8.493s] -- Added test 'lint_cmake' to check CMake code style
+[8.497s] -- Added test 'uncrustify' to check C / C++ code style
+[8.498s] -- Configured uncrustify additional arguments: 
+[8.502s] -- Added test 'xmllint' to check XML markup files
+[8.522s] -- Configuring done (8.4s)
+[8.882s] -- Generating done (0.3s)
+[8.914s] -- Build files have been written to: /workspaces/ros2-coding/build/gz_ros2_control
+[8.944s] Invoked command in '/workspaces/ros2-coding/build/gz_ros2_control' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/gz_ros2_control
+[8.947s] Invoking command in '/workspaces/ros2-coding/build/gz_ros2_control': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/gz_ros2_control -- -j2 -l2
+[9.090s] [ 16%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[23.476s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool gz_ros2_control::GZResourceManager::[01;32m[Kload_and_initialize_components[m[K(const std::string&, unsigned int)[m[K’:
+[23.476s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:116:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid hardware_interface::ResourceManager::[01;32m[Kimport_component[m[K(std::unique_ptr<hardware_interface::SystemInterface>, const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use import_component(std::unique_ptr<SystemInterface> system, const HardwareComponentParams & params) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[23.476s]   116 |       [01;35m[Kimport_component(std::move(gzSimSystem), individual_hardware_info)[m[K;
+[23.476s]       |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.476s] In file included from [01m[K/workspaces/ros2-coding/install/controller_manager/include/controller_manager/controller_manager/controller_manager.hpp:43[m[K,
+[23.476s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35[m[K:
+[23.479s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:458:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[23.479s]   458 |   [01;36m[Kimport_component[m[K(std::unique_ptr<SystemInterface> system, const HardwareInfo & hardware_info);
+[23.479s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[29.123s] [ 33%] [32m[1mLinking CXX shared library libgz_ros2_control-system.so[0m
+[30.986s] [ 33%] Built target gz_ros2_control-system
+[31.033s] [ 50%] [32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o[0m
+[41.401s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:[m[K In member function ‘[01m[Kvirtual gz_ros2_control::CallbackReturn gz_ros2_control::GazeboSimSystem::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[41.402s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:581:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[41.402s]   581 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+[41.402s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[41.406s] In file included from [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[41.406s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp:27[m[K,
+[41.406s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system.hpp:24[m[K,
+[41.407s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:15[m[K:
+[41.407s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:209:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[41.407s]   209 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info)
+[41.407s]       |                          [01;36m[K^~~~~~~[m[K
+[51.495s] [ 66%] [32m[1mLinking CXX shared library libgz_hardware_plugins.so[0m
+[52.595s] [ 66%] Built target gz_hardware_plugins
+[52.642s] [ 83%] [32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[63.520s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool gz_ros2_control::GZResourceManager::[01;32m[Kload_and_initialize_components[m[K(const std::string&, unsigned int)[m[K’:
+[63.520s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:116:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid hardware_interface::ResourceManager::[01;32m[Kimport_component[m[K(std::unique_ptr<hardware_interface::SystemInterface>, const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use import_component(std::unique_ptr<SystemInterface> system, const HardwareComponentParams & params) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[63.520s]   116 |       [01;35m[Kimport_component(std::move(gzSimSystem), individual_hardware_info)[m[K;
+[63.520s]       |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[63.521s] In file included from [01m[K/workspaces/ros2-coding/install/controller_manager/include/controller_manager/controller_manager/controller_manager.hpp:43[m[K,
+[63.521s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:35[m[K:
+[63.521s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:458:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[63.521s]   458 |   [01;36m[Kimport_component[m[K(std::unique_ptr<SystemInterface> system, const HardwareInfo & hardware_info);
+[63.521s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[75.159s] [100%] [32m[1mLinking CXX shared library libign_ros2_control-system.so[0m
+[77.150s] [100%] Built target ign_ros2_control-system
+[77.186s] Invoked command in '/workspaces/ros2-coding/build/gz_ros2_control' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/gz_ros2_control -- -j2 -l2
+[77.189s] Invoking command in '/workspaces/ros2-coding/build/gz_ros2_control': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/gz_ros2_control
+[77.223s] -- Install configuration: ""
+[77.223s] -- Execute custom install script
+[77.223s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/lib/libgz_hardware_plugins.so
+[77.243s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/include/gz_ros2_control/gz_ros2_control_plugin.hpp
+[77.271s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/include/gz_ros2_control/gz_system.hpp
+[77.310s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp
+[77.355s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh
+[77.390s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv
+[77.438s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/lib/libgz_ros2_control-system.so
+[77.463s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/lib/libign_ros2_control-system.so
+[77.498s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control//gz_hardware_plugins.xml
+[77.521s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control
+[77.535s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control
+[77.559s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh
+[77.577s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv
+[77.598s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh
+[77.616s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv
+[77.635s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash
+[77.676s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh
+[77.699s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh
+[77.722s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv
+[77.746s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/package.dsv
+[77.775s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control
+[77.798s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control
+[77.828s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[77.848s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[77.870s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake
+[77.897s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake
+[77.917s] -- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control/share/gz_ros2_control/package.xml
+[77.948s] Invoked command in '/workspaces/ros2-coding/build/gz_ros2_control' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/gz_ros2_control

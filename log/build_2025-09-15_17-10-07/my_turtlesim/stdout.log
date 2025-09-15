@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating my_turtlesim.egg-info
+writing my_turtlesim.egg-info/PKG-INFO
+writing dependency_links to my_turtlesim.egg-info/dependency_links.txt
+writing entry points to my_turtlesim.egg-info/entry_points.txt
+writing requirements to my_turtlesim.egg-info/requires.txt
+writing top-level names to my_turtlesim.egg-info/top_level.txt
+writing manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+reading manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+writing manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my-turtlesim.egg-link (link to .)
+Installing move_turtle script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+
+Installed /workspaces/ros2-coding/build/my_turtlesim
+running symlink_data
+creating /workspaces/ros2-coding/install/my_turtlesim/share/ament_index
+creating /workspaces/ros2-coding/install/my_turtlesim/share/ament_index/resource_index
+creating /workspaces/ros2-coding/install/my_turtlesim/share/ament_index/resource_index/packages
+symbolically linking /workspaces/ros2-coding/build/my_turtlesim/resource/my_turtlesim -> /workspaces/ros2-coding/install/my_turtlesim/share/ament_index/resource_index/packages
+symbolically linking /workspaces/ros2-coding/build/my_turtlesim/package.xml -> /workspaces/ros2-coding/install/my_turtlesim/share/my_turtlesim

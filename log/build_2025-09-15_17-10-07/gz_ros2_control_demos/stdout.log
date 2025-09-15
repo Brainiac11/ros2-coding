@@ -1,0 +1,132 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ros2_control_cmake: 0.2.1 (/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found control_msgs: 5.5.0 (/workspaces/ros2-coding/install/control_msgs/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /workspaces/ros2-coding/build/gz_ros2_control_demos
+[  7%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[ 14%] [32m[1mLinking CXX executable example_position[0m
+[ 14%] Built target example_position
+[ 21%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_position.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable example_velocity[0m
+[ 28%] Built target example_velocity
+[ 35%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_position.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable example_effort[0m
+[ 42%] Built target example_effort
+[ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable example_diff_drive[0m
+[ 57%] Built target example_diff_drive
+[ 64%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[ 71%] Built target example_tricycle_drive
+[ 78%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[ 85%] Built target example_ackermann_drive
+[ 92%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[100%] [32m[1mLinking CXX executable example_gripper[0m
+[100%] Built target example_gripper
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/ackermann_drive_example.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_ft_sensor.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.xml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.xml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/mecanum_drive_example.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_effort.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_position.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/ackermann_drive_controller.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_effort.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_ft_sensor.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_position.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_velocity.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_effort.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_position.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/mecanum_drive_controller.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_ackermann_drive.xacro.sdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_diff_drive.xacro.sdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_ft_sensor.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_effort.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_position.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_mecanum_drive.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos//worlds/empty_ft_sensor.sdf
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_ackermann_drive
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml

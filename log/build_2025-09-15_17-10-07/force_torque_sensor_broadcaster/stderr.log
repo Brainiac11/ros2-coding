@@ -1,0 +1,119 @@
+In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.hpp:22[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:19[m[K:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual void ForceTorqueSensorBroadcasterTest_SensorName_Publish_Success_with_Offsets_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:340:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  340 |       [01;35m[Kexported_state_interfaces[i]->get_value()[m[K,
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+ 1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+ 1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+      |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:339:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+  339 |     [01;36m[KASSERT_EQ[m[K(
+      |     [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:25[m[K,
+                 from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:25[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.hpp:27[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual void ForceTorqueSensorBroadcasterTest_SensorName_Publish_Success_with_Multipliers_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:410:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  410 |       [01;35m[Kexported_state_interfaces[i]->get_value()[m[K,
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+ 1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+ 1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+      |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:409:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+  409 |     [01;36m[KASSERT_EQ[m[K(
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual void ForceTorqueSensorBroadcasterTest_InterfaceNames_Publish_Success_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:448:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  448 |   ASSERT_EQ([01;35m[Kexported_state_interfaces[0]->get_value()[m[K, sensor_values_[0]);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+ 1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+ 1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+      |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:448:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+  448 |   [01;36m[KASSERT_EQ[m[K(exported_state_interfaces[0]->get_value(), sensor_values_[0]);
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:449:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  449 |   ASSERT_EQ([01;35m[Kexported_state_interfaces[1]->get_value()[m[K, sensor_values_[5]);
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+ 1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+ 1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+      |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:449:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+  449 |   [01;36m[KASSERT_EQ[m[K(exported_state_interfaces[1]->get_value(), sensor_values_[5]);
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual void ForceTorqueSensorBroadcasterTest_All_InterfaceNames_Publish_Success_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:498:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  498 |     ASSERT_EQ([01;35m[Kexported_state_interfaces[i]->get_value()[m[K, sensor_values_[i]);
+      |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+   79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+      |                                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+ 1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+ 1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+      |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:498:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+  498 |     [01;36m[KASSERT_EQ[m[K(exported_state_interfaces[i]->get_value(), sensor_values_[i]);
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K

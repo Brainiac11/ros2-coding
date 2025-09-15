@@ -1,0 +1,317 @@
+/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp: In instantiation of ‘[01m[Kjoint_trajectory_controller::JointTrajectoryController::read_state_from_state_interfaces(JointTrajectoryPoint&)::<lambda(std::vector<double, std::allocator<double> >&, const auto:47&)> [35m[K[with auto:47 = std::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedStateInterface> > >][m[K[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:456:36:[m[K   required from here
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:438:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  438 |       trajectory_point_interface[index] = [01;35m[Kjoint_interface[index].get().get_value()[m[K;
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+                 from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:28[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:15[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp: In instantiation of ‘[01m[Kjoint_trajectory_controller::JointTrajectoryController::read_state_from_state_interfaces(JointTrajectoryPoint&)::<lambda(std::vector<double, std::allocator<double> >&, const auto:48&)> [35m[K[with auto:48 = std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedCommandInterface> > >][m[K[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:481:40:[m[K   required from here
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:450:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  450 |         [01;35m[Kjoint_interface[index].get().get_value()[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp: In instantiation of ‘[01m[Kjoint_trajectory_controller::JointTrajectoryController::read_state_from_command_interfaces(JointTrajectoryPoint&)::<lambda(std::vector<double, std::allocator<double> >&, const auto:49&)> [35m[K[with auto:49 = std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedCommandInterface> > >][m[K[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:510:32:[m[K   required from here
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:495:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  495 |         [01;35m[Kjoint_interface[index].get().get_value()[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp: In instantiation of ‘[01m[Kjoint_trajectory_controller::JointTrajectoryController::read_commands_from_command_interfaces(JointTrajectoryPoint&)::<lambda(std::vector<double, std::allocator<double> >&, const auto:52&)> [35m[K[with auto:52 = std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedCommandInterface> > >][m[K[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:596:34:[m[K   required from here
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:580:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  580 |         [01;35m[Kjoint_interface[index].get().get_value()[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn joint_trajectory_controller::JointTrajectoryController::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1097:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1097 |         [01;35m[Kjoint_command_interface_[0][index].get().get_value()[m[K);
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1096:57:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1096 |       [01;35m[Kjoint_command_interface_[0][index].get().set_value([m[K
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+ 1097 | [01;35m[K        joint_command_interface_[0][index].get().get_value())[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1102:57:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1102 |       [01;35m[Kjoint_command_interface_[1][index].get().set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1107:57:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1107 |       [01;35m[Kjoint_command_interface_[2][index].get().set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1113:57:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1113 |       [01;35m[Kjoint_command_interface_[3][index].get().set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:[m[K In member function ‘[01m[Kvoid joint_trajectory_controller::JointTrajectoryController::[01;32m[Kfill_partial_goal[m[K(std::shared_ptr<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> > >) const[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1348:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1348 |             !std::isnan([01;35m[Kjoint_command_interface_[0][index].get().get_value()[m[K))
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1351:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1351 |             it.positions.push_back([01;35m[Kjoint_command_interface_[0][index].get().get_value()[m[K);
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1356:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1356 |             it.positions.push_back([01;35m[Kjoint_state_interface_[0][index].get().get_value()[m[K);
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp: In instantiation of ‘[01m[Kvoid joint_trajectory_controller::JointTrajectoryController::[01;32m[Kassign_interface_from_point[m[K(const T&, const std::vector<double, std::allocator<double> >&) [35m[K[with T = std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedCommandInterface> > >][m[K[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:302:38:[m[K   required from here
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:291:45:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  291 |       [01;35m[Kjoint_interface[index].get().set_value(trajectory_point_interface[map_cmd_to_joints_[index]])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp: In instantiation of ‘[01m[Kjoint_trajectory_controller::JointTrajectoryController::read_state_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:50&)>::<lambda(const auto:51&)> [35m[K[with auto:51 = std::reference_wrapper<hardware_interface::LoanedCommandInterface>][m[K[m[K’:
+[01m[K/usr/include/c++/13/bits/predefined_ops.h:318:23:[m[K   required from ‘[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::[01;32m[Koperator()[m[K(_Iterator) [35m[K[with _Iterator = __gnu_cxx::__normal_iterator<const std::reference_wrapper<hardware_interface::LoanedCommandInterface>*, std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedCommandInterface> > > >; _Predicate = joint_trajectory_controller::JointTrajectoryController::read_state_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:50&)>::<lambda(const auto:51&)>][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:2072:14:[m[K   required from ‘[01m[K_RandomAccessIterator std::[01;32m[K__find_if[m[K(_RandomAccessIterator, _RandomAccessIterator, _Predicate, random_access_iterator_tag) [35m[K[with _RandomAccessIterator = __gnu_cxx::__normal_iterator<const reference_wrapper<hardware_interface::LoanedCommandInterface>*, vector<reference_wrapper<hardware_interface::LoanedCommandInterface>, allocator<reference_wrapper<hardware_interface::LoanedCommandInterface> > > >; _Predicate = __gnu_cxx::__ops::_Iter_pred<joint_trajectory_controller::JointTrajectoryController::read_state_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:50&)>::<lambda(const auto:51&)> >][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:2117:23:[m[K   required from ‘[01m[K_Iterator std::[01;32m[K__find_if[m[K(_Iterator, _Iterator, _Predicate) [35m[K[with _Iterator = __gnu_cxx::__normal_iterator<const reference_wrapper<hardware_interface::LoanedCommandInterface>*, vector<reference_wrapper<hardware_interface::LoanedCommandInterface>, allocator<reference_wrapper<hardware_interface::LoanedCommandInterface> > > >; _Predicate = __gnu_cxx::__ops::_Iter_pred<joint_trajectory_controller::JointTrajectoryController::read_state_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:50&)>::<lambda(const auto:51&)> >][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3923:28:[m[K   required from ‘[01m[K_IIter std::[01;32m[Kfind_if[m[K(_IIter, _IIter, _Predicate) [35m[K[with _IIter = __gnu_cxx::__normal_iterator<const reference_wrapper<hardware_interface::LoanedCommandInterface>*, vector<reference_wrapper<hardware_interface::LoanedCommandInterface>, allocator<reference_wrapper<hardware_interface::LoanedCommandInterface> > > >; _Predicate = joint_trajectory_controller::JointTrajectoryController::read_state_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:50&)>::<lambda(const auto:51&)>][m[K[m[K’
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:501:24:[m[K   required from ‘[01m[Kjoint_trajectory_controller::JointTrajectoryController::read_state_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:50&)> [35m[K[with auto:50 = std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedCommandInterface> > >][m[K[m[K’
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:508:62:[m[K   required from here
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:503:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  503 |              { return [01;35m[Kstd::isnan(interface.get().get_value())[m[K; }) == joint_interface.end();
+      |                       [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp: In instantiation of ‘[01m[Kjoint_trajectory_controller::JointTrajectoryController::read_commands_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:53&)>::<lambda(const auto:54&)> [35m[K[with auto:54 = std::reference_wrapper<hardware_interface::LoanedCommandInterface>][m[K[m[K’:
+[01m[K/usr/include/c++/13/bits/predefined_ops.h:318:23:[m[K   required from ‘[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::[01;32m[Koperator()[m[K(_Iterator) [35m[K[with _Iterator = __gnu_cxx::__normal_iterator<const std::reference_wrapper<hardware_interface::LoanedCommandInterface>*, std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedCommandInterface> > > >; _Predicate = joint_trajectory_controller::JointTrajectoryController::read_commands_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:53&)>::<lambda(const auto:54&)>][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:2072:14:[m[K   required from ‘[01m[K_RandomAccessIterator std::[01;32m[K__find_if[m[K(_RandomAccessIterator, _RandomAccessIterator, _Predicate, random_access_iterator_tag) [35m[K[with _RandomAccessIterator = __gnu_cxx::__normal_iterator<const reference_wrapper<hardware_interface::LoanedCommandInterface>*, vector<reference_wrapper<hardware_interface::LoanedCommandInterface>, allocator<reference_wrapper<hardware_interface::LoanedCommandInterface> > > >; _Predicate = __gnu_cxx::__ops::_Iter_pred<joint_trajectory_controller::JointTrajectoryController::read_commands_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:53&)>::<lambda(const auto:54&)> >][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:2117:23:[m[K   required from ‘[01m[K_Iterator std::[01;32m[K__find_if[m[K(_Iterator, _Iterator, _Predicate) [35m[K[with _Iterator = __gnu_cxx::__normal_iterator<const reference_wrapper<hardware_interface::LoanedCommandInterface>*, vector<reference_wrapper<hardware_interface::LoanedCommandInterface>, allocator<reference_wrapper<hardware_interface::LoanedCommandInterface> > > >; _Predicate = __gnu_cxx::__ops::_Iter_pred<joint_trajectory_controller::JointTrajectoryController::read_commands_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:53&)>::<lambda(const auto:54&)> >][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3923:28:[m[K   required from ‘[01m[K_IIter std::[01;32m[Kfind_if[m[K(_IIter, _IIter, _Predicate) [35m[K[with _IIter = __gnu_cxx::__normal_iterator<const reference_wrapper<hardware_interface::LoanedCommandInterface>*, vector<reference_wrapper<hardware_interface::LoanedCommandInterface>, allocator<reference_wrapper<hardware_interface::LoanedCommandInterface> > > >; _Predicate = joint_trajectory_controller::JointTrajectoryController::read_commands_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:53&)>::<lambda(const auto:54&)>][m[K[m[K’
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:586:24:[m[K   required from ‘[01m[Kjoint_trajectory_controller::JointTrajectoryController::read_commands_from_command_interfaces(JointTrajectoryPoint&)::<lambda(const auto:53&)> [35m[K[with auto:53 = std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedCommandInterface> > >][m[K[m[K’
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:594:29:[m[K   required from here
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:588:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  588 |              { return [01;35m[Kstd::isnan(interface.get().get_value())[m[K; }) == joint_interface.end();
+      |                       [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_tolerances.cpp:26[m[K:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::State test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KActivateTrajectoryController[m[K(bool, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:396:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  396 |       [01;35m[Kcmd_interfaces.back().set_value(initial_pos_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:28[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:28[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:398:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  398 |       [01;35m[Kcmd_interfaces.back().set_value(initial_vel_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:400:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  400 |       [01;35m[Kcmd_interfaces.back().set_value(initial_acc_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:402:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  402 |       [01;35m[Kcmd_interfaces.back().set_value(initial_eff_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:65[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_tolerances.cpp:15[m[K:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Kvoid test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KexpectCommandPoint[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:692:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  692 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K, joint_vel_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:25[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:694:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  694 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", velocity command is " << joint_vel_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:702:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  702 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K + effort.at(i), joint_eff_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:704:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  704 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", effort command is " << joint_eff_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:37[m[K:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::State test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KActivateTrajectoryController[m[K(bool, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:396:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  396 |       [01;35m[Kcmd_interfaces.back().set_value(initial_pos_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:28[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:35[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:398:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  398 |       [01;35m[Kcmd_interfaces.back().set_value(initial_vel_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:400:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  400 |       [01;35m[Kcmd_interfaces.back().set_value(initial_acc_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:402:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  402 |       [01;35m[Kcmd_interfaces.back().set_value(initial_eff_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:65[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:24[m[K:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Kvoid test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KexpectCommandPoint[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:692:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  692 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K, joint_vel_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:25[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:694:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  694 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", velocity command is " << joint_vel_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:702:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  702 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K + effort.at(i), joint_eff_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:704:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  704 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", effort command is " << joint_eff_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:45[m[K:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::State test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KActivateTrajectoryController[m[K(bool, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:396:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  396 |       [01;35m[Kcmd_interfaces.back().set_value(initial_pos_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:28[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:398:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  398 |       [01;35m[Kcmd_interfaces.back().set_value(initial_vel_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:400:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  400 |       [01;35m[Kcmd_interfaces.back().set_value(initial_acc_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:402:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  402 |       [01;35m[Kcmd_interfaces.back().set_value(initial_eff_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:65[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:24[m[K:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Kvoid test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KexpectCommandPoint[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:692:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  692 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K, joint_vel_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:25[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:694:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  694 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", velocity command is " << joint_vel_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:702:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  702 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K + effort.at(i), joint_eff_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:704:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  704 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", effort command is " << joint_eff_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/handle.hpp:180:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K

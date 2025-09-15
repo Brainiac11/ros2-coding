@@ -1,0 +1,282 @@
+[0.089s] Invoking command in '/workspaces/ros2-coding/build/bicycle_steering_controller': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/steering_controllers_library/lib:/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/bicycle_steering_controller
+[0.207s] -- The C compiler identification is GNU 13.3.0
+[0.321s] -- The CXX compiler identification is GNU 13.3.0
+[0.361s] -- Detecting C compiler ABI info
+[0.605s] -- Detecting C compiler ABI info - done
+[0.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.617s] -- Detecting C compile features
+[0.617s] -- Detecting C compile features - done
+[0.638s] -- Detecting CXX compiler ABI info
+[0.838s] -- Detecting CXX compiler ABI info - done
+[0.860s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.860s] -- Detecting CXX compile features
+[0.861s] -- Detecting CXX compile features - done
+[0.866s] -- Found ros2_control_cmake: 0.2.1 (/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[0.866s] -- Compiler warnings enabled for GNU
+[0.866s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.877s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.210s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.339s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.536s] -- Found controller_interface: 4.37.0 (/workspaces/ros2-coding/install/controller_interface/share/controller_interface/cmake)
+[1.725s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.787s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.848s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.462s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.633s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.650s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.737s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.869s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.880s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.920s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.928s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.952s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.977s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.919s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[3.933s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[4.022s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.054s] -- Found steering_controllers_library: 4.32.0 (/workspaces/ros2-coding/install/steering_controllers_library/share/steering_controllers_library/cmake)
+[4.326s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.328s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.329s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.549s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[4.550s] -- Found controller_manager: 4.37.0 (/workspaces/ros2-coding/install/controller_manager/share/controller_manager/cmake)
+[4.756s] -- Found ros2_control_test_assets: 4.37.0 (/workspaces/ros2-coding/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[4.778s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.809s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[4.811s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.038s] -- Configuring done (4.9s)
+[5.306s] -- Generating done (0.2s)
+[5.368s] -- Build files have been written to: /workspaces/ros2-coding/build/bicycle_steering_controller
+[5.393s] Invoked command in '/workspaces/ros2-coding/build/bicycle_steering_controller' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/steering_controllers_library/lib:/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/bicycle_steering_controller
+[5.398s] Invoking command in '/workspaces/ros2-coding/build/bicycle_steering_controller': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/steering_controllers_library/lib:/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/bicycle_steering_controller -- -j2 -l2
+[5.518s] [  6%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /workspaces/ros2-coding/build/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller_parameters.hpp /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.yaml `[0m
+[6.818s] [ 13%] [34m[1mCreating deprecated header file /workspaces/ros2-coding/build/bicycle_steering_controller/include/bicycle_steering_controller_parameters.hpp[0m
+[6.863s] [ 13%] Built target bicycle_steering_controller_parameters
+[6.912s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[8.760s] [ 26%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.936s] [ 26%] Built target gmock_main
+[9.033s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[15.549s] [ 40%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[18.697s] [ 46%] [32m[1mLinking CXX static library libgmock.a[0m
+[18.850s] [ 46%] Built target gmock
+[18.895s] [ 53%] [32mBuilding CXX object CMakeFiles/bicycle_steering_controller.dir/src/bicycle_steering_controller.cpp.o[0m
+[24.265s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool bicycle_steering_controller::BicycleSteeringController::[01;32m[Kupdate_odometry[m[K(const rclcpp::Duration&)[m[K’:
+[24.265s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.cpp:73:90:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.266s]    73 |     const double traction_wheel_value = [01;35m[Kstate_interfaces_[STATE_TRACTION_WHEEL].get_value()[m[K;
+[24.267s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.267s] In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+[24.267s]                  from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+[24.267s]                  from [01m[K/workspaces/ros2-coding/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_controllers_library.hpp:23[m[K,
+[24.267s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller.hpp:24[m[K,
+[24.268s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.cpp:15[m[K:
+[24.272s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.273s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.274s]       |          [01;36m[K^~~~~~~~~[m[K
+[24.275s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.cpp:74:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.275s]    74 |     const double steering_position = [01;35m[Kstate_interfaces_[STATE_STEER_AXIS].get_value()[m[K;
+[24.277s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.278s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.278s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.278s]       |          [01;36m[K^~~~~~~~~[m[K
+[27.381s] [ 60%] [32m[1mLinking CXX shared library libbicycle_steering_controller.so[0m
+[28.110s] [ 60%] Built target bicycle_steering_controller
+[28.161s] [ 66%] [32mBuilding CXX object CMakeFiles/test_load_bicycle_steering_controller.dir/test/test_load_bicycle_steering_controller.cpp.o[0m
+[38.682s] [ 73%] [32m[1mLinking CXX executable test_load_bicycle_steering_controller[0m
+[39.718s] [ 73%] Built target test_load_bicycle_steering_controller
+[39.769s] [ 80%] [32mBuilding CXX object CMakeFiles/test_bicycle_steering_controller.dir/test/test_bicycle_steering_controller.cpp.o[0m
+[45.450s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+[45.450s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+[45.450s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+[45.450s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+[45.451s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:65[m[K,
+[45.451s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+[45.451s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+[45.451s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+[45.451s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.hpp:18[m[K,
+[45.452s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:20[m[K:
+[45.456s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual void BicycleSteeringControllerTest_reactivate_success_Test::[01;32m[KTestBody[m[K()[m[K’:
+[45.456s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:129:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[45.456s]   129 |   ASSERT_TRUE(std::isnan([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K));
+[45.456s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[45.457s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1493:38:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[45.457s]  1493 |           ::testing::AssertionResult([01;36m[Kexpression[m[K))                     \
+[45.457s]       |                                      [01;36m[K^~~~~~~~~~[m[K
+[45.457s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1815:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_TRUE[m[K’
+[45.457s]  1815 | #define ASSERT_TRUE(condition) [01;36m[KGTEST_ASSERT_TRUE[m[K(condition)
+[45.457s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[45.457s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:129:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[45.458s]   129 |   [01;36m[KASSERT_TRUE[m[K(std::isnan(controller_->command_interfaces_[0].get_value()));
+[45.462s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[45.462s] In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+[45.462s]                  from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+[45.462s]                  from [01m[K/workspaces/ros2-coding/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_controllers_library.hpp:23[m[K,
+[45.463s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller.hpp:24[m[K,
+[45.463s]                  from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.hpp:26[m[K:
+[45.463s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[45.463s]   134 |   double [01;36m[Kget_value[m[K() const
+[45.463s]       |          [01;36m[K^~~~~~~~~[m[K
+[45.463s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:131:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[45.471s]   131 |   ASSERT_TRUE(std::isnan([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K));
+[45.471s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[45.471s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1493:38:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[45.471s]  1493 |           ::testing::AssertionResult([01;36m[Kexpression[m[K))                     \
+[45.472s]       |                                      [01;36m[K^~~~~~~~~~[m[K
+[45.472s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1815:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_TRUE[m[K’
+[45.472s]  1815 | #define ASSERT_TRUE(condition) [01;36m[KGTEST_ASSERT_TRUE[m[K(condition)
+[45.472s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[45.472s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:131:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[45.479s]   131 |   [01;36m[KASSERT_TRUE[m[K(std::isnan(controller_->command_interfaces_[0].get_value()));
+[45.479s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[45.480s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[45.480s]   134 |   double [01;36m[Kget_value[m[K() const
+[45.480s]       |          [01;36m[K^~~~~~~~~[m[K
+[45.480s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K:
+[45.480s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual void BicycleSteeringControllerTest_test_update_logic_Test::[01;32m[KTestBody[m[K()[m[K’:
+[45.481s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:161:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[45.481s]   161 |     [01;35m[Kcontroller_->command_interfaces_[CMD_TRACTION_WHEEL].get_value()[m[K, 0.1 / 0.45, COMMON_THRESHOLD);
+[45.481s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[45.481s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[45.481s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[45.481s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[45.481s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[45.481s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[45.482s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.488s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[45.488s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[45.488s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.488s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:160:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[45.488s]   160 |   [01;36m[KEXPECT_NEAR[m[K(
+[45.488s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[45.489s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[45.489s]   134 |   double [01;36m[Kget_value[m[K() const
+[45.489s]       |          [01;36m[K^~~~~~~~~[m[K
+[45.489s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:163:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[45.489s]   163 |     [01;35m[Kcontroller_->command_interfaces_[CMD_STEER_WHEEL].get_value()[m[K, 1.4179821977774734,
+[45.489s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[45.495s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[45.495s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[45.495s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[45.495s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[45.496s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[45.496s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.496s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[45.496s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[45.496s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.501s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:162:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[45.501s]   162 |   [01;36m[KEXPECT_NEAR[m[K(
+[45.501s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[45.501s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[45.501s]   134 |   double [01;36m[Kget_value[m[K() const
+[45.502s]       |          [01;36m[K^~~~~~~~~[m[K
+[45.502s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual void BicycleSteeringControllerTest_test_update_logic_chained_Test::[01;32m[KTestBody[m[K()[m[K’:
+[45.502s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:193:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[45.502s]   193 |     [01;35m[Kcontroller_->command_interfaces_[CMD_TRACTION_WHEEL].get_value()[m[K, 0.1 / 0.45, COMMON_THRESHOLD);
+[45.502s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[45.503s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[45.510s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[45.510s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[45.510s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[45.510s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[45.511s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.511s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[45.511s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[45.511s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.511s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:192:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[45.511s]   192 |   [01;36m[KEXPECT_NEAR[m[K(
+[45.516s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[45.516s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[45.516s]   134 |   double [01;36m[Kget_value[m[K() const
+[45.516s]       |          [01;36m[K^~~~~~~~~[m[K
+[45.516s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:195:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[45.517s]   195 |     [01;35m[Kcontroller_->command_interfaces_[CMD_STEER_WHEEL].get_value()[m[K, 1.4179821977774734,
+[45.517s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[45.517s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[45.517s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[45.517s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[45.517s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[45.518s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[45.522s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.522s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[45.522s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[45.523s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.523s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:194:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[45.523s]   194 |   [01;36m[KEXPECT_NEAR[m[K(
+[45.523s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[45.523s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[45.524s]   134 |   double [01;36m[Kget_value[m[K() const
+[45.528s]       |          [01;36m[K^~~~~~~~~[m[K
+[45.528s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual void BicycleSteeringControllerTest_receive_message_and_publish_updated_status_Test::[01;32m[KTestBody[m[K()[m[K’:
+[45.528s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:248:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[45.528s]   248 |     [01;35m[Kcontroller_->command_interfaces_[CMD_TRACTION_WHEEL].get_value()[m[K, 0.1 / 0.45, COMMON_THRESHOLD);
+[45.529s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[45.529s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[45.529s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[45.529s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[45.529s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[45.529s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[45.534s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.534s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[45.534s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[45.534s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.534s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:247:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[45.535s]   247 |   [01;36m[KEXPECT_NEAR[m[K(
+[45.535s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[45.535s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[45.535s]   134 |   double [01;36m[Kget_value[m[K() const
+[45.535s]       |          [01;36m[K^~~~~~~~~[m[K
+[45.535s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:250:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[45.535s]   250 |     [01;35m[Kcontroller_->command_interfaces_[CMD_STEER_WHEEL].get_value()[m[K, 1.4179821977774734,
+[45.535s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[45.535s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[45.536s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[45.540s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[45.540s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[45.540s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[45.540s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.540s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[45.541s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[45.541s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[45.541s] [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:249:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[45.541s]   249 |   [01;36m[KEXPECT_NEAR[m[K(
+[45.541s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[45.542s] [01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[45.545s]   134 |   double [01;36m[Kget_value[m[K() const
+[45.545s]       |          [01;36m[K^~~~~~~~~[m[K
+[58.480s] [ 86%] [32m[1mLinking CXX executable test_bicycle_steering_controller[0m
+[59.771s] [ 86%] Built target test_bicycle_steering_controller
+[59.827s] [ 93%] [32mBuilding CXX object CMakeFiles/test_bicycle_steering_controller_preceding.dir/test/test_bicycle_steering_controller_preceding.cpp.o[0m
+[70.535s] [100%] [32m[1mLinking CXX executable test_bicycle_steering_controller_preceding[0m
+[71.450s] [100%] Built target test_bicycle_steering_controller_preceding
+[71.476s] Invoked command in '/workspaces/ros2-coding/build/bicycle_steering_controller' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/steering_controllers_library/lib:/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/bicycle_steering_controller -- -j2 -l2
+[71.477s] Invoking command in '/workspaces/ros2-coding/build/bicycle_steering_controller': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/steering_controllers_library/lib:/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/bicycle_steering_controller
+[71.495s] -- Install configuration: ""
+[71.496s] -- Execute custom install script
+[71.497s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller_parameters.hpp
+[71.518s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller//bicycle_steering_controller.xml
+[71.537s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller/bicycle_steering_controller.hpp
+[71.555s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/library_path.sh
+[71.574s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/library_path.dsv
+[71.592s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/ament_index/resource_index/package_run_dependencies/bicycle_steering_controller
+[71.611s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/ament_index/resource_index/parent_prefix_path/bicycle_steering_controller
+[71.637s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/ament_prefix_path.sh
+[71.657s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/ament_prefix_path.dsv
+[71.675s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/path.sh
+[71.692s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/environment/path.dsv
+[71.712s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/local_setup.bash
+[71.731s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/local_setup.sh
+[71.749s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/local_setup.zsh
+[71.767s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/local_setup.dsv
+[71.785s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/package.dsv
+[71.804s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/ament_index/resource_index/packages/bicycle_steering_controller
+[71.822s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/bicycle_steering_controller
+[71.845s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.862s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/ament_cmake_export_targets-extras.cmake
+[71.880s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/bicycle_steering_controllerConfig.cmake
+[71.898s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/bicycle_steering_controllerConfig-version.cmake
+[71.916s] -- Symlinking: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/package.xml
+[71.942s] -- Installing: /workspaces/ros2-coding/install/bicycle_steering_controller/lib/libbicycle_steering_controller.so
+[71.943s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/bicycle_steering_controller/lib/libbicycle_steering_controller.so" to ""
+[71.944s] -- Installing: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/export_bicycle_steering_controllerExport.cmake
+[71.944s] -- Installing: /workspaces/ros2-coding/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/export_bicycle_steering_controllerExport-noconfig.cmake
+[71.947s] Invoked command in '/workspaces/ros2-coding/build/bicycle_steering_controller' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/ros2-coding/install/steering_controllers_library/lib:/workspaces/ros2-coding/install/controller_manager/lib:/workspaces/ros2-coding/install/hardware_interface_testing/lib:/workspaces/ros2-coding/install/controller_interface/lib:/workspaces/ros2-coding/install/hardware_interface/lib:/workspaces/ros2-coding/install/joint_limits/lib:/workspaces/ros2-coding/install/realtime_tools/lib:/workspaces/ros2-coding/install/ros2_control_test_assets/lib:/workspaces/ros2-coding/install/controller_manager_msgs/lib:/workspaces/ros2-coding/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/install/controller_manager/lib/python3.12/site-packages:/workspaces/ros2-coding/install/controller_manager_msgs/lib/python3.12/site-packages:/workspaces/ros2-coding/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/bicycle_steering_controller

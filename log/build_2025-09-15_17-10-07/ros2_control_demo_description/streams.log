@@ -1,0 +1,71 @@
+[0.035s] Invoking command in '/workspaces/ros2-coding/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control_demos/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros2_control_demo_description
+[0.241s] -- The C compiler identification is GNU 13.3.0
+[0.384s] -- The CXX compiler identification is GNU 13.3.0
+[0.422s] -- Detecting C compiler ABI info
+[0.637s] -- Detecting C compiler ABI info - done
+[0.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.659s] -- Detecting C compile features
+[0.660s] -- Detecting C compile features - done
+[0.681s] -- Detecting CXX compiler ABI info
+[0.988s] -- Detecting CXX compiler ABI info - done
+[1.042s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.042s] -- Detecting CXX compile features
+[1.044s] -- Detecting CXX compile features - done
+[1.072s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.627s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.755s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.287s] -- Configuring done (2.2s)
+[2.301s] -- Generating done (0.0s)
+[2.306s] -- Build files have been written to: /workspaces/ros2-coding/build/ros2_control_demo_description
+[2.326s] Invoked command in '/workspaces/ros2-coding/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control_demos/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros2_control_demo_description
+[2.327s] Invoking command in '/workspaces/ros2-coding/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/ros2_control_demo_description -- -j2 -l2
+[2.493s] Invoked command in '/workspaces/ros2-coding/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/ros2_control_demo_description -- -j2 -l2
+[2.493s] Invoking command in '/workspaces/ros2-coding/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/ros2_control_demo_description
+[2.528s] -- Install configuration: ""
+[2.533s] -- Execute custom install script
+[2.533s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[2.574s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[2.612s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[2.655s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[2.700s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[2.724s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[2.743s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[2.764s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro
+[2.785s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro
+[2.806s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz
+[2.827s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz
+[2.851s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r3bot/urdf/threedofbot_description.urdf.xacro
+[2.868s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[2.893s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[2.913s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[2.940s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[2.965s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[3.018s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[3.061s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[3.085s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[3.109s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[3.134s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[3.151s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[3.186s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[3.227s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[3.250s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[3.269s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[3.295s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[3.322s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[3.356s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[3.393s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[3.434s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[3.461s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[3.495s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[3.539s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[3.580s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[3.618s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[3.657s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[3.703s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[3.741s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[3.778s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[3.818s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[3.857s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[3.898s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[3.934s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[3.979s] Invoked command in '/workspaces/ros2-coding/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/ros2_control_demo_description

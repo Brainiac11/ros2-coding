@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/control_msgs/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/speed_scaling_factor__rosidl_typesupport_introspection_cpp.hpp

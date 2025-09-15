@@ -1,0 +1,63 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ros2_control_cmake: 0.2.1 (/workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found controller_manager: 4.37.0 (/workspaces/ros2-coding/install/controller_manager/share/controller_manager/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Configuring done (6.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /workspaces/ros2-coding/build/ros2_control_demo_example_6
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libros2_control_demo_example_6.so[0m
+[100%] Built target ros2_control_demo_example_6
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6//ros2_control_demo_example_6.xml
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/include/ros2_control_demo_example_6/ros2_control_demo_example_6/rrbot_actuator.hpp
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/view_robot.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/ros2_control/rrbot_modular_actuators.ros2_control.xacro
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/urdf/rrbot_modular_actuators.urdf.xacro
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/rrbot_modular_actuators.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/test_forward_position_controller.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/config/rrbot_forward_position_publisher.yaml
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/config/rrbot_modular_actuators.yaml
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/library_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/library_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_6
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_6
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ament_index/resource_index/packages/ros2_control_demo_example_6
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_6
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ros2_control_demo_example_6Config.cmake
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ros2_control_demo_example_6Config-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.xml
+-- Installing: /workspaces/ros2-coding/install/ros2_control_demo_example_6/lib/libros2_control_demo_example_6.so
+-- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/ros2_control_demo_example_6/lib/libros2_control_demo_example_6.so" to ""
+-- Installing: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export.cmake
+-- Installing: /workspaces/ros2-coding/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export-noconfig.cmake

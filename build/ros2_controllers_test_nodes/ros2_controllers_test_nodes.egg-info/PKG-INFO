@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ros2-controllers-test-nodes
+Version: 4.32.0
+Summary: Demo nodes for showing and testing functionalities of ros2_control framework.
+Author: Denis Štogl
+Author-email: denis@stogl.de
+Maintainer: Denis Štogl
+Maintainer-email: denis@stogl.de
+License: Apache License, Version 2.0
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+Demo nodes for showing and testing functionalities of the ros2_control framework.

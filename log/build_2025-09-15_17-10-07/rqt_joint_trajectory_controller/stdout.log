@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating rqt_joint_trajectory_controller.egg-info
+writing rqt_joint_trajectory_controller.egg-info/PKG-INFO
+writing dependency_links to rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+writing entry points to rqt_joint_trajectory_controller.egg-info/entry_points.txt
+writing requirements to rqt_joint_trajectory_controller.egg-info/requires.txt
+writing top-level names to rqt_joint_trajectory_controller.egg-info/top_level.txt
+writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+reading manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+Installing rqt_joint_trajectory_controller script to /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+
+Installed /workspaces/ros2-coding/build/rqt_joint_trajectory_controller
+running symlink_data
+creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/ament_index
+creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/ament_index/resource_index
+creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/rqt_joint_trajectory_controller -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/package.xml -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+creating /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/joint_trajectory_controller.ui -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/off.svg -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/double_editor.ui -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/scope.svg -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/on.svg -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/resource/scope.png -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /workspaces/ros2-coding/build/rqt_joint_trajectory_controller/plugin.xml -> /workspaces/ros2-coding/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller

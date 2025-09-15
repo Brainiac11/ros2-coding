@@ -1,0 +1,12 @@
+/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp: In instantiation of ‘[01m[Kdiff_drive_controller::DiffDriveController::halt()::<lambda(auto:47&)> [35m[K[with auto:47 = std::vector<diff_drive_controller::DiffDriveController::WheelHandle>][m[K[m[K’:
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:656:14:[m[K   required from here
+[01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:652:44:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  652 |       [01;35m[Kwheel_handle.velocity.get().set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/workspaces/ros2-coding/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:28[m[K,
+                 from [01m[K/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:25[m[K:
+[01m[K/workspaces/ros2-coding/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K

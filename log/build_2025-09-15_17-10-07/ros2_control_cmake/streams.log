@@ -1,0 +1,47 @@
+[0.020s] Invoking command in '/workspaces/ros2-coding/build/ros2_control_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control_cmake/ros2_control_cmake -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros2_control_cmake
+[0.138s] -- The C compiler identification is GNU 13.3.0
+[0.269s] -- The CXX compiler identification is GNU 13.3.0
+[0.307s] -- Detecting C compiler ABI info
+[0.521s] -- Detecting C compiler ABI info - done
+[0.537s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.538s] -- Detecting C compile features
+[0.539s] -- Detecting C compile features - done
+[0.558s] -- Detecting CXX compiler ABI info
+[0.786s] -- Detecting CXX compiler ABI info - done
+[0.809s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.811s] -- Detecting CXX compile features
+[0.811s] -- Detecting CXX compile features - done
+[0.822s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.127s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.270s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.423s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.704s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.711s] -- Added test 'lint_cmake' to check CMake code style
+[1.715s] -- Added test 'xmllint' to check XML markup files
+[1.724s] -- Configuring done (1.7s)
+[1.744s] -- Generating done (0.0s)
+[1.750s] -- Build files have been written to: /workspaces/ros2-coding/build/ros2_control_cmake
+[1.757s] Invoked command in '/workspaces/ros2-coding/build/ros2_control_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control_cmake/ros2_control_cmake -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros2_control_cmake
+[1.759s] Invoking command in '/workspaces/ros2-coding/build/ros2_control_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/ros2_control_cmake -- -j2 -l2
+[1.840s] Invoked command in '/workspaces/ros2-coding/build/ros2_control_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/ros2_control_cmake -- -j2 -l2
+[1.856s] Invoking command in '/workspaces/ros2-coding/build/ros2_control_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/ros2_control_cmake
+[1.873s] -- Install configuration: ""
+[1.873s] -- Execute custom install script
+[1.874s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake/ros2_control.cmake
+[1.891s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ament_index/resource_index/package_run_dependencies/ros2_control_cmake
+[1.906s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ament_index/resource_index/parent_prefix_path/ros2_control_cmake
+[1.928s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/environment/ament_prefix_path.sh
+[1.943s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/environment/ament_prefix_path.dsv
+[1.958s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/environment/path.sh
+[1.976s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/environment/path.dsv
+[1.992s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/local_setup.bash
+[2.007s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/local_setup.sh
+[2.028s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/local_setup.zsh
+[2.044s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/local_setup.dsv
+[2.059s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/package.dsv
+[2.079s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ament_index/resource_index/packages/ros2_control_cmake
+[2.094s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake/ros2_control_cmake-extras.cmake
+[2.109s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake/ros2_control_cmakeConfig.cmake
+[2.135s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/cmake/ros2_control_cmakeConfig-version.cmake
+[2.147s] -- Symlinking: /workspaces/ros2-coding/install/ros2_control_cmake/share/ros2_control_cmake/package.xml
+[2.164s] Invoked command in '/workspaces/ros2-coding/build/ros2_control_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/ros2_control_cmake
