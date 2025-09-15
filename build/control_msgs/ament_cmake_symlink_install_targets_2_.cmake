@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/ros2-coding/build/control_msgs/rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_c.so" "TARGETS" "control_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/control_msgs")

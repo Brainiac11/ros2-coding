@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "controller_manager_msgs/srv/LoadController_Request",
+      "fields": [
+        {
+          "name": "name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "controller_manager_msgs/srv/LoadController_Request",
+      "hash_string": "RIHS01_7a6624df1a6c972c13c9c5b71f13eda236226b7c08f118feccbbc60ad1829216"
+    }
+  ]
+}

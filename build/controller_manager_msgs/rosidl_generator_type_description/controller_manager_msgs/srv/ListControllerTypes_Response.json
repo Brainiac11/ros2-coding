@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "controller_manager_msgs/srv/ListControllerTypes_Response",
+      "fields": [
+        {
+          "name": "types",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "base_classes",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "controller_manager_msgs/srv/ListControllerTypes_Response",
+      "hash_string": "RIHS01_4e924ba35dac47257de06fabd757aaf7bd05f47da99dc878864c9c3f9a3f721e"
+    }
+  ]
+}

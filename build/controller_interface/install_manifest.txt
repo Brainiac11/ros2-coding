@@ -1,0 +1,3 @@
+/workspaces/ros2-coding/install/controller_interface/lib/libcontroller_interface.so
+/workspaces/ros2-coding/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport.cmake
+/workspaces/ros2-coding/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport-noconfig.cmake

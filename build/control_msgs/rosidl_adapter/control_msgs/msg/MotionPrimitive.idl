@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/MotionPrimitive.msg
+// generated code does not contain a copyright notice
+
+#include "control_msgs/msg/MotionArgument.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module control_msgs {
+  module msg {
+    module MotionPrimitive_Constants {
+      const int8 UNKNOWN = -1;
+      @verbatim (language="comment", text=
+        "Often referred as PTP")
+      const int8 LINEAR_JOINT = 0;
+      @verbatim (language="comment", text=
+        "Often referred as LIN")
+      const int8 LINEAR_CARTESIAN = 50;
+      @verbatim (language="comment", text=
+        "Often referred as CIRC")
+      const int8 CIRCULAR_CARTESIAN = 51;
+    };
+    struct MotionPrimitive {
+      @verbatim (language="comment", text=
+        "potentially more, such as spline motion" "\n"
+        "one of the above")
+      @default (value=-1)
+      int8 type;
+
+      double blend_radius;
+
+      @verbatim (language="comment", text=
+        "MotionArguments are meant to be used as vendor-specific or use-case-specific arguments to" "\n"
+        "MotionPrimitive messages. This is to avoid bloating the MotionPrimitive message with all possible" "\n"
+        "uses cases but rather add specific data using as a list of key-value pairs, which is what this" "\n"
+        "message represents." "\n"
+        "(max) velocity, (max) acceleration, efficiency")
+      sequence<control_msgs::msg::MotionArgument> additional_arguments;
+
+      @verbatim (language="comment", text=
+        "Targets should be either specified through joint configurations or Cartesian poses." "\n"
+        "Depending on the motion type and implementation, there might be multiple poses allowed." "\n"
+        "For example, circular motions are often specified as via and target" "\n"
+        "Usually one of these is empty, in some edge cases even both can be empty, when all input is given" "\n"
+        "in the more flexible MotionArgument[] field.")
+      sequence<geometry_msgs::msg::PoseStamped> poses;
+
+      sequence<double> joint_positions;
+    };
+  };
+};

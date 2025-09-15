@@ -1,0 +1,1 @@
+#pragma message("#include \"gpio_command_controller_parameters.hpp\" is deprecated. Use #include <gpio_controllers/gpio_command_controller_parameters.hpp> instead.")

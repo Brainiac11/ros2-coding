@@ -1,0 +1,4 @@
+source;share/parallel_gripper_controller/local_setup.bash
+source;share/parallel_gripper_controller/local_setup.dsv
+source;share/parallel_gripper_controller/local_setup.sh
+source;share/parallel_gripper_controller/local_setup.zsh

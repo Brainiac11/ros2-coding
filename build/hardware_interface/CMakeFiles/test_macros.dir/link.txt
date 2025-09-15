@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--no-as-needed  /opt/ros/jazzy/lib/libbackward.so -Wl,--as-needed  CMakeFiles/test_macros.dir/test/test_macros.cpp.o -o test_macros  -Wl,-rpath,/opt/ros/jazzy/lib gmock/libgmock_main.a gmock/libgmock.a /opt/ros/jazzy/lib/librcpputils.so -pthread /opt/ros/jazzy/lib/librcutils.so -ldl 

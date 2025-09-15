@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_msgs/action/PointHead_Result",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_msgs/action/PointHead_Result",
+      "hash_string": "RIHS01_76d221e8719cd8560d7fe478d8e18995fa595e812aa3f14fcef9c1802c350505"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "controller_manager_msgs/srv/ReloadControllerLibraries_Response",
+      "fields": [
+        {
+          "name": "ok",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "controller_manager_msgs/srv/ReloadControllerLibraries_Response",
+      "hash_string": "RIHS01_bea69bb80ebbb4a00023758c51fd0e3eaf308c1ae6640fdf4bbad6793bb967d4"
+    }
+  ]
+}

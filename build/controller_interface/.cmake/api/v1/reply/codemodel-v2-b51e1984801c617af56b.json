@@ -1,0 +1,274 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ad5ad365e779b4984397.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-4c8667082ed8f149e75b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "controller_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_generate_version_header__controller_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_generate_version_header__controller_interface-9b3a2551099ab3ed2b8b.json",
+					"name" : "ament_generate_version_header__controller_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interface-e128b157d62d83e70044.json",
+					"name" : "controller_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interface_uninstall-494c13a29916aa9ad996.json",
+					"name" : "controller_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-17af9e450d2ee3830505.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-f3e86e431e9a801ada68.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-a35ab3bee2e4e96b54a3.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-2d4f560444e4f04091a7.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_chainable_controller_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_chainable_controller_interface-36c4a3b2e4cfb341961c.json",
+					"name" : "test_chainable_controller_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller_interface-b43910c2a1b07458921c.json",
+					"name" : "test_controller_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller_with_options::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller_with_options-9314b60606334e024da6.json",
+					"name" : "test_controller_with_options",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_force_torque_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_force_torque_sensor-37f07f37dfe9381f8ae8.json",
+					"name" : "test_force_torque_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_gps_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_gps_sensor-deb87ed9d83981cc5456.json",
+					"name" : "test_gps_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_imu_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_imu_sensor-6d90ee75afd92b6405b8.json",
+					"name" : "test_imu_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_led_rgb_device::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_led_rgb_device-168cc3070c88a230e1d5.json",
+					"name" : "test_led_rgb_device",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_pose_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_pose_sensor-9432d18227b0e09e2d20.json",
+					"name" : "test_pose_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_semantic_component_command_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_semantic_component_command_interface-afd9167aa4a5313fea33.json",
+					"name" : "test_semantic_component_command_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_semantic_component_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_semantic_component_interface-c39e4846df2ec1ed2b01.json",
+					"name" : "test_semantic_component_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-801db0f44ed537bc130a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/ros2-coding/build/controller_interface",
+		"source" : "/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_control/controller_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

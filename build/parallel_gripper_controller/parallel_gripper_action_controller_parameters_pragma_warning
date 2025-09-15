@@ -1,0 +1,1 @@
+#pragma message("#include \"parallel_gripper_action_controller_parameters.hpp\" is deprecated. Use #include <parallel_gripper_controller/parallel_gripper_action_controller_parameters.hpp> instead.")

@@ -1,0 +1,3 @@
+/workspaces/ros2-coding/install/pid_controller/lib/libpid_controller.so
+/workspaces/ros2-coding/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport.cmake
+/workspaces/ros2-coding/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport-noconfig.cmake

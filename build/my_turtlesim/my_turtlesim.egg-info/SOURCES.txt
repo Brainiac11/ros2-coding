@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+my_turtlesim/__init__.py
+my_turtlesim/move_turtle.py
+my_turtlesim.egg-info/PKG-INFO
+my_turtlesim.egg-info/SOURCES.txt
+my_turtlesim.egg-info/dependency_links.txt
+my_turtlesim.egg-info/entry_points.txt
+my_turtlesim.egg-info/requires.txt
+my_turtlesim.egg-info/top_level.txt
+my_turtlesim.egg-info/zip-safe
+resource/my_turtlesim

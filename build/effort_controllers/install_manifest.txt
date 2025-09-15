@@ -1,0 +1,3 @@
+/workspaces/ros2-coding/install/effort_controllers/lib/libeffort_controllers.so
+/workspaces/ros2-coding/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport.cmake
+/workspaces/ros2-coding/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport-noconfig.cmake

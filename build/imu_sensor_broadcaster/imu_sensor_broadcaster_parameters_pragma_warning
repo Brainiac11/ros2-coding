@@ -1,0 +1,1 @@
+#pragma message("#include \"imu_sensor_broadcaster_parameters.hpp\" is deprecated. Use #include <imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp> instead.")

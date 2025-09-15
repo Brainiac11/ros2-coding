@@ -1,0 +1,1 @@
+#pragma message("#include \"forward_command_controller_parameters.hpp\" is deprecated. Use #include <forward_command_controller/forward_command_controller_parameters.hpp> instead.")
