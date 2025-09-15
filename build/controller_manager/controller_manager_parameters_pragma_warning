@@ -1,0 +1,1 @@
+#pragma message("#include \"controller_manager_parameters.hpp\" is deprecated. Use #include <controller_manager/controller_manager_parameters.hpp> instead.")

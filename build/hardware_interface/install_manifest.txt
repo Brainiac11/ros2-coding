@@ -1,0 +1,4 @@
+/workspaces/ros2-coding/install/hardware_interface/lib/libmock_components.so
+/workspaces/ros2-coding/install/hardware_interface/lib/libhardware_interface.so
+/workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interfaceExport.cmake
+/workspaces/ros2-coding/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interfaceExport-noconfig.cmake

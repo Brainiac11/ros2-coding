@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cc62a05a0a40b759e413.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gz_ros2_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_hardware_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_hardware_plugins-999766e7e6575d6bfaee.json",
+					"name" : "gz_hardware_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_ros2_control-system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_ros2_control-system-9111629f097b61e0a700.json",
+					"name" : "gz_ros2_control-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_ros2_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_ros2_control_uninstall-51ec10ea1d4c764c2ade.json",
+					"name" : "gz_ros2_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ign_ros2_control-system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ign_ros2_control-system-670253a41022850f10f6.json",
+					"name" : "ign_ros2_control-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d8b7330b07df3c4964a5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/ros2-coding/build/gz_ros2_control",
+		"source" : "/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

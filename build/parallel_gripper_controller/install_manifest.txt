@@ -1,0 +1,3 @@
+/workspaces/ros2-coding/install/parallel_gripper_controller/lib/libparallel_gripper_action_controller.so
+/workspaces/ros2-coding/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/export_parallel_gripper_action_controllerExport.cmake
+/workspaces/ros2-coding/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/export_parallel_gripper_action_controllerExport-noconfig.cmake

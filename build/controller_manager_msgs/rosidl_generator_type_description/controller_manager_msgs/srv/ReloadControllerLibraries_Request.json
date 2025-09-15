@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "controller_manager_msgs/srv/ReloadControllerLibraries_Request",
+      "fields": [
+        {
+          "name": "force_kill",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "controller_manager_msgs/srv/ReloadControllerLibraries_Request",
+      "hash_string": "RIHS01_c5ae8813adda2aed0e5e5558031e6f4c7834b941aa871746e86adc1cb745cda8"
+    }
+  ]
+}

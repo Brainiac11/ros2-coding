@@ -1,0 +1,5 @@
+/workspaces/ros2-coding/install/joint_limits/lib/libjoint_limiter_interface.so
+/workspaces/ros2-coding/install/joint_limits/lib/libjoint_saturation_limiter.so
+/workspaces/ros2-coding/install/joint_limits/lib/libjoint_limits_helpers.so
+/workspaces/ros2-coding/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+/workspaces/ros2-coding/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport-noconfig.cmake

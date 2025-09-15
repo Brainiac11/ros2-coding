@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_msgs/srv/QueryCalibrationState_Response",
+      "fields": [
+        {
+          "name": "is_calibrated",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_msgs/srv/QueryCalibrationState_Response",
+      "hash_string": "RIHS01_3cd0e4833f9e0cda53599f7917ea6ad38a45569f046b6eb14e7c02bb24ad86c6"
+    }
+  ]
+}

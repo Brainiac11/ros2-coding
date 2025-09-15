@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c55de57ebad4c2a66e25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gz_ros2_control_demos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_ackermann_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_ackermann_drive-b64ed2b7d8b409499171.json",
+					"name" : "example_ackermann_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_diff_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_diff_drive-37f70729ea027a3748a7.json",
+					"name" : "example_diff_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_effort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_effort-0ce44d0eff1e8878752d.json",
+					"name" : "example_effort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_gripper-a7fc689ada54ddb08650.json",
+					"name" : "example_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_position-b71a891ddf603118b1fb.json",
+					"name" : "example_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_tricycle_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_tricycle_drive-a04b15309152981bb93c.json",
+					"name" : "example_tricycle_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_velocity::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_velocity-6676a93ab2bf1c91e18f.json",
+					"name" : "example_velocity",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_ros2_control_demos_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_ros2_control_demos_uninstall-afe45d72c46dc3d475c8.json",
+					"name" : "gz_ros2_control_demos_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6e984e30081ad28077bd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/ros2-coding/build/gz_ros2_control_demos",
+		"source" : "/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/gz_ros2_control/gz_ros2_control_demos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

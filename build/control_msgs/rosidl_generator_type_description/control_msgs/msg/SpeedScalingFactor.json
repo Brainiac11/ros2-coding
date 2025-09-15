@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_msgs/msg/SpeedScalingFactor",
+      "fields": [
+        {
+          "name": "factor",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_msgs/msg/SpeedScalingFactor",
+      "hash_string": "RIHS01_0c240f349f2b74e33e8741f83e0f196ddeb6585923663876ed3c1f51f0566037"
+    }
+  ]
+}

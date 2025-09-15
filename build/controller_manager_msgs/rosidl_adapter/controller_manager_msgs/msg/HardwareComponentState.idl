@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from controller_manager_msgs/msg/HardwareComponentState.msg
+// generated code does not contain a copyright notice
+
+#include "controller_manager_msgs/msg/HardwareInterface.idl"
+#include "lifecycle_msgs/msg/State.idl"
+
+module controller_manager_msgs {
+  module msg {
+    struct HardwareComponentState {
+      @verbatim (language="comment", text=
+        "Name of the hardware component")
+      string name;
+
+      @verbatim (language="comment", text=
+        "Type of the hardware component")
+      string type;
+
+      @verbatim (language="comment", text=
+        "If the hardware component is running asynchronously")
+      boolean is_async;
+
+      @verbatim (language="comment", text=
+        "read/write rate of the hardware component in Hz")
+      uint16 rw_rate;
+
+      @verbatim (language="comment", text=
+        "DEPRECATED")
+      string class_type;
+
+      @verbatim (language="comment", text=
+        "The name of the plugin that is used to load the hardware component")
+      string plugin_name;
+
+      @verbatim (language="comment", text=
+        "State of the hardware component")
+      lifecycle_msgs::msg::State state;
+
+      @verbatim (language="comment", text=
+        "Command interfaces of the hardware component")
+      sequence<controller_manager_msgs::msg::HardwareInterface> command_interfaces;
+
+      @verbatim (language="comment", text=
+        "State interfaces of the hardware component")
+      sequence<controller_manager_msgs::msg::HardwareInterface> state_interfaces;
+    };
+  };
+};

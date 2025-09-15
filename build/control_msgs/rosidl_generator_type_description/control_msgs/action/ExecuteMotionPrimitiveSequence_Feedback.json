@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_msgs/action/ExecuteMotionPrimitiveSequence_Feedback",
+      "fields": [
+        {
+          "name": "current_primitive_index",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_msgs/action/ExecuteMotionPrimitiveSequence_Feedback",
+      "hash_string": "RIHS01_39b91431692e626682a9adfbb5d694c9b3a1fd24d963772977e91c71218bf64f"
+    }
+  ]
+}

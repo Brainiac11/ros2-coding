@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "controller_manager_msgs/srv/ListControllers_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "controller_manager_msgs/srv/ListControllers_Request",
+      "hash_string": "RIHS01_fb985bc3dcc9b07c7d3af4b46787afa5a09ac79da6465ea42b5696f9355c1f70"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+/workspaces/ros2-coding/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+/workspaces/ros2-coding/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport.cmake
+/workspaces/ros2-coding/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport-noconfig.cmake

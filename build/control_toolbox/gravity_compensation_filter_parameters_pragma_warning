@@ -1,0 +1,1 @@
+#pragma message("#include \"gravity_compensation_filter_parameters.hpp\" is deprecated. Use #include <control_toolbox/gravity_compensation_filter_parameters.hpp> instead.")

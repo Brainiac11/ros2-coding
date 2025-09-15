@@ -1,0 +1,86 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "controller_manager_msgs/srv/ListHardwareInterfaces_Response",
+      "fields": [
+        {
+          "name": "command_interfaces",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "controller_manager_msgs/msg/HardwareInterface"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "state_interfaces",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "controller_manager_msgs/msg/HardwareInterface"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "controller_manager_msgs/msg/HardwareInterface",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "data_type",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "is_available",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "is_claimed",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "controller_manager_msgs/srv/ListHardwareInterfaces_Response",
+      "hash_string": "RIHS01_32da0652393586234856a1f44a039ff1487bdc1905fbf5068d026b77d4252e63"
+    },
+    {
+      "type_name": "controller_manager_msgs/msg/HardwareInterface",
+      "hash_string": "RIHS01_b4c556991db81ca56a49338b5e8f0675a6707faee54fba161d2bbd4d963d418a"
+    }
+  ]
+}

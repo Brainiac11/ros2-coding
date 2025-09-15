@@ -1,0 +1,104 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_msgs/action/GripperCommand_SendGoal_Request",
+      "fields": [
+        {
+          "name": "goal_id",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "unique_identifier_msgs/msg/UUID"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "control_msgs/action/GripperCommand_Goal"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "control_msgs/action/GripperCommand_Goal",
+        "fields": [
+          {
+            "name": "command",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "control_msgs/msg/GripperCommand"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "control_msgs/msg/GripperCommand",
+        "fields": [
+          {
+            "name": "position",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "max_effort",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_msgs/action/GripperCommand_SendGoal_Request",
+      "hash_string": "RIHS01_1b869b7b4042272dc0f8ed65468c4e57c9e532ea5e53ce74fda0767eefbfa983"
+    },
+    {
+      "type_name": "control_msgs/action/GripperCommand_Goal",
+      "hash_string": "RIHS01_607d9f41eb241e1922e90f02125e87ae6bfb78f7f64a71dc92630263d01f8b6d"
+    },
+    {
+      "type_name": "control_msgs/msg/GripperCommand",
+      "hash_string": "RIHS01_57eb8f326c9889ca8bb34ead82cc94cc09bf6bc5c3b6c09546dca3a00b589890"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

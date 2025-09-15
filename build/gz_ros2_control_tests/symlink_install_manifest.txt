@@ -1,0 +1,15 @@
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_tests
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_tests
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.sh
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.dsv
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.sh
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.dsv
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.bash
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.sh
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.zsh
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.dsv
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/ament_index/resource_index/packages/gz_ros2_control_tests
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig.cmake
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig-version.cmake
+/workspaces/ros2-coding/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.xml

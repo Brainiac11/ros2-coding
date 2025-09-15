@@ -1,0 +1,70 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_manager_msgs/srv/SwitchController.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+
+module controller_manager_msgs {
+  module srv {
+    module SwitchController_Request_Constants {
+      const int32 BEST_EFFORT = 1;
+      const int32 STRICT = 2;
+      const int32 AUTO = 3;
+      const int32 FORCE_AUTO = 4;
+    };
+    @verbatim (language="comment", text=
+      "The SwitchController service allows you to deactivate a number of controllers" "\n"
+      "and activate a number of controllers, all in one single timestep of the" "\n"
+      "controller manager's control loop.")
+    struct SwitchController_Request {
+      @verbatim (language="comment", text=
+        "To switch controllers, specify" "\n"
+        " * the list of controller names to activate," "\n"
+        " * the list of controller names to deactivate, and" "\n"
+        " * the strictness (STRICT, BEST_EFFORT, AUTO, or FORCE_AUTO)" "\n"
+        "   * STRICT means that switching will fail if anything goes wrong (an invalid" "\n"
+        "     controller name, a controller that failed to activate, etc.)." "\n"
+        "   * BEST_EFFORT:" "\n"
+        "     Transitions are only triggered if the controller is not yet in the target state." "\n"
+        "     If it is already in the target state, no error occurs." "\n"
+        "     Returns 'false' if all controllers of 'activate_controllers' or 'deactivate_controllers' are not yet loaded or configured," "\n"
+        "     or the pending transitions of all existing controllers of 'activate_controllers'" "\n"
+        "     or 'deactivate_controllers' fail." "\n"
+        "     Returns 'true' otherwise." "\n"
+        "   * AUTO means that the controller manager will automatically resolve the controller" "\n"
+        "     chain in order to activate and/or deactivate the specified controllers." "\n"
+        "     This is useful in complex systems when you want all dependent controllers to start" "\n"
+        "     within the same update iteration." "\n"
+        "   * FORCE_AUTO means that the controller manager will take all necessary steps to activate" "\n"
+        "     the specified controllers without requiring you to explicitly list the controllers" "\n"
+        "     to be deactivated. This is useful when the controller being activated depends on" "\n"
+        "     another unknown controller that is currently running. The controller manager will" "\n"
+        "     deactivate any controllers that block the activation of the requested controller," "\n"
+        "     following the mutually exclusive joint interface switching principle. For example," "\n"
+        "     to activate a controller that uses a joint's position interface, the controller manager" "\n"
+        "     will automatically deactivate any controllers that use conflicting interfaces for" "\n"
+        "     the same joint." "\n"
+        " * activate the controllers as soon as their hardware dependencies are ready, will" "\n"
+        "   wait for all interfaces to be ready otherwise" "\n"
+        " * the timeout before aborting pending controllers. Zero for infinite" "\n"
+        "The return value \"ok\" indicates if the controllers were switched" "\n"
+        "successfully or not. The meaning of success depends on the" "\n"
+        "specified strictness." "\n"
+        "The return value \"message\" provides some human-readable information.")
+      sequence<string> activate_controllers;
+
+      sequence<string> deactivate_controllers;
+
+      int32 strictness;
+
+      boolean activate_asap;
+
+      builtin_interfaces::msg::Duration timeout;
+    };
+    struct SwitchController_Response {
+      boolean ok;
+
+      string message;
+    };
+  };
+};

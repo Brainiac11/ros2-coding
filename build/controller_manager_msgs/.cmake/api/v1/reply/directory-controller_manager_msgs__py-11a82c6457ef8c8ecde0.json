@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "controller_manager_msgs__py",
+		"source" : "/workspaces/ros2-coding/build/controller_manager_msgs/controller_manager_msgs__py"
+	}
+}

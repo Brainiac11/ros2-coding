@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "controller_manager_msgs/srv/UnloadController_Request",
+      "fields": [
+        {
+          "name": "name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "controller_manager_msgs/srv/UnloadController_Request",
+      "hash_string": "RIHS01_90f14a0b402791210988f4931be46a62edc7f6c90d0551c54c9a7cbce1b56ea1"
+    }
+  ]
+}

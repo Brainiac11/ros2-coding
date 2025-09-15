@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/MotionPrimitiveSequence.msg
+// generated code does not contain a copyright notice
+
+#include "control_msgs/msg/MotionPrimitive.idl"
+
+module control_msgs {
+  module msg {
+    struct MotionPrimitiveSequence {
+      sequence<control_msgs::msg::MotionPrimitive> motions;
+    };
+  };
+};

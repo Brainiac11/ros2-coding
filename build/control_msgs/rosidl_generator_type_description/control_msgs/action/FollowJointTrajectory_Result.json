@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_msgs/action/FollowJointTrajectory_Result",
+      "fields": [
+        {
+          "name": "error_code",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "error_string",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_msgs/action/FollowJointTrajectory_Result",
+      "hash_string": "RIHS01_8002e99ed2c14c6faa522f2a93c26d744c5982f254f9e98ff9c6f19789bdb220"
+    }
+  ]
+}

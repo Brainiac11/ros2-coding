@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from control_msgs/action/ExecuteMotionPrimitiveSequence.action
+// generated code does not contain a copyright notice
+
+#include "control_msgs/msg/MotionPrimitiveSequence.idl"
+
+module control_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "A list of MotionPrimitive messages that are executed in sequence. They don't have to be of the" "\n"
+      "same type, as long as the robot supports executing them one after another.")
+    struct ExecuteMotionPrimitiveSequence_Goal {
+      control_msgs::msg::MotionPrimitiveSequence trajectory;
+    };
+    module ExecuteMotionPrimitiveSequence_Result_Constants {
+      const int32 SUCCESSFUL = 0;
+      const int32 INVALID_GOAL = -1;
+      const int32 OLD_HEADER_TIMESTAMP = -3;
+    };
+    struct ExecuteMotionPrimitiveSequence_Result {
+      int32 error_code;
+
+      string error_string;
+    };
+    @verbatim (language="comment", text=
+      "Index of the currently executed motion primitive in the sequence.")
+    struct ExecuteMotionPrimitiveSequence_Feedback {
+      uint8 current_primitive_index;
+    };
+  };
+};

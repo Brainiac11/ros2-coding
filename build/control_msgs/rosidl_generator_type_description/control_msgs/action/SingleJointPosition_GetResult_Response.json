@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_msgs/action/SingleJointPosition_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "control_msgs/action/SingleJointPosition_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "control_msgs/action/SingleJointPosition_Result",
+        "fields": [
+          {
+            "name": "structure_needs_at_least_one_member",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_msgs/action/SingleJointPosition_GetResult_Response",
+      "hash_string": "RIHS01_6475df69e4fbff1aa8dcd8d2825e03f6faa3c69f158c8fe1d058eb506d53ee9e"
+    },
+    {
+      "type_name": "control_msgs/action/SingleJointPosition_Result",
+      "hash_string": "RIHS01_4fa10d555d539d00370b7114db3c3dddb182647e720c8c5faaf8e184822db14c"
+    }
+  ]
+}

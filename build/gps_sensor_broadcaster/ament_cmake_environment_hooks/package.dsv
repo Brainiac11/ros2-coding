@@ -1,0 +1,4 @@
+source;share/gps_sensor_broadcaster/local_setup.bash
+source;share/gps_sensor_broadcaster/local_setup.dsv
+source;share/gps_sensor_broadcaster/local_setup.sh
+source;share/gps_sensor_broadcaster/local_setup.zsh

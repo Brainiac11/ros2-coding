@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_msgs/msg/GripperCommand",
+      "fields": [
+        {
+          "name": "position",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "max_effort",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_msgs/msg/GripperCommand",
+      "hash_string": "RIHS01_57eb8f326c9889ca8bb34ead82cc94cc09bf6bc5c3b6c09546dca3a00b589890"
+    }
+  ]
+}

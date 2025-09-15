@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_msgs/action/JointTrajectory_Result",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_msgs/action/JointTrajectory_Result",
+      "hash_string": "RIHS01_8e857ce43c02c45be3a4192454bcdc7230cd7835c5ee8f4ebc2530b1e76101bc"
+    }
+  ]
+}
