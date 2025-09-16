@@ -1,0 +1,33 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Configuring done (2.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspaces/ros2-coding/build/cmdvel_to_ackermann
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/scripts/__init__.py
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/scripts/cmdvel_to_ackermann.py
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/launch/cmdvel_to_ackermann.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/lib/cmdvel_to_ackermann/cmdvel_to_ackermann.py
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/ament_index/resource_index/package_run_dependencies/cmdvel_to_ackermann
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/ament_index/resource_index/parent_prefix_path/cmdvel_to_ackermann
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/ament_index/resource_index/packages/cmdvel_to_ackermann
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/cmake/cmdvel_to_ackermannConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/cmake/cmdvel_to_ackermannConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.xml
