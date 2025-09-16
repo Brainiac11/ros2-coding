@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/isaac_ros2_messages/rosidl_typesupport_fastrtps_c/isaac_ros2_messages/srv/detail/get_prims__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: isaac-ros-navigation-goal
+Version: 0.0.1
+Summary: Package to set goals for navigation stack.
+Maintainer: isaac sim
+Maintainer-email: isaac-sim@todo.todo
+License: NVIDIA Isaac ROS Software License
