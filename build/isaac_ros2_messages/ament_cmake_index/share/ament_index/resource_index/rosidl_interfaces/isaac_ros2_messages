@@ -1,0 +1,10 @@
+srv/GetPrimAttribute.idl
+srv/GetPrimAttribute.srv
+srv/GetPrimAttributes.idl
+srv/GetPrimAttributes.srv
+srv/GetPrims.idl
+srv/GetPrims.srv
+srv/IsaacPose.idl
+srv/IsaacPose.srv
+srv/SetPrimAttribute.idl
+srv/SetPrimAttribute.srv

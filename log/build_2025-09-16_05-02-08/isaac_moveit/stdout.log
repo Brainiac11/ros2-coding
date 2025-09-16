@@ -1,0 +1,26 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found moveit: 2.12.3 (/opt/ros/jazzy/share/moveit/cmake)
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspaces/ros2-coding/build/isaac_moveit
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/rviz2/panda_moveit_config.rviz
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/launch/isaac_moveit.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/ament_index/resource_index/package_run_dependencies/isaac_moveit
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/ament_index/resource_index/parent_prefix_path/isaac_moveit
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/ament_index/resource_index/packages/isaac_moveit
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/cmake/isaac_moveitConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/cmake/isaac_moveitConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/package.xml

@@ -1,0 +1,10 @@
+{
+  "package_name": "isaac_ros2_messages",
+  "non_idl_tuples": [
+    "/workspaces/ros2-coding/turtlesim_ws/src/isaac_ros2_messages:srv/IsaacPose.srv",
+    "/workspaces/ros2-coding/turtlesim_ws/src/isaac_ros2_messages:srv/GetPrims.srv",
+    "/workspaces/ros2-coding/turtlesim_ws/src/isaac_ros2_messages:srv/GetPrimAttributes.srv",
+    "/workspaces/ros2-coding/turtlesim_ws/src/isaac_ros2_messages:srv/GetPrimAttribute.srv",
+    "/workspaces/ros2-coding/turtlesim_ws/src/isaac_ros2_messages:srv/SetPrimAttribute.srv"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "isaac_ros2_messages/srv/GetPrimAttribute_Request",
+      "fields": [
+        {
+          "name": "path",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "attribute",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "isaac_ros2_messages/srv/GetPrimAttribute_Request",
+      "hash_string": "RIHS01_c01878ffee5a357954a0d7776593d1448ee32a0e2138550080f7367624ad0e7e"
+    }
+  ]
+}

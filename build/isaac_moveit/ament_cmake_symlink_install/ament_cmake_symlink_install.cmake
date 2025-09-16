@@ -309,3 +309,51 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install(DIRECTORY "rviz2" "launch" "DESTINATION" "share/isaac_moveit")
+ament_cmake_symlink_install_directory("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" DIRECTORY "rviz2" "launch" "DESTINATION" "share/isaac_moveit")
+
+# install(PROGRAMS "DESTINATION" "lib/isaac_moveit")
+ament_cmake_symlink_install_programs("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" PROGRAMS "DESTINATION" "lib/isaac_moveit")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/isaac_moveit" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/isaac_moveit" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/isaac_moveit" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/isaac_moveit" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/isaac_moveit/environment")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/isaac_moveit/environment")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/isaac_moveit/environment")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/isaac_moveit/environment")
+
+# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/isaac_moveit/environment")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/isaac_moveit/environment")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/isaac_moveit/environment")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/isaac_moveit/environment")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/isaac_moveit")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/isaac_moveit")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/isaac_moveit")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/isaac_moveit")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/isaac_moveit")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/isaac_moveit")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/isaac_moveit")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/isaac_moveit")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/isaac_moveit")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/isaac_moveit")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_index/share/ament_index/resource_index/packages/isaac_moveit" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_index/share/ament_index/resource_index/packages/isaac_moveit" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_core/isaac_moveitConfig.cmake" "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_core/isaac_moveitConfig-version.cmake" "DESTINATION" "share/isaac_moveit/cmake")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_core/isaac_moveitConfig.cmake" "/workspaces/ros2-coding/build/isaac_moveit/ament_cmake_core/isaac_moveitConfig-version.cmake" "DESTINATION" "share/isaac_moveit/cmake")
+
+# install(FILES "/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit/package.xml" "DESTINATION" "share/isaac_moveit")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit" FILES "/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit/package.xml" "DESTINATION" "share/isaac_moveit")

@@ -299,7 +299,7 @@ isaac_moveit_IS_TOP_LEVEL:STATIC=ON
 isaac_moveit_SOURCE_DIR:STATIC=/workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit
 
 //The directory containing a CMake configuration file for moveit.
-moveit_DIR:PATH=moveit_DIR-NOTFOUND
+moveit_DIR:PATH=/opt/ros/jazzy/share/moveit/cmake
 
 //The directory containing a CMake configuration file for rclpy.
 rclpy_DIR:PATH=/opt/ros/jazzy/share/rclpy/cmake

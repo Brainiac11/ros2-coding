@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/turtlesim_ws/src/isaacsim/scripts/open_isaacsim_stage.py
