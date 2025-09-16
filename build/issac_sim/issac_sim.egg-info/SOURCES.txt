@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+issac_sim/__init__.py
+issac_sim.egg-info/PKG-INFO
+issac_sim.egg-info/SOURCES.txt
+issac_sim.egg-info/dependency_links.txt
+issac_sim.egg-info/requires.txt
+issac_sim.egg-info/top_level.txt
+issac_sim.egg-info/zip-safe
+resource/issac_sim

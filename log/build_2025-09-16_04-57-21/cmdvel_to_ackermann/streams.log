@@ -1,0 +1,23 @@
+[0.041s] Invoking command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/cmdvel_to_ackermann -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/cmdvel_to_ackermann
+[0.157s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.130s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.178s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.285s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[1.285s]   By not providing "Findackermann_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.287s]   project has asked CMake to find a package configuration file provided by
+[1.287s]   "ackermann_msgs", but CMake did not find one.
+[1.288s] 
+[1.288s]   Could not find a package configuration file provided by "ackermann_msgs"
+[1.289s]   with any of the following names:
+[1.291s] 
+[1.291s]     ackermann_msgsConfig.cmake
+[1.291s]     ackermann_msgs-config.cmake
+[1.294s] 
+[1.294s]   Add the installation prefix of "ackermann_msgs" to CMAKE_PREFIX_PATH or set
+[1.294s]   "ackermann_msgs_DIR" to a directory containing one of the above files.  If
+[1.294s]   "ackermann_msgs" provides a separate development package or SDK, be sure it
+[1.294s]   has been installed.
+[1.294s] 
+[1.295s] [0m
+[1.295s] -- Configuring incomplete, errors occurred!
+[1.298s] Invoked command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/cmdvel_to_ackermann -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/cmdvel_to_ackermann
