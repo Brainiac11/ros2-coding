@@ -1,0 +1,17 @@
+[2.707s] Invoking command in '/workspaces/ros2-coding/build/isaac_ros_navigation_goal': PYTHONPATH=/workspaces/ros2-coding/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/isaac_ros_navigation_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/isaac_ros_navigation_goal/build --no-deps symlink_data
+[3.903s] running develop
+[4.326s] running egg_info
+[4.366s] writing isaac_ros_navigation_goal.egg-info/PKG-INFO
+[4.366s] writing dependency_links to isaac_ros_navigation_goal.egg-info/dependency_links.txt
+[4.367s] writing entry points to isaac_ros_navigation_goal.egg-info/entry_points.txt
+[4.367s] writing requirements to isaac_ros_navigation_goal.egg-info/requires.txt
+[4.367s] writing top-level names to isaac_ros_navigation_goal.egg-info/top_level.txt
+[4.448s] reading manifest file 'isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[4.449s] writing manifest file 'isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[4.499s] running build_ext
+[4.501s] Creating /workspaces/ros2-coding/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac-ros-navigation-goal.egg-link (link to .)
+[4.503s] Installing SetNavigationGoal script to /workspaces/ros2-coding/install/isaac_ros_navigation_goal/lib/isaac_ros_navigation_goal
+[4.503s] 
+[4.503s] Installed /workspaces/ros2-coding/build/isaac_ros_navigation_goal
+[4.506s] running symlink_data
+[4.555s] Invoked command in '/workspaces/ros2-coding/build/isaac_ros_navigation_goal' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/isaac_ros_navigation_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/isaac_ros_navigation_goal/build --no-deps symlink_data
