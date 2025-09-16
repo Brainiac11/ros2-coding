@@ -1,0 +1,36 @@
+[0.040s] Invoking command in '/workspaces/ros2-coding/build/isaac_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/isaac_moveit
+[0.270s] -- The C compiler identification is GNU 13.3.0
+[0.393s] -- The CXX compiler identification is GNU 13.3.0
+[0.430s] -- Detecting C compiler ABI info
+[0.808s] -- Detecting C compiler ABI info - done
+[0.844s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.844s] -- Detecting C compile features
+[0.848s] -- Detecting C compile features - done
+[0.900s] -- Detecting CXX compiler ABI info
+[1.305s] -- Detecting CXX compiler ABI info - done
+[1.347s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.348s] -- Detecting CXX compile features
+[1.352s] -- Detecting CXX compile features - done
+[1.412s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.378s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.652s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.475s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[3.958s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[3.960s]   By not providing "Findmoveit.cmake" in CMAKE_MODULE_PATH this project has
+[3.962s]   asked CMake to find a package configuration file provided by "moveit", but
+[3.963s]   CMake did not find one.
+[3.963s] 
+[3.964s]   Could not find a package configuration file provided by "moveit" with any
+[3.964s]   of the following names:
+[3.964s] 
+[3.964s]     moveitConfig.cmake
+[3.964s]     moveit-config.cmake
+[3.967s] 
+[3.967s]   Add the installation prefix of "moveit" to CMAKE_PREFIX_PATH or set
+[3.968s]   "moveit_DIR" to a directory containing one of the above files.  If "moveit"
+[3.968s]   provides a separate development package or SDK, be sure it has been
+[3.968s]   installed.
+[3.970s] 
+[3.970s] [0m
+[3.971s] -- Configuring incomplete, errors occurred!
+[3.979s] Invoked command in '/workspaces/ros2-coding/build/isaac_moveit' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/isaac_moveit

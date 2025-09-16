@@ -1,0 +1,36 @@
+[0.030s] Invoking command in '/workspaces/ros2-coding/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/custom_message -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/custom_message
+[0.540s] -- The C compiler identification is GNU 13.3.0
+[0.909s] -- The CXX compiler identification is GNU 13.3.0
+[0.963s] -- Detecting C compiler ABI info
+[1.282s] -- Detecting C compiler ABI info - done
+[1.308s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.308s] -- Detecting C compile features
+[1.310s] -- Detecting C compile features - done
+[1.332s] -- Detecting CXX compiler ABI info
+[1.769s] -- Detecting CXX compiler ABI info - done
+[1.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.825s] -- Detecting CXX compile features
+[1.827s] -- Detecting CXX compile features - done
+[1.900s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.679s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.842s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.334s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.708s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.936s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.787s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.155s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.316s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[9.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.207s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[11.757s] -- Found PythonExtra: /usr/bin/python3  
+[13.470s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[13.581s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[13.790s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.800s] -- Added test 'lint_cmake' to check CMake code style
+[13.804s] -- Added test 'xmllint' to check XML markup files
+[13.815s] -- Configuring done (13.8s)
+[13.894s] -- Generating done (0.1s)
+[13.914s] -- Build files have been written to: /workspaces/ros2-coding/build/custom_message
