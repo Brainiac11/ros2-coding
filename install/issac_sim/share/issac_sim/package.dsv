@@ -1,0 +1,9 @@
+source;share/issac_sim/hook/pythonpath.ps1
+source;share/issac_sim/hook/pythonpath.dsv
+source;share/issac_sim/hook/pythonpath.sh
+source;share/issac_sim/hook/ament_prefix_path.ps1
+source;share/issac_sim/hook/ament_prefix_path.dsv
+source;share/issac_sim/hook/ament_prefix_path.sh
+source;../../build/issac_sim/share/issac_sim/hook/pythonpath_develop.ps1
+source;../../build/issac_sim/share/issac_sim/hook/pythonpath_develop.dsv
+source;../../build/issac_sim/share/issac_sim/hook/pythonpath_develop.sh

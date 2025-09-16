@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/turtlesim_ws/src/navigation/carter_navigation/launch/nova_carter_description_isaac_sim.launch.py

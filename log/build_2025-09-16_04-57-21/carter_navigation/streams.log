@@ -1,0 +1,41 @@
+[0.056s] Invoking command in '/workspaces/ros2-coding/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/carter_navigation -- -j2 -l2
+[0.374s] Invoked command in '/workspaces/ros2-coding/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/carter_navigation -- -j2 -l2
+[0.486s] Invoking command in '/workspaces/ros2-coding/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/carter_navigation
+[0.559s] -- Install configuration: ""
+[0.563s] -- Execute custom install script
+[0.564s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/launch/carter_navigation.launch.py
+[0.645s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/launch/carter_navigation_individual.launch.py
+[0.683s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/launch/carter_navigation_isaacsim.launch.py
+[0.721s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/launch/multiple_robot_carter_navigation_hospital.launch.py
+[0.771s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/launch/multiple_robot_carter_navigation_office.launch.py
+[0.798s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/launch/nova_carter_description_isaac_sim.launch.py
+[0.839s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/params/carter_navigation_params.yaml
+[0.879s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/params/hospital/multi_robot_carter_navigation_params_1.yaml
+[0.909s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/params/hospital/multi_robot_carter_navigation_params_2.yaml
+[0.947s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/params/hospital/multi_robot_carter_navigation_params_3.yaml
+[0.974s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/params/office/multi_robot_carter_navigation_params_1.yaml
+[1.017s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/params/office/multi_robot_carter_navigation_params_2.yaml
+[1.050s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/params/office/multi_robot_carter_navigation_params_3.yaml
+[1.080s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/maps/carter_hospital_navigation.png
+[1.120s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/maps/carter_hospital_navigation.yaml
+[1.150s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/maps/carter_office_navigation.png
+[1.195s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/maps/carter_office_navigation.yaml
+[1.221s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/maps/carter_warehouse_navigation.png
+[1.251s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/maps/carter_warehouse_navigation.yaml
+[1.276s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/rviz2/carter_navigation.rviz
+[1.307s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/rviz2/carter_navigation_namespaced.rviz
+[1.373s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/ament_index/resource_index/package_run_dependencies/carter_navigation
+[1.451s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/ament_index/resource_index/parent_prefix_path/carter_navigation
+[1.509s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/environment/ament_prefix_path.sh
+[1.552s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/environment/ament_prefix_path.dsv
+[1.585s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/environment/path.sh
+[1.613s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/environment/path.dsv
+[1.649s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/local_setup.bash
+[1.673s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/local_setup.sh
+[1.708s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/local_setup.zsh
+[1.736s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/local_setup.dsv
+[1.769s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/package.dsv
+[1.793s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/ament_index/resource_index/packages/carter_navigation
+[1.826s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/cmake/carter_navigationConfig.cmake
+[1.858s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/cmake/carter_navigationConfig-version.cmake
+[1.884s] -- Symlinking: /workspaces/ros2-coding/install/carter_navigation/share/carter_navigation/package.xml

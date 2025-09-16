@@ -1,0 +1,21 @@
+[0.033s] Invoking command in '/workspaces/ros2-coding/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/navigation/carter_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/carter_navigation
+[0.406s] -- The C compiler identification is GNU 13.3.0
+[0.769s] -- The CXX compiler identification is GNU 13.3.0
+[0.843s] -- Detecting C compiler ABI info
+[1.105s] -- Detecting C compiler ABI info - done
+[1.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.143s] -- Detecting C compile features
+[1.145s] -- Detecting C compile features - done
+[1.167s] -- Detecting CXX compiler ABI info
+[1.420s] -- Detecting CXX compiler ABI info - done
+[1.451s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.451s] -- Detecting CXX compile features
+[1.454s] -- Detecting CXX compile features - done
+[1.568s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.526s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.857s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.746s] -- Configuring done (3.7s)
+[3.762s] -- Generating done (0.0s)
+[3.773s] -- Build files have been written to: /workspaces/ros2-coding/build/carter_navigation
+[3.784s] Invoked command in '/workspaces/ros2-coding/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/navigation/carter_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/carter_navigation
+[3.788s] Invoking command in '/workspaces/ros2-coding/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/carter_navigation -- -j2 -l2
