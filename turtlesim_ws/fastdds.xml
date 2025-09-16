@@ -31,6 +31,14 @@ limitations under the License.
                 <transport_id>UdpTransport</transport_id>
             </userTransports>
             <useBuiltinTransports>false</useBuiltinTransports>
+
+            <discovery>
+                <discovery_config>
+                    <discovery_server_list>
+                        <remote_server_ip>34.125.213.226</remote_server_ip>
+                        <remote_server_port>49100</remote_server_port> </discovery_server_list>
+                </discovery_config>
+            </discovery>
         </rtps>
     </participant>
 </profiles>
