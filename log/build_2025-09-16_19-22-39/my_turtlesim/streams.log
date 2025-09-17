@@ -1,0 +1,17 @@
+[1.854s] Invoking command in '/workspaces/ros2-coding/build/my_turtlesim': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build --no-deps symlink_data
+[2.479s] running develop
+[2.893s] running egg_info
+[2.919s] writing my_turtlesim.egg-info/PKG-INFO
+[2.919s] writing dependency_links to my_turtlesim.egg-info/dependency_links.txt
+[2.919s] writing entry points to my_turtlesim.egg-info/entry_points.txt
+[2.920s] writing requirements to my_turtlesim.egg-info/requires.txt
+[2.922s] writing top-level names to my_turtlesim.egg-info/top_level.txt
+[2.978s] reading manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+[2.979s] writing manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+[3.011s] running build_ext
+[3.011s] Creating /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my-turtlesim.egg-link (link to .)
+[3.012s] Installing move_turtle script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+[3.012s] 
+[3.012s] Installed /workspaces/ros2-coding/build/my_turtlesim
+[3.013s] running symlink_data
+[3.078s] Invoked command in '/workspaces/ros2-coding/build/my_turtlesim' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build --no-deps symlink_data

@@ -2,6 +2,7 @@ package.xml
 setup.cfg
 setup.py
 my_turtlesim/__init__.py
+my_turtlesim/better_move.py
 my_turtlesim/move_turtle.py
 my_turtlesim.egg-info/PKG-INFO
 my_turtlesim.egg-info/SOURCES.txt

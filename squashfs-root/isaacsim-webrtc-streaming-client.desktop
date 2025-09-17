@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Isaac Sim WebRTC Streaming Client
+Exec=AppRun --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=isaacsim-webrtc-streaming-client
+StartupWMClass=Isaac Sim WebRTC Streaming Client
+X-AppImage-Version=1.1.4.238
+Comment=A sample providing a minimal setup to provide a React-based Electron Kit app streaming client based on ov-react-app-streamer, Vite and TypeScript.
+Categories=Utility;

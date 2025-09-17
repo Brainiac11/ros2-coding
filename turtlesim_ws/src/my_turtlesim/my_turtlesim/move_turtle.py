@@ -19,7 +19,7 @@ ANGULAR_THRESHOLD = 0.001
 # Constant multiplier for angular velocity when turtle is rotating in place
 ANGULAR_GAIN = 4.0
 
-# Turtle will stop moving to new position when the distance to the new position is within this threshold.
+# Turtle will stop moving to new position when the dis  tance to the new position is within this threshold.
 LINEAR_THRESHOLD = 0.001
 
 # Constant multiplier for linear velocity when turtle is moving to a new position
