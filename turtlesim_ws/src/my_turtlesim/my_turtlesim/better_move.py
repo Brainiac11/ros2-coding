@@ -7,6 +7,7 @@ from geometry_msgs.msg import Vector3
 from turtlesim.msg import Pose
 from std_srvs.srv import Empty
 from turtlesim.srv import SetPen
+import pose_math
 
 LINEAR_ACCELERATION_RATE = 0.5
 ANGULAR_ACCELERATION_RATE = 0.5
@@ -21,7 +22,7 @@ class BetterMove(Node):
         self.pose_subscriber = self.create_subscription(Pose, "turtle1/pose", self.process_pose, 10)
 
     def process_current_vel(self):
-        self.turtle_vel = self.turtle_pose. self.prev_pose
+        self.turtle_vel = pose_math
 
     def process_pose(self, pose: Pose):
         self.turtle_pose = pose
