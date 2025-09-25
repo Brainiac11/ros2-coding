@@ -1,0 +1,1 @@
+controller_manager:controller_manager_msgs:gazebo:gazebo_ros2_control:gz-sim:gz_ros2_control:joint_state_broadcaster:joint_trajectory_controller:rclcpp:rclpy:robot_state_publisher:ros2_control:ros2_controllers:ros_gz:sensor_msgs:std_msgs:trajectory_msgs:xacro

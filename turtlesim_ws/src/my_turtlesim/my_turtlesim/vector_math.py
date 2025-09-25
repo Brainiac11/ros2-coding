@@ -1,4 +1,6 @@
 from geometry_msgs.msg import Vector3
+import math
+import numpy as np
 
 
 class VectorMath:
@@ -57,3 +59,36 @@ class VectorMath:
         Returns cross product of v1 and v2
         """
         return Vector3(x = v1.y*v2.z - v1.z*v2.y, y = v1.x*v2.z - v1.z*v2.x, z = v1.z*v2.y - v1.y*v2.x)
+    @staticmethod
+    def normalize(v1: Vector3) -> Vector3:
+        """
+        Returns a unit vector in the same direction as v1
+        """
+        mag = VectorMath.magnitude(v1)
+        if mag == 0:
+            return Vector3()
+        return VectorMath.divide(v1=v1, v2=Vector3(x=mag, y=mag, z=mag))
+    @staticmethod
+    def to_cylindrical(v1: Vector3) -> Vector3:
+        """
+        Converts rectangular coordinate system Vector to cylindrical coordinates
+        """
+        r = (v1.x**2 + v1.y**2)**0.5
+        theta = math.atan2(v1.y, v1.x)
+        return Vector3(x=r, y=theta, z=v1.z)
+    @staticmethod
+    def to_spherical(v1: Vector3) -> Vector3:
+        """
+        Converts rectangular coordinate system Vector to spherical coordinates
+        """
+        r = (v1.x**2 + v1.y**2)**0.5
+        theta = math.atan2(v1.y, v1.x)
+        return Vector3(x=r, y=theta, z=v1.z)
+    @staticmethod
+    def rotate_by(v1: Vector3, r1: Vector3) -> Vector3:
+        """
+        Returns the Vector resulting from the 3d rotation in r1
+        Assumes that v1 is in rectangular coordinates
+        Assumes that r1 is in radians
+        """
+        

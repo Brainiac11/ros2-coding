@@ -1,0 +1,5 @@
+[0.012s] Invoking command in '/workspaces/ros2-coding/build/nao_gz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/nao_gz_control -- -j4 -l4
+[0.109s] [0mCMake Error: The source directory "/workspaces/ros2-coding/jazzy_ws/src/nao_gz_control" does not exist.
+[0.110s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.122s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.128s] Invoked command in '/workspaces/ros2-coding/build/nao_gz_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/nao_gz_control -- -j4 -l4

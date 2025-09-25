@@ -1,0 +1,17 @@
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/launch/bringup.launch.py
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/config/controllers.yaml
+/workspaces/ros2-coding/install/nao_gz_control/share/ament_index/resource_index/package_run_dependencies/nao_gz_control
+/workspaces/ros2-coding/install/nao_gz_control/share/ament_index/resource_index/parent_prefix_path/nao_gz_control
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/environment/ament_prefix_path.sh
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/environment/ament_prefix_path.dsv
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/environment/path.sh
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/environment/path.dsv
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/local_setup.bash
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/local_setup.sh
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/local_setup.zsh
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/local_setup.dsv
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/package.dsv
+/workspaces/ros2-coding/install/nao_gz_control/share/ament_index/resource_index/packages/nao_gz_control
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/cmake/nao_gz_controlConfig.cmake
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/cmake/nao_gz_controlConfig-version.cmake
+/workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/package.xml

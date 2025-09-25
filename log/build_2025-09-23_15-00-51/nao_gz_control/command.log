@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/ros2-coding/build/nao_gz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/nao_gz_control -- -j4 -l4
+Invoked command in '/workspaces/ros2-coding/build/nao_gz_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/nao_gz_control -- -j4 -l4

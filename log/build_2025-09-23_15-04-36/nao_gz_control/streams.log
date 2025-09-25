@@ -1,0 +1,23 @@
+[0.133s] Invoking command in '/workspaces/ros2-coding/build/nao_gz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/nao_gz_control -- -j4 -l4
+[0.335s] Invoked command in '/workspaces/ros2-coding/build/nao_gz_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/nao_gz_control -- -j4 -l4
+[0.336s] Invoking command in '/workspaces/ros2-coding/build/nao_gz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/nao_gz_control
+[0.425s] -- Install configuration: ""
+[0.426s] -- Execute custom install script
+[0.427s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/launch/bringup.launch.py
+[0.434s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/config/controllers.yaml
+[0.435s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/ament_index/resource_index/package_run_dependencies/nao_gz_control
+[0.435s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/ament_index/resource_index/parent_prefix_path/nao_gz_control
+[0.436s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/environment/ament_prefix_path.sh
+[0.436s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/environment/ament_prefix_path.dsv
+[0.438s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/environment/path.sh
+[0.438s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/environment/path.dsv
+[0.440s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/local_setup.bash
+[0.440s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/local_setup.sh
+[0.442s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/local_setup.zsh
+[0.442s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/local_setup.dsv
+[0.443s] -- Symlinking: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/package.dsv
+[0.509s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/ament_index/resource_index/packages/nao_gz_control
+[0.510s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/cmake/nao_gz_controlConfig.cmake
+[0.510s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/cmake/nao_gz_controlConfig-version.cmake
+[0.512s] -- Up-to-date symlink: /workspaces/ros2-coding/install/nao_gz_control/share/nao_gz_control/package.xml
+[0.519s] Invoked command in '/workspaces/ros2-coding/build/nao_gz_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/nao_gz_control

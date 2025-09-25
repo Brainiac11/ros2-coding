@@ -1,0 +1,15 @@
+[3.917s] Invoking command in '/workspaces/ros2-coding/build/issac_sim': PYTHONPATH=/workspaces/ros2-coding/build/issac_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/issac_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/issac_sim/build --no-deps symlink_data
+[5.789s] running develop
+[6.512s] running egg_info
+[6.598s] writing issac_sim.egg-info/PKG-INFO
+[6.599s] writing dependency_links to issac_sim.egg-info/dependency_links.txt
+[6.600s] writing requirements to issac_sim.egg-info/requires.txt
+[6.600s] writing top-level names to issac_sim.egg-info/top_level.txt
+[6.705s] reading manifest file 'issac_sim.egg-info/SOURCES.txt'
+[6.705s] writing manifest file 'issac_sim.egg-info/SOURCES.txt'
+[6.800s] running build_ext
+[6.801s] Creating /workspaces/ros2-coding/install/issac_sim/lib/python3.12/site-packages/issac-sim.egg-link (link to .)
+[6.801s] 
+[6.803s] Installed /workspaces/ros2-coding/build/issac_sim
+[6.803s] running symlink_data
+[6.851s] Invoked command in '/workspaces/ros2-coding/build/issac_sim' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/issac_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/issac_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/issac_sim/build --no-deps symlink_data

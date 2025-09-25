@@ -27,7 +27,7 @@ class BetterMove(Node):
     def process_pose(self, pose: Pose):
         self.turtle_pose = pose
     def move(self, twist: Twist):
-        new_twist = Twist(linear=Vector3(x=(((twist.linear.x-self.turtle_vel.linear.x)*LINEAR_ACCELERATION_RATE)+self.turtle_vel.linear.x), y=(((twist.linear.y-self.turtle_vel.linear.y)*LINEAR_ACCELERATION_RATE)+self.turtle_vel.linear.y), z=0),angular=Vector3(x=(((twist.angular.x-self.turtle_vel.angular.x)*ANGULAR_ACCELERATION_RATE)+self.turtle_vel.angular.x)))
+        # new_twist = Twist(linear=Vector3(x=(((twist.linear.x-self.turtle_vel.linear.x)*LINEAR_ACCELERATION_RATE)+self.turtle_vel.linear.x), y=(((twist.linear.y-self.turtle_vel.linear.y)*LINEAR_ACCELERATION_RATE)+self.turtle_vel.linear.y), z=0),angular=Vector3(x=(((twist.angular.x-self.turtle_vel.angular.x)*ANGULAR_ACCELERATION_RATE)+self.turtle_vel.angular.x)))
         self.vel_publisher.publish(twist)
     def run(self, speed: float):
         self.move(twist=Twist(linear=Vector3(x=speed), angular=Vector3(x=speed)))

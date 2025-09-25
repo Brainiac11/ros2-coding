@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/ros2-coding/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_tutorials -- -j4 -l4
+Invoked command in '/workspaces/ros2-coding/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_tutorials -- -j4 -l4
+Invoking command in '/workspaces/ros2-coding/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_tutorials
+Invoked command in '/workspaces/ros2-coding/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_tutorials
