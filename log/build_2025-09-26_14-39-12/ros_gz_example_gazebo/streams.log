@@ -1,0 +1,294 @@
+[0.087s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:/workspaces/ros2-coding/install/nao_gz_control:/workspaces/ros2-coding/install/ros2_controllers:/workspaces/ros2-coding/install/ros2_control_demos:/workspaces/ros2-coding/install/ros2_control_demo_example_3:/workspaces/ros2-coding/install/gz_ros2_control_demos:/workspaces/ros2-coding/install/velocity_controllers:/workspaces/ros2-coding/install/tricycle_steering_controller:/workspaces/ros2-coding/install/tricycle_controller:/workspaces/ros2-coding/install/ros2_control_demo_example_8:/workspaces/ros2-coding/install/ros2_control:/workspaces/ros2-coding/install/transmission_interface:/workspaces/ros2-coding/install/ros2_control_demo_example_11:/workspaces/ros2-coding/install/bicycle_steering_controller:/workspaces/ros2-coding/install/ackermann_steering_controller:/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/ros2_control_demo_example_17:/workspaces/ros2-coding/install/ros2_control_demo_example_15:/workspaces/ros2-coding/install/ros2_control_demo_example_1:/workspaces/ros2-coding/install/ros2_control_demo_example_9:/workspaces/ros2-coding/install/ros2_control_demo_example_7:/workspaces/ros2-coding/install/ros2_control_demo_example_6:/workspaces/ros2-coding/install/ros2_control_demo_example_13:/workspaces/ros2-coding/install/ros2_control_demo_example_5:/workspaces/ros2-coding/install/ros2_control_demo_example_4:/workspaces/ros2-coding/install/ros2_control_demo_example_2:/workspaces/ros2-coding/install/ros2_control_demo_example_16:/workspaces/ros2-coding/install/ros2_control_demo_example_14:/workspaces/ros2-coding/install/ros2_control_demo_example_12:/workspaces/ros2-coding/install/ros2_control_demo_example_10:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/gz_ros2_control:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_demo_description:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/range_sensor_broadcaster:/workspaces/ros2-coding/install/position_controllers:/workspaces/ros2-coding/install/pose_broadcaster:/workspaces/ros2-coding/install/pid_controller:/workspaces/ros2-coding/install/parallel_gripper_controller:/workspaces/ros2-coding/install/omni_wheel_drive_controller:/workspaces/ros2-coding/install/mecanum_drive_controller:/workspaces/ros2-coding/install/joint_trajectory_controller:/workspaces/ros2-coding/install/joint_state_topic_hardware_interface:/workspaces/ros2-coding/install/joint_state_broadcaster:/workspaces/ros2-coding/install/imu_sensor_broadcaster:/workspaces/ros2-coding/install/gripper_controllers:/workspaces/ros2-coding/install/gps_sensor_broadcaster:/workspaces/ros2-coding/install/gpio_controllers:/workspaces/ros2-coding/install/effort_controllers:/workspaces/ros2-coding/install/forward_command_controller:/workspaces/ros2-coding/install/force_torque_sensor_broadcaster:/workspaces/ros2-coding/install/diff_drive_controller:/workspaces/ros2-coding/install/chained_filter_controller:/workspaces/ros2-coding/install/admittance_controller:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/control_toolbox:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/kinematics_interface_kdl:/workspaces/ros2-coding/install/kinematics_interface:/workspaces/ros2-coding/install/iw_hub_navigation:/workspaces/ros2-coding/install/isaacsim:/workspaces/ros2-coding/install/isaac_tutorials:/workspaces/ros2-coding/install/isaac_ros2_messages:/workspaces/ros2-coding/install/isaac_moveit:/workspaces/ros2-coding/install/h1_fullbody_controller:/workspaces/ros2-coding/install/gz_ros2_control_tests:/workspaces/ros2-coding/install/custom_message:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/workspaces/ros2-coding/install/cmdvel_to_ackermann:/workspaces/ros2-coding/install/carter_navigation:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros_gz_example_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros_gz_example_gazebo
+[0.171s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.010s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.022s] -- Found ros_gz_example_description: 0.0.0 (/workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/cmake)
+[1.055s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.056s] -- Searching for dependencies of gz-plugin2
+[1.056s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.064s] -- Searching for dependencies of gz-utils2
+[1.065s] -- Searching for <gz-utils2> component [cli]
+[1.068s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[1.069s] -- Searching for dependencies of gz-utils2-cli
+[1.073s] -- Searching for <gz-plugin2> component [register]
+[1.078s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[1.079s] -- Searching for dependencies of gz-plugin2-register
+[1.083s] -- Looking for gz-common5 -- found version 5.7.1
+[1.083s] -- Searching for dependencies of gz-common5
+[1.083s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.094s] -- Looking for dlfcn.h - found
+[1.094s] -- Looking for libdl - found
+[1.134s] -- Checking for module 'uuid'
+[1.291s] --   Found uuid, version 2.39.3
+[1.460s] -- Searching for <gz-common5> component [profiler]
+[1.467s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[1.468s] -- Searching for dependencies of gz-common5-profiler
+[1.593s] -- Looking for gz-sim8 -- found version 8.9.0
+[1.594s] -- Searching for dependencies of gz-sim8
+[1.657s] -- Looking for sdformat14 -- found version 14.8.0
+[1.658s] -- Searching for dependencies of sdformat14
+[1.678s] -- Checking for module 'tinyxml2'
+[1.819s] --   Found tinyxml2, version 10.0.0
+[2.113s] -- Looking for gz-math7 -- found version 7.5.2
+[2.113s] -- Searching for dependencies of gz-math7
+[2.114s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.122s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.125s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.125s] -- Searching for dependencies of gz-plugin2
+[2.126s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.126s] -- Searching for <gz-plugin2> component [loader]
+[2.185s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[2.208s] -- Searching for dependencies of gz-plugin2-loader
+[2.208s] -- Searching for <gz-plugin2> component [register]
+[2.291s] -- Looking for gz-transport13 -- found version 13.4.1
+[2.291s] -- Searching for dependencies of gz-transport13
+[3.614s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[3.805s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.831s] -- Checking for module 'libzmq >= 4'
+[3.988s] --   Found libzmq, version 4.3.5
+[4.327s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.356s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.426s] -- Looking for gz-msgs10 -- found version 10.3.2
+[4.427s] -- Searching for dependencies of gz-msgs10
+[4.503s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.506s] -- Looking for gz-math7 -- found version 7.5.2
+[4.548s] -- Searching for <gz-transport13> component [log]
+[4.581s] -- Looking for gz-transport13-log -- found version 13.4.1
+[4.584s] -- Searching for dependencies of gz-transport13-log
+[4.590s] -- Searching for <gz-transport13> component [parameters]
+[4.631s] -- Looking for gz-transport13-parameters -- found version 13.4.1
+[4.631s] -- Searching for dependencies of gz-transport13-parameters
+[4.642s] -- Looking for gz-msgs10 -- found version 10.3.2
+[4.643s] -- Looking for gz-common5 -- found version 5.7.1
+[4.643s] -- Searching for dependencies of gz-common5
+[4.643s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.644s] -- Looking for dlfcn.h - found
+[4.644s] -- Looking for libdl - found
+[4.661s] -- Searching for <gz-common5> component [av]
+[4.697s] -- Looking for gz-common5-av -- found version 5.7.1
+[4.698s] -- Searching for dependencies of gz-common5-av
+[4.703s] -- Checking for module 'libswscale'
+[4.791s] --   Found libswscale, version 7.5.100
+[4.895s] -- Found SWSCALE: TRUE  
+[4.912s] -- Checking for module 'libavdevice >= 56.4.100'
+[5.045s] --   Found libavdevice, version 60.3.100
+[5.451s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[5.484s] -- Checking for module 'libavformat'
+[5.609s] --   Found libavformat, version 60.16.100
+[5.917s] -- Found AVFORMAT: TRUE  
+[5.949s] -- Checking for module 'libavcodec'
+[6.067s] --   Found libavcodec, version 60.31.102
+[6.281s] -- Found AVCODEC: TRUE  
+[6.327s] -- Checking for module 'libavutil'
+[6.473s] --   Found libavutil, version 58.29.100
+[6.736s] -- Found AVUTIL: TRUE  
+[6.737s] -- Searching for <gz-common5> component [events]
+[6.794s] -- Looking for gz-common5-events -- found version 5.7.1
+[6.795s] -- Searching for dependencies of gz-common5-events
+[6.797s] -- Looking for gz-math7 -- found version 7.5.2
+[6.803s] -- Searching for <gz-common5> component [graphics]
+[6.890s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[6.896s] -- Searching for dependencies of gz-common5-graphics
+[6.897s] -- Looking for gz-math7 -- found version 7.5.2
+[7.113s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[7.127s] -- Searching for <gz-common5> component [io]
+[7.191s] -- Looking for gz-common5-io -- found version 5.7.1
+[7.194s] -- Searching for dependencies of gz-common5-io
+[7.195s] -- Searching for <gz-common5> component [profiler]
+[7.297s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[7.297s] -- Searching for dependencies of gz-fuel_tools9
+[7.949s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[8.035s] -- Checking for module 'jsoncpp'
+[8.182s] --   Found jsoncpp, version 1.9.5
+[8.381s] -- Found JSONCPP: TRUE  
+[8.444s] -- Checking for module 'yaml-0.1'
+[8.517s] --   Found yaml-0.1, version 0.2.5
+[8.687s] -- Found YAML: TRUE  
+[8.720s] -- Checking for module 'libzip'
+[8.843s] --   Found libzip, version 1.7.3
+[9.035s] -- Found ZIP: TRUE  
+[9.039s] -- Looking for gz-utils2 -- found version 2.2.1
+[9.040s] -- Looking for gz-common5 -- found version 5.7.1
+[9.040s] -- Searching for dependencies of gz-common5
+[9.045s] -- Looking for gz-utils2 -- found version 2.2.1
+[9.045s] -- Looking for dlfcn.h - found
+[9.045s] -- Looking for libdl - found
+[9.085s] -- Searching for <gz-common5> component [testing]
+[9.154s] -- Looking for gz-common5-testing -- found version 5.7.1
+[9.155s] -- Searching for dependencies of gz-common5-testing
+[9.158s] -- Looking for gz-math7 -- found version 7.5.2
+[9.161s] -- Looking for gz-msgs10 -- found version 10.3.2
+[9.213s] -- Looking for gz-gui8 -- found version 8.4.0
+[9.214s] -- Searching for dependencies of gz-gui8
+[9.405s] -- Looking for gz-utils2 -- found version 2.2.1
+[9.406s] -- Looking for gz-math7 -- found version 7.5.2
+[9.406s] -- Looking for gz-common5 -- found version 5.7.1
+[9.407s] -- Looking for gz-plugin2 -- found version 2.0.4
+[9.407s] -- Looking for gz-transport13 -- found version 13.4.1
+[9.443s] -- Looking for gz-rendering8 -- found version 8.2.2
+[9.445s] -- Searching for dependencies of gz-rendering8
+[9.446s] -- Looking for gz-math7 -- found version 7.5.2
+[9.449s] -- Searching for dependencies of gz-math7
+[9.449s] -- Looking for gz-utils2 -- found version 2.2.1
+[9.449s] -- Searching for <gz-math7> component [eigen3]
+[9.519s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[9.522s] -- Searching for dependencies of gz-math7-eigen3
+[9.659s] -- Looking for gz-common5 -- found version 5.7.1
+[9.661s] -- Searching for dependencies of gz-common5
+[9.665s] -- Looking for gz-utils2 -- found version 2.2.1
+[9.665s] -- Looking for dlfcn.h - found
+[9.666s] -- Looking for libdl - found
+[9.696s] -- Searching for <gz-common5> component [graphics]
+[9.701s] -- Searching for <gz-common5> component [events]
+[9.702s] -- Searching for <gz-common5> component [geospatial]
+[9.763s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[9.764s] -- Searching for dependencies of gz-common5-geospatial
+[9.765s] -- Looking for gz-math7 -- found version 7.5.2
+[9.766s] -- Looking for gz-common5 -- found version 5.7.1
+[9.775s] -- Looking for gz-plugin2 -- found version 2.0.4
+[9.776s] -- Searching for dependencies of gz-plugin2
+[9.776s] -- Looking for gz-utils2 -- found version 2.2.1
+[9.777s] -- Searching for <gz-plugin2> component [all]
+[9.858s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[9.858s] -- Looking for gz-plugin2 -- found version 2.0.4
+[9.863s] -- Looking for gz-utils2 -- found version 2.2.1
+[10.102s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[10.113s] -- Looking for gz-msgs10 -- found version 10.3.2
+[10.877s] -- Looking for gz-physics7 -- found version 7.5.0
+[10.878s] -- Searching for dependencies of gz-physics7
+[10.879s] -- Looking for gz-common5 -- found version 5.7.1
+[10.882s] -- Looking for gz-math7 -- found version 7.5.2
+[10.887s] -- Looking for gz-plugin2 -- found version 2.0.4
+[10.888s] -- Looking for gz-utils2 -- found version 2.2.1
+[10.895s] -- Searching for <gz-physics7> component [heightmap]
+[10.922s] -- Looking for gz-physics7-heightmap -- found version 7.5.0
+[10.923s] -- Searching for dependencies of gz-physics7-heightmap
+[10.925s] -- Looking for gz-common5 -- found version 5.7.1
+[10.927s] -- Searching for <gz-physics7> component [mesh]
+[10.964s] -- Looking for gz-physics7-mesh -- found version 7.5.0
+[10.975s] -- Searching for dependencies of gz-physics7-mesh
+[10.975s] -- Looking for gz-common5 -- found version 5.7.1
+[10.985s] -- Searching for <gz-physics7> component [sdf]
+[11.033s] -- Looking for gz-physics7-sdf -- found version 7.5.0
+[11.034s] -- Searching for dependencies of gz-physics7-sdf
+[11.037s] -- Looking for sdformat14 -- found version 14.8.0
+[11.072s] -- Looking for gz-sensors8 -- found version 8.2.2
+[11.072s] -- Searching for dependencies of gz-sensors8
+[11.189s] -- Looking for gz-math7 -- found version 7.5.2
+[11.189s] -- Looking for gz-common5 -- found version 5.7.1
+[11.197s] -- Looking for gz-transport13 -- found version 13.4.1
+[11.197s] -- Looking for gz-rendering8 -- found version 8.2.2
+[11.198s] -- Looking for gz-msgs10 -- found version 10.3.2
+[11.202s] -- Looking for sdformat14 -- found version 14.8.0
+[11.209s] -- Searching for <gz-sensors8> component [air_pressure]
+[11.267s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[11.268s] -- Searching for dependencies of gz-sensors8-air_pressure
+[11.268s] -- Searching for <gz-sensors8> component [air_speed]
+[11.325s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[11.326s] -- Searching for dependencies of gz-sensors8-air_speed
+[11.326s] -- Searching for <gz-sensors8> component [altimeter]
+[11.377s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[11.378s] -- Searching for dependencies of gz-sensors8-altimeter
+[11.383s] -- Searching for <gz-sensors8> component [imu]
+[11.421s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[11.421s] -- Searching for dependencies of gz-sensors8-imu
+[11.425s] -- Searching for <gz-sensors8> component [force_torque]
+[11.473s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[11.476s] -- Searching for dependencies of gz-sensors8-force_torque
+[11.476s] -- Searching for <gz-sensors8> component [logical_camera]
+[11.520s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[11.520s] -- Searching for dependencies of gz-sensors8-logical_camera
+[11.528s] -- Searching for <gz-sensors8> component [magnetometer]
+[11.549s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[11.549s] -- Searching for dependencies of gz-sensors8-magnetometer
+[11.549s] -- Searching for <gz-sensors8> component [navsat]
+[11.592s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[11.594s] -- Searching for dependencies of gz-sensors8-navsat
+[11.596s] -- Searching for <gz-sensors8> component [dvl]
+[11.636s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[11.637s] -- Searching for dependencies of gz-sensors8-dvl
+[11.638s] -- Looking for gz-sensors8 -- found version 8.2.2
+[11.639s] -- Searching for dependencies of gz-sensors8
+[11.754s] -- Looking for gz-math7 -- found version 7.5.2
+[11.758s] -- Looking for gz-common5 -- found version 5.7.1
+[11.758s] -- Looking for gz-transport13 -- found version 13.4.1
+[11.761s] -- Looking for gz-rendering8 -- found version 8.2.2
+[11.762s] -- Looking for gz-msgs10 -- found version 10.3.2
+[11.768s] -- Looking for sdformat14 -- found version 14.8.0
+[11.768s] -- Searching for <gz-sensors8> component [rendering]
+[11.828s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[11.828s] -- Searching for dependencies of gz-sensors8-rendering
+[11.835s] -- Searching for <gz-sensors8> component [rendering]
+[11.835s] -- Searching for <gz-sensors8> component [lidar]
+[11.877s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[11.883s] -- Searching for dependencies of gz-sensors8-lidar
+[11.884s] -- Looking for gz-sensors8 -- found version 8.2.2
+[11.884s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[11.908s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[11.908s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[11.911s] -- Looking for gz-sensors8 -- found version 8.2.2
+[11.914s] -- Searching for <gz-sensors8> component [camera]
+[11.936s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[11.937s] -- Searching for dependencies of gz-sensors8-camera
+[11.940s] -- Looking for gz-sensors8 -- found version 8.2.2
+[11.941s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[11.963s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[11.964s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[11.966s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[12.001s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[12.001s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[12.003s] -- Searching for <gz-sensors8> component [depth_camera]
+[12.028s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[12.029s] -- Searching for dependencies of gz-sensors8-depth_camera
+[12.029s] -- Looking for gz-sensors8 -- found version 8.2.2
+[12.035s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[12.052s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[12.052s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[12.054s] -- Looking for gz-sensors8 -- found version 8.2.2
+[12.055s] -- Searching for <gz-sensors8> component [thermal_camera]
+[12.075s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[12.076s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[12.076s] -- Looking for gz-sensors8 -- found version 8.2.2
+[12.076s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[12.095s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[12.095s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[12.100s] -- Looking for gz-rendering8 -- found version 8.2.2
+[12.101s] -- Looking for gz-math7 -- found version 7.5.2
+[12.101s] -- Looking for gz-utils2 -- found version 2.2.1
+[12.172s] -- Compiling against Gazebo Harmonic
+[12.204s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[12.490s] -- Configuring done (12.3s)
+[13.127s] -- Generating done (0.6s)
+[13.141s] -- Build files have been written to: /workspaces/ros2-coding/build/ros_gz_example_gazebo
+[13.155s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:/workspaces/ros2-coding/install/nao_gz_control:/workspaces/ros2-coding/install/ros2_controllers:/workspaces/ros2-coding/install/ros2_control_demos:/workspaces/ros2-coding/install/ros2_control_demo_example_3:/workspaces/ros2-coding/install/gz_ros2_control_demos:/workspaces/ros2-coding/install/velocity_controllers:/workspaces/ros2-coding/install/tricycle_steering_controller:/workspaces/ros2-coding/install/tricycle_controller:/workspaces/ros2-coding/install/ros2_control_demo_example_8:/workspaces/ros2-coding/install/ros2_control:/workspaces/ros2-coding/install/transmission_interface:/workspaces/ros2-coding/install/ros2_control_demo_example_11:/workspaces/ros2-coding/install/bicycle_steering_controller:/workspaces/ros2-coding/install/ackermann_steering_controller:/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/ros2_control_demo_example_17:/workspaces/ros2-coding/install/ros2_control_demo_example_15:/workspaces/ros2-coding/install/ros2_control_demo_example_1:/workspaces/ros2-coding/install/ros2_control_demo_example_9:/workspaces/ros2-coding/install/ros2_control_demo_example_7:/workspaces/ros2-coding/install/ros2_control_demo_example_6:/workspaces/ros2-coding/install/ros2_control_demo_example_13:/workspaces/ros2-coding/install/ros2_control_demo_example_5:/workspaces/ros2-coding/install/ros2_control_demo_example_4:/workspaces/ros2-coding/install/ros2_control_demo_example_2:/workspaces/ros2-coding/install/ros2_control_demo_example_16:/workspaces/ros2-coding/install/ros2_control_demo_example_14:/workspaces/ros2-coding/install/ros2_control_demo_example_12:/workspaces/ros2-coding/install/ros2_control_demo_example_10:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/gz_ros2_control:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_demo_description:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/range_sensor_broadcaster:/workspaces/ros2-coding/install/position_controllers:/workspaces/ros2-coding/install/pose_broadcaster:/workspaces/ros2-coding/install/pid_controller:/workspaces/ros2-coding/install/parallel_gripper_controller:/workspaces/ros2-coding/install/omni_wheel_drive_controller:/workspaces/ros2-coding/install/mecanum_drive_controller:/workspaces/ros2-coding/install/joint_trajectory_controller:/workspaces/ros2-coding/install/joint_state_topic_hardware_interface:/workspaces/ros2-coding/install/joint_state_broadcaster:/workspaces/ros2-coding/install/imu_sensor_broadcaster:/workspaces/ros2-coding/install/gripper_controllers:/workspaces/ros2-coding/install/gps_sensor_broadcaster:/workspaces/ros2-coding/install/gpio_controllers:/workspaces/ros2-coding/install/effort_controllers:/workspaces/ros2-coding/install/forward_command_controller:/workspaces/ros2-coding/install/force_torque_sensor_broadcaster:/workspaces/ros2-coding/install/diff_drive_controller:/workspaces/ros2-coding/install/chained_filter_controller:/workspaces/ros2-coding/install/admittance_controller:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/control_toolbox:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/kinematics_interface_kdl:/workspaces/ros2-coding/install/kinematics_interface:/workspaces/ros2-coding/install/iw_hub_navigation:/workspaces/ros2-coding/install/isaacsim:/workspaces/ros2-coding/install/isaac_tutorials:/workspaces/ros2-coding/install/isaac_ros2_messages:/workspaces/ros2-coding/install/isaac_moveit:/workspaces/ros2-coding/install/h1_fullbody_controller:/workspaces/ros2-coding/install/gz_ros2_control_tests:/workspaces/ros2-coding/install/custom_message:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/workspaces/ros2-coding/install/cmdvel_to_ackermann:/workspaces/ros2-coding/install/carter_navigation:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros_gz_example_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros_gz_example_gazebo
+[13.159s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:/workspaces/ros2-coding/install/nao_gz_control:/workspaces/ros2-coding/install/ros2_controllers:/workspaces/ros2-coding/install/ros2_control_demos:/workspaces/ros2-coding/install/ros2_control_demo_example_3:/workspaces/ros2-coding/install/gz_ros2_control_demos:/workspaces/ros2-coding/install/velocity_controllers:/workspaces/ros2-coding/install/tricycle_steering_controller:/workspaces/ros2-coding/install/tricycle_controller:/workspaces/ros2-coding/install/ros2_control_demo_example_8:/workspaces/ros2-coding/install/ros2_control:/workspaces/ros2-coding/install/transmission_interface:/workspaces/ros2-coding/install/ros2_control_demo_example_11:/workspaces/ros2-coding/install/bicycle_steering_controller:/workspaces/ros2-coding/install/ackermann_steering_controller:/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/ros2_control_demo_example_17:/workspaces/ros2-coding/install/ros2_control_demo_example_15:/workspaces/ros2-coding/install/ros2_control_demo_example_1:/workspaces/ros2-coding/install/ros2_control_demo_example_9:/workspaces/ros2-coding/install/ros2_control_demo_example_7:/workspaces/ros2-coding/install/ros2_control_demo_example_6:/workspaces/ros2-coding/install/ros2_control_demo_example_13:/workspaces/ros2-coding/install/ros2_control_demo_example_5:/workspaces/ros2-coding/install/ros2_control_demo_example_4:/workspaces/ros2-coding/install/ros2_control_demo_example_2:/workspaces/ros2-coding/install/ros2_control_demo_example_16:/workspaces/ros2-coding/install/ros2_control_demo_example_14:/workspaces/ros2-coding/install/ros2_control_demo_example_12:/workspaces/ros2-coding/install/ros2_control_demo_example_10:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/gz_ros2_control:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_demo_description:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/range_sensor_broadcaster:/workspaces/ros2-coding/install/position_controllers:/workspaces/ros2-coding/install/pose_broadcaster:/workspaces/ros2-coding/install/pid_controller:/workspaces/ros2-coding/install/parallel_gripper_controller:/workspaces/ros2-coding/install/omni_wheel_drive_controller:/workspaces/ros2-coding/install/mecanum_drive_controller:/workspaces/ros2-coding/install/joint_trajectory_controller:/workspaces/ros2-coding/install/joint_state_topic_hardware_interface:/workspaces/ros2-coding/install/joint_state_broadcaster:/workspaces/ros2-coding/install/imu_sensor_broadcaster:/workspaces/ros2-coding/install/gripper_controllers:/workspaces/ros2-coding/install/gps_sensor_broadcaster:/workspaces/ros2-coding/install/gpio_controllers:/workspaces/ros2-coding/install/effort_controllers:/workspaces/ros2-coding/install/forward_command_controller:/workspaces/ros2-coding/install/force_torque_sensor_broadcaster:/workspaces/ros2-coding/install/diff_drive_controller:/workspaces/ros2-coding/install/chained_filter_controller:/workspaces/ros2-coding/install/admittance_controller:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/control_toolbox:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/kinematics_interface_kdl:/workspaces/ros2-coding/install/kinematics_interface:/workspaces/ros2-coding/install/iw_hub_navigation:/workspaces/ros2-coding/install/isaacsim:/workspaces/ros2-coding/install/isaac_tutorials:/workspaces/ros2-coding/install/isaac_ros2_messages:/workspaces/ros2-coding/install/isaac_moveit:/workspaces/ros2-coding/install/h1_fullbody_controller:/workspaces/ros2-coding/install/gz_ros2_control_tests:/workspaces/ros2-coding/install/custom_message:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/workspaces/ros2-coding/install/cmdvel_to_ackermann:/workspaces/ros2-coding/install/carter_navigation:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/ros_gz_example_gazebo -- -j4 -l4
+[13.392s] [ 25%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[18.089s] [ 50%] [32m[1mLinking CXX shared library libBasicSystem.so[0m
+[18.458s] [ 50%] Built target BasicSystem
+[18.562s] [ 75%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+[21.600s] [100%] [32m[1mLinking CXX shared library libFullSystem.so[0m
+[21.905s] [100%] Built target FullSystem
+[21.936s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:/workspaces/ros2-coding/install/nao_gz_control:/workspaces/ros2-coding/install/ros2_controllers:/workspaces/ros2-coding/install/ros2_control_demos:/workspaces/ros2-coding/install/ros2_control_demo_example_3:/workspaces/ros2-coding/install/gz_ros2_control_demos:/workspaces/ros2-coding/install/velocity_controllers:/workspaces/ros2-coding/install/tricycle_steering_controller:/workspaces/ros2-coding/install/tricycle_controller:/workspaces/ros2-coding/install/ros2_control_demo_example_8:/workspaces/ros2-coding/install/ros2_control:/workspaces/ros2-coding/install/transmission_interface:/workspaces/ros2-coding/install/ros2_control_demo_example_11:/workspaces/ros2-coding/install/bicycle_steering_controller:/workspaces/ros2-coding/install/ackermann_steering_controller:/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/ros2_control_demo_example_17:/workspaces/ros2-coding/install/ros2_control_demo_example_15:/workspaces/ros2-coding/install/ros2_control_demo_example_1:/workspaces/ros2-coding/install/ros2_control_demo_example_9:/workspaces/ros2-coding/install/ros2_control_demo_example_7:/workspaces/ros2-coding/install/ros2_control_demo_example_6:/workspaces/ros2-coding/install/ros2_control_demo_example_13:/workspaces/ros2-coding/install/ros2_control_demo_example_5:/workspaces/ros2-coding/install/ros2_control_demo_example_4:/workspaces/ros2-coding/install/ros2_control_demo_example_2:/workspaces/ros2-coding/install/ros2_control_demo_example_16:/workspaces/ros2-coding/install/ros2_control_demo_example_14:/workspaces/ros2-coding/install/ros2_control_demo_example_12:/workspaces/ros2-coding/install/ros2_control_demo_example_10:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/gz_ros2_control:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_demo_description:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/range_sensor_broadcaster:/workspaces/ros2-coding/install/position_controllers:/workspaces/ros2-coding/install/pose_broadcaster:/workspaces/ros2-coding/install/pid_controller:/workspaces/ros2-coding/install/parallel_gripper_controller:/workspaces/ros2-coding/install/omni_wheel_drive_controller:/workspaces/ros2-coding/install/mecanum_drive_controller:/workspaces/ros2-coding/install/joint_trajectory_controller:/workspaces/ros2-coding/install/joint_state_topic_hardware_interface:/workspaces/ros2-coding/install/joint_state_broadcaster:/workspaces/ros2-coding/install/imu_sensor_broadcaster:/workspaces/ros2-coding/install/gripper_controllers:/workspaces/ros2-coding/install/gps_sensor_broadcaster:/workspaces/ros2-coding/install/gpio_controllers:/workspaces/ros2-coding/install/effort_controllers:/workspaces/ros2-coding/install/forward_command_controller:/workspaces/ros2-coding/install/force_torque_sensor_broadcaster:/workspaces/ros2-coding/install/diff_drive_controller:/workspaces/ros2-coding/install/chained_filter_controller:/workspaces/ros2-coding/install/admittance_controller:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/control_toolbox:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/kinematics_interface_kdl:/workspaces/ros2-coding/install/kinematics_interface:/workspaces/ros2-coding/install/iw_hub_navigation:/workspaces/ros2-coding/install/isaacsim:/workspaces/ros2-coding/install/isaac_tutorials:/workspaces/ros2-coding/install/isaac_ros2_messages:/workspaces/ros2-coding/install/isaac_moveit:/workspaces/ros2-coding/install/h1_fullbody_controller:/workspaces/ros2-coding/install/gz_ros2_control_tests:/workspaces/ros2-coding/install/custom_message:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/workspaces/ros2-coding/install/cmdvel_to_ackermann:/workspaces/ros2-coding/install/carter_navigation:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /workspaces/ros2-coding/build/ros_gz_example_gazebo -- -j4 -l4
+[21.938s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:/workspaces/ros2-coding/install/nao_gz_control:/workspaces/ros2-coding/install/ros2_controllers:/workspaces/ros2-coding/install/ros2_control_demos:/workspaces/ros2-coding/install/ros2_control_demo_example_3:/workspaces/ros2-coding/install/gz_ros2_control_demos:/workspaces/ros2-coding/install/velocity_controllers:/workspaces/ros2-coding/install/tricycle_steering_controller:/workspaces/ros2-coding/install/tricycle_controller:/workspaces/ros2-coding/install/ros2_control_demo_example_8:/workspaces/ros2-coding/install/ros2_control:/workspaces/ros2-coding/install/transmission_interface:/workspaces/ros2-coding/install/ros2_control_demo_example_11:/workspaces/ros2-coding/install/bicycle_steering_controller:/workspaces/ros2-coding/install/ackermann_steering_controller:/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/ros2_control_demo_example_17:/workspaces/ros2-coding/install/ros2_control_demo_example_15:/workspaces/ros2-coding/install/ros2_control_demo_example_1:/workspaces/ros2-coding/install/ros2_control_demo_example_9:/workspaces/ros2-coding/install/ros2_control_demo_example_7:/workspaces/ros2-coding/install/ros2_control_demo_example_6:/workspaces/ros2-coding/install/ros2_control_demo_example_13:/workspaces/ros2-coding/install/ros2_control_demo_example_5:/workspaces/ros2-coding/install/ros2_control_demo_example_4:/workspaces/ros2-coding/install/ros2_control_demo_example_2:/workspaces/ros2-coding/install/ros2_control_demo_example_16:/workspaces/ros2-coding/install/ros2_control_demo_example_14:/workspaces/ros2-coding/install/ros2_control_demo_example_12:/workspaces/ros2-coding/install/ros2_control_demo_example_10:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/gz_ros2_control:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_demo_description:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/range_sensor_broadcaster:/workspaces/ros2-coding/install/position_controllers:/workspaces/ros2-coding/install/pose_broadcaster:/workspaces/ros2-coding/install/pid_controller:/workspaces/ros2-coding/install/parallel_gripper_controller:/workspaces/ros2-coding/install/omni_wheel_drive_controller:/workspaces/ros2-coding/install/mecanum_drive_controller:/workspaces/ros2-coding/install/joint_trajectory_controller:/workspaces/ros2-coding/install/joint_state_topic_hardware_interface:/workspaces/ros2-coding/install/joint_state_broadcaster:/workspaces/ros2-coding/install/imu_sensor_broadcaster:/workspaces/ros2-coding/install/gripper_controllers:/workspaces/ros2-coding/install/gps_sensor_broadcaster:/workspaces/ros2-coding/install/gpio_controllers:/workspaces/ros2-coding/install/effort_controllers:/workspaces/ros2-coding/install/forward_command_controller:/workspaces/ros2-coding/install/force_torque_sensor_broadcaster:/workspaces/ros2-coding/install/diff_drive_controller:/workspaces/ros2-coding/install/chained_filter_controller:/workspaces/ros2-coding/install/admittance_controller:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/control_toolbox:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/kinematics_interface_kdl:/workspaces/ros2-coding/install/kinematics_interface:/workspaces/ros2-coding/install/iw_hub_navigation:/workspaces/ros2-coding/install/isaacsim:/workspaces/ros2-coding/install/isaac_tutorials:/workspaces/ros2-coding/install/isaac_ros2_messages:/workspaces/ros2-coding/install/isaac_moveit:/workspaces/ros2-coding/install/h1_fullbody_controller:/workspaces/ros2-coding/install/gz_ros2_control_tests:/workspaces/ros2-coding/install/custom_message:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/workspaces/ros2-coding/install/cmdvel_to_ackermann:/workspaces/ros2-coding/install/carter_navigation:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/ros_gz_example_gazebo
+[21.962s] -- Install configuration: ""
+[21.963s] -- Execute custom install script
+[21.964s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/lib/ros_gz_example_gazebo/libBasicSystem.so
+[21.991s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/lib/ros_gz_example_gazebo/libFullSystem.so
+[22.019s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/worlds/diff_drive.sdf
+[22.046s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ros_gz_example_gazebo.dsv
+[22.067s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ros_gz_example_gazebo.sh
+[22.093s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_gazebo
+[22.124s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_gazebo
+[22.167s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ament_prefix_path.sh
+[22.194s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ament_prefix_path.dsv
+[22.227s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/path.sh
+[22.252s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/path.dsv
+[22.284s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.bash
+[22.308s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.sh
+[22.333s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.zsh
+[22.365s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.dsv
+[22.401s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/package.dsv
+[22.429s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ament_index/resource_index/packages/ros_gz_example_gazebo
+[22.475s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/cmake/ros_gz_example_gazeboConfig.cmake
+[22.501s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/cmake/ros_gz_example_gazeboConfig-version.cmake
+[22.547s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/package.xml
+[22.575s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/ros_gz_example_description:/workspaces/ros2-coding/install/nao_gz_control:/workspaces/ros2-coding/install/ros2_controllers:/workspaces/ros2-coding/install/ros2_control_demos:/workspaces/ros2-coding/install/ros2_control_demo_example_3:/workspaces/ros2-coding/install/gz_ros2_control_demos:/workspaces/ros2-coding/install/velocity_controllers:/workspaces/ros2-coding/install/tricycle_steering_controller:/workspaces/ros2-coding/install/tricycle_controller:/workspaces/ros2-coding/install/ros2_control_demo_example_8:/workspaces/ros2-coding/install/ros2_control:/workspaces/ros2-coding/install/transmission_interface:/workspaces/ros2-coding/install/ros2_control_demo_example_11:/workspaces/ros2-coding/install/bicycle_steering_controller:/workspaces/ros2-coding/install/ackermann_steering_controller:/workspaces/ros2-coding/install/steering_controllers_library:/workspaces/ros2-coding/install/ros2_control_demo_example_17:/workspaces/ros2-coding/install/ros2_control_demo_example_15:/workspaces/ros2-coding/install/ros2_control_demo_example_1:/workspaces/ros2-coding/install/ros2_control_demo_example_9:/workspaces/ros2-coding/install/ros2_control_demo_example_7:/workspaces/ros2-coding/install/ros2_control_demo_example_6:/workspaces/ros2-coding/install/ros2_control_demo_example_13:/workspaces/ros2-coding/install/ros2_control_demo_example_5:/workspaces/ros2-coding/install/ros2_control_demo_example_4:/workspaces/ros2-coding/install/ros2_control_demo_example_2:/workspaces/ros2-coding/install/ros2_control_demo_example_16:/workspaces/ros2-coding/install/ros2_control_demo_example_14:/workspaces/ros2-coding/install/ros2_control_demo_example_12:/workspaces/ros2-coding/install/ros2_control_demo_example_10:/workspaces/ros2-coding/install/hardware_interface_testing:/workspaces/ros2-coding/install/gz_ros2_control:/workspaces/ros2-coding/install/controller_manager:/workspaces/ros2-coding/install/ros2_control_test_assets:/workspaces/ros2-coding/install/ros2_control_demo_description:/workspaces/ros2-coding/install/ros2_control_cmake:/workspaces/ros2-coding/install/range_sensor_broadcaster:/workspaces/ros2-coding/install/position_controllers:/workspaces/ros2-coding/install/pose_broadcaster:/workspaces/ros2-coding/install/pid_controller:/workspaces/ros2-coding/install/parallel_gripper_controller:/workspaces/ros2-coding/install/omni_wheel_drive_controller:/workspaces/ros2-coding/install/mecanum_drive_controller:/workspaces/ros2-coding/install/joint_trajectory_controller:/workspaces/ros2-coding/install/joint_state_topic_hardware_interface:/workspaces/ros2-coding/install/joint_state_broadcaster:/workspaces/ros2-coding/install/imu_sensor_broadcaster:/workspaces/ros2-coding/install/gripper_controllers:/workspaces/ros2-coding/install/gps_sensor_broadcaster:/workspaces/ros2-coding/install/gpio_controllers:/workspaces/ros2-coding/install/effort_controllers:/workspaces/ros2-coding/install/forward_command_controller:/workspaces/ros2-coding/install/force_torque_sensor_broadcaster:/workspaces/ros2-coding/install/diff_drive_controller:/workspaces/ros2-coding/install/chained_filter_controller:/workspaces/ros2-coding/install/admittance_controller:/workspaces/ros2-coding/install/controller_interface:/workspaces/ros2-coding/install/hardware_interface:/workspaces/ros2-coding/install/joint_limits:/workspaces/ros2-coding/install/control_toolbox:/workspaces/ros2-coding/install/realtime_tools:/workspaces/ros2-coding/install/kinematics_interface_kdl:/workspaces/ros2-coding/install/kinematics_interface:/workspaces/ros2-coding/install/iw_hub_navigation:/workspaces/ros2-coding/install/isaacsim:/workspaces/ros2-coding/install/isaac_tutorials:/workspaces/ros2-coding/install/isaac_ros2_messages:/workspaces/ros2-coding/install/isaac_moveit:/workspaces/ros2-coding/install/h1_fullbody_controller:/workspaces/ros2-coding/install/gz_ros2_control_tests:/workspaces/ros2-coding/install/custom_message:/workspaces/ros2-coding/install/controller_manager_msgs:/workspaces/ros2-coding/install/control_msgs:/workspaces/ros2-coding/install/cmdvel_to_ackermann:/workspaces/ros2-coding/install/carter_navigation:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy GZ_SIM_RESOURCE_PATH=/workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /workspaces/ros2-coding/build/ros_gz_example_gazebo

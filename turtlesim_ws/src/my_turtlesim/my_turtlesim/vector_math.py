@@ -84,11 +84,11 @@ class VectorMath:
         r = (v1.x**2 + v1.y**2)**0.5
         theta = math.atan2(v1.y, v1.x)
         return Vector3(x=r, y=theta, z=v1.z)
-    @staticmethod
-    def rotate_by(v1: Vector3, r1: Vector3) -> Vector3:
-        """
-        Returns the Vector resulting from the 3d rotation in r1
-        Assumes that v1 is in rectangular coordinates
-        Assumes that r1 is in radians
-        """
+    # @staticmethod
+    # def rotate_by(v1: Vector3, r1: Vector3) -> Vector3:
+    #     """
+    #     Returns the Vector resulting from the 3d rotation in r1
+    #     Assumes that v1 is in rectangular coordinates
+    #     Assumes that r1 is in radians
+    #     """
         

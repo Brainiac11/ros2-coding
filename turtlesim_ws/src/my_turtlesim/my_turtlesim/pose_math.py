@@ -44,4 +44,4 @@ class PoseMath:
     @staticmethod
     def unaryMinus(p: Pose):
         pose = Pose()
-        pose.position = Vector3(x = -p.position.x, p.po)
+        # pose.position = Vector3(x = -p.position.x, p.po)

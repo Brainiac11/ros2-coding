@@ -1,0 +1,19 @@
+[0.084s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros_gz_example_application -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros_gz_example_application
+[0.448s] -- The C compiler identification is GNU 13.3.0
+[0.763s] -- The CXX compiler identification is GNU 13.3.0
+[0.879s] -- Detecting C compiler ABI info
+[1.649s] -- Detecting C compiler ABI info - done
+[1.669s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.669s] -- Detecting C compile features
+[1.670s] -- Detecting C compile features - done
+[1.694s] -- Detecting CXX compiler ABI info
+[2.187s] -- Detecting CXX compiler ABI info - done
+[2.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.225s] -- Detecting CXX compile features
+[2.225s] -- Detecting CXX compile features - done
+[2.301s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.232s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.443s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.149s] -- Configuring done (4.0s)
+[4.160s] -- Generating done (0.0s)
+[4.164s] -- Build files have been written to: /workspaces/ros2-coding/build/ros_gz_example_application
