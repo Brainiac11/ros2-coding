@@ -23,4 +23,15 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# Install the URDF and launch files so they are available at runtime
+install(FILES
+  include/${PROJECT_NAME}/h1_2_simplified.urdf
+  DESTINATION share/${PROJECT_NAME}/urdf
+)
+
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()

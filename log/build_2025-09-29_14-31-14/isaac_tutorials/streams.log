@@ -1,0 +1,40 @@
+[0.084s] Invoking command in '/workspaces/ros2-coding/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/isaac_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/isaac_tutorials
+[0.170s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.717s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.756s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.084s] -- Configuring done (1.0s)
+[1.222s] -- Generating done (0.1s)
+[1.232s] -- Build files have been written to: /workspaces/ros2-coding/build/isaac_tutorials
+[1.241s] Invoked command in '/workspaces/ros2-coding/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/isaac_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/isaac_tutorials
+[1.241s] Invoking command in '/workspaces/ros2-coding/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_tutorials -- -j4 -l4
+[1.429s] Invoked command in '/workspaces/ros2-coding/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_tutorials -- -j4 -l4
+[1.433s] Invoking command in '/workspaces/ros2-coding/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_tutorials
+[1.463s] -- Install configuration: ""
+[1.466s] -- Execute custom install script
+[1.467s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_lidar.rviz
+[1.467s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_manual.rviz
+[1.467s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/carter_stereo.rviz
+[1.468s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/rtx_lidar.rviz
+[1.469s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/turtle_stereo.rviz
+[1.469s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_ackermann_publisher.py
+[1.469s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher.py
+[1.469s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher_multi_mode.py
+[1.469s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher_test.py
+[1.469s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/lib/isaac_tutorials/ros2_publisher.py
+[1.470s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/lib/isaac_tutorials/ros2_ackermann_publisher.py
+[1.470s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/ament_index/resource_index/package_run_dependencies/isaac_tutorials
+[1.470s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/ament_index/resource_index/parent_prefix_path/isaac_tutorials
+[1.471s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.sh
+[1.471s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.dsv
+[1.472s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/environment/path.sh
+[1.473s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/environment/path.dsv
+[1.474s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/local_setup.bash
+[1.474s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/local_setup.sh
+[1.474s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/local_setup.zsh
+[1.474s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/local_setup.dsv
+[1.474s] -- Symlinking: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/package.dsv
+[1.502s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/ament_index/resource_index/packages/isaac_tutorials
+[1.503s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig.cmake
+[1.503s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig-version.cmake
+[1.503s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/package.xml
+[1.505s] Invoked command in '/workspaces/ros2-coding/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_tutorials

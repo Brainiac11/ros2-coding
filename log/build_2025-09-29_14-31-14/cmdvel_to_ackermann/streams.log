@@ -1,0 +1,39 @@
+[0.041s] Invoking command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/cmdvel_to_ackermann -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/cmdvel_to_ackermann
+[0.182s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.769s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.785s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.789s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[0.849s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.870s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.065s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.274s] -- Configuring done (1.2s)
+[1.283s] -- Generating done (0.0s)
+[1.290s] -- Build files have been written to: /workspaces/ros2-coding/build/cmdvel_to_ackermann
+[1.370s] Invoked command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/cmdvel_to_ackermann -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/cmdvel_to_ackermann
+[1.371s] Invoking command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/cmdvel_to_ackermann -- -j4 -l4
+[1.586s] Invoked command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/cmdvel_to_ackermann -- -j4 -l4
+[1.588s] Invoking command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/cmdvel_to_ackermann
+[1.612s] -- Install configuration: ""
+[1.615s] -- Execute custom install script
+[1.615s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/scripts/__init__.py
+[1.615s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/scripts/cmdvel_to_ackermann.py
+[1.622s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/launch/cmdvel_to_ackermann.launch.py
+[1.622s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/lib/cmdvel_to_ackermann/cmdvel_to_ackermann.py
+[1.622s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/ament_index/resource_index/package_run_dependencies/cmdvel_to_ackermann
+[1.622s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/ament_index/resource_index/parent_prefix_path/cmdvel_to_ackermann
+[1.622s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/ament_prefix_path.sh
+[1.623s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/ament_prefix_path.dsv
+[1.623s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/path.sh
+[1.623s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/path.dsv
+[1.623s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.bash
+[1.628s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.sh
+[1.628s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.zsh
+[1.628s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.dsv
+[1.628s] -- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.dsv
+[1.661s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/ament_index/resource_index/packages/cmdvel_to_ackermann
+[1.662s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/cmake/cmdvel_to_ackermannConfig.cmake
+[1.663s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/cmake/cmdvel_to_ackermannConfig-version.cmake
+[1.664s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.xml
+[1.667s] Invoked command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/cmdvel_to_ackermann

@@ -1,0 +1,2 @@
+source;share/diff_drive_mover/environment/ament_prefix_path.sh
+source;share/diff_drive_mover/environment/path.sh

@@ -1,0 +1,18 @@
+[2.117s] Invoking command in '/workspaces/ros2-coding/build/my_turtlesim': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build --no-deps symlink_data
+[3.070s] running develop
+[3.491s] running egg_info
+[3.525s] writing my_turtlesim.egg-info/PKG-INFO
+[3.526s] writing dependency_links to my_turtlesim.egg-info/dependency_links.txt
+[3.526s] writing entry points to my_turtlesim.egg-info/entry_points.txt
+[3.526s] writing requirements to my_turtlesim.egg-info/requires.txt
+[3.527s] writing top-level names to my_turtlesim.egg-info/top_level.txt
+[3.593s] reading manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+[3.597s] writing manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+[3.636s] running build_ext
+[3.637s] Creating /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my-turtlesim.egg-link (link to .)
+[3.639s] Installing better_move script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+[3.640s] Installing move_turtle script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+[3.642s] 
+[3.645s] Installed /workspaces/ros2-coding/build/my_turtlesim
+[3.645s] running symlink_data
+[3.695s] Invoked command in '/workspaces/ros2-coding/build/my_turtlesim' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build --no-deps symlink_data

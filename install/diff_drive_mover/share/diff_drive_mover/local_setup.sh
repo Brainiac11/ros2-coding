@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/diff_drive_mover/ament_cmake_environment_hooks/local_setup.sh
