@@ -1,1740 +1,1757 @@
+<?xml version="1.0" ?>
 <sdf version='1.11'>
-  <world name="gazebo_world">
-    <!-- A global light source -->
-    <include>
-      <uri>model://sun</uri>
-    </include>
-
-    <!-- The standard ground plane -->
-    <include>
-      <uri>model://ground_plane</uri>
-    </include>
-      <model name='h1_5'>
-        <link name='pelvis'>
-          <inertial>
-            <pose>-0.00040000000000000002 3.6999999999999998e-05 -0.046864000000000003 0 0 0</pose>
-            <mass>5.9829999999999997</mass>
-            <inertia>
-              <ixx>0.049168411000000002</ixx>
-              <ixy>-1.9868999999999999e-05</ixy>
-              <ixz>-4.846e-05</ixz>
-              <iyy>0.0090258439999999999</iyy>
-              <iyz>3.4309999999999998e-06</iyz>
-              <izz>0.053155890999999997</izz>
-            </inertia>
-          </inertial>
-          <visual name='pelvis_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/pelvis.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_hip_yaw_joint' type='revolute'>
-          <pose relative_to='pelvis'>0 0.087499999999999994 -0.16320000000000001 0 0 0</pose>
-          <parent>pelvis</parent>
-          <child>left_hip_yaw_link</child>
-          <axis>
-            <xyz>0 0 1</xyz>
-            <limit>
-              <lower>-0.42999999999999999</lower>
-              <upper>0.42999999999999999</upper>
-              <effort>200</effort>
-              <velocity>23</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_hip_yaw_link'>
-          <pose relative_to='left_hip_yaw_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0 -0.026197000000000002 0.0066470000000000001 0 0 0</pose>
-            <mass>2.8290000000000002</mass>
-            <inertia>
-              <ixx>0.0045536049999999996</ixx>
-              <ixy>5.0000000000000001e-09</ixy>
-              <ixz>8.1699999999999997e-07</ixz>
-              <iyy>0.0056887300000000003</iyy>
-              <iyz>-0.00034515700000000002</iyz>
-              <izz>0.003548907</izz>
-            </inertia>
-          </inertial>
-          <visual name='left_hip_yaw_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_hip_yaw_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_hip_pitch_joint' type='revolute'>
-          <pose relative_to='left_hip_yaw_link'>0 0.075499999999999998 0 0 0 0</pose>
-          <parent>left_hip_yaw_link</parent>
-          <child>left_hip_pitch_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-3.1400000000000001</lower>
-              <upper>2.5</upper>
-              <effort>200</effort>
-              <velocity>23</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_hip_pitch_link'>
-          <pose relative_to='left_hip_pitch_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>-0.0078100000000000001 -0.0047239999999999999 -6.3e-05 0 0 0</pose>
-            <mass>2.9199999999999999</mass>
-            <inertia>
-              <ixx>0.0055947000000000002</ixx>
-              <ixy>0.000143308</ixy>
-              <ixz>-1.1847e-05</ixz>
-              <iyy>0.0038625809999999999</iyy>
-              <iyz>-9.6069999999999997e-06</iyz>
-              <izz>0.0044505630000000003</izz>
-            </inertia>
-          </inertial>
-          <visual name='left_hip_pitch_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_hip_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_hip_roll_joint' type='revolute'>
-          <pose relative_to='left_hip_pitch_link'>0 0 0 0 0 0</pose>
-          <parent>left_hip_pitch_link</parent>
-          <child>left_hip_roll_link</child>
-          <axis>
-            <xyz>1 0 0</xyz>
-            <limit>
-              <lower>-0.42999999999999999</lower>
-              <upper>3.1400000000000001</upper>
-              <effort>200</effort>
-              <velocity>23</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_hip_roll_link'>
-          <pose relative_to='left_hip_roll_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.0041710000000000002 -0.0085760000000000003 -0.19450899999999999 0 0 0</pose>
-            <mass>4.9619999999999997</mass>
-            <inertia>
-              <ixx>0.046305869</ixx>
-              <ixy>-0.00032262600000000001</ixy>
-              <ixz>-0.0011997030000000001</ixz>
-              <iyy>0.047955402000000001</iyy>
-              <iyz>0.00028814699999999999</iyz>
-              <izz>0.0089145179999999997</izz>
-            </inertia>
-          </inertial>
-          <visual name='left_hip_roll_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_hip_roll_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_knee_joint' type='revolute'>
-          <pose relative_to='left_hip_roll_link'>0 0 -0.40000000000000002 0 0 0</pose>
-          <parent>left_hip_roll_link</parent>
-          <child>left_knee_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-0.26000000000000001</lower>
-              <upper>2.0499999999999998</upper>
-              <effort>300</effort>
-              <velocity>14</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_knee_link'>
-          <pose relative_to='left_knee_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.00017899999999999999 0.000121 -0.168936 0 0 0</pose>
-            <mass>3.839</mass>
-            <inertia>
-              <ixx>0.039002362999999998</ixx>
-              <ixy>-7.2364e-05</ixy>
-              <ixz>-0.00079450600000000005</ixz>
-              <iyy>0.039042375999999997</iyy>
-              <iyz>-1.8663000000000001e-05</iyz>
-              <izz>0.0050298290000000004</izz>
-            </inertia>
-          </inertial>
-          <collision name='left_knee_link_collision'>
-            <pose>0 0 -0.20000000000000001 0 0 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.20000000000000001</length>
-                <radius>0.02</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <visual name='left_knee_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_knee_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_ankle_pitch_joint' type='revolute'>
-          <pose relative_to='left_knee_link'>0 0 -0.40000000000000002 0 0 0</pose>
-          <parent>left_knee_link</parent>
-          <child>left_ankle_pitch_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-0.89733399999999996</lower>
-              <upper>0.52359800000000001</upper>
-              <effort>60</effort>
-              <velocity>9</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_ankle_pitch_link'>
-          <pose relative_to='left_ankle_pitch_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>-0.00029399999999999999 0 -0.010794 0 0 0</pose>
-            <mass>0.10199999999999999</mass>
-            <inertia>
-              <ixx>2.3944e-05</ixx>
-              <ixy>0</ixy>
-              <ixz>1.2100000000000001e-07</ixz>
-              <iyy>2.1837000000000001e-05</iyy>
-              <iyz>0</iyz>
-              <izz>1.3414000000000001e-05</izz>
-            </inertia>
-          </inertial>
-          <visual name='left_ankle_pitch_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_ankle_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_ankle_roll_joint' type='revolute'>
-          <pose relative_to='left_ankle_pitch_link'>0 0 -0.02 0 0 0</pose>
-          <parent>left_ankle_pitch_link</parent>
-          <child>left_ankle_roll_link</child>
-          <axis>
-            <xyz>1 0 0</xyz>
-            <limit>
-              <lower>-0.261799</lower>
-              <upper>0.261799</upper>
-              <effort>40</effort>
-              <velocity>9</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_ankle_roll_link'>
-          <pose relative_to='left_ankle_roll_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.029589000000000001 0 -0.015973000000000001 0 0 0</pose>
-            <mass>0.747</mass>
-            <inertia>
-              <ixx>0.00064882999999999998</ixx>
-              <ixy>0</ixy>
-              <ixz>0.00015838000000000001</ixz>
-              <iyy>0.0034353389999999999</iyy>
-              <iyz>0</iyz>
-              <izz>0.0035832590000000001</izz>
-            </inertia>
-          </inertial>
-          <collision name='left_ankle_roll_link_collision'>
-            <pose>-0.080000000000000002 0 -0.040000000000000001 1.5707963267948959 0 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.075999999999999998</length>
-                <radius>0.0050000000000000001</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <collision name='left_ankle_roll_link_collision_1'>
-            <pose>0.17000000000000001 0 -0.040000000000000001 1.5707963267948959 0 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.042000000000000003</length>
-                <radius>0.0050000000000000001</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <collision name='left_ankle_roll_link_collision_2'>
-            <pose>0.027 -0.037999999999999999 -0.040000000000000001 0 1.5707963267948966 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.20999999999999999</length>
-                <radius>0.0050000000000000001</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <collision name='left_ankle_roll_link_collision_3'>
-            <pose>0.027 0.037999999999999999 -0.040000000000000001 0 1.5707963267948966 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.20999999999999999</length>
-                <radius>0.0050000000000000001</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <visual name='left_ankle_roll_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_ankle_roll_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_hip_yaw_joint' type='revolute'>
-          <pose relative_to='pelvis'>0 -0.087499999999999994 -0.16320000000000001 0 0 0</pose>
-          <parent>pelvis</parent>
-          <child>right_hip_yaw_link</child>
-          <axis>
-            <xyz>0 0 1</xyz>
-            <limit>
-              <lower>-0.42999999999999999</lower>
-              <upper>0.42999999999999999</upper>
-              <effort>200</effort>
-              <velocity>23</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_hip_yaw_link'>
-          <pose relative_to='right_hip_yaw_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0 0.026197000000000002 0.0066470000000000001 0 0 0</pose>
-            <mass>2.8290000000000002</mass>
-            <inertia>
-              <ixx>0.0045536049999999996</ixx>
-              <ixy>-5.0000000000000001e-09</ixy>
-              <ixz>8.1699999999999997e-07</ixz>
-              <iyy>0.0056887300000000003</iyy>
-              <iyz>0.00034515700000000002</iyz>
-              <izz>0.003548907</izz>
-            </inertia>
-          </inertial>
-          <visual name='right_hip_yaw_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_hip_yaw_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_hip_pitch_joint' type='revolute'>
-          <pose relative_to='right_hip_yaw_link'>0 -0.075499999999999998 0 0 0 0</pose>
-          <parent>right_hip_yaw_link</parent>
-          <child>right_hip_pitch_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-3.1400000000000001</lower>
-              <upper>2.5</upper>
-              <effort>200</effort>
-              <velocity>23</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_hip_pitch_link'>
-          <pose relative_to='right_hip_pitch_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>-0.0078100000000000001 0.0047239999999999999 -6.3e-05 0 0 0</pose>
-            <mass>2.9199999999999999</mass>
-            <inertia>
-              <ixx>0.0055947000000000002</ixx>
-              <ixy>-0.000143308</ixy>
-              <ixz>-1.1847e-05</ixz>
-              <iyy>0.0038625809999999999</iyy>
-              <iyz>9.6069999999999997e-06</iyz>
-              <izz>0.0044505630000000003</izz>
-            </inertia>
-          </inertial>
-          <visual name='right_hip_pitch_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_hip_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_hip_roll_joint' type='revolute'>
-          <pose relative_to='right_hip_pitch_link'>0 0 0 0 0 0</pose>
-          <parent>right_hip_pitch_link</parent>
-          <child>right_hip_roll_link</child>
-          <axis>
-            <xyz>1 0 0</xyz>
-            <limit>
-              <lower>-3.1400000000000001</lower>
-              <upper>0.42999999999999999</upper>
-              <effort>200</effort>
-              <velocity>23</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_hip_roll_link'>
-          <pose relative_to='right_hip_roll_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.0041710000000000002 0.0085760000000000003 -0.19450899999999999 0 0 0</pose>
-            <mass>4.9619999999999997</mass>
-            <inertia>
-              <ixx>0.046305869</ixx>
-              <ixy>0.00032262600000000001</ixy>
-              <ixz>-0.0011997030000000001</ixz>
-              <iyy>0.047955402000000001</iyy>
-              <iyz>-0.00028814699999999999</iyz>
-              <izz>0.0089145179999999997</izz>
-            </inertia>
-          </inertial>
-          <visual name='right_hip_roll_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_hip_roll_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_knee_joint' type='revolute'>
-          <pose relative_to='right_hip_roll_link'>0 0 -0.40000000000000002 0 0 0</pose>
-          <parent>right_hip_roll_link</parent>
-          <child>right_knee_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-0.26000000000000001</lower>
-              <upper>2.0499999999999998</upper>
-              <effort>300</effort>
-              <velocity>14</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_knee_link'>
-          <pose relative_to='right_knee_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.00017899999999999999 -0.000121 -0.168936 0 0 0</pose>
-            <mass>3.839</mass>
-            <inertia>
-              <ixx>0.039002362999999998</ixx>
-              <ixy>7.2364e-05</ixy>
-              <ixz>-0.00079450600000000005</ixz>
-              <iyy>0.039042375999999997</iyy>
-              <iyz>1.8663000000000001e-05</iyz>
-              <izz>0.0050298290000000004</izz>
-            </inertia>
-          </inertial>
-          <collision name='right_knee_link_collision'>
-            <pose>0 0 -0.20000000000000001 0 0 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.20000000000000001</length>
-                <radius>0.02</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <visual name='right_knee_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_knee_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_ankle_pitch_joint' type='revolute'>
-          <pose relative_to='right_knee_link'>0 0 -0.40000000000000002 0 0 0</pose>
-          <parent>right_knee_link</parent>
-          <child>right_ankle_pitch_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-0.89733399999999996</lower>
-              <upper>0.52359800000000001</upper>
-              <effort>60</effort>
-              <velocity>9</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_ankle_pitch_link'>
-          <pose relative_to='right_ankle_pitch_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>-0.00029399999999999999 0 -0.010794 0 0 0</pose>
-            <mass>0.10199999999999999</mass>
-            <inertia>
-              <ixx>2.3944e-05</ixx>
-              <ixy>0</ixy>
-              <ixz>1.2100000000000001e-07</ixz>
-              <iyy>2.1837000000000001e-05</iyy>
-              <iyz>0</iyz>
-              <izz>1.3414000000000001e-05</izz>
-            </inertia>
-          </inertial>
-          <visual name='right_ankle_pitch_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_ankle_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_ankle_roll_joint' type='revolute'>
-          <pose relative_to='right_ankle_pitch_link'>0 0 -0.02 0 0 0</pose>
-          <parent>right_ankle_pitch_link</parent>
-          <child>right_ankle_roll_link</child>
-          <axis>
-            <xyz>1 0 0</xyz>
-            <limit>
-              <lower>-0.261799</lower>
-              <upper>0.261799</upper>
-              <effort>40</effort>
-              <velocity>9</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_ankle_roll_link'>
-          <pose relative_to='right_ankle_roll_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.029589000000000001 0 -0.015973000000000001 0 0 0</pose>
-            <mass>0.747</mass>
-            <inertia>
-              <ixx>0.00064882999999999998</ixx>
-              <ixy>0</ixy>
-              <ixz>0.00015838000000000001</ixz>
-              <iyy>0.0034353389999999999</iyy>
-              <iyz>0</iyz>
-              <izz>0.0035832590000000001</izz>
-            </inertia>
-          </inertial>
-          <collision name='right_ankle_roll_link_collision'>
-            <pose>-0.080000000000000002 0 -0.040000000000000001 1.5707963267948959 0 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.075999999999999998</length>
-                <radius>0.0050000000000000001</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <collision name='right_ankle_roll_link_collision_1'>
-            <pose>0.17000000000000001 0 -0.040000000000000001 1.5707963267948959 0 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.042000000000000003</length>
-                <radius>0.0050000000000000001</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <collision name='right_ankle_roll_link_collision_2'>
-            <pose>0.027 -0.037999999999999999 -0.040000000000000001 0 1.5707963267948966 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.20999999999999999</length>
-                <radius>0.0050000000000000001</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <collision name='right_ankle_roll_link_collision_3'>
-            <pose>0.027 0.037999999999999999 -0.040000000000000001 0 1.5707963267948966 0</pose>
-            <geometry>
-              <cylinder>
-                <length>0.20999999999999999</length>
-                <radius>0.0050000000000000001</radius>
-              </cylinder>
-            </geometry>
-          </collision>
-          <visual name='right_ankle_roll_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_ankle_roll_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='torso_joint' type='revolute'>
-          <pose relative_to='pelvis'>0 0 0 0 0 0</pose>
-          <parent>pelvis</parent>
-          <child>torso_link</child>
-          <axis>
-            <xyz>0 0 1</xyz>
-            <limit>
-              <lower>-2.3500000000000001</lower>
-              <upper>2.3500000000000001</upper>
-              <effort>200</effort>
-              <velocity>23</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='torso_link'>
-          <pose relative_to='torso_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.00048899999999999996 0.002797 0.20483999999999999 0 0 0</pose>
-            <mass>17.789000000000001</mass>
-            <inertia>
-              <ixx>0.48730000000000001</ixx>
-              <ixy>-0.00053762999999999999</ixy>
-              <ixz>0.0020276000000000001</ixz>
-              <iyy>0.40962999999999999</iyy>
-              <iyz>-0.00074582000000000001</iyz>
-              <izz>0.12784999999999999</izz>
-            </inertia>
-          </inertial>
-          <collision name='torso_link_collision'>
-            <pose>0 0 0.14999999999999999 0 0 0</pose>
-            <geometry>
-              <box>
-                <size>0.080000000000000002 0.16 0.10000000000000001</size>
-              </box>
-            </geometry>
-          </collision>
-          <visual name='torso_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/torso_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='torso_link_fixed_joint_lump__logo_link_visual_1'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/logo_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>1 1 1 1</diffuse>
-              <ambient>1 1 1 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_shoulder_pitch_joint' type='revolute'>
-          <pose relative_to='torso_link'>0 0.14806 0.42332999999999998 0.26180000000000003 0 0</pose>
-          <parent>torso_link</parent>
-          <child>left_shoulder_pitch_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-3.1400000000000001</lower>
-              <upper>1.5700000000000001</upper>
-              <effort>40</effort>
-              <velocity>9</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_shoulder_pitch_link'>
-          <pose relative_to='left_shoulder_pitch_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.0030530000000000002 0.060420000000000001 -0.0058999999999999999 0 0 0</pose>
-            <mass>1.327</mass>
-            <inertia>
-              <ixx>0.00058661</ixx>
-              <ixy>-2.0157e-05</ixy>
-              <ixz>2.9849999999999998e-06</ixz>
-              <iyy>0.00039889999999999999</iyy>
-              <iyz>2.2379999999999999e-05</iyz>
-              <izz>0.00052935999999999999</izz>
-            </inertia>
-          </inertial>
-          <visual name='left_shoulder_pitch_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_shoulder_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_shoulder_roll_joint' type='revolute'>
-          <pose relative_to='left_shoulder_pitch_link'>0.034200000000000001 0.061998999999999999 -0.0060010999999999997 -0.26180000000000003 0 0</pose>
-          <parent>left_shoulder_pitch_link</parent>
-          <child>left_shoulder_roll_link</child>
-          <axis>
-            <xyz>1 0 0</xyz>
-            <limit>
-              <lower>-0.38</lower>
-              <upper>3.3999999999999999</upper>
-              <effort>40</effort>
-              <velocity>9</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_shoulder_roll_link'>
-          <pose relative_to='left_shoulder_roll_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>-0.030932000000000001 -9.9999999999999995e-07 -0.10609 0 0 0</pose>
-            <mass>1.393</mass>
-            <inertia>
-              <ixx>0.0018408000000000001</ixx>
-              <ixy>3.9799999999999999e-07</ixy>
-              <ixz>-0.00048324000000000002</ixz>
-              <iyy>0.001934638</iyy>
-              <iyz>1.61e-07</iyz>
-              <izz>0.00061773299999999998</izz>
-            </inertia>
-          </inertial>
-          <visual name='left_shoulder_roll_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_shoulder_roll_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_shoulder_yaw_joint' type='revolute'>
-          <pose relative_to='left_shoulder_roll_link'>-0.034200000000000001 0 -0.14560000000000001 0 0 0</pose>
-          <parent>left_shoulder_roll_link</parent>
-          <child>left_shoulder_yaw_link</child>
-          <axis>
-            <xyz>0 0 1</xyz>
-            <limit>
-              <lower>-2.6600000000000001</lower>
-              <upper>3.0099999999999998</upper>
-              <effort>18</effort>
-              <velocity>20</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_shoulder_yaw_link'>
-          <pose relative_to='left_shoulder_yaw_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.0045830000000000003 0.0011280000000000001 -0.0011280000000000001 0 0 0</pose>
-            <mass>1.5049999999999999</mass>
-            <inertia>
-              <ixx>0.0041989999999999996</ixx>
-              <ixy>-1.7785999999999999e-05</ixy>
-              <ixz>0.00018372000000000001</ixz>
-              <iyy>0.0043138999999999999</iyy>
-              <iyz>9.2780000000000003e-05</iyz>
-              <izz>0.00065755000000000002</izz>
-            </inertia>
-          </inertial>
-          <visual name='left_shoulder_yaw_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_shoulder_yaw_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='left_elbow_pitch_joint' type='revolute'>
-          <pose relative_to='left_shoulder_yaw_link'>0.0060000000000000001 0.032899999999999999 -0.182 0 0 0</pose>
-          <parent>left_shoulder_yaw_link</parent>
-          <child>left_elbow_pitch_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-0.94999999999999996</lower>
-              <upper>3.1800000000000002</upper>
-              <effort>18</effort>
-              <velocity>20</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='left_elbow_pitch_link'>
-          <pose relative_to='left_elbow_pitch_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.1708037843915059 -0.032630424549263091 -0.01077900757643251 0 0 0</pose>
-            <mass>2.1737970999999998</mass>
-            <inertia>
-              <ixx>0.001062011513127222</ixx>
-              <ixy>0.00061638161923946791</ixy>
-              <ixz>8.1926094998413176e-05</ixz>
-              <iyy>0.017842315589389601</iyy>
-              <iyz>5.5773272983151772e-06</iyz>
-              <izz>0.017701694052562191</izz>
-            </inertia>
-          </inertial>
-          <visual name='left_elbow_pitch_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_elbow_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__left_elbow_roll_link_visual_1'>
-            <pose>0.121 -0.032899999999999999 -0.010999999999999999 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_elbow_roll_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__left_wrist_pitch_link_visual_2'>
-            <pose>0.20599999999999999 -0.032899999999999999 -0.010999999999999999 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/left_wrist_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__left_wrist_yaw_link_visual_3'>
-            <pose>0.22600000000000001 -0.032899999999999999 -0.010999999999999999 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/wrist_yaw_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_hand_base_link_visual_4'>
-            <pose>0.28000000000000003 -0.032899999999999999 -0.010999999999999999 0 0 1.5707963267948959</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/L_hand_base_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_index_proximal_visual_5'>
-            <pose>0.41653000000000001 -0.032614670000000033 0.021267999999999999 -0.03490699999999998 -3.4694469519536142e-18 1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link15_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_index_intermediate_visual_6'>
-            <pose>0.44858638093591141 -0.035037570000000032 0.02138683724894521 -0.03490699999999998 -3.4694469519536142e-18 1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link16_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_middle_proximal_visual_7'>
-            <pose>0.41710000000000003 -0.032614670000000033 0.0019499999999999999 0 0 1.5707963267948959</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link17_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_middle_intermediate_visual_8'>
-            <pose>0.44914100000000001 -0.035037570000000032 0.00094999999999999946 0 0 1.5707963267948959</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link18_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_pinky_proximal_visual_9'>
-            <pose>0.41571000000000002 -0.032614670000000033 -0.036488 0.10471999999999999 6.9388939039072284e-18 1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link21_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_pinky_intermediate_visual_10'>
-            <pose>0.447470946522535 -0.035037570000000032 -0.040831726164558678 0.10471999999999999 6.9388939039072284e-18 1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link22_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_ring_proximal_visual_11'>
-            <pose>0.41691 -0.032614670000000033 -0.017287199999999999 0.05235999999999999 3.4694469519536142e-18 1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link19_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_ring_intermediate_visual_12'>
-            <pose>0.44885475263923619 -0.035037570000000032 -0.019962729820055699 0.05235999999999999 3.4694469519536142e-18 1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link20_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_thumb_proximal_base_visual_13'>
-            <pose>0.34910000000000002 -0.049860000000000022 0.0094500000000000001 3.1415926535897931 -1.5707963267948966 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link11_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_thumb_proximal_visual_14'>
-            <pose>0.34020003608636162 -0.059684269374590281 0.019436663913510972 3.1415889804647241 -1.4014026535897917 -1.5707926536686823</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link12_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_thumb_intermediate_visual_15'>
-            <pose>0.37475306341801051 -0.066325246945040967 0.063010743687237664 3.1415889804647241 -1.4014026535897917 -1.5707926536686823</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link13_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='left_elbow_pitch_link_fixed_joint_lump__L_thumb_distal_visual_16'>
-            <pose>0.38490907601932423 -0.068555925456914427 0.083171232803789893 3.1415889804647241 -1.4014026535897917 -1.5707926536686823</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link14_L.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_shoulder_pitch_joint' type='revolute'>
-          <pose relative_to='torso_link'>0 -0.14806 0.42332999999999998 -0.26180000000000003 0 0</pose>
-          <parent>torso_link</parent>
-          <child>right_shoulder_pitch_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-3.1400000000000001</lower>
-              <upper>1.5700000000000001</upper>
-              <effort>40</effort>
-              <velocity>9</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_shoulder_pitch_link'>
-          <pose relative_to='right_shoulder_pitch_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.0030530000000000002 -0.060420000000000001 -0.0058999999999999999 0 0 0</pose>
-            <mass>1.327</mass>
-            <inertia>
-              <ixx>0.00058661</ixx>
-              <ixy>2.0157e-05</ixy>
-              <ixz>2.9849999999999998e-06</ixz>
-              <iyy>0.00039889999999999999</iyy>
-              <iyz>-2.2379999999999999e-05</iyz>
-              <izz>0.00052935999999999999</izz>
-            </inertia>
-          </inertial>
-          <visual name='right_shoulder_pitch_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_shoulder_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_shoulder_roll_joint' type='revolute'>
-          <pose relative_to='right_shoulder_pitch_link'>0.034200000000000001 -0.061998999999999999 -0.0060010999999999997 0.26180000000000003 0 0</pose>
-          <parent>right_shoulder_pitch_link</parent>
-          <child>right_shoulder_roll_link</child>
-          <axis>
-            <xyz>1 0 0</xyz>
-            <limit>
-              <lower>-3.3999999999999999</lower>
-              <upper>0.38</upper>
-              <effort>40</effort>
-              <velocity>9</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_shoulder_roll_link'>
-          <pose relative_to='right_shoulder_roll_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>-0.030932000000000001 9.9999999999999995e-07 -0.10609 0 0 0</pose>
-            <mass>1.393</mass>
-            <inertia>
-              <ixx>0.0018408000000000001</ixx>
-              <ixy>-3.9799999999999999e-07</ixy>
-              <ixz>-0.00048324000000000002</ixz>
-              <iyy>0.001934638</iyy>
-              <iyz>-1.61e-07</iyz>
-              <izz>0.00061773299999999998</izz>
-            </inertia>
-          </inertial>
-          <visual name='right_shoulder_roll_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_shoulder_roll_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_shoulder_yaw_joint' type='revolute'>
-          <pose relative_to='right_shoulder_roll_link'>-0.034200000000000001 0 -0.14560000000000001 0 0 0</pose>
-          <parent>right_shoulder_roll_link</parent>
-          <child>right_shoulder_yaw_link</child>
-          <axis>
-            <xyz>0 0 1</xyz>
-            <limit>
-              <lower>-3.0099999999999998</lower>
-              <upper>2.6600000000000001</upper>
-              <effort>18</effort>
-              <velocity>20</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_shoulder_yaw_link'>
-          <pose relative_to='right_shoulder_yaw_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.0045830000000000003 -0.0011280000000000001 -0.0011280000000000001 0 0 0</pose>
-            <mass>1.5049999999999999</mass>
-            <inertia>
-              <ixx>0.0041989999999999996</ixx>
-              <ixy>1.7785999999999999e-05</ixy>
-              <ixz>0.00018372000000000001</ixz>
-              <iyy>0.0043138999999999999</iyy>
-              <iyz>-9.2780000000000003e-05</iyz>
-              <izz>0.00065755000000000002</izz>
-            </inertia>
-          </inertial>
-          <visual name='right_shoulder_yaw_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_shoulder_yaw_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <joint name='right_elbow_pitch_joint' type='revolute'>
-          <pose relative_to='right_shoulder_yaw_link'>0.0060000000000000001 -0.032899999999999999 -0.182 0 0 0</pose>
-          <parent>right_shoulder_yaw_link</parent>
-          <child>right_elbow_pitch_link</child>
-          <axis>
-            <xyz>0 1 0</xyz>
-            <limit>
-              <lower>-0.94999999999999996</lower>
-              <upper>3.1800000000000002</upper>
-              <effort>18</effort>
-              <velocity>20</velocity>
-            </limit>
-            <dynamics>
-              <spring_reference>0</spring_reference>
-              <spring_stiffness>0</spring_stiffness>
-            </dynamics>
-          </axis>
-        </joint>
-        <link name='right_elbow_pitch_link'>
-          <pose relative_to='right_elbow_pitch_joint'>0 0 0 0 0 0</pose>
-          <inertial>
-            <pose>0.17080047558895009 0.031226658943262708 -0.01078942342910629 0 0 0</pose>
-            <mass>2.1737902</mass>
-            <inertia>
-              <ixx>0.001058142065630184</ixx>
-              <ixy>-0.00064768497810564936</ixy>
-              <ixz>8.6736144861681262e-05</ixz>
-              <iyy>0.01783596004035207</iyy>
-              <iyz>-7.9997209590551132e-07</iyz>
-              <izz>0.017697903575400149</izz>
-            </inertia>
-          </inertial>
-          <visual name='right_elbow_pitch_link_visual'>
-            <pose>0 0 0 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_elbow_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__right_elbow_roll_link_visual_1'>
-            <pose>0.121 0.032899999999999999 -0.010999999999999999 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_elbow_roll_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__right_wrist_pitch_link_visual_2'>
-            <pose>0.20599999999999999 0.032899999999999999 -0.010999999999999999 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/right_wrist_pitch_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__right_wrist_yaw_link_visual_3'>
-            <pose>0.22600000000000001 0.032899999999999999 -0.010999999999999999 0 0 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/wrist_yaw_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_hand_base_link_visual_4'>
-            <pose>0.28000000000000003 0.032899999999999999 -0.010999999999999999 3.1415926535897931 0 -1.5707963267948959</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/R_hand_base_link.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_index_proximal_visual_5'>
-            <pose>0.41653000000000001 0.032614670000000033 0.021267999999999981 0.034892653589793099 0 -1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link15_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_index_intermediate_visual_6'>
-            <pose>0.44857139176780347 0.035228470000000033 0.021385854071336301 0.034892653589793099 0 -1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link16_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_middle_proximal_visual_7'>
-            <pose>0.41710000000000003 0.032614670000000033 0.0019499999999999849 -7.3464102068321324e-06 8.4703294725430034e-22 -1.5707963267948959</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link17_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_middle_intermediate_visual_8'>
-            <pose>0.44914099265272522 0.035037570000000032 0.00094976461369753601 -7.3464102068321324e-06 8.4703294725430034e-22 -1.5707963267948959</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link18_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_pinky_proximal_visual_9'>
-            <pose>0.41571000000000002 0.032614670000000033 -0.036488000000000007 -0.1046926535897932 -6.9388939039072284e-18 -1.5707963267948972</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link21_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_pinky_intermediate_visual_10'>
-            <pose>0.44747106529597658 0.035037570000000032 -0.040830857615062471 -0.1046926535897932 -6.9388939039072284e-18 -1.5707963267948972</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link22_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_ring_proximal_visual_11'>
-            <pose>0.41691 0.032614670000000033 -0.01728720000000002 -0.05239265358979342 -3.4694469519536142e-18 -1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link19_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_ring_intermediate_visual_12'>
-            <pose>0.44885466525655238 0.035037569999999997 -0.019963772929477871 -0.05239265358979342 -3.4694469519536142e-18 -1.570796326794897</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link20_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_thumb_proximal_base_visual_13'>
-            <pose>0.34910000000000002 0.049860000000000022 0.0094499999999999862 7.3464102066329729e-06 1.5707963267948966 0</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link11_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_thumb_proximal_visual_14'>
-            <pose>0.33985004000861241 0.060752001616430608 0.01825994000861534 -3.1415889803363521 -1.2879073464102073 1.5707926535433769</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link12_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_thumb_intermediate_visual_15'>
-            <pose>0.37440308531117023 0.07228509562182199 0.060801560946024277 -3.1415889803363521 -1.2879073464102073 1.5707926535433769</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link13_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-          <visual name='right_elbow_pitch_link_fixed_joint_lump__R_thumb_distal_visual_16'>
-            <pose>0.38455910624701117 0.076784634201220364 0.080579711297441486 -3.1415889803363521 -1.2879073464102073 1.5707926535433769</pose>
-            <geometry>
-              <mesh>
-                <scale>1 1 1</scale>
-                <uri>meshes/link14_R.STL</uri>
-              </mesh>
-            </geometry>
-            <material>
-              <diffuse>0.125 0.125 0.125 1</diffuse>
-              <ambient>0.125 0.125 0.125 1</ambient>
-            </material>
-          </visual>
-        </link>
-        <frame name='imu_joint' attached_to='torso_link'>
-          <pose>-0.04233868314 0.00166 0.15206700000000001 0 0 0</pose>
-        </frame>
-        <frame name='imu_link' attached_to='imu_joint'>
+<world name="demoworld">
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name='h1_5'>
+      <link name='pelvis'>
+        <inertial>
+          <pose>-0.00040000000000000002 3.6999999999999998e-05 -0.046864000000000003 0 0 0</pose>
+          <mass>5.9829999999999997</mass>
+          <inertia>
+            <ixx>0.049168411000000002</ixx>
+            <ixy>-1.9868999999999999e-05</ixy>
+            <ixz>-4.846e-05</ixz>
+            <iyy>0.0090258439999999999</iyy>
+            <iyz>3.4309999999999998e-06</iyz>
+            <izz>0.053155890999999997</izz>
+          </inertia>
+        </inertial>
+        <visual name='pelvis_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='logo_joint' attached_to='torso_link'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/pelvis.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_hip_yaw_joint' type='revolute'>
+        <pose relative_to='pelvis'>0 0.087499999999999994 -0.16320000000000001 0 0 0</pose>
+        <parent>pelvis</parent>
+        <child>left_hip_yaw_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-0.42999999999999999</lower>
+            <upper>0.42999999999999999</upper>
+            <effort>200</effort>
+            <velocity>23</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_hip_yaw_link'>
+        <pose relative_to='left_hip_yaw_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 -0.026197000000000002 0.0066470000000000001 0 0 0</pose>
+          <mass>2.8290000000000002</mass>
+          <inertia>
+            <ixx>0.0045536049999999996</ixx>
+            <ixy>5.0000000000000001e-09</ixy>
+            <ixz>8.1699999999999997e-07</ixz>
+            <iyy>0.0056887300000000003</iyy>
+            <iyz>-0.00034515700000000002</iyz>
+            <izz>0.003548907</izz>
+          </inertia>
+        </inertial>
+        <visual name='left_hip_yaw_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='logo_link' attached_to='logo_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_hip_yaw_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_hip_pitch_joint' type='revolute'>
+        <pose relative_to='left_hip_yaw_link'>0 0.075499999999999998 0 0 0 0</pose>
+        <parent>left_hip_yaw_link</parent>
+        <child>left_hip_pitch_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-3.1400000000000001</lower>
+            <upper>2.5</upper>
+            <effort>200</effort>
+            <velocity>23</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_hip_pitch_link'>
+        <pose relative_to='left_hip_pitch_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>-0.0078100000000000001 -0.0047239999999999999 -6.3e-05 0 0 0</pose>
+          <mass>2.9199999999999999</mass>
+          <inertia>
+            <ixx>0.0055947000000000002</ixx>
+            <ixy>0.000143308</ixy>
+            <ixz>-1.1847e-05</ixz>
+            <iyy>0.0038625809999999999</iyy>
+            <iyz>-9.6069999999999997e-06</iyz>
+            <izz>0.0044505630000000003</izz>
+          </inertia>
+        </inertial>
+        <visual name='left_hip_pitch_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_index_intermediate_joint' attached_to='L_index_proximal'>
-          <pose>-0.0024229 -0.032041 -0.001 0 0 0</pose>
-        </frame>
-        <frame name='L_index_intermediate' attached_to='L_index_intermediate_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_hip_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_hip_roll_joint' type='revolute'>
+        <pose relative_to='left_hip_pitch_link'>0 0 0 0 0 0</pose>
+        <parent>left_hip_pitch_link</parent>
+        <child>left_hip_roll_link</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-0.42999999999999999</lower>
+            <upper>3.1400000000000001</upper>
+            <effort>200</effort>
+            <velocity>23</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_hip_roll_link'>
+        <pose relative_to='left_hip_roll_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.0041710000000000002 -0.0085760000000000003 -0.19450899999999999 0 0 0</pose>
+          <mass>4.9619999999999997</mass>
+          <inertia>
+            <ixx>0.046305869</ixx>
+            <ixy>-0.00032262600000000001</ixy>
+            <ixz>-0.0011997030000000001</ixz>
+            <iyy>0.047955402000000001</iyy>
+            <iyz>0.00028814699999999999</iyz>
+            <izz>0.0089145179999999997</izz>
+          </inertia>
+        </inertial>
+        <visual name='left_hip_roll_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_index_proximal_joint' attached_to='L_hand_base_link'>
-          <pose>0.00028532999999999998 -0.13653000000000001 0.032267999999999998 -0.034907000000000001 0 0</pose>
-        </frame>
-        <frame name='L_index_proximal' attached_to='L_index_proximal_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_hip_roll_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_knee_joint' type='revolute'>
+        <pose relative_to='left_hip_roll_link'>0 0 -0.40000000000000002 0 0 0</pose>
+        <parent>left_hip_roll_link</parent>
+        <child>left_knee_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-0.26000000000000001</lower>
+            <upper>2.0499999999999998</upper>
+            <effort>300</effort>
+            <velocity>14</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_knee_link'>
+        <pose relative_to='left_knee_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.00017899999999999999 0.000121 -0.168936 0 0 0</pose>
+          <mass>3.839</mass>
+          <inertia>
+            <ixx>0.039002362999999998</ixx>
+            <ixy>-7.2364e-05</ixy>
+            <ixz>-0.00079450600000000005</ixz>
+            <iyy>0.039042375999999997</iyy>
+            <iyz>-1.8663000000000001e-05</iyz>
+            <izz>0.0050298290000000004</izz>
+          </inertia>
+        </inertial>
+        <collision name='left_knee_link_collision'>
+          <pose>0 0 -0.20000000000000001 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.20000000000000001</length>
+              <radius>0.02</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name='left_knee_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_middle_intermediate_joint' attached_to='L_middle_proximal'>
-          <pose>-0.0024229 -0.032041 -0.001 0 0 0</pose>
-        </frame>
-        <frame name='L_middle_intermediate' attached_to='L_middle_intermediate_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_knee_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_ankle_pitch_joint' type='revolute'>
+        <pose relative_to='left_knee_link'>0 0 -0.40000000000000002 0 0 0</pose>
+        <parent>left_knee_link</parent>
+        <child>left_ankle_pitch_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-0.89733399999999996</lower>
+            <upper>0.52359800000000001</upper>
+            <effort>60</effort>
+            <velocity>9</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_ankle_pitch_link'>
+        <pose relative_to='left_ankle_pitch_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>-0.00029399999999999999 0 -0.010794 0 0 0</pose>
+          <mass>0.10199999999999999</mass>
+          <inertia>
+            <ixx>2.3944e-05</ixx>
+            <ixy>0</ixy>
+            <ixz>1.2100000000000001e-07</ixz>
+            <iyy>2.1837000000000001e-05</iyy>
+            <iyz>0</iyz>
+            <izz>1.3414000000000001e-05</izz>
+          </inertia>
+        </inertial>
+        <visual name='left_ankle_pitch_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_middle_proximal_joint' attached_to='L_hand_base_link'>
-          <pose>0.00028532999999999998 -0.1371 0.01295 0 0 0</pose>
-        </frame>
-        <frame name='L_middle_proximal' attached_to='L_middle_proximal_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_ankle_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_ankle_roll_joint' type='revolute'>
+        <pose relative_to='left_ankle_pitch_link'>0 0 -0.02 0 0 0</pose>
+        <parent>left_ankle_pitch_link</parent>
+        <child>left_ankle_roll_link</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-0.261799</lower>
+            <upper>0.261799</upper>
+            <effort>40</effort>
+            <velocity>9</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_ankle_roll_link'>
+        <pose relative_to='left_ankle_roll_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.029589000000000001 0 -0.015973000000000001 0 0 0</pose>
+          <mass>0.747</mass>
+          <inertia>
+            <ixx>0.00064882999999999998</ixx>
+            <ixy>0</ixy>
+            <ixz>0.00015838000000000001</ixz>
+            <iyy>0.0034353389999999999</iyy>
+            <iyz>0</iyz>
+            <izz>0.0035832590000000001</izz>
+          </inertia>
+        </inertial>
+        <collision name='left_ankle_roll_link_collision'>
+          <pose>-0.080000000000000002 0 -0.040000000000000001 1.5707963267948959 0 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.075999999999999998</length>
+              <radius>0.0050000000000000001</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <collision name='left_ankle_roll_link_collision_1'>
+          <pose>0.17000000000000001 0 -0.040000000000000001 1.5707963267948959 0 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.042000000000000003</length>
+              <radius>0.0050000000000000001</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <collision name='left_ankle_roll_link_collision_2'>
+          <pose>0.027 -0.037999999999999999 -0.040000000000000001 0 1.5707963267948966 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.20999999999999999</length>
+              <radius>0.0050000000000000001</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <collision name='left_ankle_roll_link_collision_3'>
+          <pose>0.027 0.037999999999999999 -0.040000000000000001 0 1.5707963267948966 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.20999999999999999</length>
+              <radius>0.0050000000000000001</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name='left_ankle_roll_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_pinky_intermediate_joint' attached_to='L_pinky_proximal'>
-          <pose>-0.0024229 -0.032041 -0.001 0 0 0</pose>
-        </frame>
-        <frame name='L_pinky_intermediate' attached_to='L_pinky_intermediate_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_ankle_roll_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_hip_yaw_joint' type='revolute'>
+        <pose relative_to='pelvis'>0 -0.087499999999999994 -0.16320000000000001 0 0 0</pose>
+        <parent>pelvis</parent>
+        <child>right_hip_yaw_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-0.42999999999999999</lower>
+            <upper>0.42999999999999999</upper>
+            <effort>200</effort>
+            <velocity>23</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_hip_yaw_link'>
+        <pose relative_to='right_hip_yaw_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0.026197000000000002 0.0066470000000000001 0 0 0</pose>
+          <mass>2.8290000000000002</mass>
+          <inertia>
+            <ixx>0.0045536049999999996</ixx>
+            <ixy>-5.0000000000000001e-09</ixy>
+            <ixz>8.1699999999999997e-07</ixz>
+            <iyy>0.0056887300000000003</iyy>
+            <iyz>0.00034515700000000002</iyz>
+            <izz>0.003548907</izz>
+          </inertia>
+        </inertial>
+        <visual name='right_hip_yaw_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_pinky_proximal_joint' attached_to='L_hand_base_link'>
-          <pose>0.00028532999999999998 -0.13571 -0.025488 0.10471999999999999 0 0</pose>
-        </frame>
-        <frame name='L_pinky_proximal' attached_to='L_pinky_proximal_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_hip_yaw_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_hip_pitch_joint' type='revolute'>
+        <pose relative_to='right_hip_yaw_link'>0 -0.075499999999999998 0 0 0 0</pose>
+        <parent>right_hip_yaw_link</parent>
+        <child>right_hip_pitch_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-3.1400000000000001</lower>
+            <upper>2.5</upper>
+            <effort>200</effort>
+            <velocity>23</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_hip_pitch_link'>
+        <pose relative_to='right_hip_pitch_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>-0.0078100000000000001 0.0047239999999999999 -6.3e-05 0 0 0</pose>
+          <mass>2.9199999999999999</mass>
+          <inertia>
+            <ixx>0.0055947000000000002</ixx>
+            <ixy>-0.000143308</ixy>
+            <ixz>-1.1847e-05</ixz>
+            <iyy>0.0038625809999999999</iyy>
+            <iyz>9.6069999999999997e-06</iyz>
+            <izz>0.0044505630000000003</izz>
+          </inertia>
+        </inertial>
+        <visual name='right_hip_pitch_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_ring_intermediate_joint' attached_to='L_ring_proximal'>
-          <pose>-0.0024229 -0.032041 -0.001 0 0 0</pose>
-        </frame>
-        <frame name='L_ring_intermediate' attached_to='L_ring_intermediate_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_hip_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_hip_roll_joint' type='revolute'>
+        <pose relative_to='right_hip_pitch_link'>0 0 0 0 0 0</pose>
+        <parent>right_hip_pitch_link</parent>
+        <child>right_hip_roll_link</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-3.1400000000000001</lower>
+            <upper>0.42999999999999999</upper>
+            <effort>200</effort>
+            <velocity>23</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_hip_roll_link'>
+        <pose relative_to='right_hip_roll_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.0041710000000000002 0.0085760000000000003 -0.19450899999999999 0 0 0</pose>
+          <mass>4.9619999999999997</mass>
+          <inertia>
+            <ixx>0.046305869</ixx>
+            <ixy>0.00032262600000000001</ixy>
+            <ixz>-0.0011997030000000001</ixz>
+            <iyy>0.047955402000000001</iyy>
+            <iyz>-0.00028814699999999999</iyz>
+            <izz>0.0089145179999999997</izz>
+          </inertia>
+        </inertial>
+        <visual name='right_hip_roll_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_ring_proximal_joint' attached_to='L_hand_base_link'>
-          <pose>0.00028532999999999998 -0.13691 -0.0062871999999999997 0.052359999999999997 0 0</pose>
-        </frame>
-        <frame name='L_ring_proximal' attached_to='L_ring_proximal_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_hip_roll_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_knee_joint' type='revolute'>
+        <pose relative_to='right_hip_roll_link'>0 0 -0.40000000000000002 0 0 0</pose>
+        <parent>right_hip_roll_link</parent>
+        <child>right_knee_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-0.26000000000000001</lower>
+            <upper>2.0499999999999998</upper>
+            <effort>300</effort>
+            <velocity>14</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_knee_link'>
+        <pose relative_to='right_knee_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.00017899999999999999 -0.000121 -0.168936 0 0 0</pose>
+          <mass>3.839</mass>
+          <inertia>
+            <ixx>0.039002362999999998</ixx>
+            <ixy>7.2364e-05</ixy>
+            <ixz>-0.00079450600000000005</ixz>
+            <iyy>0.039042375999999997</iyy>
+            <iyz>1.8663000000000001e-05</iyz>
+            <izz>0.0050298290000000004</izz>
+          </inertia>
+        </inertial>
+        <collision name='right_knee_link_collision'>
+          <pose>0 0 -0.20000000000000001 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.20000000000000001</length>
+              <radius>0.02</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name='right_knee_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_thumb_distal_joint' attached_to='L_thumb_intermediate'>
-          <pose>0.020247999999999999 -0.010156 -0.0011999999999999999 0 0 0</pose>
-        </frame>
-        <frame name='L_thumb_distal' attached_to='L_thumb_distal_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_knee_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_ankle_pitch_joint' type='revolute'>
+        <pose relative_to='right_knee_link'>0 0 -0.40000000000000002 0 0 0</pose>
+        <parent>right_knee_link</parent>
+        <child>right_ankle_pitch_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-0.89733399999999996</lower>
+            <upper>0.52359800000000001</upper>
+            <effort>60</effort>
+            <velocity>9</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_ankle_pitch_link'>
+        <pose relative_to='right_ankle_pitch_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>-0.00029399999999999999 0 -0.010794 0 0 0</pose>
+          <mass>0.10199999999999999</mass>
+          <inertia>
+            <ixx>2.3944e-05</ixx>
+            <ixy>0</ixy>
+            <ixz>1.2100000000000001e-07</ixz>
+            <iyy>2.1837000000000001e-05</iyy>
+            <iyz>0</iyz>
+            <izz>1.3414000000000001e-05</izz>
+          </inertia>
+        </inertial>
+        <visual name='right_ankle_pitch_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_thumb_intermediate_joint' attached_to='L_thumb_proximal'>
-          <pose>0.044069999999999998 -0.034553 -0.00080000000000000004 0 0 0</pose>
-        </frame>
-        <frame name='L_thumb_intermediate' attached_to='L_thumb_intermediate_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_ankle_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_ankle_roll_joint' type='revolute'>
+        <pose relative_to='right_ankle_pitch_link'>0 0 -0.02 0 0 0</pose>
+        <parent>right_ankle_pitch_link</parent>
+        <child>right_ankle_roll_link</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-0.261799</lower>
+            <upper>0.261799</upper>
+            <effort>40</effort>
+            <velocity>9</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_ankle_roll_link'>
+        <pose relative_to='right_ankle_roll_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.029589000000000001 0 -0.015973000000000001 0 0 0</pose>
+          <mass>0.747</mass>
+          <inertia>
+            <ixx>0.00064882999999999998</ixx>
+            <ixy>0</ixy>
+            <ixz>0.00015838000000000001</ixz>
+            <iyy>0.0034353389999999999</iyy>
+            <iyz>0</iyz>
+            <izz>0.0035832590000000001</izz>
+          </inertia>
+        </inertial>
+        <collision name='right_ankle_roll_link_collision'>
+          <pose>-0.080000000000000002 0 -0.040000000000000001 1.5707963267948959 0 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.075999999999999998</length>
+              <radius>0.0050000000000000001</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <collision name='right_ankle_roll_link_collision_1'>
+          <pose>0.17000000000000001 0 -0.040000000000000001 1.5707963267948959 0 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.042000000000000003</length>
+              <radius>0.0050000000000000001</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <collision name='right_ankle_roll_link_collision_2'>
+          <pose>0.027 -0.037999999999999999 -0.040000000000000001 0 1.5707963267948966 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.20999999999999999</length>
+              <radius>0.0050000000000000001</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <collision name='right_ankle_roll_link_collision_3'>
+          <pose>0.027 0.037999999999999999 -0.040000000000000001 0 1.5707963267948966 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.20999999999999999</length>
+              <radius>0.0050000000000000001</radius>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name='right_ankle_roll_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_thumb_proximal_pitch_joint' attached_to='L_thumb_proximal_base'>
-          <pose>0.0099866999999999994 0.0098241999999999999 -0.0088999999999999999 -1.5708000000000002 1.3877787807814457e-17 0.16938999999999999</pose>
-        </frame>
-        <frame name='L_thumb_proximal' attached_to='L_thumb_proximal_pitch_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_ankle_roll_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='torso_joint' type='revolute'>
+        <pose relative_to='pelvis'>0 0 0 0 0 0</pose>
+        <parent>pelvis</parent>
+        <child>torso_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-2.3500000000000001</lower>
+            <upper>2.3500000000000001</upper>
+            <effort>200</effort>
+            <velocity>23</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='torso_link'>
+        <pose relative_to='torso_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.00048899999999999996 0.002797 0.20483999999999999 0 0 0</pose>
+          <mass>17.789000000000001</mass>
+          <inertia>
+            <ixx>0.48730000000000001</ixx>
+            <ixy>-0.00053762999999999999</ixy>
+            <ixz>0.0020276000000000001</ixz>
+            <iyy>0.40962999999999999</iyy>
+            <iyz>-0.00074582000000000001</iyz>
+            <izz>0.12784999999999999</izz>
+          </inertia>
+        </inertial>
+        <collision name='torso_link_collision'>
+          <pose>0 0 0.14999999999999999 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.080000000000000002 0.16 0.10000000000000001</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name='torso_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_thumb_proximal_yaw_joint' attached_to='L_hand_base_link'>
-          <pose>-0.016959999999999999 -0.069099999999999995 0.020449999999999999 -1.5707926535906547 -1.5707926537266703 3.1415926535746803</pose>
-        </frame>
-        <frame name='L_thumb_proximal_base' attached_to='L_thumb_proximal_yaw_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/torso_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='torso_link_fixed_joint_lump__logo_link_visual_1'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='L_base_link_joint' attached_to='left_wrist_yaw_link'>
-          <pose>0.053999999999999999 0 0 0 0 1.5707963267948959</pose>
-        </frame>
-        <frame name='L_hand_base_link' attached_to='L_base_link_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/logo_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>1 1 1 1</diffuse>
+            <ambient>1 1 1 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_shoulder_pitch_joint' type='revolute'>
+        <pose relative_to='torso_link'>0 0.14806 0.42332999999999998 0.26180000000000003 0 0</pose>
+        <parent>torso_link</parent>
+        <child>left_shoulder_pitch_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-3.1400000000000001</lower>
+            <upper>1.5700000000000001</upper>
+            <effort>40</effort>
+            <velocity>9</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_shoulder_pitch_link'>
+        <pose relative_to='left_shoulder_pitch_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.0030530000000000002 0.060420000000000001 -0.0058999999999999999 0 0 0</pose>
+          <mass>1.327</mass>
+          <inertia>
+            <ixx>0.00058661</ixx>
+            <ixy>-2.0157e-05</ixy>
+            <ixz>2.9849999999999998e-06</ixz>
+            <iyy>0.00039889999999999999</iyy>
+            <iyz>2.2379999999999999e-05</iyz>
+            <izz>0.00052935999999999999</izz>
+          </inertia>
+        </inertial>
+        <visual name='left_shoulder_pitch_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='left_wrist_yaw_joint' attached_to='left_wrist_pitch_link'>
-          <pose>0.02 0 0 0 0 0</pose>
-        </frame>
-        <frame name='left_wrist_yaw_link' attached_to='left_wrist_yaw_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_shoulder_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_shoulder_roll_joint' type='revolute'>
+        <pose relative_to='left_shoulder_pitch_link'>0.034200000000000001 0.061998999999999999 -0.0060010999999999997 -0.26180000000000003 0 0</pose>
+        <parent>left_shoulder_pitch_link</parent>
+        <child>left_shoulder_roll_link</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-0.38</lower>
+            <upper>3.3999999999999999</upper>
+            <effort>40</effort>
+            <velocity>9</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_shoulder_roll_link'>
+        <pose relative_to='left_shoulder_roll_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>-0.030932000000000001 -9.9999999999999995e-07 -0.10609 0 0 0</pose>
+          <mass>1.393</mass>
+          <inertia>
+            <ixx>0.0018408000000000001</ixx>
+            <ixy>3.9799999999999999e-07</ixy>
+            <ixz>-0.00048324000000000002</ixz>
+            <iyy>0.001934638</iyy>
+            <iyz>1.61e-07</iyz>
+            <izz>0.00061773299999999998</izz>
+          </inertia>
+        </inertial>
+        <visual name='left_shoulder_roll_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='left_wrist_pitch_joint' attached_to='left_elbow_roll_link'>
-          <pose>0.085000000000000006 0 0 0 0 0</pose>
-        </frame>
-        <frame name='left_wrist_pitch_link' attached_to='left_wrist_pitch_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_shoulder_roll_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_shoulder_yaw_joint' type='revolute'>
+        <pose relative_to='left_shoulder_roll_link'>-0.034200000000000001 0 -0.14560000000000001 0 0 0</pose>
+        <parent>left_shoulder_roll_link</parent>
+        <child>left_shoulder_yaw_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-2.6600000000000001</lower>
+            <upper>3.0099999999999998</upper>
+            <effort>18</effort>
+            <velocity>20</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_shoulder_yaw_link'>
+        <pose relative_to='left_shoulder_yaw_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.0045830000000000003 0.0011280000000000001 -0.0011280000000000001 0 0 0</pose>
+          <mass>1.5049999999999999</mass>
+          <inertia>
+            <ixx>0.0041989999999999996</ixx>
+            <ixy>-1.7785999999999999e-05</ixy>
+            <ixz>0.00018372000000000001</ixz>
+            <iyy>0.0043138999999999999</iyy>
+            <iyz>9.2780000000000003e-05</iyz>
+            <izz>0.00065755000000000002</izz>
+          </inertia>
+        </inertial>
+        <visual name='left_shoulder_yaw_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='left_elbow_roll_joint' attached_to='left_elbow_pitch_link'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_shoulder_yaw_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='left_elbow_pitch_joint' type='revolute'>
+        <pose relative_to='left_shoulder_yaw_link'>0.0060000000000000001 0.032899999999999999 -0.182 0 0 0</pose>
+        <parent>left_shoulder_yaw_link</parent>
+        <child>left_elbow_pitch_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-0.94999999999999996</lower>
+            <upper>3.1800000000000002</upper>
+            <effort>18</effort>
+            <velocity>20</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='left_elbow_pitch_link'>
+        <pose relative_to='left_elbow_pitch_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.1708037843915059 -0.032630424549263091 -0.01077900757643251 0 0 0</pose>
+          <mass>2.1737970999999998</mass>
+          <inertia>
+            <ixx>0.001062011513127222</ixx>
+            <ixy>0.00061638161923946791</ixy>
+            <ixz>8.1926094998413176e-05</ixz>
+            <iyy>0.017842315589389601</iyy>
+            <iyz>5.5773272983151772e-06</iyz>
+            <izz>0.017701694052562191</izz>
+          </inertia>
+        </inertial>
+        <visual name='left_elbow_pitch_link_visual'>
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_elbow_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__left_elbow_roll_link_visual_1'>
           <pose>0.121 -0.032899999999999999 -0.010999999999999999 0 0 0</pose>
-        </frame>
-        <frame name='left_elbow_roll_link' attached_to='left_elbow_roll_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_elbow_roll_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__left_wrist_pitch_link_visual_2'>
+          <pose>0.20599999999999999 -0.032899999999999999 -0.010999999999999999 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/left_wrist_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__left_wrist_yaw_link_visual_3'>
+          <pose>0.22600000000000001 -0.032899999999999999 -0.010999999999999999 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/wrist_yaw_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_hand_base_link_visual_4'>
+          <pose>0.28000000000000003 -0.032899999999999999 -0.010999999999999999 0 0 1.5707963267948959</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/L_hand_base_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_index_proximal_visual_5'>
+          <pose>0.41653000000000001 -0.032614670000000033 0.021267999999999999 -0.03490699999999998 -3.4694469519536142e-18 1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link15_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_index_intermediate_visual_6'>
+          <pose>0.44858638093591141 -0.035037570000000032 0.02138683724894521 -0.03490699999999998 -3.4694469519536142e-18 1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link16_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_middle_proximal_visual_7'>
+          <pose>0.41710000000000003 -0.032614670000000033 0.0019499999999999999 0 0 1.5707963267948959</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link17_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_middle_intermediate_visual_8'>
+          <pose>0.44914100000000001 -0.035037570000000032 0.00094999999999999946 0 0 1.5707963267948959</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link18_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_pinky_proximal_visual_9'>
+          <pose>0.41571000000000002 -0.032614670000000033 -0.036488 0.10471999999999999 6.9388939039072284e-18 1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link21_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_pinky_intermediate_visual_10'>
+          <pose>0.447470946522535 -0.035037570000000032 -0.040831726164558678 0.10471999999999999 6.9388939039072284e-18 1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link22_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_ring_proximal_visual_11'>
+          <pose>0.41691 -0.032614670000000033 -0.017287199999999999 0.05235999999999999 3.4694469519536142e-18 1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link19_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_ring_intermediate_visual_12'>
+          <pose>0.44885475263923619 -0.035037570000000032 -0.019962729820055699 0.05235999999999999 3.4694469519536142e-18 1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link20_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_thumb_proximal_base_visual_13'>
+          <pose>0.34910000000000002 -0.049860000000000022 0.0094500000000000001 3.1415926535897931 -1.5707963267948966 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link11_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_thumb_proximal_visual_14'>
+          <pose>0.34020003608636162 -0.059684269374590281 0.019436663913510972 3.1415889804647241 -1.4014026535897917 -1.5707926536686823</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link12_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_thumb_intermediate_visual_15'>
+          <pose>0.37475306341801051 -0.066325246945040967 0.063010743687237664 3.1415889804647241 -1.4014026535897917 -1.5707926536686823</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link13_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='left_elbow_pitch_link_fixed_joint_lump__L_thumb_distal_visual_16'>
+          <pose>0.38490907601932423 -0.068555925456914427 0.083171232803789893 3.1415889804647241 -1.4014026535897917 -1.5707926536686823</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link14_L.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_shoulder_pitch_joint' type='revolute'>
+        <pose relative_to='torso_link'>0 -0.14806 0.42332999999999998 -0.26180000000000003 0 0</pose>
+        <parent>torso_link</parent>
+        <child>right_shoulder_pitch_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-3.1400000000000001</lower>
+            <upper>1.5700000000000001</upper>
+            <effort>40</effort>
+            <velocity>9</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_shoulder_pitch_link'>
+        <pose relative_to='right_shoulder_pitch_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.0030530000000000002 -0.060420000000000001 -0.0058999999999999999 0 0 0</pose>
+          <mass>1.327</mass>
+          <inertia>
+            <ixx>0.00058661</ixx>
+            <ixy>2.0157e-05</ixy>
+            <ixz>2.9849999999999998e-06</ixz>
+            <iyy>0.00039889999999999999</iyy>
+            <iyz>-2.2379999999999999e-05</iyz>
+            <izz>0.00052935999999999999</izz>
+          </inertia>
+        </inertial>
+        <visual name='right_shoulder_pitch_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_index_intermediate_joint' attached_to='R_index_proximal'>
-          <pose>-0.0026137999999999999 0.032025999999999999 -0.001 0 0 0</pose>
-        </frame>
-        <frame name='R_index_intermediate' attached_to='R_index_intermediate_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_shoulder_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_shoulder_roll_joint' type='revolute'>
+        <pose relative_to='right_shoulder_pitch_link'>0.034200000000000001 -0.061998999999999999 -0.0060010999999999997 0.26180000000000003 0 0</pose>
+        <parent>right_shoulder_pitch_link</parent>
+        <child>right_shoulder_roll_link</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-3.3999999999999999</lower>
+            <upper>0.38</upper>
+            <effort>40</effort>
+            <velocity>9</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_shoulder_roll_link'>
+        <pose relative_to='right_shoulder_roll_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>-0.030932000000000001 9.9999999999999995e-07 -0.10609 0 0 0</pose>
+          <mass>1.393</mass>
+          <inertia>
+            <ixx>0.0018408000000000001</ixx>
+            <ixy>-3.9799999999999999e-07</ixy>
+            <ixz>-0.00048324000000000002</ixz>
+            <iyy>0.001934638</iyy>
+            <iyz>-1.61e-07</iyz>
+            <izz>0.00061773299999999998</izz>
+          </inertia>
+        </inertial>
+        <visual name='right_shoulder_roll_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_index_proximal_joint' attached_to='R_hand_base_link'>
-          <pose>0.00028532999999999998 -0.13653000000000001 -0.032267999999999998 -3.1067 0 0</pose>
-        </frame>
-        <frame name='R_index_proximal' attached_to='R_index_proximal_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_shoulder_roll_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_shoulder_yaw_joint' type='revolute'>
+        <pose relative_to='right_shoulder_roll_link'>-0.034200000000000001 0 -0.14560000000000001 0 0 0</pose>
+        <parent>right_shoulder_roll_link</parent>
+        <child>right_shoulder_yaw_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-3.0099999999999998</lower>
+            <upper>2.6600000000000001</upper>
+            <effort>18</effort>
+            <velocity>20</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_shoulder_yaw_link'>
+        <pose relative_to='right_shoulder_yaw_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.0045830000000000003 -0.0011280000000000001 -0.0011280000000000001 0 0 0</pose>
+          <mass>1.5049999999999999</mass>
+          <inertia>
+            <ixx>0.0041989999999999996</ixx>
+            <ixy>1.7785999999999999e-05</ixy>
+            <ixz>0.00018372000000000001</ixz>
+            <iyy>0.0043138999999999999</iyy>
+            <iyz>-9.2780000000000003e-05</iyz>
+            <izz>0.00065755000000000002</izz>
+          </inertia>
+        </inertial>
+        <visual name='right_shoulder_yaw_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_middle_intermediate_joint' attached_to='R_middle_proximal'>
-          <pose>-0.0024229 0.032041 -0.001 0 0 0</pose>
-        </frame>
-        <frame name='R_middle_intermediate' attached_to='R_middle_intermediate_joint'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_shoulder_yaw_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <joint name='right_elbow_pitch_joint' type='revolute'>
+        <pose relative_to='right_shoulder_yaw_link'>0.0060000000000000001 -0.032899999999999999 -0.182 0 0 0</pose>
+        <parent>right_shoulder_yaw_link</parent>
+        <child>right_elbow_pitch_link</child>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-0.94999999999999996</lower>
+            <upper>3.1800000000000002</upper>
+            <effort>18</effort>
+            <velocity>20</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='right_elbow_pitch_link'>
+        <pose relative_to='right_elbow_pitch_joint'>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0.17080047558895009 0.031226658943262708 -0.01078942342910629 0 0 0</pose>
+          <mass>2.1737902</mass>
+          <inertia>
+            <ixx>0.001058142065630184</ixx>
+            <ixy>-0.00064768497810564936</ixy>
+            <ixz>8.6736144861681262e-05</ixz>
+            <iyy>0.01783596004035207</iyy>
+            <iyz>-7.9997209590551132e-07</iyz>
+            <izz>0.017697903575400149</izz>
+          </inertia>
+        </inertial>
+        <visual name='right_elbow_pitch_link_visual'>
           <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_middle_proximal_joint' attached_to='R_hand_base_link'>
-          <pose>0.00028532999999999998 -0.1371 -0.01295 3.1415853071795872 0 0</pose>
-        </frame>
-        <frame name='R_middle_proximal' attached_to='R_middle_proximal_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_pinky_intermediate_joint' attached_to='R_pinky_proximal'>
-          <pose>-0.0024229 0.032041 -0.001 0 0 0</pose>
-        </frame>
-        <frame name='R_pinky_intermediate' attached_to='R_pinky_intermediate_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_pinky_proximal_joint' attached_to='R_hand_base_link'>
-          <pose>0.00028532999999999998 -0.13571 0.025488 3.0369000000000002 0 0</pose>
-        </frame>
-        <frame name='R_pinky_proximal' attached_to='R_pinky_proximal_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_ring_intermediate_joint' attached_to='R_ring_proximal'>
-          <pose>-0.0024229 0.032041 -0.001 0 0 0</pose>
-        </frame>
-        <frame name='R_ring_intermediate' attached_to='R_ring_intermediate_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_ring_proximal_joint' attached_to='R_hand_base_link'>
-          <pose>0.00028532999999999998 -0.13691 0.0062871999999999997 3.0891999999999999 0 0</pose>
-        </frame>
-        <frame name='R_ring_proximal' attached_to='R_ring_proximal_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_thumb_distal_joint' attached_to='R_thumb_intermediate'>
-          <pose>0.020247999999999999 0.010156 -0.0011999999999999999 0 0 0</pose>
-        </frame>
-        <frame name='R_thumb_distal' attached_to='R_thumb_distal_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_thumb_intermediate_joint' attached_to='R_thumb_proximal'>
-          <pose>0.044069999999999998 0.034553 -0.00080000000000000004 0 0 0</pose>
-        </frame>
-        <frame name='R_thumb_intermediate' attached_to='R_thumb_intermediate_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_thumb_proximal_pitch_joint' attached_to='R_thumb_proximal_base'>
-          <pose>-0.0088099000000000007 0.010892000000000001 -0.0092499999999999995 1.5708 0 2.8586999999999998</pose>
-        </frame>
-        <frame name='R_thumb_proximal' attached_to='R_thumb_proximal_pitch_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_thumb_proximal_yaw_joint' attached_to='R_hand_base_link'>
-          <pose>-0.016959999999999999 -0.069099999999999995 -0.020449999999999999 -1.5707926535906547 -1.5707926537266703 3.1415926535746803</pose>
-        </frame>
-        <frame name='R_thumb_proximal_base' attached_to='R_thumb_proximal_yaw_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='R_base_link_joint' attached_to='right_wrist_yaw_link'>
-          <pose>0.053999999999999999 0 0 3.1415926535897931 0 -1.5707963267948959</pose>
-        </frame>
-        <frame name='R_hand_base_link' attached_to='R_base_link_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='right_wrist_yaw_joint' attached_to='right_wrist_pitch_link'>
-          <pose>0.02 0 0 0 0 0</pose>
-        </frame>
-        <frame name='right_wrist_yaw_link' attached_to='right_wrist_yaw_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='right_wrist_pitch_joint' attached_to='right_elbow_roll_link'>
-          <pose>0.085000000000000006 0 0 0 0 0</pose>
-        </frame>
-        <frame name='right_wrist_pitch_link' attached_to='right_wrist_pitch_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-        <frame name='right_elbow_roll_joint' attached_to='right_elbow_pitch_link'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_elbow_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__right_elbow_roll_link_visual_1'>
           <pose>0.121 0.032899999999999999 -0.010999999999999999 0 0 0</pose>
-        </frame>
-        <frame name='right_elbow_roll_link' attached_to='right_elbow_roll_joint'>
-          <pose>0 0 0 0 0 0</pose>
-        </frame>
-      </model>
-   
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_elbow_roll_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__right_wrist_pitch_link_visual_2'>
+          <pose>0.20599999999999999 0.032899999999999999 -0.010999999999999999 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/right_wrist_pitch_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__right_wrist_yaw_link_visual_3'>
+          <pose>0.22600000000000001 0.032899999999999999 -0.010999999999999999 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/wrist_yaw_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_hand_base_link_visual_4'>
+          <pose>0.28000000000000003 0.032899999999999999 -0.010999999999999999 3.1415926535897931 0 -1.5707963267948959</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/R_hand_base_link.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_index_proximal_visual_5'>
+          <pose>0.41653000000000001 0.032614670000000033 0.021267999999999981 0.034892653589793099 0 -1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link15_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_index_intermediate_visual_6'>
+          <pose>0.44857139176780347 0.035228470000000033 0.021385854071336301 0.034892653589793099 0 -1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link16_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_middle_proximal_visual_7'>
+          <pose>0.41710000000000003 0.032614670000000033 0.0019499999999999849 -7.3464102068321324e-06 8.4703294725430034e-22 -1.5707963267948959</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link17_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_middle_intermediate_visual_8'>
+          <pose>0.44914099265272522 0.035037570000000032 0.00094976461369753601 -7.3464102068321324e-06 8.4703294725430034e-22 -1.5707963267948959</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link18_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_pinky_proximal_visual_9'>
+          <pose>0.41571000000000002 0.032614670000000033 -0.036488000000000007 -0.1046926535897932 -6.9388939039072284e-18 -1.5707963267948972</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link21_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_pinky_intermediate_visual_10'>
+          <pose>0.44747106529597658 0.035037570000000032 -0.040830857615062471 -0.1046926535897932 -6.9388939039072284e-18 -1.5707963267948972</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link22_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_ring_proximal_visual_11'>
+          <pose>0.41691 0.032614670000000033 -0.01728720000000002 -0.05239265358979342 -3.4694469519536142e-18 -1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link19_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_ring_intermediate_visual_12'>
+          <pose>0.44885466525655238 0.035037569999999997 -0.019963772929477871 -0.05239265358979342 -3.4694469519536142e-18 -1.570796326794897</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link20_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_thumb_proximal_base_visual_13'>
+          <pose>0.34910000000000002 0.049860000000000022 0.0094499999999999862 7.3464102066329729e-06 1.5707963267948966 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link11_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_thumb_proximal_visual_14'>
+          <pose>0.33985004000861241 0.060752001616430608 0.01825994000861534 -3.1415889803363521 -1.2879073464102073 1.5707926535433769</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link12_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_thumb_intermediate_visual_15'>
+          <pose>0.37440308531117023 0.07228509562182199 0.060801560946024277 -3.1415889803363521 -1.2879073464102073 1.5707926535433769</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link13_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+        <visual name='right_elbow_pitch_link_fixed_joint_lump__R_thumb_distal_visual_16'>
+          <pose>0.38455910624701117 0.076784634201220364 0.080579711297441486 -3.1415889803363521 -1.2879073464102073 1.5707926535433769</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>meshes/link14_R.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>0.125 0.125 0.125 1</diffuse>
+            <ambient>0.125 0.125 0.125 1</ambient>
+          </material>
+        </visual>
+      </link>
+      <frame name='imu_joint' attached_to='torso_link'>
+        <pose>-0.04233868314 0.00166 0.15206700000000001 0 0 0</pose>
+      </frame>
+      <frame name='imu_link' attached_to='imu_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='logo_joint' attached_to='torso_link'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='logo_link' attached_to='logo_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_index_intermediate_joint' attached_to='L_index_proximal'>
+        <pose>-0.0024229 -0.032041 -0.001 0 0 0</pose>
+      </frame>
+      <frame name='L_index_intermediate' attached_to='L_index_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_index_proximal_joint' attached_to='L_hand_base_link'>
+        <pose>0.00028532999999999998 -0.13653000000000001 0.032267999999999998 -0.034907000000000001 0 0</pose>
+      </frame>
+      <frame name='L_index_proximal' attached_to='L_index_proximal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_middle_intermediate_joint' attached_to='L_middle_proximal'>
+        <pose>-0.0024229 -0.032041 -0.001 0 0 0</pose>
+      </frame>
+      <frame name='L_middle_intermediate' attached_to='L_middle_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_middle_proximal_joint' attached_to='L_hand_base_link'>
+        <pose>0.00028532999999999998 -0.1371 0.01295 0 0 0</pose>
+      </frame>
+      <frame name='L_middle_proximal' attached_to='L_middle_proximal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_pinky_intermediate_joint' attached_to='L_pinky_proximal'>
+        <pose>-0.0024229 -0.032041 -0.001 0 0 0</pose>
+      </frame>
+      <frame name='L_pinky_intermediate' attached_to='L_pinky_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_pinky_proximal_joint' attached_to='L_hand_base_link'>
+        <pose>0.00028532999999999998 -0.13571 -0.025488 0.10471999999999999 0 0</pose>
+      </frame>
+      <frame name='L_pinky_proximal' attached_to='L_pinky_proximal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_ring_intermediate_joint' attached_to='L_ring_proximal'>
+        <pose>-0.0024229 -0.032041 -0.001 0 0 0</pose>
+      </frame>
+      <frame name='L_ring_intermediate' attached_to='L_ring_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_ring_proximal_joint' attached_to='L_hand_base_link'>
+        <pose>0.00028532999999999998 -0.13691 -0.0062871999999999997 0.052359999999999997 0 0</pose>
+      </frame>
+      <frame name='L_ring_proximal' attached_to='L_ring_proximal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_thumb_distal_joint' attached_to='L_thumb_intermediate'>
+        <pose>0.020247999999999999 -0.010156 -0.0011999999999999999 0 0 0</pose>
+      </frame>
+      <frame name='L_thumb_distal' attached_to='L_thumb_distal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_thumb_intermediate_joint' attached_to='L_thumb_proximal'>
+        <pose>0.044069999999999998 -0.034553 -0.00080000000000000004 0 0 0</pose>
+      </frame>
+      <frame name='L_thumb_intermediate' attached_to='L_thumb_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_thumb_proximal_pitch_joint' attached_to='L_thumb_proximal_base'>
+        <pose>0.0099866999999999994 0.0098241999999999999 -0.0088999999999999999 -1.5708000000000002 1.3877787807814457e-17 0.16938999999999999</pose>
+      </frame>
+      <frame name='L_thumb_proximal' attached_to='L_thumb_proximal_pitch_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_thumb_proximal_yaw_joint' attached_to='L_hand_base_link'>
+        <pose>-0.016959999999999999 -0.069099999999999995 0.020449999999999999 -1.5707926535906547 -1.5707926537266703 3.1415926535746803</pose>
+      </frame>
+      <frame name='L_thumb_proximal_base' attached_to='L_thumb_proximal_yaw_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='L_base_link_joint' attached_to='left_wrist_yaw_link'>
+        <pose>0.053999999999999999 0 0 0 0 1.5707963267948959</pose>
+      </frame>
+      <frame name='L_hand_base_link' attached_to='L_base_link_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='left_wrist_yaw_joint' attached_to='left_wrist_pitch_link'>
+        <pose>0.02 0 0 0 0 0</pose>
+      </frame>
+      <frame name='left_wrist_yaw_link' attached_to='left_wrist_yaw_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='left_wrist_pitch_joint' attached_to='left_elbow_roll_link'>
+        <pose>0.085000000000000006 0 0 0 0 0</pose>
+      </frame>
+      <frame name='left_wrist_pitch_link' attached_to='left_wrist_pitch_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='left_elbow_roll_joint' attached_to='left_elbow_pitch_link'>
+        <pose>0.121 -0.032899999999999999 -0.010999999999999999 0 0 0</pose>
+      </frame>
+      <frame name='left_elbow_roll_link' attached_to='left_elbow_roll_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_index_intermediate_joint' attached_to='R_index_proximal'>
+        <pose>-0.0026137999999999999 0.032025999999999999 -0.001 0 0 0</pose>
+      </frame>
+      <frame name='R_index_intermediate' attached_to='R_index_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_index_proximal_joint' attached_to='R_hand_base_link'>
+        <pose>0.00028532999999999998 -0.13653000000000001 -0.032267999999999998 -3.1067 0 0</pose>
+      </frame>
+      <frame name='R_index_proximal' attached_to='R_index_proximal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_middle_intermediate_joint' attached_to='R_middle_proximal'>
+        <pose>-0.0024229 0.032041 -0.001 0 0 0</pose>
+      </frame>
+      <frame name='R_middle_intermediate' attached_to='R_middle_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_middle_proximal_joint' attached_to='R_hand_base_link'>
+        <pose>0.00028532999999999998 -0.1371 -0.01295 3.1415853071795872 0 0</pose>
+      </frame>
+      <frame name='R_middle_proximal' attached_to='R_middle_proximal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_pinky_intermediate_joint' attached_to='R_pinky_proximal'>
+        <pose>-0.0024229 0.032041 -0.001 0 0 0</pose>
+      </frame>
+      <frame name='R_pinky_intermediate' attached_to='R_pinky_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_pinky_proximal_joint' attached_to='R_hand_base_link'>
+        <pose>0.00028532999999999998 -0.13571 0.025488 3.0369000000000002 0 0</pose>
+      </frame>
+      <frame name='R_pinky_proximal' attached_to='R_pinky_proximal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_ring_intermediate_joint' attached_to='R_ring_proximal'>
+        <pose>-0.0024229 0.032041 -0.001 0 0 0</pose>
+      </frame>
+      <frame name='R_ring_intermediate' attached_to='R_ring_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_ring_proximal_joint' attached_to='R_hand_base_link'>
+        <pose>0.00028532999999999998 -0.13691 0.0062871999999999997 3.0891999999999999 0 0</pose>
+      </frame>
+      <frame name='R_ring_proximal' attached_to='R_ring_proximal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_thumb_distal_joint' attached_to='R_thumb_intermediate'>
+        <pose>0.020247999999999999 0.010156 -0.0011999999999999999 0 0 0</pose>
+      </frame>
+      <frame name='R_thumb_distal' attached_to='R_thumb_distal_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_thumb_intermediate_joint' attached_to='R_thumb_proximal'>
+        <pose>0.044069999999999998 0.034553 -0.00080000000000000004 0 0 0</pose>
+      </frame>
+      <frame name='R_thumb_intermediate' attached_to='R_thumb_intermediate_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_thumb_proximal_pitch_joint' attached_to='R_thumb_proximal_base'>
+        <pose>-0.0088099000000000007 0.010892000000000001 -0.0092499999999999995 1.5708 0 2.8586999999999998</pose>
+      </frame>
+      <frame name='R_thumb_proximal' attached_to='R_thumb_proximal_pitch_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_thumb_proximal_yaw_joint' attached_to='R_hand_base_link'>
+        <pose>-0.016959999999999999 -0.069099999999999995 -0.020449999999999999 -1.5707926535906547 -1.5707926537266703 3.1415926535746803</pose>
+      </frame>
+      <frame name='R_thumb_proximal_base' attached_to='R_thumb_proximal_yaw_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='R_base_link_joint' attached_to='right_wrist_yaw_link'>
+        <pose>0.053999999999999999 0 0 3.1415926535897931 0 -1.5707963267948959</pose>
+      </frame>
+      <frame name='R_hand_base_link' attached_to='R_base_link_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='right_wrist_yaw_joint' attached_to='right_wrist_pitch_link'>
+        <pose>0.02 0 0 0 0 0</pose>
+      </frame>
+      <frame name='right_wrist_yaw_link' attached_to='right_wrist_yaw_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='right_wrist_pitch_joint' attached_to='right_elbow_roll_link'>
+        <pose>0.085000000000000006 0 0 0 0 0</pose>
+      </frame>
+      <frame name='right_wrist_pitch_link' attached_to='right_wrist_pitch_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+      <frame name='right_elbow_roll_joint' attached_to='right_elbow_pitch_link'>
+        <pose>0.121 0.032899999999999999 -0.010999999999999999 0 0 0</pose>
+      </frame>
+      <frame name='right_elbow_roll_link' attached_to='right_elbow_roll_joint'>
+        <pose>0 0 0 0 0 0</pose>
+      </frame>
+    </model>
   </world>
 </sdf>
