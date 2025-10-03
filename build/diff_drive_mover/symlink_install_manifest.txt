@@ -1,5 +1,8 @@
 /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/urdf/h1_2_simplified.urdf
+/workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/urdf/humanoid.sdf
+/workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/__pycache__/spawn_model.cpython-312.pyc
 /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/__pycache__/view_h1.launch.cpython-312.pyc
+/workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/spawn_model.py
 /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/view_h1.launch.py
 /workspaces/ros2-coding/install/diff_drive_mover/share/ament_index/resource_index/package_run_dependencies/diff_drive_mover
 /workspaces/ros2-coding/install/diff_drive_mover/share/ament_index/resource_index/parent_prefix_path/diff_drive_mover

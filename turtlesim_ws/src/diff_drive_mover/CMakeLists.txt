@@ -26,6 +26,7 @@ endif()
 # Install the URDF and launch files so they are available at runtime
 install(FILES
   include/${PROJECT_NAME}/h1_2_simplified.urdf
+  include/${PROJECT_NAME}/humanoid.sdf
   DESTINATION share/${PROJECT_NAME}/urdf
 )
 

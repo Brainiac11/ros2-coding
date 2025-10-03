@@ -35,20 +35,20 @@ def generate_launch_description():
     with open(urdf_path, 'r') as f:
         robot_description_content = f.read()
 
-    # Joint state publisher (GUI optional)
-    jsp_gui_node = Node(
-        package='joint_state_publisher_gui',
-        executable='joint_state_publisher_gui',
-        name='joint_state_publisher_gui',
-        condition=IfCondition(gui),
-    )
+    # # Joint state publisher (GUI optional)
+    # jsp_gui_node = Node(
+    #     package='joint_state_publisher_gui',
+    #     executable='joint_state_publisher_gui',
+    #     name='joint_state_publisher_gui',
+    #     condition=IfCondition(gui),
+    # )
 
-    jsp_node = Node(
-        package='joint_state_publisher',
-        executable='joint_state_publisher',
-        name='joint_state_publisher',
-        condition=UnlessCondition(gui),
-    )
+    # jsp_node = Node(
+    #     package='joint_state_publisher',
+    #     executable='joint_state_publisher',
+    #     name='joint_state_publisher',
+    #     condition=UnlessCondition(gui),
+    # )
 
     # Robot state publisher
     rsp_node = Node(

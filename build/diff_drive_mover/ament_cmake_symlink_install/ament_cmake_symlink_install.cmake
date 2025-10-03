@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "include/diff_drive_mover/h1_2_simplified.urdf" "DESTINATION" "share/diff_drive_mover/urdf")
-ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/diff_drive_mover" FILES "include/diff_drive_mover/h1_2_simplified.urdf" "DESTINATION" "share/diff_drive_mover/urdf")
+# install(FILES "include/diff_drive_mover/h1_2_simplified.urdf" "include/diff_drive_mover/humanoid.sdf" "DESTINATION" "share/diff_drive_mover/urdf")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/diff_drive_mover" FILES "include/diff_drive_mover/h1_2_simplified.urdf" "include/diff_drive_mover/humanoid.sdf" "DESTINATION" "share/diff_drive_mover/urdf")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/diff_drive_mover")
 ament_cmake_symlink_install_directory("/workspaces/ros2-coding/turtlesim_ws/src/diff_drive_mover" DIRECTORY "launch" "DESTINATION" "share/diff_drive_mover")
