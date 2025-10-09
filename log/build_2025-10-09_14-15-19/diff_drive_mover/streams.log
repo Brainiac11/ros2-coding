@@ -1,0 +1,14 @@
+[0.079s] Invoking command in '/workspaces/ros2-coding/build/diff_drive_mover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/diff_drive_mover -- -j4 -l4
+[0.270s] Invoked command in '/workspaces/ros2-coding/build/diff_drive_mover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/diff_drive_mover -- -j4 -l4
+[0.270s] Invoking command in '/workspaces/ros2-coding/build/diff_drive_mover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/diff_drive_mover
+[0.377s] -- Install configuration: ""
+[0.377s] -- Execute custom install script
+[0.380s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:158 (message):
+[0.380s]   ament_cmake_symlink_install_files() can't find
+[0.380s]   '/workspaces/ros2-coding/turtlesim_ws/src/diff_drive_mover/include/diff_drive_mover/h1_2_simplified.urdf'
+[0.380s] Call Stack (most recent call first):
+[0.380s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_files)
+[0.380s]   cmake_install.cmake:46 (include)
+[0.381s] 
+[0.381s] [0m
+[0.403s] Invoked command in '/workspaces/ros2-coding/build/diff_drive_mover' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/diff_drive_mover

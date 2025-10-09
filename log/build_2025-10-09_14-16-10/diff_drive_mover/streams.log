@@ -1,0 +1,30 @@
+[0.125s] Invoking command in '/workspaces/ros2-coding/build/diff_drive_mover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/diff_drive_mover -- -j4 -l4
+[0.196s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.070s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.121s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.560s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.561s] -- Configured cppcheck include dirs: 
+[1.562s] -- Configured cppcheck exclude dirs and/or files: 
+[1.566s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.566s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.566s] -- Added test 'lint_cmake' to check CMake code style
+[1.567s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.570s] -- Added test 'uncrustify' to check C / C++ code style
+[1.572s] -- Configured uncrustify additional arguments: 
+[1.575s] -- Added test 'xmllint' to check XML markup files
+[1.576s] -- Configuring done (1.4s)
+[1.593s] -- Generating done (0.0s)
+[1.598s] -- Build files have been written to: /workspaces/ros2-coding/build/diff_drive_mover
+[1.791s] Invoked command in '/workspaces/ros2-coding/build/diff_drive_mover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/diff_drive_mover -- -j4 -l4
+[1.793s] Invoking command in '/workspaces/ros2-coding/build/diff_drive_mover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/diff_drive_mover
+[1.854s] -- Install configuration: ""
+[1.856s] -- Execute custom install script
+[1.863s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:158 (message):
+[1.863s]   ament_cmake_symlink_install_files() can't find
+[1.863s]   '/workspaces/ros2-coding/turtlesim_ws/src/diff_drive_mover/include/diff_drive_mover/include/nao_world.sdf'
+[1.880s] Call Stack (most recent call first):
+[1.880s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_files)
+[1.880s]   cmake_install.cmake:46 (include)
+[1.880s] 
+[1.880s] [0m
+[1.880s] Invoked command in '/workspaces/ros2-coding/build/diff_drive_mover' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/diff_drive_mover
