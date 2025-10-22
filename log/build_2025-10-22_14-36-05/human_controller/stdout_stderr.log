@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating human_controller.egg-info
+writing human_controller.egg-info/PKG-INFO
+writing dependency_links to human_controller.egg-info/dependency_links.txt
+writing requirements to human_controller.egg-info/requires.txt
+writing top-level names to human_controller.egg-info/top_level.txt
+writing manifest file 'human_controller.egg-info/SOURCES.txt'
+reading manifest file 'human_controller.egg-info/SOURCES.txt'
+writing manifest file 'human_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human-controller.egg-link (link to .)
+
+Installed /workspaces/ros2-coding/build/human_controller
+running symlink_data
+creating /workspaces/ros2-coding/install/human_controller/share/ament_index
+creating /workspaces/ros2-coding/install/human_controller/share/ament_index/resource_index
+creating /workspaces/ros2-coding/install/human_controller/share/ament_index/resource_index/packages
+symbolically linking /workspaces/ros2-coding/build/human_controller/resource/human_controller -> /workspaces/ros2-coding/install/human_controller/share/ament_index/resource_index/packages
+symbolically linking /workspaces/ros2-coding/build/human_controller/package.xml -> /workspaces/ros2-coding/install/human_controller/share/human_controller

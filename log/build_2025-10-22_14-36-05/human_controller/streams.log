@@ -1,0 +1,22 @@
+[3.393s] Invoking command in '/workspaces/ros2-coding/build/human_controller': PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/human_controller/build --no-deps symlink_data
+[4.425s] running develop
+[5.263s] running egg_info
+[5.263s] creating human_controller.egg-info
+[5.358s] writing human_controller.egg-info/PKG-INFO
+[5.359s] writing dependency_links to human_controller.egg-info/dependency_links.txt
+[5.359s] writing requirements to human_controller.egg-info/requires.txt
+[5.359s] writing top-level names to human_controller.egg-info/top_level.txt
+[5.359s] writing manifest file 'human_controller.egg-info/SOURCES.txt'
+[5.553s] reading manifest file 'human_controller.egg-info/SOURCES.txt'
+[5.559s] writing manifest file 'human_controller.egg-info/SOURCES.txt'
+[5.603s] running build_ext
+[5.603s] Creating /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human-controller.egg-link (link to .)
+[5.603s] 
+[5.603s] Installed /workspaces/ros2-coding/build/human_controller
+[5.603s] running symlink_data
+[5.603s] creating /workspaces/ros2-coding/install/human_controller/share/ament_index
+[5.603s] creating /workspaces/ros2-coding/install/human_controller/share/ament_index/resource_index
+[5.603s] creating /workspaces/ros2-coding/install/human_controller/share/ament_index/resource_index/packages
+[5.604s] symbolically linking /workspaces/ros2-coding/build/human_controller/resource/human_controller -> /workspaces/ros2-coding/install/human_controller/share/ament_index/resource_index/packages
+[5.604s] symbolically linking /workspaces/ros2-coding/build/human_controller/package.xml -> /workspaces/ros2-coding/install/human_controller/share/human_controller
+[5.719s] Invoked command in '/workspaces/ros2-coding/build/human_controller' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/human_controller/build --no-deps symlink_data

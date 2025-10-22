@@ -3,26 +3,31 @@ from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, TextSubstitution
 from launch_ros.actions import Node
-from ros_gz_sim.actions import GzServer
+from ros_gz_bridge.actions import RosGzBridge
 
-def generate_launch_description() -> LaunchDescription:
-    world = LaunchConfiguration('world_sdf_file')
-    file = LaunchConfiguration('file')
+def generate_launch_description():
+
+    bridge_name = LaunchConfiguration('bridge_name')
     config_file = LaunchConfiguration('config_file')
 
-    declare_world_sdf_file_cmd = DeclareLaunchArgument(
-        'world_sdf_file', default_value=''
-    )
-    declare_config_file = DeclareLaunchArgument(
-        'config_file', default_value=''
+    declare_bridge_name_cmd = DeclareLaunchArgument(
+        'bridge_name', description='Name of ros_gz_bridge node'
     )
 
+    declare_config_file_cmd = DeclareLaunchArgument(
+        'config_file', description='YAML config file'
+    )
+
+    # Create the launch description and populate
     ld = LaunchDescription([
-        GzServer(
-            world_sdf_file=world,
+        RosGzBridge(
+            bridge_name=LaunchConfiguration('bridge_name'),
+            config_file=LaunchConfiguration('config_file'),
         ),
     ])
 
-    ld.add_action(declare_config_file)
-    ld.add_action(declare_world_sdf_file_cmd)
+    # Declare the launch options
+    ld.add_action(declare_bridge_name_cmd)
+    ld.add_action(declare_config_file_cmd)
+
     return ld

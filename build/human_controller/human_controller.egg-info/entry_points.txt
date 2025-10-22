@@ -1,0 +1,2 @@
+[console_scripts]
+hip_control = human_controller.hip_controller:main

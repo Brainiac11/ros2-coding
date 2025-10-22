@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+human_controller/__init__.py
+human_controller/hip_controller.py
+human_controller.egg-info/PKG-INFO
+human_controller.egg-info/SOURCES.txt
+human_controller.egg-info/dependency_links.txt
+human_controller.egg-info/entry_points.txt
+human_controller.egg-info/requires.txt
+human_controller.egg-info/top_level.txt
+human_controller.egg-info/zip-safe
+resource/human_controller
