@@ -15,8 +15,11 @@ class HipController(Node):
         self.declare_parameter('hip_roll', 0.0)
 
         self._hip_roll_subscription = self.create_subscription(Float64, '/LHipRoll', self._hip_roll_callback, 1)
-        self._hip_roll_publisher = self.create_publisher(Float64, '/LHipRoll', 1)
+        self._hip_yaw_pitch_subscription = self.create_subscription(Float64, '/LHipYawPitch', self._hip_yaw_pitch_callback, 1)
+        self._hip_roll_publisher = self.create_publisher(Float64, '/LHipRoll', qos_profile=1)
+        self._hip_yaw_pitch_publisher = self.create_publisher(Float64, '/LHipYawPitch', qos_profile=1)
         self.create_timer(1, self._hip_roll_controller)
+        self.create_timer(1, self._hip_yaw_pitch_controller)
 
         self._hip_roll = self.get_parameter("hip_roll").value
 
@@ -24,13 +27,27 @@ class HipController(Node):
 
     def _hip_roll_callback(self, roll: Float64) -> None:
         self._hip_roll = roll
+        print(self._hip_roll)
+    def _hip_yaw_pitch_callback(self, yaw_pitch: Float64) -> None:
+        self._hip_yaw_pitch = yaw_pitch
+        print(self._hip_yaw_pitch)
     
     def _hip_roll_controller(self) -> Float64:
         x = random.random() * 1000
         if(random.random() <= 0.5):
             x*=-1
         
-        print(x)
+        # print(x)
+        self._hip_roll_publisher.publish(Float64(data=x))
+        return Float64(data=x)
+    
+    def _hip_yaw_pitch_controller(self) -> Float64:
+        x = random.random() * 1000
+        if(random.random() <= 0.5):
+            x*=-1
+        
+        # print(x)
+        self._hip_yaw_pitch_publisher.publish(Float64(data=x))
         return Float64(data=x)
     
 def main(args=None):
