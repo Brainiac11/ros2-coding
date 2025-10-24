@@ -8,3 +8,8 @@
   ros_type_name: "std_msgs/msg/Float64"
   gz_type_name: "gz.msgs.Double"
   direction: BIDIRECTIONAL  # BIDIRECTIONAL or ROS_TO_GZ
+- ros_topic_name: "LHipPitch"
+  gz_topic_name: "/model/Nao/joint/LHipPitch/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: BIDIRECTIONAL  # BIDIRECTIONAL or ROS_TO_GZ

@@ -1,0 +1,17 @@
+[6.551s] Invoking command in '/workspaces/ros2-coding/build/human_controller': PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/human_controller/build --no-deps symlink_data
+[7.613s] running develop
+[8.635s] running egg_info
+[8.720s] writing human_controller.egg-info/PKG-INFO
+[8.720s] writing dependency_links to human_controller.egg-info/dependency_links.txt
+[8.720s] writing entry points to human_controller.egg-info/entry_points.txt
+[8.720s] writing requirements to human_controller.egg-info/requires.txt
+[8.721s] writing top-level names to human_controller.egg-info/top_level.txt
+[8.899s] reading manifest file 'human_controller.egg-info/SOURCES.txt'
+[8.906s] writing manifest file 'human_controller.egg-info/SOURCES.txt'
+[9.051s] running build_ext
+[9.052s] Creating /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human-controller.egg-link (link to .)
+[9.058s] Installing hip_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[9.058s] 
+[9.059s] Installed /workspaces/ros2-coding/build/human_controller
+[9.063s] running symlink_data
+[9.691s] Invoked command in '/workspaces/ros2-coding/build/human_controller' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/human_controller/build --no-deps symlink_data
