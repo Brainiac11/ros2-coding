@@ -25,7 +25,7 @@ class KeyInput(Node):
         self._key_value = key_value
         print(self._key_value)
 
-    def _key_value_controller(self) -> Float64:
+    def _key_value_controller(self, x) -> Float64:
 
 
         self._key_value_publisher.publish(Float64(data=x))

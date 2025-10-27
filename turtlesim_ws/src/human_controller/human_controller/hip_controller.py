@@ -24,7 +24,7 @@ class HipController(Node):
         self._hip_roll_publisher = self.create_publisher(Float64, '/LHipRoll', qos_profile=1)
         self._hip_yaw_pitch_publisher = self.create_publisher(Float64, '/LHipYawPitch', qos_profile=1)
         self._hip_pitch_publisher = self.create_publisher(Float64, '/LHipPitch', qos_profile=1)
-        self.create_timer(0.01, self._update_leg_positions)
+        self.create_timer(0.1, self._update_leg_positions)
 
 
         self._hip_roll = Float64(data=self.get_parameter("hip_roll").value)
