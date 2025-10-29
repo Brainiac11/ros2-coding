@@ -1,2 +1,3 @@
 [console_scripts]
 hip_control = human_controller.hip_controller:main
+kick_control = human_controller.kick_controller:main

@@ -18,9 +18,11 @@ setup(
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
+    
     entry_points={
         'console_scripts': [
-            "hip_control = human_controller.hip_controller:main"
+            "hip_control = human_controller.hip_controller:main",
+            "kick_control = human_controller.kick_controller:main"
         ],
     },
 )

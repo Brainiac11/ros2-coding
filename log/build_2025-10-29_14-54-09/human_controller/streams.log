@@ -1,0 +1,18 @@
+[3.520s] Invoking command in '/workspaces/ros2-coding/build/human_controller': PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/human_controller/build --no-deps symlink_data
+[4.742s] running develop
+[5.844s] running egg_info
+[5.884s] writing human_controller.egg-info/PKG-INFO
+[5.884s] writing dependency_links to human_controller.egg-info/dependency_links.txt
+[5.885s] writing entry points to human_controller.egg-info/entry_points.txt
+[5.885s] writing requirements to human_controller.egg-info/requires.txt
+[5.885s] writing top-level names to human_controller.egg-info/top_level.txt
+[5.996s] reading manifest file 'human_controller.egg-info/SOURCES.txt'
+[5.997s] writing manifest file 'human_controller.egg-info/SOURCES.txt'
+[6.073s] running build_ext
+[6.073s] Creating /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human-controller.egg-link (link to .)
+[6.074s] Installing hip_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[6.075s] Installing kick_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[6.076s] 
+[6.077s] Installed /workspaces/ros2-coding/build/human_controller
+[6.086s] running symlink_data
+[6.746s] Invoked command in '/workspaces/ros2-coding/build/human_controller' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/human_controller/build --no-deps symlink_data

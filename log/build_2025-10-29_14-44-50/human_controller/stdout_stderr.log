@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing human_controller.egg-info/PKG-INFO
+writing dependency_links to human_controller.egg-info/dependency_links.txt
+writing entry points to human_controller.egg-info/entry_points.txt
+writing requirements to human_controller.egg-info/requires.txt
+writing top-level names to human_controller.egg-info/top_level.txt
+reading manifest file 'human_controller.egg-info/SOURCES.txt'
+writing manifest file 'human_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human-controller.egg-link (link to .)
+Installing hip_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+Installing kick_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+
+Installed /workspaces/ros2-coding/build/human_controller
+running symlink_data

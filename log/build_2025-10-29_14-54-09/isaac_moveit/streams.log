@@ -1,0 +1,23 @@
+[0.778s] Invoking command in '/workspaces/ros2-coding/build/isaac_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_moveit -- -j4 -l4
+[1.001s] Invoked command in '/workspaces/ros2-coding/build/isaac_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_moveit -- -j4 -l4
+[1.011s] Invoking command in '/workspaces/ros2-coding/build/isaac_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_moveit
+[1.059s] -- Install configuration: ""
+[1.059s] -- Execute custom install script
+[1.060s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/rviz2/panda_moveit_config.rviz
+[1.060s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/launch/isaac_moveit.launch.py
+[1.063s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/ament_index/resource_index/package_run_dependencies/isaac_moveit
+[1.063s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/ament_index/resource_index/parent_prefix_path/isaac_moveit
+[1.064s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/ament_prefix_path.sh
+[1.064s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/ament_prefix_path.dsv
+[1.065s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/path.sh
+[1.065s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/path.dsv
+[1.065s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.bash
+[1.066s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.sh
+[1.066s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.zsh
+[1.066s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.dsv
+[1.066s] -- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/package.dsv
+[1.107s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/ament_index/resource_index/packages/isaac_moveit
+[1.108s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/cmake/isaac_moveitConfig.cmake
+[1.108s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/cmake/isaac_moveitConfig-version.cmake
+[1.109s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/package.xml
+[1.111s] Invoked command in '/workspaces/ros2-coding/build/isaac_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_moveit

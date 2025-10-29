@@ -1,0 +1,32 @@
+[0.109s] Invoking command in '/workspaces/ros2-coding/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/isaacsim -- -j4 -l4
+[0.600s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.803s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.261s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[3.037s] -- Configuring done (2.6s)
+[3.049s] -- Generating done (0.0s)
+[3.076s] -- Build files have been written to: /workspaces/ros2-coding/build/isaacsim
+[3.312s] Invoked command in '/workspaces/ros2-coding/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/isaacsim -- -j4 -l4
+[3.317s] Invoking command in '/workspaces/ros2-coding/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/isaacsim
+[3.438s] -- Install configuration: ""
+[3.438s] -- Execute custom install script
+[3.450s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/scripts/open_isaacsim_stage.py
+[3.450s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/scripts/run_isaacsim.py
+[3.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/launch/run_isaacsim.launch.py
+[3.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/lib/isaacsim/run_isaacsim.py
+[3.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/lib/isaacsim/open_isaacsim_stage.py
+[3.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/ament_index/resource_index/package_run_dependencies/isaacsim
+[3.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/ament_index/resource_index/parent_prefix_path/isaacsim
+[3.460s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/environment/ament_prefix_path.sh
+[3.460s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/environment/ament_prefix_path.dsv
+[3.460s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/environment/path.sh
+[3.460s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/environment/path.dsv
+[3.465s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/local_setup.bash
+[3.465s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/local_setup.sh
+[3.465s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/local_setup.zsh
+[3.469s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/local_setup.dsv
+[3.485s] -- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/package.dsv
+[3.645s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/ament_index/resource_index/packages/isaacsim
+[3.645s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/cmake/isaacsimConfig.cmake
+[3.646s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/cmake/isaacsimConfig-version.cmake
+[3.650s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/package.xml
+[3.674s] Invoked command in '/workspaces/ros2-coding/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/isaacsim
