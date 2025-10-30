@@ -1,0 +1,8 @@
+setup.py
+human_interfaces/__init__.py
+human_interfaces.egg-info/PKG-INFO
+human_interfaces.egg-info/SOURCES.txt
+human_interfaces.egg-info/dependency_links.txt
+human_interfaces.egg-info/top_level.txt
+human_interfaces/msg/__init__.py
+human_interfaces/msg/_kick_command.py

@@ -1,32 +1,54 @@
 
-import math
-import random
+import sys
+import select
+import termios
+import tty
 
 import rclpy
-from ackermann_msgs.msg import AckermannDriveStamped
-from geometry_msgs.msg import Twist
-from std_msgs.msg import Float64
+from human_interfaces.msg import KickCommand
 from rclpy.node import Node
+
 
 class KeyInput(Node):
     def __init__(self):
         super().__init__('key_input')
-        self.declare_parameter('key_value', 0.0)
-
-        self._key_value_subscription = self.create_subscription(Twist, '/cmd_vel', self._key_value_callback, 1)
-        self._key_value_publisher = self.create_publisher(Float64, '/key_value', qos_profile=1)
-        self.create_timer(1, self._key_value_controller)
-
-        self._key_value = self.get_parameter("key_value").value
-
-        self.get_logger().info(f"Key Value: {self._key_value}")
-
-    def _key_value_callback(self, key_value: Twist) -> None:
-        self._key_value = key_value
-        print(self._key_value)
-
-    def _key_value_controller(self, x) -> Float64:
-
-
-        self._key_value_publisher.publish(Float64(data=x))
-        return Float64(data=x)
+        self._kick_command_publisher = self.create_publisher(KickCommand, '/should_kick', 10)
+        self.create_timer(0.1, self._check_keyboard)
+        self.settings = termios.tcgetattr(sys.stdin)
+        tty.setraw(sys.stdin.fileno())
+        self.get_logger().info("Key Input Node Started")
+        self.get_logger().info("Press 'K' to kick, 'R' to reset, 'Q' to quit")
+    def _check_keyboard(self) -> None:
+        if select.select([sys.stdin], [], [], 0)[0]:
+            key = sys.stdin.read(1)
+            if key.lower() == 'k':
+                msg = KickCommand()
+                msg.should_kick = True
+                self._kick_command_publisher.publish(msg)
+                self.get_logger().info("KICK command")
+                
+            elif key.lower() == 'r':
+                msg = KickCommand()
+                msg.should_kick = False
+                self._kick_command_publisher.publish(msg)
+                self.get_logger().info("RESET command")
+                
+            elif key.lower() == 'q':
+                self.get_logger().info("Quitting")
+                self.restore_terminal()
+                rclpy.shutdown()
+    
+    def restore_terminal(self):
+        termios.tcsetattr(sys.stdin, termios.TCSADRAIN, self.settings)
+def main(args=None):
+    rclpy.init(args=args)
+    key_input = KeyInput()
+    try:
+        rclpy.spin(key_input)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        key_input.restore_terminal()
+        key_input.destroy_node()
+        if rclpy.ok():
+            rclpy.shutdown()

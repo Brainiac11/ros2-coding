@@ -1,0 +1,18 @@
+[2.412s] Invoking command in '/workspaces/ros2-coding/build/human_controller': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ros2-coding/install/human_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/human_controller/build --no-deps symlink_data
+[3.534s] running develop
+[4.396s] running egg_info
+[4.486s] writing human_controller.egg-info/PKG-INFO
+[4.487s] writing dependency_links to human_controller.egg-info/dependency_links.txt
+[4.487s] writing entry points to human_controller.egg-info/entry_points.txt
+[4.487s] writing requirements to human_controller.egg-info/requires.txt
+[4.487s] writing top-level names to human_controller.egg-info/top_level.txt
+[4.590s] reading manifest file 'human_controller.egg-info/SOURCES.txt'
+[4.591s] writing manifest file 'human_controller.egg-info/SOURCES.txt'
+[4.683s] running build_ext
+[4.684s] Creating /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human-controller.egg-link (link to .)
+[4.684s] Installing hip_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[4.684s] Installing kick_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[4.684s] 
+[4.684s] Installed /workspaces/ros2-coding/build/human_controller
+[4.685s] running symlink_data
+[4.786s] Invoked command in '/workspaces/ros2-coding/build/human_controller' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ros2-coding/install/human_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/human_controller/build --no-deps symlink_data

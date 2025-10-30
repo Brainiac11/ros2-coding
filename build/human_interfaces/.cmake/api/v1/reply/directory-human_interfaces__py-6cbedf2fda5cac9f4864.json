@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "human_interfaces__py",
+		"source" : "/workspaces/ros2-coding/build/human_interfaces/human_interfaces__py"
+	}
+}

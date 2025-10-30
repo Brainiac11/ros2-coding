@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from human_interfaces/msg/KickCommand.msg
+// generated code does not contain a copyright notice
+
+
+module human_interfaces {
+  module msg {
+    struct KickCommand {
+      boolean should_kick;
+    };
+  };
+};

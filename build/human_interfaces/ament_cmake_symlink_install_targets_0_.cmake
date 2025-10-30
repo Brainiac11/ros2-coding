@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_py/human_interfaces/human_interfaces_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "human_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/human_interfaces")

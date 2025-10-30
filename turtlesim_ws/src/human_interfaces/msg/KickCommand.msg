@@ -1,0 +1,1 @@
+bool should_kick

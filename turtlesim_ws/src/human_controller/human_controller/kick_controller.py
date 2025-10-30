@@ -40,7 +40,7 @@ class KickController(Node):
 
         self.get_logger().info(f"Hip Roll: {self._hip_roll}")
     def _kick(self) -> None:
-        if self._should_kick.shouldKick:
+        if self._should_kick.should_kick:
             self._hip_pitch_controller(KickConstants.HIP_PITCH_KICK_ANGLE)
             
         else:
@@ -56,7 +56,7 @@ class KickController(Node):
     def _hip_pitch_callback(self, pitch: Float64) -> None:
         self._hip_pitch = pitch
         print(self._hip_pitch)
-    def _should_kick_callback(self, should_kick: Twist) -> None:
+    def _should_kick_callback(self, should_kick: KickCommand) -> None:
         self._should_kick = should_kick
         print(self._should_kick)
     def _hip_roll_controller(self, x: float) -> Float64:
@@ -82,10 +82,6 @@ def main(args=None):
     kick_controller = KickController()
 
     rclpy.spin(kick_controller)
-
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
     kick_controller.destroy_node()
     rclpy.shutdown()
 

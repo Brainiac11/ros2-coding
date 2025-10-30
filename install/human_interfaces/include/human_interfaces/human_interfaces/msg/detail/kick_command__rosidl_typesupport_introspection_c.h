@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/human_interfaces/rosidl_typesupport_introspection_c/human_interfaces/msg/detail/kick_command__rosidl_typesupport_introspection_c.h
