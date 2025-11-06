@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from human_interfaces/msg/ArmSwingCommand.msg
+// generated code does not contain a copyright notice
+
+
+module human_interfaces {
+  module msg {
+    struct ArmSwingCommand {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -232,4 +232,12 @@ CMakeFiles/human_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_gen
  /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.h \
  /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h \
- /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.h
+ /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.h \
+ /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.h \
+ /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h \
+ /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h \
+ /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.h \
+ /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__struct.h \
+ /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.h

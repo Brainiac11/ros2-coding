@@ -1,2 +1,6 @@
+msg/ArmSwingCommand.idl
+msg/ArmSwingCommand.msg
 msg/KickCommand.idl
 msg/KickCommand.msg
+srv/InverseKinematics.idl
+srv/InverseKinematics.srv

@@ -1,4 +1,6 @@
 [console_scripts]
 hip_control = human_controller.hip_controller:main
+ik_solver = human_controller.InverseKinematicSolver:main
+ik_tester = human_controller.ik_tester:main
 key_input = human_controller.key_input:main
-kick_control = human_controller.kick_controller:main
+left_kick_control = human_controller.left_kick_controller:main

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROS_PACKAGE_NAME=\"human_interfaces\" -Dhuman_interfaces_s__rosidl_typesupport_c_EXPORTS
 
-C_INCLUDES = -I/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c -I/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_py -I/opt/ros/jazzy/include/rmw -isystem /usr/include/python3.12 -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport
+C_INCLUDES = -I/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c -I/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_py -I/opt/ros/jazzy/include/rmw -isystem /usr/include/python3.12 -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport
 
 C_FLAGS = -fPIC -Wall -Wextra
 

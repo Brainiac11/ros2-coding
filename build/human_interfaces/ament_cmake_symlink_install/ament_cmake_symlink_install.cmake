@@ -316,6 +316,12 @@ ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/huma
 # install(FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_type_description/human_interfaces/msg/KickCommand.json" "DESTINATION" "share/human_interfaces/msg")
 ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_type_description/human_interfaces/msg/KickCommand.json" "DESTINATION" "share/human_interfaces/msg")
 
+# install(FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_type_description/human_interfaces/msg/ArmSwingCommand.json" "DESTINATION" "share/human_interfaces/msg")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_type_description/human_interfaces/msg/ArmSwingCommand.json" "DESTINATION" "share/human_interfaces/msg")
+
+# install(FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_type_description/human_interfaces/srv/InverseKinematics.json" "DESTINATION" "share/human_interfaces/srv")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_type_description/human_interfaces/srv/InverseKinematics.json" "DESTINATION" "share/human_interfaces/srv")
+
 # install(DIRECTORY "/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/" "DESTINATION" "include/human_interfaces/human_interfaces" "PATTERN" "*.h")
 ament_cmake_symlink_install_directory("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" DIRECTORY "/workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/" "DESTINATION" "include/human_interfaces/human_interfaces" "PATTERN" "*.h")
 
@@ -364,8 +370,20 @@ include("/workspaces/ros2-coding/build/human_interfaces/ament_cmake_symlink_inst
 # install(FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces/msg/KickCommand.idl" "DESTINATION" "share/human_interfaces/msg")
 ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces/msg/KickCommand.idl" "DESTINATION" "share/human_interfaces/msg")
 
+# install(FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces/msg/ArmSwingCommand.idl" "DESTINATION" "share/human_interfaces/msg")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces/msg/ArmSwingCommand.idl" "DESTINATION" "share/human_interfaces/msg")
+
+# install(FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces/srv/InverseKinematics.idl" "DESTINATION" "share/human_interfaces/srv")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces/srv/InverseKinematics.idl" "DESTINATION" "share/human_interfaces/srv")
+
 # install(FILES "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces/msg/KickCommand.msg" "DESTINATION" "share/human_interfaces/msg")
 ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces/msg/KickCommand.msg" "DESTINATION" "share/human_interfaces/msg")
+
+# install(FILES "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces/msg/ArmSwingCommand.msg" "DESTINATION" "share/human_interfaces/msg")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces/msg/ArmSwingCommand.msg" "DESTINATION" "share/human_interfaces/msg")
+
+# install(FILES "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces/srv/InverseKinematics.srv" "DESTINATION" "share/human_interfaces/srv")
+ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces/srv/InverseKinematics.srv" "DESTINATION" "share/human_interfaces/srv")
 
 # install(FILES "/workspaces/ros2-coding/build/human_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/human_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces" FILES "/workspaces/ros2-coding/build/human_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/human_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

@@ -3,7 +3,6 @@ import math
 import random
 
 import rclpy
-from ackermann_msgs.msg import AckermannDriveStamped
 from geometry_msgs.msg import Twist
 from std_msgs.msg import Float64
 from rclpy.node import Node

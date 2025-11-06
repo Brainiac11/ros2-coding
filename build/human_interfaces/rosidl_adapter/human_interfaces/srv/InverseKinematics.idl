@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from human_interfaces/srv/InverseKinematics.srv
+// generated code does not contain a copyright notice
+
+
+module human_interfaces {
+  module srv {
+    struct InverseKinematics_Request {
+      double target_x;
+
+      double target_y;
+
+      double target_z;
+
+      double link1_length;
+
+      double link2_length;
+
+      double link3_length;
+
+      boolean fix_joint1;
+
+      boolean fix_joint2;
+
+      boolean fix_joint3;
+
+      double fixed_joint1_angle;
+
+      double fixed_joint2_angle;
+
+      double fixed_joint3_angle;
+    };
+    struct InverseKinematics_Response {
+      double joint1_angle;
+
+      double joint2_angle;
+
+      double joint3_angle;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

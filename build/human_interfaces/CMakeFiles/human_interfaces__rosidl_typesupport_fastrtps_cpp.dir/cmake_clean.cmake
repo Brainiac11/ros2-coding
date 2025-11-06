@@ -1,10 +1,18 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/dds_fastrtps/arm_swing_command__type_support.cpp.o"
+  "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/dds_fastrtps/arm_swing_command__type_support.cpp.o.d"
   "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/dds_fastrtps/kick_command__type_support.cpp.o"
   "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/dds_fastrtps/kick_command__type_support.cpp.o.d"
+  "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/srv/detail/dds_fastrtps/inverse_kinematics__type_support.cpp.o"
+  "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/srv/detail/dds_fastrtps/inverse_kinematics__type_support.cpp.o.d"
   "libhuman_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libhuman_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/arm_swing_command__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/dds_fastrtps/arm_swing_command__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/dds_fastrtps/kick_command__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/kick_command__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/human_interfaces/srv/detail/dds_fastrtps/inverse_kinematics__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/human_interfaces/srv/detail/inverse_kinematics__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

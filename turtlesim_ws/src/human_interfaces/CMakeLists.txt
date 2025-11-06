@@ -13,6 +13,7 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/KickCommand.msg"
   "msg/ArmSwingCommand.msg"
+  "srv/InverseKinematics.srv"
   DEPENDENCIES std_msgs
 )
 

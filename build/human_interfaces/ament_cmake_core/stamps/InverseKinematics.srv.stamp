@@ -1,0 +1,25 @@
+float64 target_x
+float64 target_y
+float64 target_z
+
+float64 link1_length
+float64 link2_length
+float64 link3_length
+
+bool fix_joint1
+bool fix_joint2
+bool fix_joint3
+
+float64 fixed_joint1_angle
+float64 fixed_joint2_angle
+float64 fixed_joint3_angle
+
+---
+
+float64 joint1_angle
+float64 joint2_angle
+float64 joint3_angle
+
+bool success
+
+string message

@@ -67,6 +67,8 @@ include CMakeFiles/human_interfaces.dir/compiler_depend.make
 include CMakeFiles/human_interfaces.dir/progress.make
 
 CMakeFiles/human_interfaces: /workspaces/ros2-coding/turtlesim_ws/src/human_interfaces/msg/KickCommand.msg
+CMakeFiles/human_interfaces: /workspaces/ros2-coding/turtlesim_ws/src/human_interfaces/msg/ArmSwingCommand.msg
+CMakeFiles/human_interfaces: /workspaces/ros2-coding/turtlesim_ws/src/human_interfaces/srv/InverseKinematics.srv
 CMakeFiles/human_interfaces: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 CMakeFiles/human_interfaces: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 CMakeFiles/human_interfaces: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -97,6 +99,7 @@ CMakeFiles/human_interfaces: /opt/ros/jazzy/share/std_msgs/msg/UInt64.idl
 CMakeFiles/human_interfaces: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 CMakeFiles/human_interfaces: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 CMakeFiles/human_interfaces: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+CMakeFiles/human_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 human_interfaces: CMakeFiles/human_interfaces
 human_interfaces: CMakeFiles/human_interfaces.dir/build.make

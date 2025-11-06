@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "human_interfaces/msg/ArmSwingCommand",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "human_interfaces/msg/ArmSwingCommand",
+      "hash_string": "RIHS01_c9711fbd6f6c6e656392d3a0dca8964abe64e81a87fb72490f15c03672f76dcf"
+    }
+  ]
+}

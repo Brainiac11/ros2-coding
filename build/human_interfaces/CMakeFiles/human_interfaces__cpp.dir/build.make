@@ -71,6 +71,16 @@ CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/deta
 CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__struct.hpp
 CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__traits.hpp
 CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__type_support.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/arm_swing_command.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__builder.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__struct.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__traits.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__type_support.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/inverse_kinematics.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__builder.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__struct.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__traits.hpp
+CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__type_support.hpp
 CMakeFiles/human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -93,6 +103,8 @@ rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: rosidl_adapter/human_interfaces/msg/KickCommand.idl
+rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: rosidl_adapter/human_interfaces/msg/ArmSwingCommand.idl
+rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: rosidl_adapter/human_interfaces/srv/InverseKinematics.idl
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -125,6 +137,7 @@ rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -140,16 +153,56 @@ rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__traits.hpp: rosid
 rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__type_support.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__type_support.hpp
 
+rosidl_generator_cpp/human_interfaces/msg/arm_swing_command.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/msg/arm_swing_command.hpp
+
+rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__builder.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__builder.hpp
+
+rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__struct.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__struct.hpp
+
+rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__traits.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__traits.hpp
+
+rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__type_support.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__type_support.hpp
+
+rosidl_generator_cpp/human_interfaces/srv/inverse_kinematics.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/srv/inverse_kinematics.hpp
+
+rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__builder.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__builder.hpp
+
+rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__struct.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__struct.hpp
+
+rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__traits.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__traits.hpp
+
+rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__type_support.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__type_support.hpp
+
 rosidl_generator_cpp/human_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/human_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 human_interfaces__cpp: CMakeFiles/human_interfaces__cpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/arm_swing_command.hpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__builder.hpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__struct.hpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__traits.hpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__type_support.hpp
 human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__builder.hpp
 human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__struct.hpp
 human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__traits.hpp
 human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/detail/kick_command__type_support.hpp
 human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/kick_command.hpp
 human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__builder.hpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__struct.hpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__traits.hpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/detail/inverse_kinematics__type_support.hpp
+human_interfaces__cpp: rosidl_generator_cpp/human_interfaces/srv/inverse_kinematics.hpp
 human_interfaces__cpp: CMakeFiles/human_interfaces__cpp.dir/build.make
 .PHONY : human_interfaces__cpp
 

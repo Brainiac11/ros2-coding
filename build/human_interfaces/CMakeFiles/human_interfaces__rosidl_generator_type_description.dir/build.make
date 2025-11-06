@@ -67,15 +67,27 @@ include CMakeFiles/human_interfaces__rosidl_generator_type_description.dir/compi
 include CMakeFiles/human_interfaces__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/human_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/human_interfaces/msg/KickCommand.json
+CMakeFiles/human_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/human_interfaces/msg/ArmSwingCommand.json
+CMakeFiles/human_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/human_interfaces/srv/InverseKinematics.json
 
 rosidl_generator_type_description/human_interfaces/msg/KickCommand.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/human_interfaces/msg/KickCommand.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/human_interfaces/msg/KickCommand.json: rosidl_adapter/human_interfaces/msg/KickCommand.idl
+rosidl_generator_type_description/human_interfaces/msg/KickCommand.json: rosidl_adapter/human_interfaces/msg/ArmSwingCommand.idl
+rosidl_generator_type_description/human_interfaces/msg/KickCommand.json: rosidl_adapter/human_interfaces/srv/InverseKinematics.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/human_interfaces/msg/ArmSwingCommand.json: rosidl_generator_type_description/human_interfaces/msg/KickCommand.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/human_interfaces/msg/ArmSwingCommand.json
+
+rosidl_generator_type_description/human_interfaces/srv/InverseKinematics.json: rosidl_generator_type_description/human_interfaces/msg/KickCommand.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/human_interfaces/srv/InverseKinematics.json
+
 human_interfaces__rosidl_generator_type_description: CMakeFiles/human_interfaces__rosidl_generator_type_description
+human_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/human_interfaces/msg/ArmSwingCommand.json
 human_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/human_interfaces/msg/KickCommand.json
+human_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/human_interfaces/srv/InverseKinematics.json
 human_interfaces__rosidl_generator_type_description: CMakeFiles/human_interfaces__rosidl_generator_type_description.dir/build.make
 .PHONY : human_interfaces__rosidl_generator_type_description
 

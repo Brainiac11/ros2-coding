@@ -89,6 +89,8 @@ rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/ros
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/human_interfaces/msg/kick_command.h: rosidl_adapter/human_interfaces/msg/KickCommand.idl
+rosidl_generator_c/human_interfaces/msg/kick_command.h: rosidl_adapter/human_interfaces/msg/ArmSwingCommand.idl
+rosidl_generator_c/human_interfaces/msg/kick_command.h: rosidl_adapter/human_interfaces/srv/InverseKinematics.idl
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -121,6 +123,7 @@ rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/std
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c__arguments.json
 
@@ -133,6 +136,30 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h: rosidl_ge
 rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.h
 
+rosidl_generator_c/human_interfaces/msg/arm_swing_command.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/arm_swing_command.h
+
+rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h
+
+rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h
+
+rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.h
+
+rosidl_generator_c/human_interfaces/srv/inverse_kinematics.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/srv/inverse_kinematics.h
+
+rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.h
+
+rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__struct.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__struct.h
+
+rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.h
+
 rosidl_generator_c/human_interfaces/msg/detail/kick_command__description.c: rosidl_generator_c/human_interfaces/msg/kick_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/kick_command__description.c
 
@@ -141,6 +168,24 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.c: rosidl
 
 rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c: rosidl_generator_c/human_interfaces/msg/kick_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c
+
+rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c
+
+rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c
+
+rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c
+
+rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c
+
+rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c
+
+rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c: rosidl_generator_c/human_interfaces/msg/kick_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c
 
 CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__description.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__description.c.o: rosidl_generator_c/human_interfaces/msg/detail/kick_command__description.c
@@ -184,11 +229,101 @@ CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_int
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c.s
 
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o: rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o -MF CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o.d -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o -c /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c > CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.i
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.s
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o: rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o -MF CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o.d -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o -c /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c > CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.i
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.s
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o: rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o -MF CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o.d -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o -c /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c > CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.i
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.s
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o: rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o -MF CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o.d -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o -c /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c > CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.i
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.s
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o: rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o -MF CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o.d -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o -c /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c > CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.i
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.s
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o: rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o: CMakeFiles/human_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o -MF CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o.d -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o -c /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c > CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.i
+
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c -o CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.s
+
 # Object files for target human_interfaces__rosidl_generator_c
 human_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__description.c.o" \
 "CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.c.o" \
-"CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c.o"
+"CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c.o" \
+"CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o" \
+"CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o" \
+"CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o" \
+"CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o" \
+"CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o" \
+"CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o"
 
 # External object files for target human_interfaces__rosidl_generator_c
 human_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -196,13 +331,20 @@ human_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__description.c.o
 libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.c.o
 libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c.o
+libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o
+libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o
+libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o
+libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o
+libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o
+libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o
 libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/build.make
 libhuman_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
+libhuman_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 libhuman_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libhuman_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libhuman_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libhuman_interfaces__rosidl_generator_c.so: CMakeFiles/human_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libhuman_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libhuman_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/human_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -213,6 +355,13 @@ CMakeFiles/human_interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/human_interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/human_interfaces__rosidl_generator_c.dir/clean
 
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/arm_swing_command.h
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.h
 CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/kick_command__description.c
 CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.c
 CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.h
@@ -220,6 +369,13 @@ CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/h
 CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c
 CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.h
 CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/msg/kick_command.h
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.h
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__struct.h
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.h
+CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/human_interfaces/srv/inverse_kinematics.h
 	cd /workspaces/ros2-coding/build/human_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/ros2-coding/turtlesim_ws/src/human_interfaces /workspaces/ros2-coding/turtlesim_ws/src/human_interfaces /workspaces/ros2-coding/build/human_interfaces /workspaces/ros2-coding/build/human_interfaces /workspaces/ros2-coding/build/human_interfaces/CMakeFiles/human_interfaces__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/human_interfaces__rosidl_generator_c.dir/depend
 

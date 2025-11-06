@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
 package_name = 'human_controller'
 
@@ -10,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -22,8 +25,10 @@ setup(
     entry_points={
         'console_scripts': [
             "hip_control = human_controller.hip_controller:main",
-            "kick_control = human_controller.kick_controller:main",
-            "key_input = human_controller.key_input:main"
+            "left_kick_control = human_controller.left_kick_controller:main",
+            "key_input = human_controller.key_input:main",
+            "ik_solver = human_controller.InverseKinematicSolver:main",
+            "ik_tester = human_controller.ik_tester:main"
         ],
     },
 )
