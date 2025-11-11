@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/workspaces/ros2-coding/turtlesim_ws/src/diff_drive_mover"
+    "cmake.sourceDirectory": "/workspaces/ros2-coding/turtlesim_ws/src/diff_drive_mover",
+    "python.REPL.enableREPLSmartSend": false
 }
