@@ -65,8 +65,8 @@ def main(args=None):
     client.send_ik_request(
         target_x=1.5,
         target_y=1.0,
-        target_z=0.5,
-        l1=1.0,
+        target_z=0.0,
+        l1=2.0,
         l2=1.0,
         l3=0.5
     )

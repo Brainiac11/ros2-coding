@@ -2,6 +2,7 @@ package.xml
 setup.cfg
 setup.py
 human_controller/InverseKinematicSolver.py
+human_controller/JacobianPsuedoInverseSolver.py
 human_controller/__init__.py
 human_controller/hip_controller.py
 human_controller/ik_tester.py

@@ -3,6 +3,8 @@ import rclpy
 from rclpy.node import Node
 from human_interfaces.srv import InverseKinematics  # type: ignore
 import math
+import numpy as np
+from human_controller import JacobianPsuedoInverseSolver
 
 
 class InverseKinematicsSolver(Node):
@@ -115,8 +117,15 @@ class InverseKinematicsSolver(Node):
         return response
 
     def solve_standard_3joint_ik_jacobian_psuedoinverse(self, x: float64, y: float64, z: float, l1: float64, l2:float64 , l3: float64 ) -> dict:
-        
-        return {}
+        solver: JacobianPsuedoInverseSolver.JacobianPsuedoInverseSolver = JacobianPsuedoInverseSolver.JacobianPsuedoInverseSolver(target=np.array([x, y, z]), link_lengths=np.array([l1, l2, l3]), link_global_angles=np.zeros(3))
+        thetas = JacobianPsuedoInverseSolver.reduce_radians(JacobianPsuedoInverseSolver.convert_to_global_angles(solver.jacobian_gradient_descent()))
+        return {
+            "success": True,
+            "joint1": thetas[0],
+            "joint2": thetas[1],
+            "joint3": thetas[2],
+            "message": "Success",
+        }
 
     def solve_with_j1_fixed(self, x, y, z, l1, l2, l3, j1_fixed):
         x_plane = x * math.cos(-j1_fixed) - y * math.sin(-j1_fixed)
