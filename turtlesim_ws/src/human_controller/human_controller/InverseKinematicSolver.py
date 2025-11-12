@@ -116,9 +116,21 @@ class InverseKinematicsSolver(Node):
 
         return response
 
-    def solve_standard_3joint_ik_jacobian_psuedoinverse(self, x: float64, y: float64, z: float, l1: float64, l2:float64 , l3: float64 ) -> dict:
-        solver: JacobianPsuedoInverseSolver.JacobianPsuedoInverseSolver = JacobianPsuedoInverseSolver.JacobianPsuedoInverseSolver(target=np.array([x, y, z]), link_lengths=np.array([l1, l2, l3]), link_global_angles=np.zeros(3))
-        thetas = JacobianPsuedoInverseSolver.reduce_radians(JacobianPsuedoInverseSolver.convert_to_global_angles(solver.jacobian_gradient_descent()))
+    def solve_standard_3joint_ik_jacobian_psuedoinverse(
+        self, x: float64, y: float64, z: float, l1: float64, l2: float64, l3: float64
+    ) -> dict:
+        solver: JacobianPsuedoInverseSolver.JacobianPsuedoInverseSolver = (
+            JacobianPsuedoInverseSolver.JacobianPsuedoInverseSolver(
+                target=np.array([x, y, z]),
+                link_lengths=np.array([l1, l2, l3]),
+                link_global_angles=np.zeros(3),
+            )
+        )
+        thetas = JacobianPsuedoInverseSolver.reduce_radians(
+            JacobianPsuedoInverseSolver.convert_to_global_angles(
+                solver.jacobian_gradient_descent()
+            )
+        )
         return {
             "success": True,
             "joint1": thetas[0],

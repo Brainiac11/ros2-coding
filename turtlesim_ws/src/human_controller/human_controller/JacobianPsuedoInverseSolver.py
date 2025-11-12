@@ -33,7 +33,7 @@ class JacobianPsuedoInverseSolver:
         """
         J: NDArray
         for i in range(100000):
-            J = self.compute_jacobian()
+            J = self._compute_jacobian()
             if self.find_error_squared_magnitude() < self.MAX_ALLOWABLE_ERROR:
                 print(f"TS COnvereged in {i} iterations")
                 break
@@ -49,7 +49,7 @@ class JacobianPsuedoInverseSolver:
 
         return self._link_local_angles
 
-    def compute_jacobian(self, delta=1e-6) -> NDArray:
+    def _compute_jacobian(self) -> NDArray:
         link_num = len(self._link_lengths)
         J = np.zeros((2, link_num))
         # basically we calcaute the partials for each joint, kinda making a gradient
