@@ -92,7 +92,7 @@ class JacobianPsuedoInverseSolver:
 
 # def main():
 #     solver: JacobianPsuedoInverseSolver = JacobianPsuedoInverseSolver(
-#         target=np.array([2, 1, 0]),
+#         target=np.array([1, 1, 0]),
 #         link_lengths=np.array([3, 2, 1]),
 #         link_global_angles=np.array([math.pi / 4, math.pi / 4, math.pi / 4.0]),
 #     )
@@ -103,6 +103,7 @@ class JacobianPsuedoInverseSolver:
 #     print("Reduced Radians:", reduce_radians(convert_to_global_angles(x)))
 #     print(solver.find_end_effector_location_cartesian())
 #     print("Error", solver.find_error_squared_magnitude())
+    
 
 
 def convert_to_local_angles(global_angles: NDArray) -> NDArray:
