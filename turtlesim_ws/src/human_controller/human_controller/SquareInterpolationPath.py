@@ -4,7 +4,7 @@ from numpy.typing import NDArray
 
 class SquareInterpolationPath:
     interpolated_path: list[NDArray]
-    def __init__(self, start_point: NDArray, end_point: NDArray, interpolation_time_count:int = 9991, is_reversed:bool = False):
+    def __init__(self, start_point: NDArray, end_point: NDArray, interpolation_time_count:int = 1000, is_reversed:bool = False):
         """Interpolates the given starting and ending end_effector locations in a square pattern.
 
         Args:
@@ -28,26 +28,31 @@ class SquareInterpolationPath:
         return np.array([vector[1], -vector[0] ])
     def find_positive_orthoganal_vector(self, vector: NDArray)->NDArray:
         return np.array([-vector[1], vector[0] ])
+    def find_neutral_orthoganal_vector(self, vector: NDArray)->NDArray:
+        return np.array([vector[1], vector[0] ])
     
     def find_unit_vector(self, vector: NDArray) -> NDArray:
         return vector / np.linalg.norm(vector)
     
     def interpolate_with_time(self) -> list[NDArray]:
-        current_vector_step: NDArray = self.find_unit_vector(self.find_negative_orthoganal_vector(self._travel_vector)) 
+        current_vector_step: NDArray =  4.0 * self.find_positive_orthoganal_vector(self._travel_vector / self._interpolation_time_count)
         self.interpolated_path[0] = self._start_point
         vertex_point: NDArray = self._start_point
         for i in range(1, self._interpolation_time_count+1):
             self.interpolated_path.append(self.interpolated_path[i-1] + current_vector_step)
-            if np.linalg.norm(self.interpolated_path[-1] - vertex_point) >= self._square_height:
+            if np.allclose(self.interpolated_path[-1], self._end_point):
+                break
+            if abs(np.linalg.norm(self.interpolated_path[-1] - vertex_point)) >= self._square_height:
                 # print(current_vector_step)
                 # current_vector_step[0], current_vector_step[1] = np.rot90(np.array([[current_vector_step[0]], [current_vector_step[1]]]), k=1, axes=(0, 1))[0][0],  np.rot90(np.array([[current_vector_step[0]], [current_vector_step[1]]]), k=1, axes=(0, 1))[0][1]
-                current_vector_step = self.find_positive_orthoganal_vector(current_vector_step)
+                current_vector_step = self.find_negative_orthoganal_vector(current_vector_step)
                 vertex_point = self.interpolated_path[-1]
+                print(vertex_point)
         
         return self.interpolated_path
         
 def main():
-    inter: SquareInterpolationPath = SquareInterpolationPath(start_point=np.array([0,0]), end_point=np.array([100, 0]), interpolation_time_count=10, is_reversed=False)
+    inter: SquareInterpolationPath = SquareInterpolationPath(start_point=np.array([0,0]), end_point=np.array([2, 1]), interpolation_time_count=16, is_reversed=True)
     print(inter.interpolate_with_time())
     
 if __name__ == '__main__':
