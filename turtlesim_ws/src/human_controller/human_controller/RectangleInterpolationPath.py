@@ -3,9 +3,9 @@ import numpy as np
 from numpy.typing import NDArray
 import matplotlib.pyplot as plt
 
-class SquareInterpolationPath:
+class RectangleInterpolationPath:
     interpolated_path: list[NDArray]
-    def __init__(self, start_point: NDArray, end_point: NDArray, interpolation_time_count:int = 1000, is_reversed:bool = False):
+    def __init__(self, start_point: NDArray, end_point: NDArray, interpolation_time_count:int = 1000, is_reversed:bool = False, ):
         """Interpolates the given starting and ending end_effector locations in a square pattern.
 
         Args:
@@ -53,7 +53,7 @@ class SquareInterpolationPath:
         return self.interpolated_path
         
 def main():
-    inter: SquareInterpolationPath = SquareInterpolationPath(start_point=np.array([1,1]), end_point=np.array([2.82842712475, 2.82842712475]), interpolation_time_count=10000, is_reversed=False)
+    inter: RectangleInterpolationPath = RectangleInterpolationPath(start_point=np.array([1,1]), end_point=np.array([2.82842712475, 2.82842712475]), interpolation_time_count=10000, is_reversed=False)
     path = inter.interpolate_with_time()
     print(path)
     plt.plot([p[0] for p in path], [p[1] for p in path])
