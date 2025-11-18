@@ -2,10 +2,11 @@ import math
 import numpy as np
 from numpy.typing import NDArray
 import matplotlib.pyplot as plt
+import time
 
 class RectangleInterpolationPath:
     interpolated_path: list[NDArray]
-    def __init__(self, start_point: NDArray, end_point: NDArray, interpolation_time_count:int = 1000, is_reversed:bool = False, ):
+    def __init__(self, start_point: NDArray, end_point: NDArray, height:float, interpolation_time_count:int = 1000, is_reversed:bool = False):
         """Interpolates the given starting and ending end_effector locations in a square pattern.
 
         Args:
@@ -17,8 +18,9 @@ class RectangleInterpolationPath:
         self._start_point:NDArray = start_point
         self._end_point:NDArray = end_point
         self._travel_vector: NDArray = end_point - start_point
-        self._square_height:np.float64 = np.linalg.norm(self._travel_vector)
-        self._perimeter:np.float64 = self._square_height*3.0
+        self._rectangle_height:np.float64 = np.float64(height)
+        self._rectangle_width:np.float64 = np.linalg.norm(self._travel_vector)
+        self._perimeter:np.float64 = 2.0 * (self._rectangle_height + self._rectangle_width)
         self._interpolation_time_count = interpolation_time_count
         self._step_distance = self._perimeter / self._interpolation_time_count
         self._is_reversed = is_reversed
@@ -36,27 +38,34 @@ class RectangleInterpolationPath:
         return vector / np.linalg.norm(vector)
     
     def interpolate_with_time(self) -> list[NDArray]:
-        current_vector_step: NDArray =  4.0 * (self.find_positive_orthoganal_vector(self._travel_vector / self._interpolation_time_count) if not self._is_reversed else self.find_negative_orthoganal_vector(self._travel_vector / self._interpolation_time_count))
+        shape_length = self._rectangle_height
+        current_vector_step: NDArray =  self._step_distance * self.find_unit_vector(self.find_positive_orthoganal_vector(self._travel_vector) if not self._is_reversed else self.find_negative_orthoganal_vector(self._travel_vector / self._interpolation_time_count))
         self.interpolated_path[0] = self._start_point
         vertex_point: NDArray = self._start_point
+        
         for i in range(1, self._interpolation_time_count+1):
-            self.interpolated_path.append(self.interpolated_path[i-1] + current_vector_step)
             if np.allclose(self.interpolated_path[-1], self._end_point, rtol=1e-03, atol=1e-03):
                 break
-            if abs(np.linalg.norm(self.interpolated_path[-1] - vertex_point)) >= self._square_height:
+            self.interpolated_path.append(self.interpolated_path[i-1] + current_vector_step)
+            
+            if abs(np.linalg.norm(self.interpolated_path[-1] - vertex_point)) >= shape_length:
                 # print(current_vector_step)
                 # current_vector_step[0], current_vector_step[1] = np.rot90(np.array([[current_vector_step[0]], [current_vector_step[1]]]), k=1, axes=(0, 1))[0][0],  np.rot90(np.array([[current_vector_step[0]], [current_vector_step[1]]]), k=1, axes=(0, 1))[0][1]
                 current_vector_step = self.find_negative_orthoganal_vector(current_vector_step) if not self._is_reversed else self.find_positive_orthoganal_vector(current_vector_step)
                 vertex_point = self.interpolated_path[-1]
-                print(vertex_point)
+                shape_length = self._rectangle_height if shape_length==self._rectangle_width else self._rectangle_width
+                # print(vertex_point)
         
         return self.interpolated_path
         
 def main():
-    inter: RectangleInterpolationPath = RectangleInterpolationPath(start_point=np.array([1,1]), end_point=np.array([2.82842712475, 2.82842712475]), interpolation_time_count=10000, is_reversed=False)
+    inter: RectangleInterpolationPath = RectangleInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 100]), interpolation_time_count=5000, is_reversed=False, height=50)
+    timer = time.time()
     path = inter.interpolate_with_time()
-    print(path)
+    print(f"Interpolation took {time.time() - timer} seconds")
+    # print(path)
     plt.plot([p[0] for p in path], [p[1] for p in path])
+
     plt.show()
     
     
