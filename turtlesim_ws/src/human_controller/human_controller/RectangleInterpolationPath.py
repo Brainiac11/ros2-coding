@@ -61,7 +61,7 @@ class RectangleInterpolationPath:
         return self.interpolated_path
         
 def main():
-    inter: RectangleInterpolationPath = RectangleInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 1000]), interpolation_time_count=5000, is_reversed=False, height=50)
+    inter: RectangleInterpolationPath = RectangleInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 1000]), interpolation_time_count=5000, is_reversed=False, height=500)
     timer = time.time()
     path = inter.interpolate_with_time()
     print(f"Interpolation took {time.time() - timer} seconds")

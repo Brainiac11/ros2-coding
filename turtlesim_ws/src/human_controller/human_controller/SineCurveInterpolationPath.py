@@ -3,10 +3,11 @@ import numpy as np
 from numpy.typing import NDArray
 import matplotlib.pyplot as plt
 import time
+from scipy.integrate import quad
 
-class EllipseInterpolationPath:
+class SineInterpolationPath:
     interpolated_path: list[NDArray]
-    def __init__(self, start_point: NDArray, end_point: NDArray, minor_radius:float, interpolation_time_count:int = 1000, is_reversed:bool = False):
+    def __init__(self, start_point: NDArray, end_point: NDArray, height:float, interpolation_time_count:int = 1000, is_reversed:bool = False):
         """Interpolates the given starting and ending end_effector locations in a square pattern.
 
         Args:
@@ -18,16 +19,26 @@ class EllipseInterpolationPath:
         self._start_point:NDArray = start_point
         self._end_point:NDArray = end_point
         self._travel_vector: NDArray = end_point - start_point
-        self._minor_radius:np.float64 = np.float64(minor_radius)
-        self._major_radius:np.float64 = np.linalg.norm(self._travel_vector)
-        h: float = np.power((self._major_radius - self._minor_radius) / (self._major_radius + self._minor_radius), 2)
-        self._perimeter:np.float64 = np.pi*(self._major_radius + self._minor_radius) * (1 + (3.0*h)/(10+np.sqrt(4 - 3*h)) + (3*np.power(h, 5) / np.power(2.0, 17))) / 2.0
-        print(self._perimeter)
+        self._rectangle_height:np.float64 = np.float64(height)
+        self._rectangle_width:np.float64 = np.linalg.norm(self._travel_vector)
+        self._perimeter:np.float64 = 2.0 * (self._rectangle_height + self._rectangle_width)
         self._interpolation_time_count = interpolation_time_count
         self._step_distance = self._perimeter / self._interpolation_time_count
         self._is_reversed = is_reversed
         self._negative_orthoganal_vector = self.find_negative_orthoganal_vector(self._travel_vector)
         self.interpolated_path = [self._start_point]
+        
+    def f(self,x):        
+        return np.sin(x)    
+    def f_prime(self,x):        
+        return np.cos(x)
+    def arc_length_integrand(self,x): 
+        return np.sqrt(1 + (self.f_prime(x))**2)
+    
+    def arc_length_sine(self, a:float, b:float, height:float, width:float) -> float:
+        arc_length, error = quad(self.arc_length_integrand, a, b)
+        return arc_length
+        
         
     def find_negative_orthoganal_vector(self, vector: NDArray)->NDArray:
         return np.array([vector[1], -vector[0] ])
@@ -39,14 +50,10 @@ class EllipseInterpolationPath:
     def find_unit_vector(self, vector: NDArray) -> NDArray:
         return vector / np.linalg.norm(vector)
     
-    def find_positive_derivative_at_ellipse_point(self, x: float, y:float, a:float, b:float) -> np.float64:
-        return (-np.power(b, 2.0) * x) / (np.power(a, 2.0) * y)
-    def find_negative_derivative_at_ellipse_point(self, x: float, y:float, a:float, b:float) -> np.float64:
-        return (-np.power(b, 2.0) * x) / (np.power(a, 2.0) * y)
-    
     def interpolate_with_time(self) -> list[NDArray]:
+        shape_length = self._rectangle_height
+        current_vector_step: NDArray =  self._step_distance * self.find_unit_vector(self.find_positive_orthoganal_vector(self._travel_vector) if not self._is_reversed else self.find_negative_orthoganal_vector(self._travel_vector / self._interpolation_time_count))
         self.interpolated_path[0] = self._start_point
-        current_vector_step: NDArray =  self._step_distance * self.find_positive_derivative_at_ellipse_point(self.interpolated_path[-1][0], self.interpolated_path[1], self._minor_radius, self._major_radius) if not self._is_reversed else self.find_negative_derivative_at_ellipse_point(self.interpolated_path[-1][0], self.interpolated_path[1], self._minor_radius, self._major_radius)
         vertex_point: NDArray = self._start_point
         
         for i in range(1, self._interpolation_time_count+1):
@@ -67,14 +74,14 @@ class EllipseInterpolationPath:
         return self.interpolated_path
         
 def main():
-    inter: EllipseInterpolationPath = EllipseInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 0]), interpolation_time_count=5000, is_reversed=False, minor_radius=5)
-    # timer = time.time()
-    # path = inter.interpolate_with_time()
-    # print(f"Interpolation took {time.time() - timer} seconds")
-    # # print(path)
-    # plt.plot([p[0] for p in path], [p[1] for p in path])
+    inter: SineInterpolationPath = SineInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 1000]), interpolation_time_count=5000, is_reversed=False, height=500)
+    timer = time.time()
+    path = inter.interpolate_with_time()
+    print(f"Interpolation took {time.time() - timer} seconds")
+    # print(path)
+    plt.plot([p[0] for p in path], [p[1] for p in path])
 
-    # plt.show()
+    plt.show()
     
     
 if __name__ == '__main__':
