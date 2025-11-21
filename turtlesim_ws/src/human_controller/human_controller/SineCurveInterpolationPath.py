@@ -4,6 +4,7 @@ from numpy.typing import NDArray
 import matplotlib.pyplot as plt
 import time
 from scipy.integrate import quad
+from numpy import float64
 
 class SineInterpolationPath:
     interpolated_path: list[NDArray]
@@ -19,62 +20,43 @@ class SineInterpolationPath:
         self._start_point:NDArray = start_point
         self._end_point:NDArray = end_point
         self._travel_vector: NDArray = end_point - start_point
-        self._rectangle_height:np.float64 = np.float64(height)
-        self._rectangle_width:np.float64 = np.linalg.norm(self._travel_vector)
-        self._perimeter:np.float64 = 2.0 * (self._rectangle_height + self._rectangle_width)
+        self._sin_height:np.float64 = np.float64(height)
+        self._sin_width:float64 = float64( np.linalg.norm(self._travel_vector))
+        self._perimeter:np.float64 = float64(self.arc_length_sine(a=0, b=self._sin_width))
         self._interpolation_time_count = interpolation_time_count
         self._step_distance = self._perimeter / self._interpolation_time_count
         self._is_reversed = is_reversed
-        self._negative_orthoganal_vector = self.find_negative_orthoganal_vector(self._travel_vector)
         self.interpolated_path = [self._start_point]
         
     def f(self,x):        
-        return np.sin(x)    
+        return self._sin_height * np.sin(x * (np.pi / self._sin_width))    
     def f_prime(self,x):        
-        return np.cos(x)
+        return  self._sin_height * (np.pi / self._sin_width) * np.cos(x * (math.pi / self._sin_width))
     def arc_length_integrand(self,x): 
-        return np.sqrt(1 + (self.f_prime(x))**2)
+        return np.sqrt(1 + (self.f_prime(x))**2)    
     
-    def arc_length_sine(self, a:float, b:float, height:float, width:float) -> float:
-        arc_length, error = quad(self.arc_length_integrand, a, b)
-        return arc_length
+    def arc_length_sine(self, a:float, b:float) -> float:
+        arc_length = quad(self.arc_length_integrand, a, b)
+        return arc_length[0]
         
-        
-    def find_negative_orthoganal_vector(self, vector: NDArray)->NDArray:
-        return np.array([vector[1], -vector[0] ])
-    def find_positive_orthoganal_vector(self, vector: NDArray)->NDArray:
-        return np.array([-vector[1], vector[0] ])
-    def find_neutral_orthoganal_vector(self, vector: NDArray)->NDArray:
-        return np.array([vector[1], vector[0] ])
+    def rotate_point_by_theta_around_origin(self, point: NDArray, theta: float) -> NDArray:
+        rotation_matrix: NDArray = np.array([[np.cos(theta), -np.sin(theta)] , [np.sin(theta), np.cos(theta)]])
+        transformed_point: NDArray = np.array([[point[1], point[0]], [point[0], point[1]]])
+        final_matrix: NDArray = transformed_point * rotation_matrix
+        return np.array([final_matrix[1][0], final_matrix[1][1] ])
+
     
     def find_unit_vector(self, vector: NDArray) -> NDArray:
         return vector / np.linalg.norm(vector)
     
+    
     def interpolate_with_time(self) -> list[NDArray]:
-        shape_length = self._rectangle_height
-        current_vector_step: NDArray =  self._step_distance * self.find_unit_vector(self.find_positive_orthoganal_vector(self._travel_vector) if not self._is_reversed else self.find_negative_orthoganal_vector(self._travel_vector / self._interpolation_time_count))
-        self.interpolated_path[0] = self._start_point
-        vertex_point: NDArray = self._start_point
-        
-        for i in range(1, self._interpolation_time_count+1):
-            if np.allclose(self.interpolated_path[-1], self._end_point, rtol=1e-03, atol=1e-03):
-                break
-            self.interpolated_path.append(self.interpolated_path[i-1] + current_vector_step)
-            
-            if abs(np.linalg.norm(self.interpolated_path[-1] - vertex_point)) >= shape_length:
-                # print(current_vector_step)
-                # temp = current_vector_step
-                # current_vector_step[0], current_vector_step[1] = np.rot90(np.array([[current_vector_step[0]], [current_vector_step[1]]]), k=1, axes=(0, 1))[0][0],  np.rot90(np.array([[current_vector_step[0]], [current_vector_step[1]]]), k=1, axes=(0, 1))[0][1]
-                current_vector_step = self.find_negative_orthoganal_vector(current_vector_step) if not self._is_reversed else self.find_positive_orthoganal_vector(current_vector_step)
-                vertex_point = self.interpolated_path[-1]
-                shape_length = self._rectangle_height if shape_length==self._rectangle_width else self._rectangle_width
-                # print(np.dot(temp, current_vector_step))
-                # print(vertex_point)
+        print(self.rotate_point_by_theta_around_origin(point=self._end_point, theta = np.pi/3.0))
         
         return self.interpolated_path
         
 def main():
-    inter: SineInterpolationPath = SineInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 1000]), interpolation_time_count=5000, is_reversed=False, height=500)
+    inter: SineInterpolationPath = SineInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 0]), interpolation_time_count=5000, is_reversed=False, height=2   )
     timer = time.time()
     path = inter.interpolate_with_time()
     print(f"Interpolation took {time.time() - timer} seconds")
