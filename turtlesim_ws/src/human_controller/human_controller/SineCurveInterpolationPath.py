@@ -79,19 +79,24 @@ class SineInterpolationPath:
     
     
     def interpolate_with_time(self) -> list[NDArray]:
-        print(self.rotate_point_by_theta_around_origin(point=self._end_point, theta = np.pi/4.0))
-        self.interpolated_path = [self.rotate_point_by_theta_around_origin(point=self._end_point, theta = np.pi/4.0)]
-        for t in range(self._interpolation_time_count):
-            step_vector: NDArray = np.array([1,1])
-            self.interpolated_path.append(self.interpolated_path[-1]+step_vector)
-        return self.rotate_point_list_by_theta_around_origin(points= self.interpolated_path, theta = np.pi/4.0)        
+        print(self.rotate_point_by_theta_around_origin(point=self._end_point, theta = -np.pi/4.0))
+        self.interpolated_path = [self.rotate_point_by_theta_around_origin(point=self._start_point, theta = -np.pi/4.0)]
+        current_theta = np.pi / 4.0
+        step_vector: NDArray = np.array([self._step_distance, 0.0])
+        for t in range(self._interpolation_time_count-1):
+            self.interpolated_path.append(self.interpolated_path[-1]+(self.rotate_point_by_theta_around_origin(point=step_vector, theta=current_theta)))
+            current_theta-=(np.pi/(2*self._interpolation_time_count))
+        # return self.rotate_point_list_by_theta_around_origin(points= self.interpolated_path, theta = np.pi/1.0)   
+        return self.interpolated_path     
 def main():
-    inter: SineInterpolationPath = SineInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 0]), interpolation_time_count=100, is_reversed=False, height=2   )
+    inter: SineInterpolationPath = SineInterpolationPath(start_point=np.array([0,0]), end_point=np.array([2*7.07106781, 2*7.07106781]), interpolation_time_count=10000, is_reversed=False, height=2   )
     timer = time.time()
     path = inter.interpolate_with_time()
     print(f"Interpolation took {time.time() - timer} seconds")
     print(len(path))
     plt.plot([p[0] for p in path], [p[1] for p in path])
+    x= np.linspace(start=0, stop=inter._end_point[0], num = 10000)
+    plt.plot(x,4*np.sin(x/10))
 
     plt.show()
     
