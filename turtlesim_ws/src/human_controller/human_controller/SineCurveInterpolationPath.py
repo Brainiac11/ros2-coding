@@ -4,6 +4,7 @@ from numpy.typing import NDArray
 import matplotlib.pyplot as plt
 import time
 from scipy.integrate import quad
+from scipy.spatial.transform import Rotation as R
 from numpy import float64
 
 class SineInterpolationPath:
@@ -40,10 +41,37 @@ class SineInterpolationPath:
         return arc_length[0]
         
     def rotate_point_by_theta_around_origin(self, point: NDArray, theta: float) -> NDArray:
-        rotation_matrix: NDArray = np.array([[np.cos(theta), -np.sin(theta)] , [np.sin(theta), np.cos(theta)]])
-        transformed_point: NDArray = np.array([[point[1], point[0]], [point[0], point[1]]])
-        final_matrix: NDArray = transformed_point * rotation_matrix
-        return np.array([final_matrix[1][0], final_matrix[1][1] ])
+        """_summary_
+
+        Args:
+            point (NDArray): point in space
+            theta (float): angle to rotate in radians
+
+        Returns:
+            NDArray: a 2d point in space that is transformed by the given theta
+        """
+        three_d_point = np.array([point[0], point[1], 0])
+        r = R.from_euler('z', theta, degrees=False)
+        return r.apply(three_d_point)[:2]
+    def rotate_point_list_by_theta_around_origin(self, points: list[NDArray], theta: float) -> list[NDArray]:
+        """_summary_
+
+        Args:
+            point (NDArray): point in space
+            theta (float): angle to rotate in radians
+
+        Returns:
+            NDArray: a 2d point in space that is transformed by the given theta
+        """
+        three_d_points: list[NDArray] = []
+        for p in points:
+            three_d_points.append(np.array([p[0], p[1], 0]))
+        r = R.from_euler('z', theta, degrees=False)
+        ps = r.apply(three_d_points)
+        pst: list[NDArray] = []
+        for p in ps:
+            pst.append(np.array([p[0], p[1]]))
+        return pst
 
     
     def find_unit_vector(self, vector: NDArray) -> NDArray:
@@ -51,16 +79,18 @@ class SineInterpolationPath:
     
     
     def interpolate_with_time(self) -> list[NDArray]:
-        print(self.rotate_point_by_theta_around_origin(point=self._end_point, theta = np.pi/3.0))
-        
-        return self.interpolated_path
-        
+        print(self.rotate_point_by_theta_around_origin(point=self._end_point, theta = np.pi/4.0))
+        self.interpolated_path = [self.rotate_point_by_theta_around_origin(point=self._end_point, theta = np.pi/4.0)]
+        for t in range(self._interpolation_time_count):
+            step_vector: NDArray = np.array([1,1])
+            self.interpolated_path.append(self.interpolated_path[-1]+step_vector)
+        return self.rotate_point_list_by_theta_around_origin(points= self.interpolated_path, theta = np.pi/4.0)        
 def main():
-    inter: SineInterpolationPath = SineInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 0]), interpolation_time_count=5000, is_reversed=False, height=2   )
+    inter: SineInterpolationPath = SineInterpolationPath(start_point=np.array([0,0]), end_point=np.array([10, 0]), interpolation_time_count=100, is_reversed=False, height=2   )
     timer = time.time()
     path = inter.interpolate_with_time()
     print(f"Interpolation took {time.time() - timer} seconds")
-    # print(path)
+    print(len(path))
     plt.plot([p[0] for p in path], [p[1] for p in path])
 
     plt.show()
