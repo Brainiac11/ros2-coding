@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/action/detail/gait_path__type_support.cpp.o"
+  "CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/action/detail/gait_path__type_support.cpp.o.d"
   "CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/msg/detail/arm_swing_command__type_support.cpp.o"
   "CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/msg/detail/arm_swing_command__type_support.cpp.o.d"
   "CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/msg/detail/kick_command__type_support.cpp.o"
@@ -7,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/srv/detail/inverse_kinematics__type_support.cpp.o.d"
   "libhuman_interfaces__rosidl_typesupport_introspection_cpp.pdb"
   "libhuman_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/human_interfaces/action/detail/gait_path__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/human_interfaces/action/detail/gait_path__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/human_interfaces/msg/detail/arm_swing_command__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/human_interfaces/msg/detail/arm_swing_command__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/human_interfaces/msg/detail/kick_command__rosidl_typesupport_introspection_cpp.hpp"

@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
 #include "human_interfaces/srv/detail/inverse_kinematics__functions.h"
 #include "human_interfaces/srv/detail/inverse_kinematics__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "human_interfaces/srv/detail/inverse_kinematics__struct.h"
 
 #ifdef __cplusplus

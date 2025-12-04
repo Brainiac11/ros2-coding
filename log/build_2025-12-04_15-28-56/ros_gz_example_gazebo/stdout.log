@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[ 75%] [32m[1mLinking CXX shared library libBasicSystem.so[0m
+[100%] [32m[1mLinking CXX shared library libFullSystem.so[0m
+[100%] Built target BasicSystem
+[100%] Built target FullSystem

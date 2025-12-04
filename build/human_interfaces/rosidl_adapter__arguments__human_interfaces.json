@@ -3,6 +3,7 @@
   "non_idl_tuples": [
     "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces:msg/KickCommand.msg",
     "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces:msg/ArmSwingCommand.msg",
-    "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces:srv/InverseKinematics.srv"
+    "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces:srv/InverseKinematics.srv",
+    "/workspaces/ros2-coding/turtlesim_ws/src/human_interfaces:action/GaitPath.action"
   ]
 }

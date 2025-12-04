@@ -14,6 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/KickCommand.msg"
   "msg/ArmSwingCommand.msg"
   "srv/InverseKinematics.srv"
+  "action/GaitPath.action"
   DEPENDENCIES std_msgs
 )
 

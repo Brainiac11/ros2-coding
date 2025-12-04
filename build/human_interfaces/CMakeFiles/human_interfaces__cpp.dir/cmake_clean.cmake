@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/human_interfaces__cpp"
+  "rosidl_generator_cpp/human_interfaces/action/detail/gait_path__builder.hpp"
+  "rosidl_generator_cpp/human_interfaces/action/detail/gait_path__struct.hpp"
+  "rosidl_generator_cpp/human_interfaces/action/detail/gait_path__traits.hpp"
+  "rosidl_generator_cpp/human_interfaces/action/detail/gait_path__type_support.hpp"
+  "rosidl_generator_cpp/human_interfaces/action/gait_path.hpp"
   "rosidl_generator_cpp/human_interfaces/msg/arm_swing_command.hpp"
   "rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__builder.hpp"
   "rosidl_generator_cpp/human_interfaces/msg/detail/arm_swing_command__struct.hpp"

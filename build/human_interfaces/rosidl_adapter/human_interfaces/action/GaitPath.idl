@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from human_interfaces/action/GaitPath.action
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float64MultiArray.idl"
+
+module human_interfaces {
+  module action {
+    struct GaitPath_Goal {
+      sequence<double> point;
+    };
+    struct GaitPath_Result {
+      sequence<std_msgs::msg::Float64MultiArray> joint_angles;
+    };
+    struct GaitPath_Feedback {
+      sequence<std_msgs::msg::Float64MultiArray> partial_joint_angles;
+    };
+  };
+};

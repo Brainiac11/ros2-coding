@@ -1,3 +1,5 @@
+action/GaitPath.action
+action/GaitPath.idl
 msg/ArmSwingCommand.idl
 msg/ArmSwingCommand.msg
 msg/KickCommand.idl

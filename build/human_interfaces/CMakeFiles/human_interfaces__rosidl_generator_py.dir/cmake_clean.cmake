@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_interfaces/action/_gait_path_s.c.o"
+  "CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_interfaces/action/_gait_path_s.c.o.d"
   "CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_interfaces/msg/_arm_swing_command_s.c.o"
   "CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_interfaces/msg/_arm_swing_command_s.c.o.d"
   "CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_interfaces/msg/_kick_command_s.c.o"

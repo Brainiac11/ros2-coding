@@ -173,9 +173,9 @@ def main():
     inter: SineInterpolationPath = SineInterpolationPath(
         start_point=np.array([0.0, 0.0]),
         end_point=np.array([40, 0]),
-        interpolation_time_count=30,
+        interpolation_time_count=40,
         is_reversed=False,
-        height=5.0,
+        height=50.0,
     )
     timer = time.time()
     path: list[NDArray] = inter.interpolate_with_time()

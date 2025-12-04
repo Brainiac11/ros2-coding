@@ -1,3 +1,4 @@
 /workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces:msg/KickCommand.idl
 /workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces:msg/ArmSwingCommand.idl
 /workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces:srv/InverseKinematics.idl
+/workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces:action/GaitPath.idl

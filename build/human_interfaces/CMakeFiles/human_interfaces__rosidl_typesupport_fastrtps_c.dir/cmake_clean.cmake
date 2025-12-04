@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/action/detail/gait_path__type_support_c.cpp.o"
+  "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/action/detail/gait_path__type_support_c.cpp.o.d"
   "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/msg/detail/arm_swing_command__type_support_c.cpp.o"
   "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/msg/detail/arm_swing_command__type_support_c.cpp.o.d"
   "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/msg/detail/kick_command__type_support_c.cpp.o"
@@ -7,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/srv/detail/inverse_kinematics__type_support_c.cpp.o.d"
   "libhuman_interfaces__rosidl_typesupport_fastrtps_c.pdb"
   "libhuman_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/human_interfaces/action/detail/gait_path__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/human_interfaces/action/detail/gait_path__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/human_interfaces/msg/detail/arm_swing_command__rosidl_typesupport_fastrtps_c.h"
   "rosidl_typesupport_fastrtps_c/human_interfaces/msg/detail/arm_swing_command__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/human_interfaces/msg/detail/kick_command__rosidl_typesupport_fastrtps_c.h"

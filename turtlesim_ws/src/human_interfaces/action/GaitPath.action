@@ -1,0 +1,5 @@
+float64[] point
+---
+std_msgs/Float64MultiArray[] joint_angles
+---
+std_msgs/Float64MultiArray[] partial_joint_angles

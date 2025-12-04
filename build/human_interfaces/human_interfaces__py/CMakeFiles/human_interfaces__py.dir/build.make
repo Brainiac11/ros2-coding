@@ -72,11 +72,14 @@ include /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMak
 /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/msg/_kick_command.py
 /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/msg/_arm_swing_command.py
 /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/srv/_inverse_kinematics.py
+/workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/action/_gait_path.py
 /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/msg/__init__.py
 /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/srv/__init__.py
+/workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/action/__init__.py
 /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/msg/_kick_command_s.c
 /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/msg/_arm_swing_command_s.c
 /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/srv/_inverse_kinematics_s.c
+/workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py: rosidl_generator_py/human_interfaces/action/_gait_path_s.c
 
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -94,6 +97,7 @@ rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_f
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/human_interfaces/msg/KickCommand.idl
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/human_interfaces/msg/ArmSwingCommand.idl
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/human_interfaces/srv/InverseKinematics.idl
+rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/human_interfaces/action/GaitPath.idl
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -127,6 +131,11 @@ rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_f
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -145,11 +154,17 @@ rosidl_generator_py/human_interfaces/msg/_arm_swing_command.py: rosidl_generator
 rosidl_generator_py/human_interfaces/srv/_inverse_kinematics.py: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/human_interfaces/srv/_inverse_kinematics.py
 
+rosidl_generator_py/human_interfaces/action/_gait_path.py: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/human_interfaces/action/_gait_path.py
+
 rosidl_generator_py/human_interfaces/msg/__init__.py: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/human_interfaces/msg/__init__.py
 
 rosidl_generator_py/human_interfaces/srv/__init__.py: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/human_interfaces/srv/__init__.py
+
+rosidl_generator_py/human_interfaces/action/__init__.py: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/human_interfaces/action/__init__.py
 
 rosidl_generator_py/human_interfaces/msg/_kick_command_s.c: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/human_interfaces/msg/_kick_command_s.c
@@ -160,10 +175,16 @@ rosidl_generator_py/human_interfaces/msg/_arm_swing_command_s.c: rosidl_generato
 rosidl_generator_py/human_interfaces/srv/_inverse_kinematics_s.c: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/human_interfaces/srv/_inverse_kinematics_s.c
 
+rosidl_generator_py/human_interfaces/action/_gait_path_s.c: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/human_interfaces/action/_gait_path_s.c
+
 human_interfaces__py: /workspaces/ros2-coding/build/human_interfaces/human_interfaces__py/CMakeFiles/human_interfaces__py
 human_interfaces__py: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_c.c
 human_interfaces__py: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 human_interfaces__py: rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+human_interfaces__py: rosidl_generator_py/human_interfaces/action/__init__.py
+human_interfaces__py: rosidl_generator_py/human_interfaces/action/_gait_path.py
+human_interfaces__py: rosidl_generator_py/human_interfaces/action/_gait_path_s.c
 human_interfaces__py: rosidl_generator_py/human_interfaces/msg/__init__.py
 human_interfaces__py: rosidl_generator_py/human_interfaces/msg/_arm_swing_command.py
 human_interfaces__py: rosidl_generator_py/human_interfaces/msg/_arm_swing_command_s.c

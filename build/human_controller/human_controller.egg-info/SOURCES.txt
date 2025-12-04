@@ -3,12 +3,16 @@ setup.cfg
 setup.py
 human_controller/InverseKinematicSolver.py
 human_controller/JacobianPsuedoInverseSolver.py
+human_controller/RectangleInterpolationPath.py
+human_controller/SineCurveInterpolationPath.py
+human_controller/SquareInterpolationPath.py
 human_controller/__init__.py
 human_controller/hip_controller.py
 human_controller/ik_tester.py
 human_controller/key_input.py
 human_controller/kick_constants.py
 human_controller/left_kick_controller.py
+human_controller/leg_path_maker.py
 human_controller.egg-info/PKG-INFO
 human_controller.egg-info/SOURCES.txt
 human_controller.egg-info/dependency_links.txt
