@@ -1,0 +1,18 @@
+[2.924s] Invoking command in '/workspaces/ros2-coding/build/my_turtlesim': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build --no-deps symlink_data
+[3.832s] running develop
+[4.519s] running egg_info
+[4.586s] writing my_turtlesim.egg-info/PKG-INFO
+[4.587s] writing dependency_links to my_turtlesim.egg-info/dependency_links.txt
+[4.588s] writing entry points to my_turtlesim.egg-info/entry_points.txt
+[4.590s] writing requirements to my_turtlesim.egg-info/requires.txt
+[4.590s] writing top-level names to my_turtlesim.egg-info/top_level.txt
+[4.674s] reading manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+[4.674s] writing manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+[4.716s] running build_ext
+[4.719s] Creating /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my-turtlesim.egg-link (link to .)
+[4.719s] Installing better_move script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+[4.719s] Installing move_turtle script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+[4.719s] 
+[4.719s] Installed /workspaces/ros2-coding/build/my_turtlesim
+[4.719s] running symlink_data
+[4.771s] Invoked command in '/workspaces/ros2-coding/build/my_turtlesim' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build --no-deps symlink_data

@@ -4,6 +4,8 @@ human_interfaces.egg-info/PKG-INFO
 human_interfaces.egg-info/SOURCES.txt
 human_interfaces.egg-info/dependency_links.txt
 human_interfaces.egg-info/top_level.txt
+human_interfaces/action/__init__.py
+human_interfaces/action/_gait_path.py
 human_interfaces/msg/__init__.py
 human_interfaces/msg/_arm_swing_command.py
 human_interfaces/msg/_kick_command.py

@@ -28,7 +28,8 @@ setup(
             "left_kick_control = human_controller.left_kick_controller:main",
             "key_input = human_controller.key_input:main",
             "ik_solver = human_controller.InverseKinematicSolver:main",
-            "ik_tester = human_controller.ik_tester:main"
+            "ik_tester = human_controller.ik_tester:main",
+            "leg_path_maker = human_controller.leg_path_maker:main"
         ],
     },
 )

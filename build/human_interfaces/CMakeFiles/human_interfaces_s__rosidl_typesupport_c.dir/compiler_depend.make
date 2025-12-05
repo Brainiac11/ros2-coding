@@ -23,6 +23,10 @@ CMakeFiles/human_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/huma
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.h \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.h \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.h \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -270,6 +274,9 @@ CMakeFiles/human_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/huma
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+  rosidl_generator_c/human_interfaces/action/detail/gait_path__functions.h \
+  rosidl_generator_c/human_interfaces/action/detail/gait_path__struct.h \
+  rosidl_generator_c/human_interfaces/action/detail/gait_path__type_support.h \
   rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h \
   rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h \
   rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.h \
@@ -304,13 +311,19 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.h
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+rosidl_generator_c/human_interfaces/action/detail/gait_path__functions.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/python3.12/pyconfig.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/python3.12/methodobject.h:
 
@@ -331,10 +344,6 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.h
 /usr/include/python3.12/genericaliasobject.h:
 
 /usr/include/assert.h:
-
-/usr/include/python3.12/floatobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -378,12 +387,6 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 
 /usr/include/linux/close_range.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/python3.12/cpython/pystate.h:
-
-/usr/include/python3.12/cpython/floatobject.h:
-
 /usr/include/python3.12/cpython/fileutils.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
@@ -391,8 +394,6 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 /usr/include/python3.12/osmodule.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/python3.12/intrcheck.h:
 
@@ -404,6 +405,8 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 
 /usr/include/python3.12/cpython/context.h:
 
+rosidl_generator_c/human_interfaces/action/detail/gait_path__struct.h:
+
 /usr/include/python3.12/cpython/complexobject.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
@@ -413,8 +416,6 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 /usr/include/python3.12/setobject.h:
 
 /usr/include/python3.12/cpython/import.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/python3.12/cpython/compile.h:
 
@@ -430,7 +431,13 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
@@ -460,15 +467,37 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 
 /usr/include/python3.12/Python.h:
 
-/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h:
+/usr/include/python3.12/cpython/picklebufobject.h:
 
-/usr/include/asm-generic/posix_types.h:
+/usr/include/python3.12/complexobject.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/python3.12/cpython/bytesobject.h:
+
+/usr/include/python3.12/boolobject.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.h:
+
+/usr/include/python3.12/cpython/pytime.h:
+
+/usr/include/python3.12/cpython/cellobject.h:
 
 /usr/include/python3.12/cpython/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/python3.12/cpython/object.h:
+
+/usr/include/python3.12/bytearrayobject.h:
+
+/usr/include/python3.12/rangeobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -478,11 +507,33 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 
 /usr/include/python3.12/pyframe.h:
 
+/opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
 /opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/python3.12/cpython/pystate.h:
+
+/usr/include/python3.12/cpython/floatobject.h:
+
+/usr/include/python3.12/floatobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/python3.12/cpython/ceval.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+rosidl_generator_c/human_interfaces/action/detail/gait_path__type_support.h:
 
 /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
 
@@ -496,23 +547,19 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/linux/stddef.h:
-
-/usr/include/python3.12/cpython/picklebufobject.h:
-
-/usr/include/python3.12/complexobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
-
-/usr/include/python3.12/pybuffer.h:
-
-/usr/include/python3.12/codecs.h:
-
 /usr/include/python3.12/cpython/odictobject.h:
 
 /usr/include/alloca.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
+
+/usr/include/python3.12/cpython/longintrepr.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/inttypes.h:
 
 /usr/include/python3.12/cpython/memoryobject.h:
 
@@ -524,13 +571,9 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
+/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h:
 
-/usr/include/python3.12/cpython/longintrepr.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/inttypes.h:
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/python3.12/moduleobject.h:
 
@@ -548,12 +591,6 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
 
-rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
-
 /usr/include/python3.12/cpython/pydebug.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
@@ -566,9 +603,11 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.h:
 
 /usr/include/python3.12/cpython/pylifecycle.h:
 
-/usr/include/python3.12/cpython/pytime.h:
+/usr/include/python3.12/codecs.h:
 
-/usr/include/python3.12/cpython/cellobject.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+
+/usr/include/python3.12/pybuffer.h:
 
 /usr/include/features.h:
 
@@ -612,18 +651,6 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
-/usr/include/python3.12/boolobject.h:
-
-/usr/include/python3.12/cpython/bytesobject.h:
-
-/usr/include/python3.12/rangeobject.h:
-
-/usr/include/python3.12/bytearrayobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
 rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h:
 
 /usr/include/python3.12/cpython/code.h:
@@ -633,8 +660,6 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h:
 /usr/include/python3.12/cpython/abstract.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/python3.12/cpython/methodobject.h:
 
@@ -674,6 +699,8 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h:
 
 /usr/include/python3.12/pytypedefs.h:
 
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.h:
+
 /usr/include/python3.12/pymem.h:
 
 /usr/include/python3.12/pystate.h:
@@ -686,9 +713,9 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.h:
 
 /usr/include/python3.12/sysmodule.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
 /usr/include/python3.12/cpython/bytearrayobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -757,10 +784,6 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.h:
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/python3.12/pyconfig.h:
 
@@ -837,5 +860,3 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.h:
 /usr/include/python3.12/cpython/objimpl.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
