@@ -12,7 +12,8 @@ ros_python_check_fields = getenv('ROS_PYTHON_CHECK_FIELDS', default='')
 
 # Import statements for member types
 
-# Member 'point'
+# Member 'start_point'
+# Member 'end_point'
 import array  # noqa: E402, I100
 
 import builtins  # noqa: E402, I100
@@ -67,18 +68,30 @@ class GaitPath_Goal(metaclass=Metaclass_GaitPath_Goal):
     """Message class 'GaitPath_Goal'."""
 
     __slots__ = [
-        '_point',
+        '_start_point',
+        '_end_point',
+        '_interpolation_time_count',
+        '_is_reversed',
+        '_height',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
-        'point': 'sequence<double>',
+        'start_point': 'sequence<double>',
+        'end_point': 'sequence<double>',
+        'interpolation_time_count': 'int32',
+        'is_reversed': 'boolean',
+        'height': 'double',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('double')),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('double')),  # noqa: E501
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -90,7 +103,11 @@ class GaitPath_Goal(metaclass=Metaclass_GaitPath_Goal):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.point = array.array('d', kwargs.get('point', []))
+        self.start_point = array.array('d', kwargs.get('start_point', []))
+        self.end_point = array.array('d', kwargs.get('end_point', []))
+        self.interpolation_time_count = kwargs.get('interpolation_time_count', int())
+        self.is_reversed = kwargs.get('is_reversed', bool())
+        self.height = kwargs.get('height', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -122,7 +139,15 @@ class GaitPath_Goal(metaclass=Metaclass_GaitPath_Goal):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.point != other.point:
+        if self.start_point != other.start_point:
+            return False
+        if self.end_point != other.end_point:
+            return False
+        if self.interpolation_time_count != other.interpolation_time_count:
+            return False
+        if self.is_reversed != other.is_reversed:
+            return False
+        if self.height != other.height:
             return False
         return True
 
@@ -132,17 +157,17 @@ class GaitPath_Goal(metaclass=Metaclass_GaitPath_Goal):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def point(self):
-        """Message field 'point'."""
-        return self._point
+    def start_point(self):
+        """Message field 'start_point'."""
+        return self._start_point
 
-    @point.setter
-    def point(self, value):
+    @start_point.setter
+    def start_point(self, value):
         if self._check_fields:
             if isinstance(value, array.array):
                 assert value.typecode == 'd', \
-                    "The 'point' array.array() must have the type code of 'd'"
-                self._point = value
+                    "The 'start_point' array.array() must have the type code of 'd'"
+                self._start_point = value
                 return
             from collections.abc import Sequence
             from collections.abc import Set
@@ -156,8 +181,79 @@ class GaitPath_Goal(metaclass=Metaclass_GaitPath_Goal):
                  not isinstance(value, UserString) and
                  all(isinstance(v, float) for v in value) and
                  all(not (val < -1.7976931348623157e+308 or val > 1.7976931348623157e+308) or math.isinf(val) for val in value)), \
-                "The 'point' field must be a set or sequence and each value of type 'float' and each double in [-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000]"
-        self._point = array.array('d', value)
+                "The 'start_point' field must be a set or sequence and each value of type 'float' and each double in [-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000]"
+        self._start_point = array.array('d', value)
+
+    @builtins.property
+    def end_point(self):
+        """Message field 'end_point'."""
+        return self._end_point
+
+    @end_point.setter
+    def end_point(self, value):
+        if self._check_fields:
+            if isinstance(value, array.array):
+                assert value.typecode == 'd', \
+                    "The 'end_point' array.array() must have the type code of 'd'"
+                self._end_point = value
+                return
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
+            assert \
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 all(isinstance(v, float) for v in value) and
+                 all(not (val < -1.7976931348623157e+308 or val > 1.7976931348623157e+308) or math.isinf(val) for val in value)), \
+                "The 'end_point' field must be a set or sequence and each value of type 'float' and each double in [-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000]"
+        self._end_point = array.array('d', value)
+
+    @builtins.property
+    def interpolation_time_count(self):
+        """Message field 'interpolation_time_count'."""
+        return self._interpolation_time_count
+
+    @interpolation_time_count.setter
+    def interpolation_time_count(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'interpolation_time_count' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'interpolation_time_count' field must be an integer in [-2147483648, 2147483647]"
+        self._interpolation_time_count = value
+
+    @builtins.property
+    def is_reversed(self):
+        """Message field 'is_reversed'."""
+        return self._is_reversed
+
+    @is_reversed.setter
+    def is_reversed(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, bool), \
+                "The 'is_reversed' field must be of type 'bool'"
+        self._is_reversed = value
+
+    @builtins.property
+    def height(self):
+        """Message field 'height'."""
+        return self._height
+
+    @height.setter
+    def height(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'height' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'height' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._height = value
 
 
 # Import statements for member types

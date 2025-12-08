@@ -65,9 +65,49 @@
         "type_name": "human_interfaces/action/GaitPath_Goal",
         "fields": [
           {
-            "name": "point",
+            "name": "start_point",
             "type": {
               "type_id": 155,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "end_point",
+            "type": {
+              "type_id": 155,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "interpolation_time_count",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "is_reversed",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "height",
+            "type": {
+              "type_id": 11,
               "capacity": 0,
               "string_capacity": 0,
               "nested_type_name": ""
@@ -191,7 +231,7 @@
   "type_hashes": [
     {
       "type_name": "human_interfaces/action/GaitPath_SendGoal_Event",
-      "hash_string": "RIHS01_d082c3b3808c43d6f8a267fa98e1c28b3f24b862892dac786ae726aeb15650fd"
+      "hash_string": "RIHS01_ebde04157fd8700b30b6fc9656a5805d770c21738a4e80ad51119dc866fd48d9"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",
@@ -199,11 +239,11 @@
     },
     {
       "type_name": "human_interfaces/action/GaitPath_Goal",
-      "hash_string": "RIHS01_4a23f575cad89aba830ad9fb8095fe175e4f887ced977ce38f4c39210d1baa6e"
+      "hash_string": "RIHS01_3696aa76fc83048fc748a689420c4e2d85612d3f0e7be4e011e029f6f33903e2"
     },
     {
       "type_name": "human_interfaces/action/GaitPath_SendGoal_Request",
-      "hash_string": "RIHS01_29c04242de06f0de1d5215a38941a5ef4fd729250508b3a99e5816d8d6ac806f"
+      "hash_string": "RIHS01_89a5a3edebe78b0e02f336cac788a94f8d445eddf21bd066a8fa82976eee4908"
     },
     {
       "type_name": "human_interfaces/action/GaitPath_SendGoal_Response",

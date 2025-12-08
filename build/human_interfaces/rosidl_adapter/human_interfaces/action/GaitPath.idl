@@ -7,7 +7,15 @@
 module human_interfaces {
   module action {
     struct GaitPath_Goal {
-      sequence<double> point;
+      sequence<double> start_point;
+
+      sequence<double> end_point;
+
+      int32 interpolation_time_count;
+
+      boolean is_reversed;
+
+      double height;
     };
     struct GaitPath_Result {
       sequence<std_msgs::msg::Float64MultiArray> joint_angles;

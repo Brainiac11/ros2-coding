@@ -38,54 +38,99 @@ void GaitPath_Goal_fini_function(void * message_memory)
   typed_message->~GaitPath_Goal();
 }
 
-size_t size_function__GaitPath_Goal__point(const void * untyped_member)
+size_t size_function__GaitPath_Goal__start_point(const void * untyped_member)
 {
   const auto * member = reinterpret_cast<const std::vector<double> *>(untyped_member);
   return member->size();
 }
 
-const void * get_const_function__GaitPath_Goal__point(const void * untyped_member, size_t index)
+const void * get_const_function__GaitPath_Goal__start_point(const void * untyped_member, size_t index)
 {
   const auto & member =
     *reinterpret_cast<const std::vector<double> *>(untyped_member);
   return &member[index];
 }
 
-void * get_function__GaitPath_Goal__point(void * untyped_member, size_t index)
+void * get_function__GaitPath_Goal__start_point(void * untyped_member, size_t index)
 {
   auto & member =
     *reinterpret_cast<std::vector<double> *>(untyped_member);
   return &member[index];
 }
 
-void fetch_function__GaitPath_Goal__point(
+void fetch_function__GaitPath_Goal__start_point(
   const void * untyped_member, size_t index, void * untyped_value)
 {
   const auto & item = *reinterpret_cast<const double *>(
-    get_const_function__GaitPath_Goal__point(untyped_member, index));
+    get_const_function__GaitPath_Goal__start_point(untyped_member, index));
   auto & value = *reinterpret_cast<double *>(untyped_value);
   value = item;
 }
 
-void assign_function__GaitPath_Goal__point(
+void assign_function__GaitPath_Goal__start_point(
   void * untyped_member, size_t index, const void * untyped_value)
 {
   auto & item = *reinterpret_cast<double *>(
-    get_function__GaitPath_Goal__point(untyped_member, index));
+    get_function__GaitPath_Goal__start_point(untyped_member, index));
   const auto & value = *reinterpret_cast<const double *>(untyped_value);
   item = value;
 }
 
-void resize_function__GaitPath_Goal__point(void * untyped_member, size_t size)
+void resize_function__GaitPath_Goal__start_point(void * untyped_member, size_t size)
 {
   auto * member =
     reinterpret_cast<std::vector<double> *>(untyped_member);
   member->resize(size);
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember GaitPath_Goal_message_member_array[1] = {
+size_t size_function__GaitPath_Goal__end_point(const void * untyped_member)
+{
+  const auto * member = reinterpret_cast<const std::vector<double> *>(untyped_member);
+  return member->size();
+}
+
+const void * get_const_function__GaitPath_Goal__end_point(const void * untyped_member, size_t index)
+{
+  const auto & member =
+    *reinterpret_cast<const std::vector<double> *>(untyped_member);
+  return &member[index];
+}
+
+void * get_function__GaitPath_Goal__end_point(void * untyped_member, size_t index)
+{
+  auto & member =
+    *reinterpret_cast<std::vector<double> *>(untyped_member);
+  return &member[index];
+}
+
+void fetch_function__GaitPath_Goal__end_point(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const auto & item = *reinterpret_cast<const double *>(
+    get_const_function__GaitPath_Goal__end_point(untyped_member, index));
+  auto & value = *reinterpret_cast<double *>(untyped_value);
+  value = item;
+}
+
+void assign_function__GaitPath_Goal__end_point(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  auto & item = *reinterpret_cast<double *>(
+    get_function__GaitPath_Goal__end_point(untyped_member, index));
+  const auto & value = *reinterpret_cast<const double *>(untyped_value);
+  item = value;
+}
+
+void resize_function__GaitPath_Goal__end_point(void * untyped_member, size_t size)
+{
+  auto * member =
+    reinterpret_cast<std::vector<double> *>(untyped_member);
+  member->resize(size);
+}
+
+static const ::rosidl_typesupport_introspection_cpp::MessageMember GaitPath_Goal_message_member_array[5] = {
   {
-    "point",  // name
+    "start_point",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
@@ -93,21 +138,93 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember GaitPath_Goal
     true,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(human_interfaces::action::GaitPath_Goal, point),  // bytes offset in struct
+    offsetof(human_interfaces::action::GaitPath_Goal, start_point),  // bytes offset in struct
     nullptr,  // default value
-    size_function__GaitPath_Goal__point,  // size() function pointer
-    get_const_function__GaitPath_Goal__point,  // get_const(index) function pointer
-    get_function__GaitPath_Goal__point,  // get(index) function pointer
-    fetch_function__GaitPath_Goal__point,  // fetch(index, &value) function pointer
-    assign_function__GaitPath_Goal__point,  // assign(index, value) function pointer
-    resize_function__GaitPath_Goal__point  // resize(index) function pointer
+    size_function__GaitPath_Goal__start_point,  // size() function pointer
+    get_const_function__GaitPath_Goal__start_point,  // get_const(index) function pointer
+    get_function__GaitPath_Goal__start_point,  // get(index) function pointer
+    fetch_function__GaitPath_Goal__start_point,  // fetch(index, &value) function pointer
+    assign_function__GaitPath_Goal__start_point,  // assign(index, value) function pointer
+    resize_function__GaitPath_Goal__start_point  // resize(index) function pointer
+  },
+  {
+    "end_point",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    true,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(human_interfaces::action::GaitPath_Goal, end_point),  // bytes offset in struct
+    nullptr,  // default value
+    size_function__GaitPath_Goal__end_point,  // size() function pointer
+    get_const_function__GaitPath_Goal__end_point,  // get_const(index) function pointer
+    get_function__GaitPath_Goal__end_point,  // get(index) function pointer
+    fetch_function__GaitPath_Goal__end_point,  // fetch(index, &value) function pointer
+    assign_function__GaitPath_Goal__end_point,  // assign(index, value) function pointer
+    resize_function__GaitPath_Goal__end_point  // resize(index) function pointer
+  },
+  {
+    "interpolation_time_count",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(human_interfaces::action::GaitPath_Goal, interpolation_time_count),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "is_reversed",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(human_interfaces::action::GaitPath_Goal, is_reversed),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "height",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(human_interfaces::action::GaitPath_Goal, height),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers GaitPath_Goal_message_members = {
   "human_interfaces::action",  // message namespace
   "GaitPath_Goal",  // message name
-  1,  // number of fields
+  5,  // number of fields
   sizeof(human_interfaces::action::GaitPath_Goal),
   false,  // has_any_key_member_
   GaitPath_Goal_message_member_array,  // message members

@@ -13,7 +13,8 @@
 
 
 // Include directives for member types
-// Member `point`
+// Member `start_point`
+// Member `end_point`
 #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
 #ifdef __cplusplus
@@ -35,7 +36,7 @@ void human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c
   human_interfaces__action__GaitPath_Goal__fini(message_memory);
 }
 
-size_t human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__size_function__GaitPath_Goal__point(
+size_t human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__size_function__GaitPath_Goal__start_point(
   const void * untyped_member)
 {
   const rosidl_runtime_c__double__Sequence * member =
@@ -43,7 +44,7 @@ size_t human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection
   return member->size;
 }
 
-const void * human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_const_function__GaitPath_Goal__point(
+const void * human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_const_function__GaitPath_Goal__start_point(
   const void * untyped_member, size_t index)
 {
   const rosidl_runtime_c__double__Sequence * member =
@@ -51,7 +52,7 @@ const void * human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introsp
   return &member->data[index];
 }
 
-void * human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_function__GaitPath_Goal__point(
+void * human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_function__GaitPath_Goal__start_point(
   void * untyped_member, size_t index)
 {
   rosidl_runtime_c__double__Sequence * member =
@@ -59,29 +60,29 @@ void * human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection
   return &member->data[index];
 }
 
-void human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__fetch_function__GaitPath_Goal__point(
+void human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__fetch_function__GaitPath_Goal__start_point(
   const void * untyped_member, size_t index, void * untyped_value)
 {
   const double * item =
     ((const double *)
-    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_const_function__GaitPath_Goal__point(untyped_member, index));
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_const_function__GaitPath_Goal__start_point(untyped_member, index));
   double * value =
     (double *)(untyped_value);
   *value = *item;
 }
 
-void human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__assign_function__GaitPath_Goal__point(
+void human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__assign_function__GaitPath_Goal__start_point(
   void * untyped_member, size_t index, const void * untyped_value)
 {
   double * item =
     ((double *)
-    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_function__GaitPath_Goal__point(untyped_member, index));
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_function__GaitPath_Goal__start_point(untyped_member, index));
   const double * value =
     (const double *)(untyped_value);
   *item = *value;
 }
 
-bool human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__resize_function__GaitPath_Goal__point(
+bool human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__resize_function__GaitPath_Goal__start_point(
   void * untyped_member, size_t size)
 {
   rosidl_runtime_c__double__Sequence * member =
@@ -90,9 +91,64 @@ bool human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c
   return rosidl_runtime_c__double__Sequence__init(member, size);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__GaitPath_Goal_message_member_array[1] = {
+size_t human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__size_function__GaitPath_Goal__end_point(
+  const void * untyped_member)
+{
+  const rosidl_runtime_c__double__Sequence * member =
+    (const rosidl_runtime_c__double__Sequence *)(untyped_member);
+  return member->size;
+}
+
+const void * human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_const_function__GaitPath_Goal__end_point(
+  const void * untyped_member, size_t index)
+{
+  const rosidl_runtime_c__double__Sequence * member =
+    (const rosidl_runtime_c__double__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void * human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_function__GaitPath_Goal__end_point(
+  void * untyped_member, size_t index)
+{
+  rosidl_runtime_c__double__Sequence * member =
+    (rosidl_runtime_c__double__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__fetch_function__GaitPath_Goal__end_point(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const double * item =
+    ((const double *)
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_const_function__GaitPath_Goal__end_point(untyped_member, index));
+  double * value =
+    (double *)(untyped_value);
+  *value = *item;
+}
+
+void human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__assign_function__GaitPath_Goal__end_point(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  double * item =
+    ((double *)
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_function__GaitPath_Goal__end_point(untyped_member, index));
+  const double * value =
+    (const double *)(untyped_value);
+  *item = *value;
+}
+
+bool human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__resize_function__GaitPath_Goal__end_point(
+  void * untyped_member, size_t size)
+{
+  rosidl_runtime_c__double__Sequence * member =
+    (rosidl_runtime_c__double__Sequence *)(untyped_member);
+  rosidl_runtime_c__double__Sequence__fini(member);
+  return rosidl_runtime_c__double__Sequence__init(member, size);
+}
+
+static rosidl_typesupport_introspection_c__MessageMember human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__GaitPath_Goal_message_member_array[5] = {
   {
-    "point",  // name
+    "start_point",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
@@ -100,21 +156,93 @@ static rosidl_typesupport_introspection_c__MessageMember human_interfaces__actio
     true,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(human_interfaces__action__GaitPath_Goal, point),  // bytes offset in struct
+    offsetof(human_interfaces__action__GaitPath_Goal, start_point),  // bytes offset in struct
     NULL,  // default value
-    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__size_function__GaitPath_Goal__point,  // size() function pointer
-    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_const_function__GaitPath_Goal__point,  // get_const(index) function pointer
-    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_function__GaitPath_Goal__point,  // get(index) function pointer
-    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__fetch_function__GaitPath_Goal__point,  // fetch(index, &value) function pointer
-    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__assign_function__GaitPath_Goal__point,  // assign(index, value) function pointer
-    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__resize_function__GaitPath_Goal__point  // resize(index) function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__size_function__GaitPath_Goal__start_point,  // size() function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_const_function__GaitPath_Goal__start_point,  // get_const(index) function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_function__GaitPath_Goal__start_point,  // get(index) function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__fetch_function__GaitPath_Goal__start_point,  // fetch(index, &value) function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__assign_function__GaitPath_Goal__start_point,  // assign(index, value) function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__resize_function__GaitPath_Goal__start_point  // resize(index) function pointer
+  },
+  {
+    "end_point",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    true,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(human_interfaces__action__GaitPath_Goal, end_point),  // bytes offset in struct
+    NULL,  // default value
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__size_function__GaitPath_Goal__end_point,  // size() function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_const_function__GaitPath_Goal__end_point,  // get_const(index) function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__get_function__GaitPath_Goal__end_point,  // get(index) function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__fetch_function__GaitPath_Goal__end_point,  // fetch(index, &value) function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__assign_function__GaitPath_Goal__end_point,  // assign(index, value) function pointer
+    human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__resize_function__GaitPath_Goal__end_point  // resize(index) function pointer
+  },
+  {
+    "interpolation_time_count",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(human_interfaces__action__GaitPath_Goal, interpolation_time_count),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "is_reversed",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(human_interfaces__action__GaitPath_Goal, is_reversed),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "height",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(human_interfaces__action__GaitPath_Goal, height),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__GaitPath_Goal_message_members = {
   "human_interfaces__action",  // message namespace
   "GaitPath_Goal",  // message name
-  1,  // number of fields
+  5,  // number of fields
   sizeof(human_interfaces__action__GaitPath_Goal),
   false,  // has_any_key_member_
   human_interfaces__action__GaitPath_Goal__rosidl_typesupport_introspection_c__GaitPath_Goal_message_member_array,  // message members

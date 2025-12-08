@@ -36,10 +36,24 @@ cdr_serialize(
   const human_interfaces::action::GaitPath_Goal & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: point
+  // Member: start_point
   {
-    cdr << ros_message.point;
+    cdr << ros_message.start_point;
   }
+
+  // Member: end_point
+  {
+    cdr << ros_message.end_point;
+  }
+
+  // Member: interpolation_time_count
+  cdr << ros_message.interpolation_time_count;
+
+  // Member: is_reversed
+  cdr << (ros_message.is_reversed ? true : false);
+
+  // Member: height
+  cdr << ros_message.height;
 
   return true;
 }
@@ -50,10 +64,28 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   human_interfaces::action::GaitPath_Goal & ros_message)
 {
-  // Member: point
+  // Member: start_point
   {
-    cdr >> ros_message.point;
+    cdr >> ros_message.start_point;
   }
+
+  // Member: end_point
+  {
+    cdr >> ros_message.end_point;
+  }
+
+  // Member: interpolation_time_count
+  cdr >> ros_message.interpolation_time_count;
+
+  // Member: is_reversed
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.is_reversed = tmp ? true : false;
+  }
+
+  // Member: height
+  cdr >> ros_message.height;
 
   return true;
 }  // NOLINT(readability/fn_size)
@@ -72,13 +104,44 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: point
+  // Member: start_point
   {
-    size_t array_size = ros_message.point.size();
+    size_t array_size = ros_message.start_point.size();
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.point[0]);
+    size_t item_size = sizeof(ros_message.start_point[0]);
     current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: end_point
+  {
+    size_t array_size = ros_message.end_point.size();
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t item_size = sizeof(ros_message.end_point[0]);
+    current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: interpolation_time_count
+  {
+    size_t item_size = sizeof(ros_message.interpolation_time_count);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: is_reversed
+  {
+    size_t item_size = sizeof(ros_message.is_reversed);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: height
+  {
+    size_t item_size = sizeof(ros_message.height);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -105,13 +168,44 @@ max_serialized_size_GaitPath_Goal(
   full_bounded = true;
   is_plain = true;
 
-  // Member: point
+  // Member: start_point
   {
     size_t array_size = 0;
     full_bounded = false;
     is_plain = false;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // Member: end_point
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // Member: interpolation_time_count
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // Member: is_reversed
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // Member: height
+  {
+    size_t array_size = 1;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -125,7 +219,7 @@ max_serialized_size_GaitPath_Goal(
     using DataType = human_interfaces::action::GaitPath_Goal;
     is_plain =
       (
-      offsetof(DataType, point) +
+      offsetof(DataType, height) +
       last_member_size
       ) == ret_val;
   }
@@ -139,10 +233,24 @@ cdr_serialize_key(
   const human_interfaces::action::GaitPath_Goal & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: point
+  // Member: start_point
   {
-    cdr << ros_message.point;
+    cdr << ros_message.start_point;
   }
+
+  // Member: end_point
+  {
+    cdr << ros_message.end_point;
+  }
+
+  // Member: interpolation_time_count
+  cdr << ros_message.interpolation_time_count;
+
+  // Member: is_reversed
+  cdr << (ros_message.is_reversed ? true : false);
+
+  // Member: height
+  cdr << ros_message.height;
 
   return true;
 }
@@ -160,13 +268,44 @@ get_serialized_size_key(
   (void)padding;
   (void)wchar_size;
 
-  // Member: point
+  // Member: start_point
   {
-    size_t array_size = ros_message.point.size();
+    size_t array_size = ros_message.start_point.size();
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.point[0]);
+    size_t item_size = sizeof(ros_message.start_point[0]);
     current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: end_point
+  {
+    size_t array_size = ros_message.end_point.size();
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t item_size = sizeof(ros_message.end_point[0]);
+    current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: interpolation_time_count
+  {
+    size_t item_size = sizeof(ros_message.interpolation_time_count);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: is_reversed
+  {
+    size_t item_size = sizeof(ros_message.is_reversed);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: height
+  {
+    size_t item_size = sizeof(ros_message.height);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -192,13 +331,48 @@ max_serialized_size_key_GaitPath_Goal(
   full_bounded = true;
   is_plain = true;
 
-  // Member: point
+  // Member: start_point
   {
     size_t array_size = 0;
     full_bounded = false;
     is_plain = false;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Member: end_point
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Member: interpolation_time_count
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: is_reversed
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: height
+  {
+    size_t array_size = 1;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -212,7 +386,7 @@ max_serialized_size_key_GaitPath_Goal(
     using DataType = human_interfaces::action::GaitPath_Goal;
     is_plain =
       (
-      offsetof(DataType, point) +
+      offsetof(DataType, height) +
       last_member_size
       ) == ret_val;
   }

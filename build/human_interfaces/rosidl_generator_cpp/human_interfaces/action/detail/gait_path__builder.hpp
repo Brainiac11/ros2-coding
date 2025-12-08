@@ -24,16 +24,80 @@ namespace action
 namespace builder
 {
 
-class Init_GaitPath_Goal_point
+class Init_GaitPath_Goal_height
 {
 public:
-  Init_GaitPath_Goal_point()
+  explicit Init_GaitPath_Goal_height(::human_interfaces::action::GaitPath_Goal & msg)
+  : msg_(msg)
+  {}
+  ::human_interfaces::action::GaitPath_Goal height(::human_interfaces::action::GaitPath_Goal::_height_type arg)
+  {
+    msg_.height = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::human_interfaces::action::GaitPath_Goal msg_;
+};
+
+class Init_GaitPath_Goal_is_reversed
+{
+public:
+  explicit Init_GaitPath_Goal_is_reversed(::human_interfaces::action::GaitPath_Goal & msg)
+  : msg_(msg)
+  {}
+  Init_GaitPath_Goal_height is_reversed(::human_interfaces::action::GaitPath_Goal::_is_reversed_type arg)
+  {
+    msg_.is_reversed = std::move(arg);
+    return Init_GaitPath_Goal_height(msg_);
+  }
+
+private:
+  ::human_interfaces::action::GaitPath_Goal msg_;
+};
+
+class Init_GaitPath_Goal_interpolation_time_count
+{
+public:
+  explicit Init_GaitPath_Goal_interpolation_time_count(::human_interfaces::action::GaitPath_Goal & msg)
+  : msg_(msg)
+  {}
+  Init_GaitPath_Goal_is_reversed interpolation_time_count(::human_interfaces::action::GaitPath_Goal::_interpolation_time_count_type arg)
+  {
+    msg_.interpolation_time_count = std::move(arg);
+    return Init_GaitPath_Goal_is_reversed(msg_);
+  }
+
+private:
+  ::human_interfaces::action::GaitPath_Goal msg_;
+};
+
+class Init_GaitPath_Goal_end_point
+{
+public:
+  explicit Init_GaitPath_Goal_end_point(::human_interfaces::action::GaitPath_Goal & msg)
+  : msg_(msg)
+  {}
+  Init_GaitPath_Goal_interpolation_time_count end_point(::human_interfaces::action::GaitPath_Goal::_end_point_type arg)
+  {
+    msg_.end_point = std::move(arg);
+    return Init_GaitPath_Goal_interpolation_time_count(msg_);
+  }
+
+private:
+  ::human_interfaces::action::GaitPath_Goal msg_;
+};
+
+class Init_GaitPath_Goal_start_point
+{
+public:
+  Init_GaitPath_Goal_start_point()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::human_interfaces::action::GaitPath_Goal point(::human_interfaces::action::GaitPath_Goal::_point_type arg)
+  Init_GaitPath_Goal_end_point start_point(::human_interfaces::action::GaitPath_Goal::_start_point_type arg)
   {
-    msg_.point = std::move(arg);
-    return std::move(msg_);
+    msg_.start_point = std::move(arg);
+    return Init_GaitPath_Goal_end_point(msg_);
   }
 
 private:
@@ -51,7 +115,7 @@ template<>
 inline
 auto build<::human_interfaces::action::GaitPath_Goal>()
 {
-  return human_interfaces::action::builder::Init_GaitPath_Goal_point();
+  return human_interfaces::action::builder::Init_GaitPath_Goal_start_point();
 }
 
 }  // namespace human_interfaces

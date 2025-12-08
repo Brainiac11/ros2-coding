@@ -53,8 +53,8 @@ bool human_interfaces__action__gait_path__goal__convert_from_py(PyObject * _pyms
     assert(strncmp("human_interfaces.action._gait_path.GaitPath_Goal", full_classname_dest, 48) == 0);
   }
   human_interfaces__action__GaitPath_Goal * ros_message = _ros_message;
-  {  // point
-    PyObject * field = PyObject_GetAttrString(_pymsg, "point");
+  {  // start_point
+    PyObject * field = PyObject_GetAttrString(_pymsg, "start_point");
     if (!field) {
       return false;
     }
@@ -67,13 +67,13 @@ bool human_interfaces__action__gait_path__goal__convert_from_py(PyObject * _pyms
         return false;
       }
       Py_ssize_t size = view.len / sizeof(double);
-      if (!rosidl_runtime_c__double__Sequence__init(&(ros_message->point), size)) {
+      if (!rosidl_runtime_c__double__Sequence__init(&(ros_message->start_point), size)) {
         PyErr_SetString(PyExc_RuntimeError, "unable to create double__Sequence ros_message");
         PyBuffer_Release(&view);
         Py_DECREF(field);
         return false;
       }
-      double * dest = ros_message->point.data;
+      double * dest = ros_message->start_point.data;
       rc = PyBuffer_ToContiguous(dest, &view, view.len, 'C');
       if (rc < 0) {
         PyBuffer_Release(&view);
@@ -82,7 +82,7 @@ bool human_interfaces__action__gait_path__goal__convert_from_py(PyObject * _pyms
       }
       PyBuffer_Release(&view);
     } else {
-      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'point'");
+      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'start_point'");
       if (!seq_field) {
         Py_DECREF(field);
         return false;
@@ -93,13 +93,13 @@ bool human_interfaces__action__gait_path__goal__convert_from_py(PyObject * _pyms
         Py_DECREF(field);
         return false;
       }
-      if (!rosidl_runtime_c__double__Sequence__init(&(ros_message->point), size)) {
+      if (!rosidl_runtime_c__double__Sequence__init(&(ros_message->start_point), size)) {
         PyErr_SetString(PyExc_RuntimeError, "unable to create double__Sequence ros_message");
         Py_DECREF(seq_field);
         Py_DECREF(field);
         return false;
       }
-      double * dest = ros_message->point.data;
+      double * dest = ros_message->start_point.data;
       for (Py_ssize_t i = 0; i < size; ++i) {
         PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
         if (!item) {
@@ -113,6 +113,95 @@ bool human_interfaces__action__gait_path__goal__convert_from_py(PyObject * _pyms
       }
       Py_DECREF(seq_field);
     }
+    Py_DECREF(field);
+  }
+  {  // end_point
+    PyObject * field = PyObject_GetAttrString(_pymsg, "end_point");
+    if (!field) {
+      return false;
+    }
+    if (PyObject_CheckBuffer(field)) {
+      // Optimization for converting arrays of primitives
+      Py_buffer view;
+      int rc = PyObject_GetBuffer(field, &view, PyBUF_SIMPLE);
+      if (rc < 0) {
+        Py_DECREF(field);
+        return false;
+      }
+      Py_ssize_t size = view.len / sizeof(double);
+      if (!rosidl_runtime_c__double__Sequence__init(&(ros_message->end_point), size)) {
+        PyErr_SetString(PyExc_RuntimeError, "unable to create double__Sequence ros_message");
+        PyBuffer_Release(&view);
+        Py_DECREF(field);
+        return false;
+      }
+      double * dest = ros_message->end_point.data;
+      rc = PyBuffer_ToContiguous(dest, &view, view.len, 'C');
+      if (rc < 0) {
+        PyBuffer_Release(&view);
+        Py_DECREF(field);
+        return false;
+      }
+      PyBuffer_Release(&view);
+    } else {
+      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'end_point'");
+      if (!seq_field) {
+        Py_DECREF(field);
+        return false;
+      }
+      Py_ssize_t size = PySequence_Size(field);
+      if (-1 == size) {
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+      if (!rosidl_runtime_c__double__Sequence__init(&(ros_message->end_point), size)) {
+        PyErr_SetString(PyExc_RuntimeError, "unable to create double__Sequence ros_message");
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+      double * dest = ros_message->end_point.data;
+      for (Py_ssize_t i = 0; i < size; ++i) {
+        PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
+        if (!item) {
+          Py_DECREF(seq_field);
+          Py_DECREF(field);
+          return false;
+        }
+        assert(PyFloat_Check(item));
+        double tmp = PyFloat_AS_DOUBLE(item);
+        memcpy(&dest[i], &tmp, sizeof(double));
+      }
+      Py_DECREF(seq_field);
+    }
+    Py_DECREF(field);
+  }
+  {  // interpolation_time_count
+    PyObject * field = PyObject_GetAttrString(_pymsg, "interpolation_time_count");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->interpolation_time_count = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // is_reversed
+    PyObject * field = PyObject_GetAttrString(_pymsg, "is_reversed");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->is_reversed = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // height
+    PyObject * field = PyObject_GetAttrString(_pymsg, "height");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->height = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -137,9 +226,9 @@ PyObject * human_interfaces__action__gait_path__goal__convert_to_py(void * raw_r
     }
   }
   human_interfaces__action__GaitPath_Goal * ros_message = (human_interfaces__action__GaitPath_Goal *)raw_ros_message;
-  {  // point
+  {  // start_point
     PyObject * field = NULL;
-    field = PyObject_GetAttrString(_pymessage, "point");
+    field = PyObject_GetAttrString(_pymessage, "start_point");
     if (!field) {
       return NULL;
     }
@@ -176,12 +265,12 @@ PyObject * human_interfaces__action__gait_path__goal__convert_to_py(void * raw_r
       }
       Py_DECREF(pop);
     }
-    if (ros_message->point.size > 0) {
+    if (ros_message->start_point.size > 0) {
       // populating the array.array using the frombytes method
       PyObject * frombytes = PyObject_GetAttrString(field, "frombytes");
       assert(frombytes != NULL);
-      double * src = &(ros_message->point.data[0]);
-      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->point.size * sizeof(double));
+      double * src = &(ros_message->start_point.data[0]);
+      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->start_point.size * sizeof(double));
       assert(data != NULL);
       PyObject * ret = PyObject_CallFunctionObjArgs(frombytes, data, NULL);
       Py_DECREF(data);
@@ -193,6 +282,96 @@ PyObject * human_interfaces__action__gait_path__goal__convert_to_py(void * raw_r
       Py_DECREF(ret);
     }
     Py_DECREF(field);
+  }
+  {  // end_point
+    PyObject * field = NULL;
+    field = PyObject_GetAttrString(_pymessage, "end_point");
+    if (!field) {
+      return NULL;
+    }
+    assert(field->ob_type != NULL);
+    assert(field->ob_type->tp_name != NULL);
+    assert(strcmp(field->ob_type->tp_name, "array.array") == 0);
+    // ensure that itemsize matches the sizeof of the ROS message field
+    PyObject * itemsize_attr = PyObject_GetAttrString(field, "itemsize");
+    assert(itemsize_attr != NULL);
+    size_t itemsize = PyLong_AsSize_t(itemsize_attr);
+    Py_DECREF(itemsize_attr);
+    if (itemsize != sizeof(double)) {
+      PyErr_SetString(PyExc_RuntimeError, "itemsize doesn't match expectation");
+      Py_DECREF(field);
+      return NULL;
+    }
+    // clear the array, poor approach to remove potential default values
+    Py_ssize_t length = PyObject_Length(field);
+    if (-1 == length) {
+      Py_DECREF(field);
+      return NULL;
+    }
+    if (length > 0) {
+      PyObject * pop = PyObject_GetAttrString(field, "pop");
+      assert(pop != NULL);
+      for (Py_ssize_t i = 0; i < length; ++i) {
+        PyObject * ret = PyObject_CallFunctionObjArgs(pop, NULL);
+        if (!ret) {
+          Py_DECREF(pop);
+          Py_DECREF(field);
+          return NULL;
+        }
+        Py_DECREF(ret);
+      }
+      Py_DECREF(pop);
+    }
+    if (ros_message->end_point.size > 0) {
+      // populating the array.array using the frombytes method
+      PyObject * frombytes = PyObject_GetAttrString(field, "frombytes");
+      assert(frombytes != NULL);
+      double * src = &(ros_message->end_point.data[0]);
+      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->end_point.size * sizeof(double));
+      assert(data != NULL);
+      PyObject * ret = PyObject_CallFunctionObjArgs(frombytes, data, NULL);
+      Py_DECREF(data);
+      Py_DECREF(frombytes);
+      if (!ret) {
+        Py_DECREF(field);
+        return NULL;
+      }
+      Py_DECREF(ret);
+    }
+    Py_DECREF(field);
+  }
+  {  // interpolation_time_count
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->interpolation_time_count);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "interpolation_time_count", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // is_reversed
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->is_reversed ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "is_reversed", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // height
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->height);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "height", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
   }
 
   // ownership of _pymessage is transferred to the caller

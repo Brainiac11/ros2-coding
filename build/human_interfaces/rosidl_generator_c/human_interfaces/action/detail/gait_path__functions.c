@@ -12,7 +12,8 @@
 
 
 // Include directives for member types
-// Member `point`
+// Member `start_point`
+// Member `end_point`
 #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
 bool
@@ -21,11 +22,19 @@ human_interfaces__action__GaitPath_Goal__init(human_interfaces__action__GaitPath
   if (!msg) {
     return false;
   }
-  // point
-  if (!rosidl_runtime_c__double__Sequence__init(&msg->point, 0)) {
+  // start_point
+  if (!rosidl_runtime_c__double__Sequence__init(&msg->start_point, 0)) {
     human_interfaces__action__GaitPath_Goal__fini(msg);
     return false;
   }
+  // end_point
+  if (!rosidl_runtime_c__double__Sequence__init(&msg->end_point, 0)) {
+    human_interfaces__action__GaitPath_Goal__fini(msg);
+    return false;
+  }
+  // interpolation_time_count
+  // is_reversed
+  // height
   return true;
 }
 
@@ -35,8 +44,13 @@ human_interfaces__action__GaitPath_Goal__fini(human_interfaces__action__GaitPath
   if (!msg) {
     return;
   }
-  // point
-  rosidl_runtime_c__double__Sequence__fini(&msg->point);
+  // start_point
+  rosidl_runtime_c__double__Sequence__fini(&msg->start_point);
+  // end_point
+  rosidl_runtime_c__double__Sequence__fini(&msg->end_point);
+  // interpolation_time_count
+  // is_reversed
+  // height
 }
 
 bool
@@ -45,10 +59,28 @@ human_interfaces__action__GaitPath_Goal__are_equal(const human_interfaces__actio
   if (!lhs || !rhs) {
     return false;
   }
-  // point
+  // start_point
   if (!rosidl_runtime_c__double__Sequence__are_equal(
-      &(lhs->point), &(rhs->point)))
+      &(lhs->start_point), &(rhs->start_point)))
   {
+    return false;
+  }
+  // end_point
+  if (!rosidl_runtime_c__double__Sequence__are_equal(
+      &(lhs->end_point), &(rhs->end_point)))
+  {
+    return false;
+  }
+  // interpolation_time_count
+  if (lhs->interpolation_time_count != rhs->interpolation_time_count) {
+    return false;
+  }
+  // is_reversed
+  if (lhs->is_reversed != rhs->is_reversed) {
+    return false;
+  }
+  // height
+  if (lhs->height != rhs->height) {
     return false;
   }
   return true;
@@ -62,12 +94,24 @@ human_interfaces__action__GaitPath_Goal__copy(
   if (!input || !output) {
     return false;
   }
-  // point
+  // start_point
   if (!rosidl_runtime_c__double__Sequence__copy(
-      &(input->point), &(output->point)))
+      &(input->start_point), &(output->start_point)))
   {
     return false;
   }
+  // end_point
+  if (!rosidl_runtime_c__double__Sequence__copy(
+      &(input->end_point), &(output->end_point)))
+  {
+    return false;
+  }
+  // interpolation_time_count
+  output->interpolation_time_count = input->interpolation_time_count;
+  // is_reversed
+  output->is_reversed = input->is_reversed;
+  // height
+  output->height = input->height;
   return true;
 }
 

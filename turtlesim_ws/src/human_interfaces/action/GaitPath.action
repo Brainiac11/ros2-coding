@@ -1,4 +1,8 @@
-float64[] point
+float64[] start_point
+float64[] end_point
+int32 interpolation_time_count
+bool is_reversed
+float64 height
 ---
 std_msgs/Float64MultiArray[] joint_angles
 ---

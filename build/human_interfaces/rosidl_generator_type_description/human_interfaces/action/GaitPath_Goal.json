@@ -4,9 +4,49 @@
       "type_name": "human_interfaces/action/GaitPath_Goal",
       "fields": [
         {
-          "name": "point",
+          "name": "start_point",
           "type": {
             "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "end_point",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "interpolation_time_count",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "is_reversed",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "height",
+          "type": {
+            "type_id": 11,
             "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
@@ -20,7 +60,7 @@
   "type_hashes": [
     {
       "type_name": "human_interfaces/action/GaitPath_Goal",
-      "hash_string": "RIHS01_4a23f575cad89aba830ad9fb8095fe175e4f887ced977ce38f4c39210d1baa6e"
+      "hash_string": "RIHS01_3696aa76fc83048fc748a689420c4e2d85612d3f0e7be4e011e029f6f33903e2"
     }
   ]
 }

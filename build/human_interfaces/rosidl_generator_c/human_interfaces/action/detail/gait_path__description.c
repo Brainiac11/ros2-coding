@@ -11,10 +11,10 @@ human_interfaces__action__GaitPath__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x99, 0x2c, 0x9a, 0x24, 0xc2, 0x2c, 0x23, 0x74,
-      0x86, 0x33, 0xe8, 0xea, 0x34, 0xf3, 0x28, 0x56,
-      0x32, 0x68, 0xbe, 0x5a, 0xcf, 0xe1, 0x97, 0xb1,
-      0xa9, 0xaa, 0xee, 0xa6, 0x9d, 0xc3, 0x04, 0x4d,
+      0x34, 0xf7, 0x86, 0x3b, 0x7b, 0xd1, 0xbe, 0xb5,
+      0x88, 0x0c, 0x99, 0x36, 0x7d, 0x67, 0x31, 0xcc,
+      0x33, 0xaf, 0x07, 0xe9, 0xa2, 0xe9, 0x79, 0x3d,
+      0xeb, 0x6f, 0xb5, 0x0e, 0x6e, 0x7f, 0x06, 0xa5,
     }};
   return &hash;
 }
@@ -26,10 +26,10 @@ human_interfaces__action__GaitPath_Goal__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x4a, 0x23, 0xf5, 0x75, 0xca, 0xd8, 0x9a, 0xba,
-      0x83, 0x0a, 0xd9, 0xfb, 0x80, 0x95, 0xfe, 0x17,
-      0x5e, 0x4f, 0x88, 0x7c, 0xed, 0x97, 0x7c, 0xe3,
-      0x8f, 0x4c, 0x39, 0x21, 0x0d, 0x1b, 0xaa, 0x6e,
+      0x36, 0x96, 0xaa, 0x76, 0xfc, 0x83, 0x04, 0x8f,
+      0xc7, 0x48, 0xa6, 0x89, 0x42, 0x0c, 0x4e, 0x2d,
+      0x85, 0x61, 0x2d, 0x3f, 0x0e, 0x7b, 0xe4, 0xe0,
+      0x11, 0xe0, 0x29, 0xf6, 0xf3, 0x39, 0x03, 0xe2,
     }};
   return &hash;
 }
@@ -71,10 +71,10 @@ human_interfaces__action__GaitPath_SendGoal__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xd5, 0xce, 0xe1, 0x15, 0x42, 0x4c, 0x69, 0xc8,
-      0x91, 0xa6, 0xe0, 0xd9, 0xc4, 0xe3, 0xa6, 0x88,
-      0xe5, 0xca, 0x70, 0xab, 0x90, 0xe6, 0x93, 0x2a,
-      0x50, 0xd4, 0xe6, 0x6d, 0x65, 0xf3, 0x85, 0x68,
+      0x85, 0xf6, 0x16, 0x65, 0x3f, 0x01, 0xc3, 0x18,
+      0xfc, 0x21, 0xc5, 0x06, 0x30, 0xda, 0x97, 0xcf,
+      0x3c, 0xac, 0x65, 0x5c, 0x11, 0x73, 0x94, 0xd0,
+      0xf9, 0x3b, 0xee, 0x6c, 0x93, 0xea, 0x14, 0xda,
     }};
   return &hash;
 }
@@ -86,10 +86,10 @@ human_interfaces__action__GaitPath_SendGoal_Request__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x29, 0xc0, 0x42, 0x42, 0xde, 0x06, 0xf0, 0xde,
-      0x1d, 0x52, 0x15, 0xa3, 0x89, 0x41, 0xa5, 0xef,
-      0x4f, 0xd7, 0x29, 0x25, 0x05, 0x08, 0xb3, 0xa9,
-      0x9e, 0x58, 0x16, 0xd8, 0xd6, 0xac, 0x80, 0x6f,
+      0x89, 0xa5, 0xa3, 0xed, 0xeb, 0xe7, 0x8b, 0x0e,
+      0x02, 0xf3, 0x36, 0xca, 0xc7, 0x88, 0xa9, 0x4f,
+      0x8d, 0x44, 0x5e, 0xdd, 0xf2, 0x1b, 0xd0, 0x66,
+      0xa8, 0xfa, 0x82, 0x97, 0x6e, 0xee, 0x49, 0x08,
     }};
   return &hash;
 }
@@ -116,10 +116,10 @@ human_interfaces__action__GaitPath_SendGoal_Event__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xd0, 0x82, 0xc3, 0xb3, 0x80, 0x8c, 0x43, 0xd6,
-      0xf8, 0xa2, 0x67, 0xfa, 0x98, 0xe1, 0xc2, 0x8b,
-      0x3f, 0x24, 0xb8, 0x62, 0x89, 0x2d, 0xac, 0x78,
-      0x6a, 0xe7, 0x26, 0xae, 0xb1, 0x56, 0x50, 0xfd,
+      0xeb, 0xde, 0x04, 0x15, 0x7f, 0xd8, 0x70, 0x0b,
+      0x30, 0xb6, 0xfc, 0x96, 0x56, 0xa5, 0x80, 0x5d,
+      0x77, 0x0c, 0x21, 0x73, 0x8a, 0x4e, 0x80, 0xad,
+      0x51, 0x11, 0x9d, 0xc8, 0x66, 0xfd, 0x48, 0xd9,
     }};
   return &hash;
 }
@@ -204,11 +204,11 @@ human_interfaces__action__GaitPath_FeedbackMessage__get_type_hash(
 
 // Include directives for referenced types
 #include "unique_identifier_msgs/msg/detail/uuid__functions.h"
-#include "std_msgs/msg/detail/multi_array_layout__functions.h"
 #include "std_msgs/msg/detail/multi_array_dimension__functions.h"
 #include "std_msgs/msg/detail/float64_multi_array__functions.h"
-#include "builtin_interfaces/msg/detail/time__functions.h"
+#include "std_msgs/msg/detail/multi_array_layout__functions.h"
 #include "service_msgs/msg/detail/service_event_info__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG
@@ -459,13 +459,57 @@ human_interfaces__action__GaitPath__get_type_description(
   return &description;
 }
 // Define type names, field names, and default values
-static char human_interfaces__action__GaitPath_Goal__FIELD_NAME__point[] = "point";
+static char human_interfaces__action__GaitPath_Goal__FIELD_NAME__start_point[] = "start_point";
+static char human_interfaces__action__GaitPath_Goal__FIELD_NAME__end_point[] = "end_point";
+static char human_interfaces__action__GaitPath_Goal__FIELD_NAME__interpolation_time_count[] = "interpolation_time_count";
+static char human_interfaces__action__GaitPath_Goal__FIELD_NAME__is_reversed[] = "is_reversed";
+static char human_interfaces__action__GaitPath_Goal__FIELD_NAME__height[] = "height";
 
 static rosidl_runtime_c__type_description__Field human_interfaces__action__GaitPath_Goal__FIELDS[] = {
   {
-    {human_interfaces__action__GaitPath_Goal__FIELD_NAME__point, 5, 5},
+    {human_interfaces__action__GaitPath_Goal__FIELD_NAME__start_point, 11, 11},
     {
       rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE_UNBOUNDED_SEQUENCE,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {human_interfaces__action__GaitPath_Goal__FIELD_NAME__end_point, 9, 9},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE_UNBOUNDED_SEQUENCE,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {human_interfaces__action__GaitPath_Goal__FIELD_NAME__interpolation_time_count, 24, 24},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT32,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {human_interfaces__action__GaitPath_Goal__FIELD_NAME__is_reversed, 11, 11},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_BOOLEAN,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {human_interfaces__action__GaitPath_Goal__FIELD_NAME__height, 6, 6},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE,
       0,
       0,
       {NULL, 0, 0},
@@ -483,7 +527,7 @@ human_interfaces__action__GaitPath_Goal__get_type_description(
   static const rosidl_runtime_c__type_description__TypeDescription description = {
     {
       {human_interfaces__action__GaitPath_Goal__TYPE_NAME, 37, 37},
-      {human_interfaces__action__GaitPath_Goal__FIELDS, 1, 1},
+      {human_interfaces__action__GaitPath_Goal__FIELDS, 5, 5},
     },
     {NULL, 0, 0},
   };
@@ -1322,7 +1366,11 @@ human_interfaces__action__GaitPath_FeedbackMessage__get_type_description(
 }
 
 static char toplevel_type_raw_source[] =
-  "float64[] point\n"
+  "float64[] start_point\n"
+  "float64[] end_point\n"
+  "int32 interpolation_time_count\n"
+  "bool is_reversed\n"
+  "float64 height\n"
   "---\n"
   "std_msgs/Float64MultiArray[] joint_angles\n"
   "---\n"
@@ -1341,7 +1389,7 @@ human_interfaces__action__GaitPath__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {human_interfaces__action__GaitPath__TYPE_NAME, 32, 32},
     {action_encoding, 6, 6},
-    {toplevel_type_raw_source, 115, 115},
+    {toplevel_type_raw_source, 204, 204},
   };
   return &source;
 }

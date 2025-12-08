@@ -28,14 +28,14 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: point
+  // member: start_point
   {
-    if (msg.point.size() == 0) {
-      out << "point: []";
+    if (msg.start_point.size() == 0) {
+      out << "start_point: []";
     } else {
-      out << "point: [";
-      size_t pending_items = msg.point.size();
-      for (auto item : msg.point) {
+      out << "start_point: [";
+      size_t pending_items = msg.start_point.size();
+      for (auto item : msg.start_point) {
         rosidl_generator_traits::value_to_yaml(item, out);
         if (--pending_items > 0) {
           out << ", ";
@@ -43,6 +43,45 @@ inline void to_flow_style_yaml(
       }
       out << "]";
     }
+    out << ", ";
+  }
+
+  // member: end_point
+  {
+    if (msg.end_point.size() == 0) {
+      out << "end_point: []";
+    } else {
+      out << "end_point: [";
+      size_t pending_items = msg.end_point.size();
+      for (auto item : msg.end_point) {
+        rosidl_generator_traits::value_to_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
+    out << ", ";
+  }
+
+  // member: interpolation_time_count
+  {
+    out << "interpolation_time_count: ";
+    rosidl_generator_traits::value_to_yaml(msg.interpolation_time_count, out);
+    out << ", ";
+  }
+
+  // member: is_reversed
+  {
+    out << "is_reversed: ";
+    rosidl_generator_traits::value_to_yaml(msg.is_reversed, out);
+    out << ", ";
+  }
+
+  // member: height
+  {
+    out << "height: ";
+    rosidl_generator_traits::value_to_yaml(msg.height, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -51,16 +90,16 @@ inline void to_block_style_yaml(
   const GaitPath_Goal & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: point
+  // member: start_point
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    if (msg.point.size() == 0) {
-      out << "point: []\n";
+    if (msg.start_point.size() == 0) {
+      out << "start_point: []\n";
     } else {
-      out << "point:\n";
-      for (auto item : msg.point) {
+      out << "start_point:\n";
+      for (auto item : msg.start_point) {
         if (indentation > 0) {
           out << std::string(indentation, ' ');
         }
@@ -69,6 +108,56 @@ inline void to_block_style_yaml(
         out << "\n";
       }
     }
+  }
+
+  // member: end_point
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.end_point.size() == 0) {
+      out << "end_point: []\n";
+    } else {
+      out << "end_point:\n";
+      for (auto item : msg.end_point) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "- ";
+        rosidl_generator_traits::value_to_yaml(item, out);
+        out << "\n";
+      }
+    }
+  }
+
+  // member: interpolation_time_count
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "interpolation_time_count: ";
+    rosidl_generator_traits::value_to_yaml(msg.interpolation_time_count, out);
+    out << "\n";
+  }
+
+  // member: is_reversed
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "is_reversed: ";
+    rosidl_generator_traits::value_to_yaml(msg.is_reversed, out);
+    out << "\n";
+  }
+
+  // member: height
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "height: ";
+    rosidl_generator_traits::value_to_yaml(msg.height, out);
+    out << "\n";
   }
 }  // NOLINT(readability/fn_size)
 

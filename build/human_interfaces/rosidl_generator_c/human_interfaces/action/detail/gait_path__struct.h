@@ -21,13 +21,18 @@ extern "C"
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'point'
+// Member 'start_point'
+// Member 'end_point'
 #include "rosidl_runtime_c/primitives_sequence.h"
 
 /// Struct defined in action/GaitPath in the package human_interfaces.
 typedef struct human_interfaces__action__GaitPath_Goal
 {
-  rosidl_runtime_c__double__Sequence point;
+  rosidl_runtime_c__double__Sequence start_point;
+  rosidl_runtime_c__double__Sequence end_point;
+  int32_t interpolation_time_count;
+  bool is_reversed;
+  double height;
 } human_interfaces__action__GaitPath_Goal;
 
 // Struct for a sequence of human_interfaces__action__GaitPath_Goal.

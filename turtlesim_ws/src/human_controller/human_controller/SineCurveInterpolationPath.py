@@ -138,7 +138,7 @@ class SineInterpolationPath:
         if np.linalg.norm(travel_vec) == 0:
             self.interpolated_path = [self._start_point.copy()]
             return self.interpolated_path
-        theta = np.atan2(travel_vec[1], travel_vec[0])
+        theta = np.arctan2(travel_vec[1], travel_vec[0])
 
         points_local: list[NDArray] = []
         s = 0.0

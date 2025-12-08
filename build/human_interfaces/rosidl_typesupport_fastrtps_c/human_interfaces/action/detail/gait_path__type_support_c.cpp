@@ -36,8 +36,8 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/primitives_sequence.h"  // point
-#include "rosidl_runtime_c/primitives_sequence_functions.h"  // point
+#include "rosidl_runtime_c/primitives_sequence.h"  // end_point, start_point
+#include "rosidl_runtime_c/primitives_sequence_functions.h"  // end_point, start_point
 
 // forward declare type support functions
 
@@ -50,12 +50,35 @@ bool cdr_serialize_human_interfaces__action__GaitPath_Goal(
   const human_interfaces__action__GaitPath_Goal * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: point
+  // Field name: start_point
   {
-    size_t size = ros_message->point.size;
-    auto array_ptr = ros_message->point.data;
+    size_t size = ros_message->start_point.size;
+    auto array_ptr = ros_message->start_point.data;
     cdr << static_cast<uint32_t>(size);
     cdr.serialize_array(array_ptr, size);
+  }
+
+  // Field name: end_point
+  {
+    size_t size = ros_message->end_point.size;
+    auto array_ptr = ros_message->end_point.data;
+    cdr << static_cast<uint32_t>(size);
+    cdr.serialize_array(array_ptr, size);
+  }
+
+  // Field name: interpolation_time_count
+  {
+    cdr << ros_message->interpolation_time_count;
+  }
+
+  // Field name: is_reversed
+  {
+    cdr << (ros_message->is_reversed ? true : false);
+  }
+
+  // Field name: height
+  {
+    cdr << ros_message->height;
   }
 
   return true;
@@ -66,7 +89,7 @@ bool cdr_deserialize_human_interfaces__action__GaitPath_Goal(
   eprosima::fastcdr::Cdr & cdr,
   human_interfaces__action__GaitPath_Goal * ros_message)
 {
-  // Field name: point
+  // Field name: start_point
   {
     uint32_t cdrSize;
     cdr >> cdrSize;
@@ -81,15 +104,58 @@ bool cdr_deserialize_human_interfaces__action__GaitPath_Goal(
       return false;
     }
 
-    if (ros_message->point.data) {
-      rosidl_runtime_c__double__Sequence__fini(&ros_message->point);
+    if (ros_message->start_point.data) {
+      rosidl_runtime_c__double__Sequence__fini(&ros_message->start_point);
     }
-    if (!rosidl_runtime_c__double__Sequence__init(&ros_message->point, size)) {
-      fprintf(stderr, "failed to create array for field 'point'");
+    if (!rosidl_runtime_c__double__Sequence__init(&ros_message->start_point, size)) {
+      fprintf(stderr, "failed to create array for field 'start_point'");
       return false;
     }
-    auto array_ptr = ros_message->point.data;
+    auto array_ptr = ros_message->start_point.data;
     cdr.deserialize_array(array_ptr, size);
+  }
+
+  // Field name: end_point
+  {
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.get_state();
+    bool correct_size = cdr.jump(size);
+    cdr.set_state(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
+    if (ros_message->end_point.data) {
+      rosidl_runtime_c__double__Sequence__fini(&ros_message->end_point);
+    }
+    if (!rosidl_runtime_c__double__Sequence__init(&ros_message->end_point, size)) {
+      fprintf(stderr, "failed to create array for field 'end_point'");
+      return false;
+    }
+    auto array_ptr = ros_message->end_point.data;
+    cdr.deserialize_array(array_ptr, size);
+  }
+
+  // Field name: interpolation_time_count
+  {
+    cdr >> ros_message->interpolation_time_count;
+  }
+
+  // Field name: is_reversed
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->is_reversed = tmp ? true : false;
+  }
+
+  // Field name: height
+  {
+    cdr >> ros_message->height;
   }
 
   return true;
@@ -110,15 +176,48 @@ size_t get_serialized_size_human_interfaces__action__GaitPath_Goal(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: point
+  // Field name: start_point
   {
-    size_t array_size = ros_message->point.size;
-    auto array_ptr = ros_message->point.data;
+    size_t array_size = ros_message->start_point.size;
+    auto array_ptr = ros_message->start_point.data;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: end_point
+  {
+    size_t array_size = ros_message->end_point.size;
+    auto array_ptr = ros_message->end_point.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    (void)array_ptr;
+    size_t item_size = sizeof(array_ptr[0]);
+    current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: interpolation_time_count
+  {
+    size_t item_size = sizeof(ros_message->interpolation_time_count);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: is_reversed
+  {
+    size_t item_size = sizeof(ros_message->is_reversed);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: height
+  {
+    size_t item_size = sizeof(ros_message->height);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -144,13 +243,48 @@ size_t max_serialized_size_human_interfaces__action__GaitPath_Goal(
   full_bounded = true;
   is_plain = true;
 
-  // Field name: point
+  // Field name: start_point
   {
     size_t array_size = 0;
     full_bounded = false;
     is_plain = false;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: end_point
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: interpolation_time_count
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Field name: is_reversed
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Field name: height
+  {
+    size_t array_size = 1;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -165,7 +299,7 @@ size_t max_serialized_size_human_interfaces__action__GaitPath_Goal(
     using DataType = human_interfaces__action__GaitPath_Goal;
     is_plain =
       (
-      offsetof(DataType, point) +
+      offsetof(DataType, height) +
       last_member_size
       ) == ret_val;
   }
@@ -177,12 +311,35 @@ bool cdr_serialize_key_human_interfaces__action__GaitPath_Goal(
   const human_interfaces__action__GaitPath_Goal * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: point
+  // Field name: start_point
   {
-    size_t size = ros_message->point.size;
-    auto array_ptr = ros_message->point.data;
+    size_t size = ros_message->start_point.size;
+    auto array_ptr = ros_message->start_point.data;
     cdr << static_cast<uint32_t>(size);
     cdr.serialize_array(array_ptr, size);
+  }
+
+  // Field name: end_point
+  {
+    size_t size = ros_message->end_point.size;
+    auto array_ptr = ros_message->end_point.data;
+    cdr << static_cast<uint32_t>(size);
+    cdr.serialize_array(array_ptr, size);
+  }
+
+  // Field name: interpolation_time_count
+  {
+    cdr << ros_message->interpolation_time_count;
+  }
+
+  // Field name: is_reversed
+  {
+    cdr << (ros_message->is_reversed ? true : false);
+  }
+
+  // Field name: height
+  {
+    cdr << ros_message->height;
   }
 
   return true;
@@ -203,15 +360,48 @@ size_t get_serialized_size_key_human_interfaces__action__GaitPath_Goal(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: point
+  // Field name: start_point
   {
-    size_t array_size = ros_message->point.size;
-    auto array_ptr = ros_message->point.data;
+    size_t array_size = ros_message->start_point.size;
+    auto array_ptr = ros_message->start_point.data;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: end_point
+  {
+    size_t array_size = ros_message->end_point.size;
+    auto array_ptr = ros_message->end_point.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    (void)array_ptr;
+    size_t item_size = sizeof(array_ptr[0]);
+    current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: interpolation_time_count
+  {
+    size_t item_size = sizeof(ros_message->interpolation_time_count);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: is_reversed
+  {
+    size_t item_size = sizeof(ros_message->is_reversed);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: height
+  {
+    size_t item_size = sizeof(ros_message->height);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -235,13 +425,48 @@ size_t max_serialized_size_key_human_interfaces__action__GaitPath_Goal(
 
   full_bounded = true;
   is_plain = true;
-  // Field name: point
+  // Field name: start_point
   {
     size_t array_size = 0;
     full_bounded = false;
     is_plain = false;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: end_point
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: interpolation_time_count
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Field name: is_reversed
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Field name: height
+  {
+    size_t array_size = 1;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -255,7 +480,7 @@ size_t max_serialized_size_key_human_interfaces__action__GaitPath_Goal(
     using DataType = human_interfaces__action__GaitPath_Goal;
     is_plain =
       (
-      offsetof(DataType, point) +
+      offsetof(DataType, height) +
       last_member_size
       ) == ret_val;
   }

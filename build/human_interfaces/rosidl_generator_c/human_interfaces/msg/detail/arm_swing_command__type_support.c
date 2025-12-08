@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "human_interfaces/msg/detail/arm_swing_command__struct.h"
 #include "human_interfaces/msg/detail/arm_swing_command__functions.h"
 #include "human_interfaces/msg/detail/arm_swing_command__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "human_interfaces/msg/detail/arm_swing_command__struct.h"
 
 #ifdef __cplusplus
 extern "C"

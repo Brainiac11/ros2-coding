@@ -38,25 +38,73 @@ struct GaitPath_Goal_
 
   explicit GaitPath_Goal_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->interpolation_time_count = 0l;
+      this->is_reversed = false;
+      this->height = 0.0;
+    }
   }
 
   explicit GaitPath_Goal_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
     (void)_alloc;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->interpolation_time_count = 0l;
+      this->is_reversed = false;
+      this->height = 0.0;
+    }
   }
 
   // field types and members
-  using _point_type =
+  using _start_point_type =
     std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>>;
-  _point_type point;
+  _start_point_type start_point;
+  using _end_point_type =
+    std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>>;
+  _end_point_type end_point;
+  using _interpolation_time_count_type =
+    int32_t;
+  _interpolation_time_count_type interpolation_time_count;
+  using _is_reversed_type =
+    bool;
+  _is_reversed_type is_reversed;
+  using _height_type =
+    double;
+  _height_type height;
 
   // setters for named parameter idiom
-  Type & set__point(
+  Type & set__start_point(
     const std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> & _arg)
   {
-    this->point = _arg;
+    this->start_point = _arg;
+    return *this;
+  }
+  Type & set__end_point(
+    const std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> & _arg)
+  {
+    this->end_point = _arg;
+    return *this;
+  }
+  Type & set__interpolation_time_count(
+    const int32_t & _arg)
+  {
+    this->interpolation_time_count = _arg;
+    return *this;
+  }
+  Type & set__is_reversed(
+    const bool & _arg)
+  {
+    this->is_reversed = _arg;
+    return *this;
+  }
+  Type & set__height(
+    const double & _arg)
+  {
+    this->height = _arg;
     return *this;
   }
 
@@ -102,7 +150,19 @@ struct GaitPath_Goal_
   // comparison operators
   bool operator==(const GaitPath_Goal_ & other) const
   {
-    if (this->point != other.point) {
+    if (this->start_point != other.start_point) {
+      return false;
+    }
+    if (this->end_point != other.end_point) {
+      return false;
+    }
+    if (this->interpolation_time_count != other.interpolation_time_count) {
+      return false;
+    }
+    if (this->is_reversed != other.is_reversed) {
+      return false;
+    }
+    if (this->height != other.height) {
       return false;
     }
     return true;
