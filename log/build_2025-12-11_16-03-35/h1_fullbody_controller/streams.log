@@ -1,0 +1,41 @@
+[0.010s] Invoking command in '/workspaces/ros2-coding/build/h1_fullbody_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/h1_fullbody_controller
+[0.164s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.637s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.659s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.659s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.732s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.759s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.789s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.920s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.142s] -- Configuring done (1.1s)
+[1.186s] -- Generating done (0.0s)
+[1.191s] -- Build files have been written to: /workspaces/ros2-coding/build/h1_fullbody_controller
+[1.200s] Invoked command in '/workspaces/ros2-coding/build/h1_fullbody_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/h1_fullbody_controller
+[1.201s] Invoking command in '/workspaces/ros2-coding/build/h1_fullbody_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/h1_fullbody_controller -- -j4 -l4
+[1.289s] Invoked command in '/workspaces/ros2-coding/build/h1_fullbody_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/h1_fullbody_controller -- -j4 -l4
+[1.289s] Invoking command in '/workspaces/ros2-coding/build/h1_fullbody_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/h1_fullbody_controller
+[1.320s] -- Install configuration: ""
+[1.321s] -- Execute custom install script
+[1.321s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/scripts/__init__.py
+[1.322s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/scripts/h1_fullbody_controller.py
+[1.322s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/launch/h1_fullbody_controller.launch.py
+[1.322s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/policy/h1_env.yaml
+[1.323s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/policy/h1_policy.pt
+[1.323s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/lib/h1_fullbody_controller/h1_fullbody_controller.py
+[1.324s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/ament_index/resource_index/package_run_dependencies/h1_fullbody_controller
+[1.324s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/ament_index/resource_index/parent_prefix_path/h1_fullbody_controller
+[1.325s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/ament_prefix_path.sh
+[1.326s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/ament_prefix_path.dsv
+[1.326s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/path.sh
+[1.327s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/path.dsv
+[1.328s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.bash
+[1.328s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.sh
+[1.329s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.zsh
+[1.330s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.dsv
+[1.330s] -- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/package.dsv
+[1.371s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/ament_index/resource_index/packages/h1_fullbody_controller
+[1.372s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/cmake/h1_fullbody_controllerConfig.cmake
+[1.372s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/cmake/h1_fullbody_controllerConfig-version.cmake
+[1.372s] -- Up-to-date symlink: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/package.xml
+[1.376s] Invoked command in '/workspaces/ros2-coding/build/h1_fullbody_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/h1_fullbody_controller

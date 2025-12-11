@@ -1,0 +1,50 @@
+[3.634s] Invoking command in '/workspaces/ros2-coding/build/my_turtlesim': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build
+[4.420s] running develop
+[4.928s] Removing /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my-turtlesim.egg-link (link to .)
+[4.975s] Invoked command in '/workspaces/ros2-coding/build/my_turtlesim' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build
+[5.053s] Invoking command in '/workspaces/ros2-coding/turtlesim_ws/src/my_turtlesim': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_turtlesim build --build-base /workspaces/ros2-coding/build/my_turtlesim/build install --record /workspaces/ros2-coding/build/my_turtlesim/install.log --single-version-externally-managed install_data --force
+[5.684s] running egg_info
+[5.732s] writing ../../../build/my_turtlesim/my_turtlesim.egg-info/PKG-INFO
+[5.734s] writing dependency_links to ../../../build/my_turtlesim/my_turtlesim.egg-info/dependency_links.txt
+[5.736s] writing entry points to ../../../build/my_turtlesim/my_turtlesim.egg-info/entry_points.txt
+[5.737s] writing requirements to ../../../build/my_turtlesim/my_turtlesim.egg-info/requires.txt
+[5.738s] writing top-level names to ../../../build/my_turtlesim/my_turtlesim.egg-info/top_level.txt
+[5.821s] reading manifest file '../../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'
+[5.821s] adding license file 'LICENSE'
+[5.831s] writing manifest file '../../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'
+[5.832s] running build
+[5.832s] running build_py
+[5.832s] creating /workspaces/ros2-coding/build/my_turtlesim/build
+[5.832s] creating /workspaces/ros2-coding/build/my_turtlesim/build/lib
+[5.832s] creating /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+[5.832s] copying my_turtlesim/better_move.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+[5.833s] copying my_turtlesim/move_turtle.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+[5.833s] copying my_turtlesim/pose_math.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+[5.833s] copying my_turtlesim/__init__.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+[5.833s] copying my_turtlesim/launch.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+[5.833s] copying my_turtlesim/vector_math.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+[5.834s] running install
+[5.851s] running install_lib
+[5.888s] creating /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+[5.889s] copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/better_move.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+[5.889s] copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/move_turtle.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+[5.889s] copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/pose_math.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+[5.895s] copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/__init__.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+[5.896s] copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/launch.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+[5.896s] copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/vector_math.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+[5.896s] byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/better_move.py to better_move.cpython-312.pyc
+[5.896s] byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/move_turtle.py to move_turtle.cpython-312.pyc
+[5.897s] byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/pose_math.py to pose_math.cpython-312.pyc
+[5.901s] byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/__init__.py to __init__.cpython-312.pyc
+[5.901s] byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/launch.py to launch.cpython-312.pyc
+[5.902s] byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/vector_math.py to vector_math.cpython-312.pyc
+[5.902s] running install_data
+[5.902s] copying resource/my_turtlesim -> /workspaces/ros2-coding/install/my_turtlesim/share/ament_index/resource_index/packages
+[5.906s] copying package.xml -> /workspaces/ros2-coding/install/my_turtlesim/share/my_turtlesim
+[5.906s] running install_egg_info
+[5.967s] Copying ../../../build/my_turtlesim/my_turtlesim.egg-info to /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim-0.0.0-py3.12.egg-info
+[5.971s] running install_scripts
+[6.251s] Installing better_move script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+[6.252s] Installing move_turtle script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+[6.252s] writing list of installed files to '/workspaces/ros2-coding/build/my_turtlesim/install.log'
+[6.353s] Invoked command in '/workspaces/ros2-coding/turtlesim_ws/src/my_turtlesim' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_turtlesim build --build-base /workspaces/ros2-coding/build/my_turtlesim/build install --record /workspaces/ros2-coding/build/my_turtlesim/install.log --single-version-externally-managed install_data --force

@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/turtlesim_ws/src/issac_sim/setup.py

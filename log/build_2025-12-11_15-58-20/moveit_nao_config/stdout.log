@@ -1,0 +1,25 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspaces/ros2-coding/build/moveit_nao_config
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/config/kinematics.yaml
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/launch/move_group.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/srdf/nao.srdf
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/package_run_dependencies/moveit_nao_config
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/parent_prefix_path/moveit_nao_config
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/packages/moveit_nao_config
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/cmake/moveit_nao_configConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/cmake/moveit_nao_configConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/package.xml

@@ -1,1 +1,3 @@
-/workspaces/ros2-coding/build/isaac_ros_navigation_goal/assets/goals.txt
+1 2 0 0 1 0
+2 3 0 0 1 1
+3.4 4.5 0.5 0.5 0.5 0.5

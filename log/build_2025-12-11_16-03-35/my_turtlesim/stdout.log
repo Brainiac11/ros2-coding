@@ -1,0 +1,46 @@
+running develop
+Removing /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my-turtlesim.egg-link (link to .)
+running egg_info
+writing ../../../build/my_turtlesim/my_turtlesim.egg-info/PKG-INFO
+writing dependency_links to ../../../build/my_turtlesim/my_turtlesim.egg-info/dependency_links.txt
+writing entry points to ../../../build/my_turtlesim/my_turtlesim.egg-info/entry_points.txt
+writing requirements to ../../../build/my_turtlesim/my_turtlesim.egg-info/requires.txt
+writing top-level names to ../../../build/my_turtlesim/my_turtlesim.egg-info/top_level.txt
+reading manifest file '../../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/ros2-coding/build/my_turtlesim/build
+creating /workspaces/ros2-coding/build/my_turtlesim/build/lib
+creating /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+copying my_turtlesim/better_move.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+copying my_turtlesim/move_turtle.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+copying my_turtlesim/pose_math.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+copying my_turtlesim/__init__.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+copying my_turtlesim/launch.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+copying my_turtlesim/vector_math.py -> /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim
+running install
+running install_lib
+creating /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/better_move.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/move_turtle.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/pose_math.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/__init__.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/launch.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+copying /workspaces/ros2-coding/build/my_turtlesim/build/lib/my_turtlesim/vector_math.py -> /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim
+byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/better_move.py to better_move.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/move_turtle.py to move_turtle.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/pose_math.py to pose_math.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/launch.py to launch.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim/vector_math.py to vector_math.cpython-312.pyc
+running install_data
+copying resource/my_turtlesim -> /workspaces/ros2-coding/install/my_turtlesim/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/ros2-coding/install/my_turtlesim/share/my_turtlesim
+running install_egg_info
+Copying ../../../build/my_turtlesim/my_turtlesim.egg-info to /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my_turtlesim-0.0.0-py3.12.egg-info
+running install_scripts
+Installing better_move script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+Installing move_turtle script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+writing list of installed files to '/workspaces/ros2-coding/build/my_turtlesim/install.log'

@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/turtlesim_ws/src/my_turtlesim/setup.py

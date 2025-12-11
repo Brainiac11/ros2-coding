@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="Nao">
+  <!-- Planning groups -->
+  <group name="left_arm">
+    <chain base_link="LShoulder" tip_link="LWrist"/>
+    <joint name="LShoulderPitch"/>
+    <joint name="LShoulderRoll"/>
+    <joint name="LElbowYaw"/>
+    <joint name="LElbowRoll"/>
+    <joint name="LWristYaw"/>
+  </group>
+
+  <group name="right_arm">
+    <chain base_link="RShoulder" tip_link="RWrist"/>
+    <joint name="RShoulderPitch"/>
+    <joint name="RShoulderRoll"/>
+    <joint name="RElbowYaw"/>
+    <joint name="RElbowRoll"/>
+    <joint name="RWristYaw"/>
+  </group>
+
+  <group name="left_leg">
+    <chain base_link="LPelvis" tip_link="LSole"/>
+    <joint name="LHipYawPitch"/>
+    <joint name="LHipRoll"/>
+    <joint name="LHipPitch"/>
+    <joint name="LKneePitch"/>
+    <joint name="LAnklePitch"/>
+    <joint name="LAnkleRoll"/>
+  </group>
+
+  <group name="right_leg">
+    <chain base_link="RPelvis" tip_link="RSole"/>
+    <joint name="RHipYawPitch"/>
+    <joint name="RHipRoll"/>
+    <joint name="RHipPitch"/>
+    <joint name="RKneePitch"/>
+    <joint name="RAnklePitch"/>
+    <joint name="RAnkleRoll"/>
+  </group>
+
+  <!-- End effectors (optional, for planning targets) -->
+  <end_effector name="left_hand" parent_link="LWrist" group="left_arm" parent_group="left_arm"/>
+  <end_effector name="right_hand" parent_link="RWrist" group="right_arm" parent_group="right_arm"/>
+  <end_effector name="left_foot" parent_link="LSole" group="left_leg" parent_group="left_leg"/>
+  <end_effector name="right_foot" parent_link="RSole" group="right_leg" parent_group="right_leg"/>
+
+  <!-- Disable obvious self-collisions can be generated later; keep empty for now -->
+</robot>

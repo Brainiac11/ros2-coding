@@ -1,0 +1,39 @@
+[0.032s] Invoking command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/cmdvel_to_ackermann -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/cmdvel_to_ackermann
+[0.128s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.661s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.681s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.683s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[0.756s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.784s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.911s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.245s] -- Configuring done (1.2s)
+[1.257s] -- Generating done (0.0s)
+[1.263s] -- Build files have been written to: /workspaces/ros2-coding/build/cmdvel_to_ackermann
+[1.277s] Invoked command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/cmdvel_to_ackermann -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/cmdvel_to_ackermann
+[1.277s] Invoking command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/cmdvel_to_ackermann -- -j4 -l4
+[1.412s] Invoked command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/cmdvel_to_ackermann -- -j4 -l4
+[1.414s] Invoking command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/cmdvel_to_ackermann
+[1.444s] -- Install configuration: ""
+[1.446s] -- Execute custom install script
+[1.447s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/scripts/__init__.py
+[1.448s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/scripts/cmdvel_to_ackermann.py
+[1.448s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/launch/cmdvel_to_ackermann.launch.py
+[1.449s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/lib/cmdvel_to_ackermann/cmdvel_to_ackermann.py
+[1.450s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/ament_index/resource_index/package_run_dependencies/cmdvel_to_ackermann
+[1.450s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/ament_index/resource_index/parent_prefix_path/cmdvel_to_ackermann
+[1.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/ament_prefix_path.sh
+[1.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/ament_prefix_path.dsv
+[1.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/path.sh
+[1.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/environment/path.dsv
+[1.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.bash
+[1.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.sh
+[1.451s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.zsh
+[1.452s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/local_setup.dsv
+[1.452s] -- Symlinking: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.dsv
+[1.469s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/ament_index/resource_index/packages/cmdvel_to_ackermann
+[1.469s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/cmake/cmdvel_to_ackermannConfig.cmake
+[1.470s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/cmake/cmdvel_to_ackermannConfig-version.cmake
+[1.470s] -- Up-to-date symlink: /workspaces/ros2-coding/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.xml
+[1.472s] Invoked command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/cmdvel_to_ackermann

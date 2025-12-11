@@ -47,7 +47,7 @@ AVFORMAT_LIBRARY_avformat:FILEPATH=/usr/lib/x86_64-linux-gnu/libavformat.so
 AVUTIL_LIBRARY_avutil:FILEPATH=/usr/lib/x86_64-linux-gnu/libavutil.so
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=ON
+BUILD_TESTING:BOOL=OFF
 
 //Dependencies for the target
 BasicSystem_LIB_DEPENDS:STATIC=general;gz-sim8::gz-sim8;

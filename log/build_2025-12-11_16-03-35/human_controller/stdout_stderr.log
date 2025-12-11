@@ -1,0 +1,68 @@
+running develop
+Removing /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human-controller.egg-link (link to .)
+running egg_info
+writing ../../../build/human_controller/human_controller.egg-info/PKG-INFO
+writing dependency_links to ../../../build/human_controller/human_controller.egg-info/dependency_links.txt
+writing entry points to ../../../build/human_controller/human_controller.egg-info/entry_points.txt
+writing requirements to ../../../build/human_controller/human_controller.egg-info/requires.txt
+writing top-level names to ../../../build/human_controller/human_controller.egg-info/top_level.txt
+reading manifest file '../../../build/human_controller/human_controller.egg-info/SOURCES.txt'
+writing manifest file '../../../build/human_controller/human_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/ros2-coding/build/human_controller/build
+creating /workspaces/ros2-coding/build/human_controller/build/lib
+creating /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/JacobianPsuedoInverseSolver.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/leg_path_maker.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/__init__.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/key_input.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/SineCurveInterpolationPath.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/left_kick_controller.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/ik_tester.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/SquareInterpolationPath.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/RectangleInterpolationPath.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/InverseKinematicSolver.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/hip_controller.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+copying human_controller/kick_constants.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+running install
+running install_lib
+creating /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/JacobianPsuedoInverseSolver.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/leg_path_maker.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/__init__.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/key_input.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/SineCurveInterpolationPath.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/left_kick_controller.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/ik_tester.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/SquareInterpolationPath.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/RectangleInterpolationPath.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/InverseKinematicSolver.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/hip_controller.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/kick_constants.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/JacobianPsuedoInverseSolver.py to JacobianPsuedoInverseSolver.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/leg_path_maker.py to leg_path_maker.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/key_input.py to key_input.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/SineCurveInterpolationPath.py to SineCurveInterpolationPath.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/left_kick_controller.py to left_kick_controller.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/ik_tester.py to ik_tester.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/SquareInterpolationPath.py to SquareInterpolationPath.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/RectangleInterpolationPath.py to RectangleInterpolationPath.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/InverseKinematicSolver.py to InverseKinematicSolver.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/hip_controller.py to hip_controller.cpython-312.pyc
+byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/kick_constants.py to kick_constants.cpython-312.pyc
+running install_data
+copying resource/human_controller -> /workspaces/ros2-coding/install/human_controller/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/ros2-coding/install/human_controller/share/human_controller
+copying launch/ik_solver.launch.py -> /workspaces/ros2-coding/install/human_controller/share/human_controller/launch
+running install_egg_info
+Copying ../../../build/human_controller/human_controller.egg-info to /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing hip_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+Installing ik_solver script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+Installing ik_tester script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+Installing key_input script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+Installing left_kick_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+Installing leg_path_maker script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+writing list of installed files to '/workspaces/ros2-coding/build/human_controller/install.log'

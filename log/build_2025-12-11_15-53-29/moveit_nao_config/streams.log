@@ -1,0 +1,34 @@
+[0.047s] Invoking command in '/workspaces/ros2-coding/build/moveit_nao_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/moveit_nao_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/moveit_nao_config
+[0.238s] -- The C compiler identification is GNU 13.3.0
+[0.392s] -- The CXX compiler identification is GNU 13.3.0
+[0.492s] -- Detecting C compiler ABI info
+[0.756s] -- Detecting C compiler ABI info - done
+[0.783s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.784s] -- Detecting C compile features
+[0.784s] -- Detecting C compile features - done
+[0.806s] -- Detecting CXX compiler ABI info
+[1.134s] -- Detecting CXX compiler ABI info - done
+[1.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.227s] -- Detecting CXX compile features
+[1.227s] -- Detecting CXX compile features - done
+[1.372s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.177s] -- Found Python3: /workspaces/ros2-coding/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.602s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.706s] Traceback (most recent call last):
+[3.706s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[3.706s]     from catkin_pkg.package import parse_package_string
+[3.707s] ModuleNotFoundError: No module named 'catkin_pkg'
+[3.714s] -- Configuring incomplete, errors occurred!
+[3.714s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.714s]   execute_process(/workspaces/ros2-coding/.venv/bin/python3
+[3.714s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.715s]   /workspaces/ros2-coding/turtlesim_ws/src/moveit_nao_config/package.xml
+[3.721s]   /workspaces/ros2-coding/build/moveit_nao_config/ament_cmake_core/package.cmake)
+[3.721s]   returned error code 1
+[3.721s] Call Stack (most recent call first):
+[3.722s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.722s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[3.722s]   CMakeLists.txt:9 (ament_package)
+[3.722s] 
+[3.722s] [0m
+[3.735s] Invoked command in '/workspaces/ros2-coding/build/moveit_nao_config' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/moveit_nao_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/moveit_nao_config

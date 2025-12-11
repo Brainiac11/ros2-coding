@@ -1,0 +1,27 @@
+running develop
+Removing /workspaces/ros2-coding/install/issac_sim/lib/python3.12/site-packages/issac-sim.egg-link (link to .)
+running egg_info
+writing ../../../build/issac_sim/issac_sim.egg-info/PKG-INFO
+writing dependency_links to ../../../build/issac_sim/issac_sim.egg-info/dependency_links.txt
+writing requirements to ../../../build/issac_sim/issac_sim.egg-info/requires.txt
+writing top-level names to ../../../build/issac_sim/issac_sim.egg-info/top_level.txt
+reading manifest file '../../../build/issac_sim/issac_sim.egg-info/SOURCES.txt'
+writing manifest file '../../../build/issac_sim/issac_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/ros2-coding/build/issac_sim/build
+creating /workspaces/ros2-coding/build/issac_sim/build/lib
+creating /workspaces/ros2-coding/build/issac_sim/build/lib/issac_sim
+copying issac_sim/__init__.py -> /workspaces/ros2-coding/build/issac_sim/build/lib/issac_sim
+running install
+running install_lib
+creating /workspaces/ros2-coding/install/issac_sim/lib/python3.12/site-packages/issac_sim
+copying /workspaces/ros2-coding/build/issac_sim/build/lib/issac_sim/__init__.py -> /workspaces/ros2-coding/install/issac_sim/lib/python3.12/site-packages/issac_sim
+byte-compiling /workspaces/ros2-coding/install/issac_sim/lib/python3.12/site-packages/issac_sim/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/issac_sim -> /workspaces/ros2-coding/install/issac_sim/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/ros2-coding/install/issac_sim/share/issac_sim
+running install_egg_info
+Copying ../../../build/issac_sim/issac_sim.egg-info to /workspaces/ros2-coding/install/issac_sim/lib/python3.12/site-packages/issac_sim-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/workspaces/ros2-coding/build/issac_sim/install.log'

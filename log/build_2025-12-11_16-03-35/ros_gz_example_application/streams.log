@@ -1,0 +1,28 @@
+[0.023s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros_gz_example_application -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros_gz_example_application
+[0.133s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.989s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.335s] -- Configuring done (1.3s)
+[1.364s] -- Generating done (0.0s)
+[1.393s] -- Build files have been written to: /workspaces/ros2-coding/build/ros_gz_example_application
+[1.410s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros_gz_example_application -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros_gz_example_application
+[1.410s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/ros_gz_example_application -- -j4 -l4
+[1.754s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/ros_gz_example_application -- -j4 -l4
+[1.755s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/ros_gz_example_application
+[1.795s] -- Install configuration: ""
+[1.796s] -- Execute custom install script
+[1.796s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_application
+[1.796s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_application
+[1.796s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.sh
+[1.797s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.dsv
+[1.797s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.sh
+[1.797s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.dsv
+[1.797s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.bash
+[1.797s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.sh
+[1.797s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.zsh
+[1.797s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.dsv
+[1.807s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/package.dsv
+[1.838s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ament_index/resource_index/packages/ros_gz_example_application
+[1.838s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig.cmake
+[1.838s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig-version.cmake
+[1.838s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/package.xml
+[1.846s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/ros_gz_example_application

@@ -1,0 +1,486 @@
+<?xml version="1.0" ?>
+<robot name="Nao">
+
+	<!-- Add a canonical base_link so MoveIt has a clear root -->
+	<link name="base_link"/>
+	<joint name="base_link_to_torso" type="fixed">
+		<parent link="base_link"/>
+		<child link="Torso"/>
+		<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+	<link name="Torso">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.00413 0 0.04342"/>
+			<mass value="1.04956"/>
+			<inertia ixx="0.0050623400000000002" ixy="1.43116e-05" ixz="0.000155191" iyy="0.0048801399999999998" iyz="-2.70793e-05" izz="0.0016103000000000001"/>
+		</inertial>
+		<collision>
+			<origin rpy="0 0 0" xyz="0 0 0.01"/>
+			<geometry>
+				<box size="0.10000000000000001 0.10000000000000001 0.21149999999999999"/>
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="Neck">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-1.0000000000000001e-05 0 -0.02742"/>
+			<mass value="0.064420000000000005"/>
+			<inertia ixx="7.4993000000000005e-05" ixy="1.57e-09" ixz="-1.8340000000000001e-08" iyy="7.6000000000000004e-05" iyz="-5.2950000000000001e-08" izz="5.5337299999999996e-06"/>
+		</inertial>
+
+	</link>
+	<joint name="HeadYaw" type="revolute">
+		<child link="Neck"/>
+		<parent link="Torso"/>
+		<origin rpy="0 0 0" xyz="0 0 0.1265"/>
+		<axis xyz="0 0 1"/>
+		<limit lower="-2.0856699999999999" upper="2.0856699999999999" effort="40.25" velocity="8.26797"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="Head">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.0011199999999999999 0 0.052580000000000002"/>
+			<mass value="0.60533000000000003"/>
+			<inertia ixx="0.0026313" ixy="8.7881399999999992e-06" ixz="4.0984700000000001e-05" iyy="0.0024911199999999999" iyz="-2.99579e-05" izz="0.00098573600000000008"/>
+		</inertial>
+		<collision>
+			<origin rpy="1.5700000000000001 0 0" xyz="0 0 0.058000000000000003"/>
+			<geometry>
+				<cylinder radius="0.040000000000000001" length="0.14000000000000001"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="HeadPitch" type="revolute">
+		<child link="Head"/>
+		<parent link="Neck"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="0 1 0"/>
+		<limit lower="-0.67195199999999999" upper="0.514872" effort="40.25" velocity="7.19407"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LPelvis">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.0078100000000000001 -0.011140000000000001 0.026610000000000002"/>
+			<mass value="0.069809999999999997"/>
+			<inertia ixx="8.1502300000000001e-05" ixy="-4.9944900000000004e-06" ixz="1.2748199999999999e-05" iyy="0.000101326" iyz="2.3454700000000001e-05" izz="6.2623600000000001e-05"/>
+		</inertial>
+
+	</link>
+	<joint name="LHipYawPitch" type="revolute">
+		<child link="LPelvis"/>
+		<parent link="Torso"/>
+		<origin rpy="0 0 0" xyz="0 0.050000000000000003 -0.085000000000000006"/>
+		<axis xyz="0 0.70710600000000001 -0.70710600000000001"/>
+		<limit lower="-1.1452899999999999" upper="0.74071799999999999" effort="59.5" velocity="4.16174"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LHip">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.01549 0.00029 -0.0051500000000000001"/>
+			<mass value="0.13053000000000001"/>
+			<inertia ixx="2.7583500000000001e-05" ixy="-2.2329999999999999e-08" ixz="-4.0816400000000003e-06" iyy="9.8270599999999994e-05" iyz="-4.1899999999999998e-09" izz="8.8099700000000006e-05"/>
+		</inertial>
+
+	</link>
+	<joint name="LHipRoll" type="revolute">
+		<child link="LHip"/>
+		<parent link="LPelvis"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="1 0 0"/>
+		<limit lower="-0.37943500000000002" upper="0.79046000000000005" effort="59.5" velocity="4.16174"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LThigh">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.0013799999999999999 0.0022100000000000002 -0.05373"/>
+			<mass value="0.38968000000000003"/>
+			<inertia ixx="0.0016367199999999999" ixy="9.2450999999999996e-07" ixz="8.5306699999999994e-05" iyy="0.00159107" iyz="3.8361600000000002e-05" izz="0.00030374299999999998"/>
+		</inertial>
+		<collision>
+			<origin rpy="0 0 0" xyz="0 0 -0.050000000000000003"/>
+			<geometry>
+				<cylinder radius="0.040000000000000001" length="0.10000000000000001"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="LHipPitch" type="revolute">
+		<child link="LThigh"/>
+		<parent link="LHip"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="0 1 0"/>
+		<limit lower="-1.53589" upper="0.48398000000000002" effort="59.5" velocity="6.4023899999999996"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LTibia">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.0045300000000000002 0.0022499999999999998 -0.049360000000000001"/>
+			<mass value="0.29142000000000001"/>
+			<inertia ixx="0.0011820800000000001" ixy="6.3361999999999998e-07" ixz="3.6497e-05" iyy="0.0011286499999999999" iyz="3.9495200000000001e-05" izz="0.000193227"/>
+		</inertial>
+		<collision>
+			<origin rpy="0 0 0" xyz="0 0 -0.050000000000000003"/>
+			<geometry>
+				<cylinder radius="0.040000000000000001" length="0.10000000000000001"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="LKneePitch" type="revolute">
+		<child link="LTibia"/>
+		<parent link="LThigh"/>
+		<origin rpy="0 0 0" xyz="0 0 -0.1"/>
+		<axis xyz="0 1 0"/>
+		<limit lower="-0.092327900000000004" upper="2.1125500000000001" effort="59.5" velocity="6.4023899999999996"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LAnkle">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.00044999999999999999 0.00029 0.0068500000000000002"/>
+			<mass value="0.13416"/>
+			<inertia ixx="3.8509800000000002e-05" ixy="-2.634e-08" ixz="3.8619399999999997e-06" iyy="7.4265300000000002e-05" iyz="1.8340000000000001e-08" izz="5.4865399999999998e-05"/>
+		</inertial>
+
+	</link>
+	<joint name="LAnklePitch" type="revolute">
+		<child link="LAnkle"/>
+		<parent link="LTibia"/>
+		<origin rpy="0 0 0" xyz="0 0 -0.1029"/>
+		<axis xyz="0 1 0"/>
+		<limit lower="-1.1894400000000001" upper="0.92258099999999998" effort="59.5" velocity="6.4023899999999996"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LSole">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.025420000000000002 0.0033 -0.032390000000000002"/>
+			<mass value="0.16184000000000001"/>
+			<inertia ixx="0.000269442" ixy="-5.6957200000000001e-06" ixz="0.00013937899999999999" iyy="0.00064434300000000002" iyz="1.8740899999999999e-05" izz="0.00052575699999999996"/>
+		</inertial>
+		<collision>
+			<origin rpy="0 0 0" xyz="0.02 0.0050000000000000001 -0.036999999999999998"/>
+			<geometry>
+				<box size="0.16 0.085000000000000006 0.014999999999999999"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="LAnkleRoll" type="revolute">
+		<child link="LSole"/>
+		<parent link="LAnkle"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="1 0 0"/>
+		<limit lower="-0.39776099999999998" upper="0.76899200000000001" effort="59.5" velocity="4.16174"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LShoulder">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.00165 -0.026630000000000001 0.00013999999999999999"/>
+			<mass value="0.075039999999999996"/>
+			<inertia ixx="8.4284300000000002e-05" ixy="-2.02802e-06" ixz="2.3380000000000002e-08" iyy="1.41556e-05" iyz="-1.9720000000000001e-08" izz="8.6419499999999995e-05"/>
+		</inertial>
+
+	</link>
+	<joint name="LShoulderPitch" type="revolute">
+		<child link="LShoulder"/>
+		<parent link="Torso"/>
+		<origin rpy="0 0 0" xyz="0 0.098000000000000004 0.10000000000000001"/>
+		<axis xyz="0 1 0"/>
+		<limit lower="-2.0856699999999999" upper="2.0856699999999999" effort="40.25" velocity="8.26797"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LBicep">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.024549999999999999 0.0056299999999999996 0.0033"/>
+			<mass value="0.15776999999999999"/>
+			<inertia ixx="9.3899899999999999e-05" ixy="-4.7144500000000002e-05" ixz="-2.6994700000000001e-05" iyy="0.00037151900000000001" iyz="-2.4597700000000002e-06" izz="0.00034190099999999998"/>
+		</inertial>
+		<collision>
+			<origin rpy="1.5700000000000001 -5.5511151231257827e-17 1.8000000000000003" xyz="0.044999999999999998 0 0"/>
+			<geometry>
+				<cylinder radius="0.02" length="0.089999999999999997"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="LShoulderRoll" type="revolute">
+		<child link="LBicep"/>
+		<parent link="LShoulder"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="0 0 1"/>
+		<limit lower="-0.31415900000000002" upper="1.3264499999999999" effort="40.25" velocity="7.19407"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LElbow">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.027439999999999999 0 -0.00013999999999999999"/>
+			<mass value="0.064829999999999999"/>
+			<inertia ixx="5.5971500000000003e-06" ixy="4.2100000000000001e-09" ixz="4.3189999999999998e-08" iyy="7.5433100000000001e-05" iyz="-1.8400000000000001e-09" izz="7.6443400000000001e-05"/>
+		</inertial>
+	</link>
+	<joint name="LElbowYaw" type="revolute">
+		<child link="LElbow"/>
+		<parent link="LBicep"/>
+		<origin rpy="0 0 0" xyz="0.105 0.015 0"/>
+		<axis xyz="1 0 0"/>
+		<limit lower="-2.0856699999999999" upper="2.0856699999999999" effort="40.25" velocity="8.26797"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LForeArm">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.025559999999999999 0.00281 0.00076000000000000004"/>
+			<mass value="0.077609999999999998"/>
+			<inertia ixx="2.5332200000000001e-05" ixy="-2.3427099999999999e-06" ixz="7.4589999999999995e-08" iyy="8.91322e-05" iyz="-2.655e-08" izz="8.72873e-05"/>
+		</inertial>
+		<collision>
+			<origin rpy="1.5700000000000001 -5.5511151231257827e-17 1.5700000000000001" xyz="0.025325 0 0"/>
+			<geometry>
+				<cylinder radius="0.02" length="0.050650000000000001"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="LElbowRoll" type="revolute">
+		<child link="LForeArm"/>
+		<parent link="LElbow"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="0 0 1"/>
+		<limit lower="-1.5446200000000001" upper="-0.034906600000000003" effort="40.25" velocity="7.19407"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="LWrist">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.034340000000000002 -0.00088000000000000003 0.0030799999999999998"/>
+			<mass value="0.18532999999999999"/>
+			<inertia ixx="7.0549299999999999e-05" ixy="5.7159900000000001e-06" ixz="-2.2474399999999999e-05" iyy="0.00035606199999999998" iyz="3.1777099999999999e-06" izz="0.00035191900000000002"/>
+		</inertial>
+		<collision>
+			<origin rpy="1.27 -1.1102230246251565e-16 1.5700000000000001" xyz="0.039 0 0"/>
+			<geometry>
+				<box size="0.059999999999999998 0.040000000000000001 0.058000000000000003"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="LWristYaw" type="revolute">
+		<child link="LWrist"/>
+		<parent link="LForeArm"/>
+		<origin rpy="0 0 0" xyz="0.05595 0 0"/>
+		<axis xyz="1 0 0"/>
+		<limit lower="-1.8238700000000001" upper="1.8238700000000001" effort="40.25" velocity="24.622900000000001"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RPelvis">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.0078100000000000001 0.011140000000000001 0.026610000000000002"/>
+			<mass value="0.069809999999999997"/>
+			<inertia ixx="8.9971999999999998e-05" ixy="5.0021900000000003e-06" ixz="1.27352e-05" iyy="0.00010552600000000001" iyz="-2.7700800000000001e-05" izz="6.6887199999999999e-05"/>
+		</inertial>
+		<collision>
+			<origin rpy="0 0 0" xyz="0 0 -0.050000000000000003"/>
+			<geometry>
+				<cylinder radius="0.040000000000000001" length="0.10000000000000001"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="RHipYawPitch" type="revolute">
+		<child link="RPelvis"/>
+		<parent link="Torso"/>
+		<origin rpy="0 0 0" xyz="0 -0.050000000000000003 -0.085000000000000006"/>
+		<axis xyz="0 0.70710600000000001 0.70710600000000001"/>
+		<limit lower="-1.1452899999999999" upper="0.74071799999999999" effort="59.5" velocity="4.16174"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RHip">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.01549 -0.00029 -0.0051500000000000001"/>
+			<mass value="0.13053000000000001"/>
+			<inertia ixx="2.7586500000000001e-05" ixy="-1.9189999999999998e-08" ixz="-4.1082199999999996e-06" iyy="9.8270000000000006e-05" iyz="2.5099999999999998e-09" izz="8.8103300000000001e-05"/>
+		</inertial>
+
+	</link>
+	<joint name="RHipRoll" type="revolute">
+		<child link="RHip"/>
+		<parent link="RPelvis"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="1 0 0"/>
+		<limit lower="-0.79046000000000005" upper="0.37943500000000002" effort="59.5" velocity="4.16174"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RThigh">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.0013799999999999999 -0.0022100000000000002 -0.05373"/>
+			<mass value="0.38968000000000003"/>
+			<inertia ixx="0.00163748" ixy="-8.3954000000000001e-07" ixz="8.5883000000000004e-05" iyy="0.0015922099999999999" iyz="-3.91763e-05" izz="0.000303978"/>
+		</inertial>
+
+	</link>
+	<joint name="RHipPitch" type="revolute">
+		<child link="RThigh"/>
+		<parent link="RHip"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="0 1 0"/>
+		<limit lower="-1.53589" upper="0.48398000000000002" effort="59.5" velocity="6.4023899999999996"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RTibia">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.0045300000000000002 -0.0022499999999999998 -0.049360000000000001"/>
+			<mass value="0.29142000000000001"/>
+			<inertia ixx="0.0011828299999999999" ixy="-8.9650000000000001e-07" ixz="2.79969e-05" iyy="0.00112828" iyz="-3.8476000000000002e-05" izz="0.00019145300000000001"/>
+		</inertial>
+		<collision>
+			<origin rpy="0 0 0" xyz="0 0 -0.050000000000000003"/>
+			<geometry>
+				<cylinder radius="0.040000000000000001" length="0.10000000000000001"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="RKneePitch" type="revolute">
+		<child link="RTibia"/>
+		<parent link="RThigh"/>
+		<origin rpy="0 0 0" xyz="0 0 -0.1"/>
+		<axis xyz="0 1 0"/>
+		<limit lower="-0.092327900000000004" upper="2.1125500000000001" effort="59.5" velocity="6.4023899999999996"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RAnkle">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.00044999999999999999 -0.00029 0.0068500000000000002"/>
+			<mass value="0.13416"/>
+			<inertia ixx="3.8508099999999998e-05" ixy="6.4340000000000006e-08" ixz="3.8746600000000001e-06" iyy="7.43108e-05" iyz="-4.5800000000000003e-09" izz="5.4913100000000001e-05"/>
+		</inertial>
+
+	</link>
+	<joint name="RAnklePitch" type="revolute">
+		<child link="RAnkle"/>
+		<parent link="RTibia"/>
+		<origin rpy="0 0 0" xyz="0 0 -0.1029"/>
+		<axis xyz="0 1 0"/>
+		<limit lower="-1.1862999999999999" upper="0.932006" effort="59.5" velocity="6.4023899999999996"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RSole">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.025420000000000002 -0.0033 -0.032390000000000002"/>
+			<mass value="0.16184000000000001"/>
+			<inertia ixx="0.00026930200000000002" ixy="5.8750499999999998e-06" ixz="0.000139133" iyy="0.000643474" iyz="-1.8849199999999999e-05" izz="0.00052503499999999998"/>
+		</inertial>
+		<collision>
+			<origin rpy="0 0 0" xyz="0.02 -0.0050000000000000001 -0.036999999999999998"/>
+			<geometry>
+				<box size="0.16 0.085000000000000006 0.014999999999999999"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="RAnkleRoll" type="revolute">
+		<child link="RSole"/>
+		<parent link="RAnkle"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="1 0 0"/>
+		<limit lower="-0.76899200000000001" upper="0.39793499999999998" effort="59.5" velocity="4.16174"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RShoulder">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.00165 0.026630000000000001 0.00013999999999999999"/>
+			<mass value="0.075039999999999996"/>
+			<inertia ixx="8.4284300000000002e-05" ixy="2.02802e-06" ixz="2.3380000000000002e-08" iyy="1.41556e-05" iyz="1.9720000000000001e-08" izz="8.6419499999999995e-05"/>
+		</inertial>
+
+	</link>
+	<joint name="RShoulderPitch" type="revolute">
+		<child link="RShoulder"/>
+		<parent link="Torso"/>
+		<origin rpy="0 0 0" xyz="0 -0.098000000000000004 0.10000000000000001"/>
+		<axis xyz="0 1 0"/>
+		<limit lower="-2.0856699999999999" upper="2.0856699999999999" effort="40.25" velocity="8.26797"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RBicep">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.024549999999999999 -0.0056299999999999996 0.0033"/>
+			<mass value="0.15776999999999999"/>
+			<inertia ixx="0.00011012" ixy="7.6691299999999995e-05" ixz="-2.6046100000000001e-05" iyy="0.00036757700000000001" iyz="1.2098300000000001e-05" izz="0.00035461800000000001"/>
+		</inertial>
+		<collision>
+			<origin rpy="1.5700000000000001 5.5511151231257827e-17 -1.8000000000000003" xyz="0.044999999999999998 0 0"/>
+			<geometry>
+				<cylinder radius="0.02" length="0.089999999999999997"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="RShoulderRoll" type="revolute">
+		<child link="RBicep"/>
+		<parent link="RShoulder"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="0 0 1"/>
+		<limit lower="-1.3264499999999999" upper="0.31415900000000002" effort="40.25" velocity="7.19407"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RElbow">
+		<inertial>
+			<origin rpy="0 0 0" xyz="-0.027439999999999999 0 -0.00013999999999999999"/>
+			<mass value="0.064829999999999999"/>
+			<inertia ixx="5.5971500000000003e-06" ixy="4.2100000000000001e-09" ixz="4.3189999999999998e-08" iyy="7.5433100000000001e-05" iyz="-1.8400000000000001e-09" izz="7.6443400000000001e-05"/>
+		</inertial>
+	</link>
+	<joint name="RElbowYaw" type="revolute">
+		<child link="RElbow"/>
+		<parent link="RBicep"/>
+		<origin rpy="0 0 0" xyz="0.105 -0.015 0"/>
+		<axis xyz="1 0 0"/>
+		<limit lower="-2.0856699999999999" upper="2.0856699999999999" effort="40.25" velocity="8.26797"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RForeArm">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.025559999999999999 -0.00281 0.00076000000000000004"/>
+			<mass value="0.077609999999999998"/>
+			<inertia ixx="2.5390700000000001e-05" ixy="2.3324299999999999e-06" ixz="-6.0116999999999998e-07" iyy="8.9220400000000004e-05" iyz="2.6939999999999998e-08" izz="8.7248400000000003e-05"/>
+		</inertial>
+		<collision>
+			<origin rpy="1.5700000000000001 -5.5511151231257827e-17 1.5700000000000001" xyz="0.025325 0 0"/>
+			<geometry>
+				<cylinder radius="0.02" length="0.050650000000000001"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="RElbowRoll" type="revolute">
+		<child link="RForeArm"/>
+		<parent link="RElbow"/>
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<axis xyz="0 0 1"/>
+		<limit lower="0.034906600000000003" upper="1.5446200000000001" effort="40.25" velocity="7.19407"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+	<link name="RWrist">
+		<inertial>
+			<origin rpy="0 0 0" xyz="0.034340000000000002 0.00088000000000000003 0.0030799999999999998"/>
+			<mass value="0.18532999999999999"/>
+			<inertia ixx="7.0549299999999999e-05" ixy="5.7159900000000001e-06" ixz="-2.2474399999999999e-05" iyy="0.00035606199999999998" iyz="3.1777099999999999e-06" izz="0.00035191900000000002"/>
+		</inertial>
+		<collision>
+			<origin rpy="1.27 -1.1102230246251565e-16 1.5700000000000001" xyz="0.039 0 0"/>
+			<geometry>
+				<box size="0.059999999999999998 0.040000000000000001 0.058000000000000003"/>
+			</geometry>
+		</collision>
+
+	</link>
+	<joint name="RWristYaw" type="revolute">
+		<child link="RWrist"/>
+		<parent link="RForeArm"/>
+		<origin rpy="0 0 0" xyz="0.05595 0 0"/>
+		<axis xyz="1 0 0"/>
+		<limit lower="-1.8238700000000001" upper="1.8238700000000001" effort="40.25" velocity="24.622900000000001"/>
+		<dynamics damping="0.10000000000000001" friction="0"/>
+	</joint>
+</robot>
+

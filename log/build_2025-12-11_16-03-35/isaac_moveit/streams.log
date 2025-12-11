@@ -1,0 +1,32 @@
+[0.019s] Invoking command in '/workspaces/ros2-coding/build/isaac_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/isaac_moveit
+[0.053s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.323s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.430s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.431s] -- Found moveit: 2.12.3 (/opt/ros/jazzy/share/moveit/cmake)
+[1.927s] -- Configuring done (1.9s)
+[1.943s] -- Generating done (0.0s)
+[1.948s] -- Build files have been written to: /workspaces/ros2-coding/build/isaac_moveit
+[1.953s] Invoked command in '/workspaces/ros2-coding/build/isaac_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/moveit/isaac_moveit -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/isaac_moveit
+[1.954s] Invoking command in '/workspaces/ros2-coding/build/isaac_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_moveit -- -j4 -l4
+[2.137s] Invoked command in '/workspaces/ros2-coding/build/isaac_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_moveit -- -j4 -l4
+[2.138s] Invoking command in '/workspaces/ros2-coding/build/isaac_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_moveit
+[2.172s] -- Install configuration: ""
+[2.176s] -- Execute custom install script
+[2.179s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/rviz2/panda_moveit_config.rviz
+[2.179s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/launch/isaac_moveit.launch.py
+[2.179s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/ament_index/resource_index/package_run_dependencies/isaac_moveit
+[2.179s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/ament_index/resource_index/parent_prefix_path/isaac_moveit
+[2.180s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/ament_prefix_path.sh
+[2.180s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/ament_prefix_path.dsv
+[2.180s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/path.sh
+[2.181s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/environment/path.dsv
+[2.181s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.bash
+[2.181s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.sh
+[2.181s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.zsh
+[2.181s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/local_setup.dsv
+[2.181s] -- Symlinking: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/package.dsv
+[2.199s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/ament_index/resource_index/packages/isaac_moveit
+[2.200s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/cmake/isaac_moveitConfig.cmake
+[2.201s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/cmake/isaac_moveitConfig-version.cmake
+[2.203s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_moveit/share/isaac_moveit/package.xml
+[2.210s] Invoked command in '/workspaces/ros2-coding/build/isaac_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_moveit

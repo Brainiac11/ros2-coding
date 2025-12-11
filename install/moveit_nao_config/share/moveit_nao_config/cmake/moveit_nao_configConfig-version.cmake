@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/moveit_nao_config/ament_cmake_core/moveit_nao_configConfig-version.cmake

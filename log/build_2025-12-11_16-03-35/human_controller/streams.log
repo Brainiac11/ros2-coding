@@ -1,0 +1,72 @@
+[3.252s] Invoking command in '/workspaces/ros2-coding/build/human_controller': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ros2-coding/install/human_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspaces/ros2-coding/build/human_controller/build
+[3.930s] running develop
+[4.417s] Removing /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human-controller.egg-link (link to .)
+[4.486s] Invoked command in '/workspaces/ros2-coding/build/human_controller' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ros2-coding/install/human_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspaces/ros2-coding/build/human_controller/build
+[4.488s] Invoking command in '/workspaces/ros2-coding/turtlesim_ws/src/human_controller': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ros2-coding/install/human_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/human_controller build --build-base /workspaces/ros2-coding/build/human_controller/build install --record /workspaces/ros2-coding/build/human_controller/install.log --single-version-externally-managed install_data --force
+[5.003s] running egg_info
+[5.042s] writing ../../../build/human_controller/human_controller.egg-info/PKG-INFO
+[5.042s] writing dependency_links to ../../../build/human_controller/human_controller.egg-info/dependency_links.txt
+[5.042s] writing entry points to ../../../build/human_controller/human_controller.egg-info/entry_points.txt
+[5.043s] writing requirements to ../../../build/human_controller/human_controller.egg-info/requires.txt
+[5.043s] writing top-level names to ../../../build/human_controller/human_controller.egg-info/top_level.txt
+[5.123s] reading manifest file '../../../build/human_controller/human_controller.egg-info/SOURCES.txt'
+[5.124s] writing manifest file '../../../build/human_controller/human_controller.egg-info/SOURCES.txt'
+[5.124s] running build
+[5.124s] running build_py
+[5.125s] creating /workspaces/ros2-coding/build/human_controller/build
+[5.125s] creating /workspaces/ros2-coding/build/human_controller/build/lib
+[5.126s] creating /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.126s] copying human_controller/JacobianPsuedoInverseSolver.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.126s] copying human_controller/leg_path_maker.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.127s] copying human_controller/__init__.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.127s] copying human_controller/key_input.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.128s] copying human_controller/SineCurveInterpolationPath.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.128s] copying human_controller/left_kick_controller.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.129s] copying human_controller/ik_tester.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.129s] copying human_controller/SquareInterpolationPath.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.129s] copying human_controller/RectangleInterpolationPath.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.129s] copying human_controller/InverseKinematicSolver.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.131s] copying human_controller/hip_controller.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.131s] copying human_controller/kick_constants.py -> /workspaces/ros2-coding/build/human_controller/build/lib/human_controller
+[5.131s] running install
+[5.141s] running install_lib
+[5.174s] creating /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.175s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/JacobianPsuedoInverseSolver.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.175s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/leg_path_maker.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.175s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/__init__.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.175s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/key_input.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.176s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/SineCurveInterpolationPath.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.176s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/left_kick_controller.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.176s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/ik_tester.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.176s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/SquareInterpolationPath.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.177s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/RectangleInterpolationPath.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.177s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/InverseKinematicSolver.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.177s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/hip_controller.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.177s] copying /workspaces/ros2-coding/build/human_controller/build/lib/human_controller/kick_constants.py -> /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller
+[5.178s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/JacobianPsuedoInverseSolver.py to JacobianPsuedoInverseSolver.cpython-312.pyc
+[5.180s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/leg_path_maker.py to leg_path_maker.cpython-312.pyc
+[5.185s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/__init__.py to __init__.cpython-312.pyc
+[5.185s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/key_input.py to key_input.cpython-312.pyc
+[5.185s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/SineCurveInterpolationPath.py to SineCurveInterpolationPath.cpython-312.pyc
+[5.185s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/left_kick_controller.py to left_kick_controller.cpython-312.pyc
+[5.186s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/ik_tester.py to ik_tester.cpython-312.pyc
+[5.188s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/SquareInterpolationPath.py to SquareInterpolationPath.cpython-312.pyc
+[5.189s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/RectangleInterpolationPath.py to RectangleInterpolationPath.cpython-312.pyc
+[5.190s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/InverseKinematicSolver.py to InverseKinematicSolver.cpython-312.pyc
+[5.195s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/hip_controller.py to hip_controller.cpython-312.pyc
+[5.197s] byte-compiling /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller/kick_constants.py to kick_constants.cpython-312.pyc
+[5.197s] running install_data
+[5.198s] copying resource/human_controller -> /workspaces/ros2-coding/install/human_controller/share/ament_index/resource_index/packages
+[5.198s] copying package.xml -> /workspaces/ros2-coding/install/human_controller/share/human_controller
+[5.201s] copying launch/ik_solver.launch.py -> /workspaces/ros2-coding/install/human_controller/share/human_controller/launch
+[5.201s] running install_egg_info
+[5.233s] Copying ../../../build/human_controller/human_controller.egg-info to /workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages/human_controller-0.0.0-py3.12.egg-info
+[5.291s] running install_scripts
+[5.608s] Installing hip_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[5.609s] Installing ik_solver script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[5.609s] Installing ik_tester script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[5.609s] Installing key_input script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[5.610s] Installing left_kick_control script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[5.610s] Installing leg_path_maker script to /workspaces/ros2-coding/install/human_controller/lib/human_controller
+[5.610s] writing list of installed files to '/workspaces/ros2-coding/build/human_controller/install.log'
+[5.671s] Invoked command in '/workspaces/ros2-coding/turtlesim_ws/src/human_controller' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2-coding/install/human_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ros2-coding/install/human_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/ros2-coding/build/human_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/human_controller/lib/python3.12/site-packages:/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/human_controller build --build-base /workspaces/ros2-coding/build/human_controller/build install --record /workspaces/ros2-coding/build/human_controller/install.log --single-version-externally-managed install_data --force

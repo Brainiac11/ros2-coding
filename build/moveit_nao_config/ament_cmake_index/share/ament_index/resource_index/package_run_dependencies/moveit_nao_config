@@ -1,0 +1,1 @@
+moveit_ros_move_group;robot_state_publisher;joint_state_publisher;trac_ik_kinematics_plugin

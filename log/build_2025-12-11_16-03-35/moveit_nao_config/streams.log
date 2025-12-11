@@ -1,0 +1,31 @@
+[0.045s] Invoking command in '/workspaces/ros2-coding/build/moveit_nao_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/moveit_nao_config -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/moveit_nao_config
+[0.130s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.219s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.583s] -- Configuring done (1.5s)
+[1.592s] -- Generating done (0.0s)
+[1.600s] -- Build files have been written to: /workspaces/ros2-coding/build/moveit_nao_config
+[2.140s] Invoked command in '/workspaces/ros2-coding/build/moveit_nao_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/moveit_nao_config -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/moveit_nao_config
+[2.140s] Invoking command in '/workspaces/ros2-coding/build/moveit_nao_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/moveit_nao_config -- -j4 -l4
+[2.317s] Invoked command in '/workspaces/ros2-coding/build/moveit_nao_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/moveit_nao_config -- -j4 -l4
+[2.322s] Invoking command in '/workspaces/ros2-coding/build/moveit_nao_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/moveit_nao_config
+[2.362s] -- Install configuration: ""
+[2.362s] -- Execute custom install script
+[2.362s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/config/kinematics.yaml
+[2.362s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/launch/move_group.launch.py
+[2.363s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/srdf/nao.srdf
+[2.363s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/package_run_dependencies/moveit_nao_config
+[2.369s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/parent_prefix_path/moveit_nao_config
+[2.369s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/ament_prefix_path.sh
+[2.369s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/ament_prefix_path.dsv
+[2.369s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/path.sh
+[2.369s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/path.dsv
+[2.370s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.bash
+[2.370s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.sh
+[2.370s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.zsh
+[2.370s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.dsv
+[2.370s] -- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/package.dsv
+[2.410s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/packages/moveit_nao_config
+[2.410s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/cmake/moveit_nao_configConfig.cmake
+[2.410s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/cmake/moveit_nao_configConfig-version.cmake
+[2.410s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/package.xml
+[2.429s] Invoked command in '/workspaces/ros2-coding/build/moveit_nao_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/moveit_nao_config

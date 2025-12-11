@@ -1,0 +1,40 @@
+[0.022s] Invoking command in '/workspaces/ros2-coding/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/isaac_tutorials -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/isaac_tutorials
+[0.059s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.611s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.692s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.019s] -- Configuring done (1.0s)
+[1.031s] -- Generating done (0.0s)
+[1.038s] -- Build files have been written to: /workspaces/ros2-coding/build/isaac_tutorials
+[1.052s] Invoked command in '/workspaces/ros2-coding/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/isaac_tutorials -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/isaac_tutorials
+[1.052s] Invoking command in '/workspaces/ros2-coding/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_tutorials -- -j4 -l4
+[1.144s] Invoked command in '/workspaces/ros2-coding/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/isaac_tutorials -- -j4 -l4
+[1.144s] Invoking command in '/workspaces/ros2-coding/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_tutorials
+[1.177s] -- Install configuration: ""
+[1.178s] -- Execute custom install script
+[1.181s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_lidar.rviz
+[1.181s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_manual.rviz
+[1.181s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/carter_stereo.rviz
+[1.182s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/rtx_lidar.rviz
+[1.185s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/rviz2/turtle_stereo.rviz
+[1.186s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_ackermann_publisher.py
+[1.187s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher.py
+[1.187s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher_multi_mode.py
+[1.187s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher_test.py
+[1.188s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/lib/isaac_tutorials/ros2_publisher.py
+[1.189s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/lib/isaac_tutorials/ros2_ackermann_publisher.py
+[1.189s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/ament_index/resource_index/package_run_dependencies/isaac_tutorials
+[1.194s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/ament_index/resource_index/parent_prefix_path/isaac_tutorials
+[1.194s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.sh
+[1.194s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.dsv
+[1.195s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/environment/path.sh
+[1.196s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/environment/path.dsv
+[1.196s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/local_setup.bash
+[1.196s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/local_setup.sh
+[1.197s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/local_setup.zsh
+[1.197s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/local_setup.dsv
+[1.197s] -- Symlinking: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/package.dsv
+[1.215s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/ament_index/resource_index/packages/isaac_tutorials
+[1.216s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig.cmake
+[1.216s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig-version.cmake
+[1.216s] -- Up-to-date symlink: /workspaces/ros2-coding/install/isaac_tutorials/share/isaac_tutorials/package.xml
+[1.221s] Invoked command in '/workspaces/ros2-coding/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/isaac_tutorials

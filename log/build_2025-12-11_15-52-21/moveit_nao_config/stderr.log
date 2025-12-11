@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/workspaces/ros2-coding/turtlesim_ws/src/moveit_nao_config/CMakeLists.txt" does not match the source "/workspaces/ros2-coding/moveit_nao_config/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
