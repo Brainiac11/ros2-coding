@@ -6,8 +6,8 @@
 
 #include "rosidl_typesupport_interface/macros.h"
 #include "human_interfaces/msg/detail/kick_command__functions.h"
-#include "human_interfaces/msg/detail/kick_command__type_support.h"
 #include "human_interfaces/msg/detail/kick_command__struct.h"
+#include "human_interfaces/msg/detail/kick_command__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

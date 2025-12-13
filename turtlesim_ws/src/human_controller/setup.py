@@ -29,7 +29,9 @@ setup(
             "key_input = human_controller.key_input:main",
             "ik_solver = human_controller.InverseKinematicSolver:main",
             "ik_tester = human_controller.ik_tester:main",
-            "leg_path_maker = human_controller.leg_path_maker:main"
+            "leg_path_maker = human_controller.leg_path_maker:main",
+            "arm_path_maker = human_controller.arm_path_maker:main",
+            "test_arm_sine_client = human_controller.test_arm_sine_client:main"
         ],
     },
 )

@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/controller_manager_msgs/rosidl_generator_c/controller_manager_msgs/srv/configure_controller.h

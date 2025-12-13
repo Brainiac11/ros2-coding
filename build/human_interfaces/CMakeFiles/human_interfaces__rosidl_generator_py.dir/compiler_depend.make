@@ -38,6 +38,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/asm-generic/posix_types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/assert.h \
+  /usr/include/complex.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -180,6 +181,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/x86_64-linux-gnu/asm/types.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -202,6 +204,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -277,16 +280,19 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_numpyconfig.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_common.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_cpu.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_endian.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/numpyconfig.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/utils.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/dtype_api.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_common.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_endian.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/utils.h \
   rosidl_generator_c/human_interfaces/action/detail/gait_path__functions.h \
   rosidl_generator_c/human_interfaces/action/detail/gait_path__struct.h \
   rosidl_generator_c/human_interfaces/msg/rosidl_generator_c__visibility_control.h
@@ -319,6 +325,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/asm-generic/posix_types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/assert.h \
+  /usr/include/complex.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -461,6 +468,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/x86_64-linux-gnu/asm/types.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -483,6 +491,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -558,16 +567,19 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_numpyconfig.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_common.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_cpu.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_endian.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/numpyconfig.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/utils.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/dtype_api.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_common.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_endian.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/utils.h \
   rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h \
   rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h \
   rosidl_generator_c/human_interfaces/msg/rosidl_generator_c__visibility_control.h
@@ -600,6 +612,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/asm-generic/posix_types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/assert.h \
+  /usr/include/complex.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -742,6 +755,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/x86_64-linux-gnu/asm/types.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -764,6 +778,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -839,16 +854,19 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_numpyconfig.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_common.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_cpu.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_endian.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/numpyconfig.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/utils.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/dtype_api.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_common.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_endian.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/utils.h \
   rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.h \
   rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h \
   rosidl_generator_c/human_interfaces/msg/rosidl_generator_c__visibility_control.h
@@ -885,6 +903,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/asm-generic/posix_types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/assert.h \
+  /usr/include/complex.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -1027,6 +1046,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/x86_64-linux-gnu/asm/types.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -1049,6 +1069,7 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -1124,16 +1145,19 @@ CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_i
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_numpyconfig.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_common.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_cpu.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_endian.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/numpyconfig.h \
-  /usr/lib/python3/dist-packages/numpy/core/include/numpy/utils.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/dtype_api.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_common.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_endian.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+  /workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/utils.h \
   rosidl_generator_c/human_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.h \
   rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__struct.h
@@ -1151,15 +1175,25 @@ rosidl_generator_py/human_interfaces/msg/_arm_swing_command_s.c:
 
 rosidl_generator_c/human_interfaces/msg/rosidl_generator_c__visibility_control.h:
 
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_endian.h:
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/utils.h:
 
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_cpu.h:
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/numpyconfig.h:
 
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_common.h:
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_endian.h:
 
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h:
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_cpu.h:
 
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h:
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_2_compat.h:
+
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarraytypes.h:
+
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarrayobject.h:
+
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/dtype_api.h:
+
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h:
+
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/__multiarray_api.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
@@ -1187,9 +1221,17 @@ rosidl_generator_c/human_interfaces/action/detail/gait_path__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h:
+
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/python3.12/methodobject.h:
 
@@ -1247,8 +1289,6 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__struct.h:
 
 /usr/include/python3.12/cpython/funcobject.h:
 
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/numpyconfig.h:
-
 /usr/include/linux/close_range.h:
 
 /usr/include/python3.12/cpython/fileutils.h:
@@ -1284,8 +1324,6 @@ rosidl_generator_c/human_interfaces/action/detail/gait_path__struct.h:
 /usr/include/python3.12/enumobject.h:
 
 /usr/include/python3.12/cpython/classobject.h:
-
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/utils.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
 
@@ -1360,6 +1398,10 @@ rosidl_generator_py/human_interfaces/srv/_inverse_kinematics_s.c:
 /usr/include/python3.12/cpython/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/cmathcalls.h:
+
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_common.h:
 
 /usr/include/python3.12/cpython/object.h:
 
@@ -1451,12 +1493,6 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
 
-/usr/include/python3.12/cpython/longintrepr.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/inttypes.h:
-
 /usr/include/python3.12/cpython/memoryobject.h:
 
 /usr/include/asm-generic/int-ll64.h:
@@ -1465,9 +1501,13 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h:
 
 /usr/include/asm-generic/posix_types.h:
 
-/usr/include/python3.12/moduleobject.h:
+/usr/include/python3.12/cpython/longintrepr.h:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/complex.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h:
 
@@ -1478,8 +1518,6 @@ rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.h:
 /usr/include/errno.h:
 
 /usr/include/python3.12/cpython/modsupport.h:
-
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h:
 
 /usr/include/python3.12/cpython/dictobject.h:
 
@@ -1527,6 +1565,10 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
+/usr/include/python3.12/moduleobject.h:
+
+/workspaces/ros2-coding/.venv/lib/python3.12/site-packages/numpy/_core/include/numpy/_numpyconfig.h:
+
 /usr/include/python3.12/object.h:
 
 /usr/include/python3.12/pycapsule.h:
@@ -1548,8 +1590,6 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h:
 /usr/include/python3.12/pyhash.h:
 
 /usr/include/python3.12/pylifecycle.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/python3.12/pymacconfig.h:
 
@@ -1607,8 +1647,6 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h:
 
 /usr/include/python3.12/tupleobject.h:
 
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/_numpyconfig.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
 
 /usr/include/stdio.h:
@@ -1641,8 +1679,6 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
-/usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h:
-
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
@@ -1670,6 +1706,8 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h:
 /usr/include/python3.12/pyconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
 
 /usr/include/python3.12/cpython/pyfpe.h:
 
@@ -1702,8 +1740,6 @@ rosidl_generator_c/human_interfaces/msg/detail/kick_command__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/python3.12/typeslots.h:
 

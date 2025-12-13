@@ -1,0 +1,47 @@
+[0.048s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros_gz_example_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros_gz_example_description
+[0.205s] -- The C compiler identification is GNU 13.3.0
+[0.331s] -- The CXX compiler identification is GNU 13.3.0
+[0.370s] -- Detecting C compiler ABI info
+[0.652s] -- Detecting C compiler ABI info - done
+[0.680s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.681s] -- Detecting C compile features
+[0.682s] -- Detecting C compile features - done
+[0.706s] -- Detecting CXX compiler ABI info
+[0.997s] -- Detecting CXX compiler ABI info - done
+[1.020s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.021s] -- Detecting CXX compile features
+[1.022s] -- Detecting CXX compile features - done
+[1.065s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.516s] -- Found Python3: /workspaces/ros2-coding/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.658s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.214s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.372s] -- Configuring done (2.3s)
+[2.379s] -- Generating done (0.0s)
+[2.383s] -- Build files have been written to: /workspaces/ros2-coding/build/ros_gz_example_description
+[2.391s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/ros_gz_example_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/ros_gz_example_description
+[2.393s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/ros_gz_example_description -- -j4 -l4
+[2.553s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/ros_gz_example_description -- -j4 -l4
+[2.591s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/ros_gz_example_description
+[2.621s] -- Install configuration: ""
+[2.622s] -- Execute custom install script
+[2.623s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/models/diff_drive/model.config
+[2.623s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/models/diff_drive/model.sdf
+[2.624s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/models/rrbot/model.sdf
+[2.627s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/environment/ros_gz_example_description.dsv
+[2.628s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/environment/ros_gz_example_description.sh
+[2.628s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_description
+[2.628s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_description
+[2.628s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/environment/ament_prefix_path.sh
+[2.628s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/environment/ament_prefix_path.dsv
+[2.628s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/environment/path.sh
+[2.629s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/environment/path.dsv
+[2.629s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/local_setup.bash
+[2.629s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/local_setup.sh
+[2.629s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/local_setup.zsh
+[2.630s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/local_setup.dsv
+[2.631s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/package.dsv
+[2.661s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ament_index/resource_index/packages/ros_gz_example_description
+[2.661s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/cmake/ros_gz_example_descriptionConfig.cmake
+[2.662s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/cmake/ros_gz_example_descriptionConfig-version.cmake
+[2.662s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_description/share/ros_gz_example_description/package.xml
+[2.679s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/ros_gz_example_description

@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/config/kinematics.yaml
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/launch/move_group.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/srdf/nao.srdf
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/package_run_dependencies/moveit_nao_config
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/parent_prefix_path/moveit_nao_config
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/packages/moveit_nao_config
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/cmake/moveit_nao_configConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/cmake/moveit_nao_configConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/package.xml

@@ -1,0 +1,26 @@
+[0.025s] Invoking command in '/workspaces/ros2-coding/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/cmdvel_to_ackermann -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/cmdvel_to_ackermann
+[0.296s] -- The C compiler identification is GNU 13.3.0
+[0.436s] -- The CXX compiler identification is GNU 13.3.0
+[0.526s] -- Detecting C compiler ABI info
+[0.817s] -- Detecting C compiler ABI info - done
+[0.853s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.854s] -- Detecting C compile features
+[0.856s] -- Detecting C compile features - done
+[0.876s] -- Detecting CXX compiler ABI info
+[1.342s] -- Detecting CXX compiler ABI info - done
+[1.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.374s] -- Detecting CXX compile features
+[1.374s] -- Detecting CXX compile features - done
+[1.422s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.961s] -- Found Python3: /workspaces/ros2-coding/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.794s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.820s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[3.114s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.215s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.588s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.726s] -- Configuring done (3.6s)
+[3.733s] -- Generating done (0.0s)
+[3.737s] -- Build files have been written to: /workspaces/ros2-coding/build/cmdvel_to_ackermann

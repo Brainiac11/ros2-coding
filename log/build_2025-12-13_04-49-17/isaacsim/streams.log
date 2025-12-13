@@ -1,0 +1,20 @@
+[0.028s] Invoking command in '/workspaces/ros2-coding/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/isaacsim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/isaacsim
+[0.171s] -- The C compiler identification is GNU 13.3.0
+[0.283s] -- The CXX compiler identification is GNU 13.3.0
+[0.322s] -- Detecting C compiler ABI info
+[0.650s] -- Detecting C compiler ABI info - done
+[0.666s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.667s] -- Detecting C compile features
+[0.668s] -- Detecting C compile features - done
+[0.692s] -- Detecting CXX compiler ABI info
+[0.875s] -- Detecting CXX compiler ABI info - done
+[0.889s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.890s] -- Detecting CXX compile features
+[0.890s] -- Detecting CXX compile features - done
+[0.916s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.165s] -- Found Python3: /workspaces/ros2-coding/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.276s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.697s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.805s] -- Configuring done (1.7s)
+[1.812s] -- Generating done (0.0s)
+[1.814s] -- Build files have been written to: /workspaces/ros2-coding/build/isaacsim

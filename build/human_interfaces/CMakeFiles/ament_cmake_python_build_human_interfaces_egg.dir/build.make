@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_human_interfaces_egg.dir/compiler_de
 include CMakeFiles/ament_cmake_python_build_human_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_human_interfaces_egg:
-	cd /workspaces/ros2-coding/build/human_interfaces/ament_cmake_python/human_interfaces && /usr/bin/python3 setup.py egg_info
+	cd /workspaces/ros2-coding/build/human_interfaces/ament_cmake_python/human_interfaces && /workspaces/ros2-coding/.venv/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_human_interfaces_egg: CMakeFiles/ament_cmake_python_build_human_interfaces_egg
 ament_cmake_python_build_human_interfaces_egg: CMakeFiles/ament_cmake_python_build_human_interfaces_egg.dir/build.make

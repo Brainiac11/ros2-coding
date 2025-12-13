@@ -109,7 +109,7 @@ rosidl_typesupport_c/custom_message/msg/sample_msg__type_support.cpp: /opt/ros/j
 rosidl_typesupport_c/custom_message/msg/sample_msg__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_c/custom_message/msg/sample_msg__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /workspaces/ros2-coding/build/custom_message/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+	/workspaces/ros2-coding/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /workspaces/ros2-coding/build/custom_message/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/sample_msg__type_support.cpp.o: CMakeFiles/custom_message__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/sample_msg__type_support.cpp.o: rosidl_typesupport_c/custom_message/msg/sample_msg__type_support.cpp

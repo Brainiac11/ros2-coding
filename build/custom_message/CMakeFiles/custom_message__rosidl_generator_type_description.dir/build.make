@@ -72,7 +72,7 @@ rosidl_generator_type_description/custom_message/msg/SampleMsg.json: /opt/ros/ja
 rosidl_generator_type_description/custom_message/msg/SampleMsg.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/custom_message/msg/SampleMsg.json: rosidl_adapter/custom_message/msg/SampleMsg.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /workspaces/ros2-coding/build/custom_message/rosidl_generator_type_description__arguments.json
+	/workspaces/ros2-coding/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /workspaces/ros2-coding/build/custom_message/rosidl_generator_type_description__arguments.json
 
 custom_message__rosidl_generator_type_description: CMakeFiles/custom_message__rosidl_generator_type_description
 custom_message__rosidl_generator_type_description: rosidl_generator_type_description/custom_message/msg/SampleMsg.json

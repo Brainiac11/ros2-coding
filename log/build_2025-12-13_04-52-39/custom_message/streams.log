@@ -1,0 +1,132 @@
+[0.018s] Invoking command in '/workspaces/ros2-coding/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/custom_message -- -j4 -l4
+[0.195s] [  0%] Built target ament_cmake_python_symlink_custom_message
+[0.195s] [  2%] Built target custom_message__rosidl_generator_type_description
+[0.283s] [  5%] Built target custom_message__cpp
+[0.336s] [ 20%] Built target custom_message__rosidl_generator_c
+[0.440s] [ 29%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[0.459s] [ 38%] Built target custom_message__rosidl_typesupport_introspection_c
+[0.518s] [ 47%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[0.579s] [ 55%] Built target custom_message__rosidl_typesupport_c
+[0.607s] [ 64%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[0.649s] [ 73%] Built target custom_message__rosidl_typesupport_cpp
+[0.717s] [ 73%] Built target custom_message
+[0.816s] [ 76%] Built target custom_message__py
+[0.920s] [ 82%] Built target custom_message__rosidl_generator_py
+[0.948s] running egg_info
+[0.995s] [ 88%] Built target custom_message_s__rosidl_typesupport_fastrtps_c
+[1.023s] writing custom_message.egg-info/PKG-INFO
+[1.027s] writing dependency_links to custom_message.egg-info/dependency_links.txt
+[1.027s] writing top-level names to custom_message.egg-info/top_level.txt
+[1.069s] [ 94%] Built target custom_message_s__rosidl_typesupport_introspection_c
+[1.075s] [100%] Built target custom_message_s__rosidl_typesupport_c
+[1.174s] reading manifest file 'custom_message.egg-info/SOURCES.txt'
+[1.177s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[1.231s] [100%] Built target ament_cmake_python_build_custom_message_egg
+[1.253s] Invoked command in '/workspaces/ros2-coding/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/custom_message -- -j4 -l4
+[1.254s] Invoking command in '/workspaces/ros2-coding/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/custom_message
+[1.286s] -- Install configuration: ""
+[1.286s] -- Execute custom install script
+[1.286s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/ament_index/resource_index/rosidl_interfaces/custom_message
+[1.324s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/msg/SampleMsg.json
+[1.369s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__functions.h
+[1.434s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__struct.h
+[1.480s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__type_support.h
+[1.535s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_c__visibility_control.h
+[1.563s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/sample_msg.h
+[1.610s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/environment/library_path.sh
+[1.647s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/environment/library_path.dsv
+[1.689s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__rosidl_typesupport_fastrtps_c.h
+[1.725s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.755s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__builder.hpp
+[1.822s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__struct.hpp
+[1.845s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__traits.hpp
+[1.864s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__type_support.hpp
+[1.921s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.983s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/sample_msg.hpp
+[2.041s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.116s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.163s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__rosidl_typesupport_introspection_c.h
+[2.209s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.286s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__rosidl_typesupport_introspection_cpp.hpp
+[2.331s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/environment/pythonpath.sh
+[2.367s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/environment/pythonpath.dsv
+[2.404s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message-0.0.0-py3.12.egg-info/PKG-INFO
+[2.443s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.481s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.513s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message-0.0.0-py3.12.egg-info/top_level.txt
+[2.549s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/__init__.py
+[2.582s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c
+[2.613s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.626s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c
+[2.656s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_c.so
+[2.676s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.so
+[2.707s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.so
+[2.744s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/msg/__init__.py
+[2.781s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/msg/_sample_msg.py
+[2.828s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/msg/_sample_msg_s.c
+[2.864s] -- Up-to-date symlink: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.so
+[2.865s] -- Up-to-date symlink: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.so
+[2.866s] -- Up-to-date symlink: /workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_c.so
+[2.867s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/msg/SampleMsg.idl
+[2.903s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/msg/SampleMsg.msg
+[2.939s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/ament_index/resource_index/package_run_dependencies/custom_message
+[2.978s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/ament_index/resource_index/parent_prefix_path/custom_message
+[3.016s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/environment/ament_prefix_path.sh
+[3.048s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/environment/ament_prefix_path.dsv
+[3.065s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/environment/path.sh
+[3.085s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/environment/path.dsv
+[3.118s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/local_setup.bash
+[3.166s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/local_setup.sh
+[3.200s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/local_setup.zsh
+[3.235s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/local_setup.dsv
+[3.259s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/package.dsv
+[3.291s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/ament_index/resource_index/packages/custom_message
+[3.326s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/rosidl_cmake-extras.cmake
+[3.372s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.410s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.454s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/ament_cmake_export_libraries-extras.cmake
+[3.496s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/ament_cmake_export_targets-extras.cmake
+[3.548s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.562s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.578s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_messageConfig.cmake
+[3.593s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_messageConfig-version.cmake
+[3.632s] -- Symlinking: /workspaces/ros2-coding/install/custom_message/share/custom_message/package.xml
+[3.647s] -- Installing: /workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_generator_c.so
+[3.647s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_generator_c.so" to ""
+[3.647s] -- Installing: /workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so
+[3.648s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so" to ""
+[3.648s] -- Installing: /workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so
+[3.648s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.648s] -- Installing: /workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so
+[3.648s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so" to ""
+[3.649s] -- Installing: /workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so
+[3.654s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so" to ""
+[3.655s] -- Installing: /workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so
+[3.655s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so" to ""
+[3.660s] -- Installing: /workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so
+[3.660s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so" to ""
+[3.774s] Listing '/workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message'...
+[3.774s] Compiling '/workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/__init__.py'...
+[3.775s] Listing '/workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/msg'...
+[3.775s] Compiling '/workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/msg/__init__.py'...
+[3.775s] Compiling '/workspaces/ros2-coding/install/custom_message/lib/python3.12/site-packages/custom_message/msg/_sample_msg.py'...
+[3.786s] -- Installing: /workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_generator_py.so
+[3.787s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/custom_message/lib/libcustom_message__rosidl_generator_py.so" to ""
+[3.787s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport.cmake
+[3.788s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport-noconfig.cmake
+[3.789s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport.cmake
+[3.790s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.790s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cppExport.cmake
+[3.791s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.791s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.792s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport.cmake
+[3.792s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.793s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport.cmake
+[3.793s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport-noconfig.cmake
+[3.794s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport.cmake
+[3.798s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.798s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport.cmake
+[3.798s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport-noconfig.cmake
+[3.798s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport.cmake
+[3.799s] -- Installing: /workspaces/ros2-coding/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport-noconfig.cmake
+[3.803s] Invoked command in '/workspaces/ros2-coding/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/custom_message

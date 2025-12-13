@@ -1,0 +1,44 @@
+[0.041s] Invoking command in '/workspaces/ros2-coding/build/human_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/human_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/human_interfaces
+[0.080s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.510s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.538s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.763s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.461s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.461s]   execute_process(/workspaces/ros2-coding/.venv/bin/python3 -m rosidl_adapter
+[1.461s]   --package-name human_interfaces --arguments-file
+[1.461s]   /workspaces/ros2-coding/build/human_interfaces/rosidl_adapter__arguments__human_interfaces.json
+[1.462s]   --output-dir
+[1.462s]   /workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces
+[1.462s]   --output-file
+[1.466s]   /workspaces/ros2-coding/build/human_interfaces/rosidl_adapter/human_interfaces.idls)
+[1.466s]   returned error code 1:
+[1.466s] 
+[1.466s]   Traceback (most recent call last):
+[1.467s] 
+[1.467s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.467s]     File "<frozen runpy>", line 88, in _run_code
+[1.467s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.468s]       sys.exit(main())
+[1.469s]                ^^^^^^
+[1.469s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.469s]       abs_idl_file = convert_to_idl(
+[1.469s]                      ^^^^^^^^^^^^^^^
+[1.469s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[1.470s]       from rosidl_adapter.msg import convert_msg_to_idl
+[1.470s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[1.470s]       from rosidl_adapter.resource import expand_template
+[1.470s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[1.470s]       import em
+[1.470s] 
+[1.471s]   ModuleNotFoundError: No module named 'em'
+[1.474s] 
+[1.474s] Call Stack (most recent call first):
+[1.474s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.474s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.475s] 
+[1.475s] [0m
+[1.475s] -- Configuring incomplete, errors occurred!
+[1.499s] Invoked command in '/workspaces/ros2-coding/build/human_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/human_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/human_interfaces

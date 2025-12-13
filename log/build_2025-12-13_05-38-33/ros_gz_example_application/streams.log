@@ -1,0 +1,21 @@
+[0.694s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/ros_gz_example_application -- -j4 -l4
+[0.984s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/ros_gz_example_application -- -j4 -l4
+[0.998s] Invoking command in '/workspaces/ros2-coding/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/ros_gz_example_application
+[1.058s] -- Install configuration: ""
+[1.062s] -- Execute custom install script
+[1.062s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_application
+[1.064s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_application
+[1.066s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.sh
+[1.068s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.dsv
+[1.070s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.sh
+[1.070s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.dsv
+[1.070s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.bash
+[1.070s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.sh
+[1.073s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.zsh
+[1.073s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.dsv
+[1.075s] -- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/package.dsv
+[1.126s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ament_index/resource_index/packages/ros_gz_example_application
+[1.128s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig.cmake
+[1.128s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig-version.cmake
+[1.129s] -- Up-to-date symlink: /workspaces/ros2-coding/install/ros_gz_example_application/share/ros_gz_example_application/package.xml
+[1.135s] Invoked command in '/workspaces/ros2-coding/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/ros_gz_example_application

@@ -80,7 +80,7 @@ rosidl_generator_type_description/isaac_ros2_messages/srv/IsaacPose.json: rosidl
 rosidl_generator_type_description/isaac_ros2_messages/srv/IsaacPose.json: rosidl_adapter/isaac_ros2_messages/srv/GetPrimAttribute.idl
 rosidl_generator_type_description/isaac_ros2_messages/srv/IsaacPose.json: rosidl_adapter/isaac_ros2_messages/srv/SetPrimAttribute.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/isaac_ros2_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /workspaces/ros2-coding/build/isaac_ros2_messages/rosidl_generator_type_description__arguments.json
+	/workspaces/ros2-coding/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /workspaces/ros2-coding/build/isaac_ros2_messages/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/isaac_ros2_messages/srv/GetPrims.json: rosidl_generator_type_description/isaac_ros2_messages/srv/IsaacPose.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/isaac_ros2_messages/srv/GetPrims.json

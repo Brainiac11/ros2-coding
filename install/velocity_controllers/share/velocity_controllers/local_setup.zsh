@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/velocity_controllers/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/pose_broadcaster/include/pose_broadcaster/pose_broadcaster.hpp

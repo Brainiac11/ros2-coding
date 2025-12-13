@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster_parameters.hpp

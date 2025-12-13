@@ -1,0 +1,259 @@
+[0.030s] Invoking command in '/workspaces/ros2-coding/build/human_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/human_interfaces -- -j4 -l4
+[0.200s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.325s] [  1%] Built target ament_cmake_python_symlink_human_interfaces
+[1.133s] [  1%] Built target human_interfaces__rosidl_generator_type_description
+[1.149s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.334s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.450s] running egg_info
+[1.580s] writing human_interfaces.egg-info/PKG-INFO
+[1.580s] writing dependency_links to human_interfaces.egg-info/dependency_links.txt
+[1.581s] writing top-level names to human_interfaces.egg-info/top_level.txt
+[1.936s] reading manifest file 'human_interfaces.egg-info/SOURCES.txt'
+[1.942s] writing manifest file 'human_interfaces.egg-info/SOURCES.txt'
+[2.201s] [  4%] Built target ament_cmake_python_build_human_interfaces_egg
+[8.080s] [  4%] Built target human_interfaces__cpp
+[8.467s] [  7%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__description.c.o[0m
+[8.468s] [  7%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.c.o[0m
+[8.475s] [  9%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/kick_command__type_support.c.o[0m
+[8.481s] [ 10%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__description.c.o[0m
+[8.825s] [ 12%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__functions.c.o[0m
+[8.840s] [ 14%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o[0m
+[8.898s] [ 15%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__description.c.o[0m
+[9.045s] [ 17%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__functions.c.o[0m
+[9.219s] [ 18%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o[0m
+[9.270s] [ 20%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/action/detail/gait_path__description.c.o[0m
+[9.441s] [ 21%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/action/detail/gait_path__functions.c.o[0m
+[9.739s] [ 23%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_c.dir/rosidl_generator_c/human_interfaces/action/detail/gait_path__type_support.c.o[0m
+[10.000s] [ 25%] [32m[1mLinking C shared library libhuman_interfaces__rosidl_generator_c.so[0m
+[10.408s] [ 25%] Built target human_interfaces__rosidl_generator_c
+[10.506s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.998s] [ 28%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/human_interfaces/msg/detail/kick_command__type_support.c.o[0m
+[13.074s] [ 29%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/human_interfaces/msg/detail/arm_swing_command__type_support.c.o[0m
+[13.188s] [ 31%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/human_interfaces/srv/detail/inverse_kinematics__type_support.c.o[0m
+[13.377s] [ 32%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/human_interfaces/action/detail/gait_path__type_support.c.o[0m
+[13.580s] [ 34%] [32m[1mLinking C shared library libhuman_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.664s] [ 34%] Built target human_interfaces__rosidl_typesupport_introspection_c
+[13.689s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.255s] [ 37%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/msg/detail/kick_command__type_support.cpp.o[0m
+[16.024s] [ 39%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/msg/detail/arm_swing_command__type_support.cpp.o[0m
+[17.016s] [ 40%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/srv/detail/inverse_kinematics__type_support.cpp.o[0m
+[19.105s] [ 42%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/human_interfaces/action/detail/gait_path__type_support.cpp.o[0m
+[22.838s] [ 43%] [32m[1mLinking CXX shared library libhuman_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[23.111s] [ 43%] Built target human_interfaces__rosidl_typesupport_introspection_cpp
+[23.165s] [ 45%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[24.564s] [ 46%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/human_interfaces/msg/kick_command__type_support.cpp.o[0m
+[25.524s] [ 48%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/human_interfaces/msg/arm_swing_command__type_support.cpp.o[0m
+[26.164s] [ 50%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/human_interfaces/srv/inverse_kinematics__type_support.cpp.o[0m
+[26.895s] [ 51%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/human_interfaces/action/gait_path__type_support.cpp.o[0m
+[28.961s] [ 53%] [32m[1mLinking CXX shared library libhuman_interfaces__rosidl_typesupport_cpp.so[0m
+[29.254s] [ 53%] Built target human_interfaces__rosidl_typesupport_cpp
+[29.286s] [ 54%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[31.548s] [ 56%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/msg/detail/kick_command__type_support_c.cpp.o[0m
+[32.491s] [ 57%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/msg/detail/arm_swing_command__type_support_c.cpp.o[0m
+[33.190s] [ 59%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/srv/detail/inverse_kinematics__type_support_c.cpp.o[0m
+[33.978s] [ 60%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/human_interfaces/action/detail/gait_path__type_support_c.cpp.o[0m
+[34.764s] [ 62%] [32m[1mLinking CXX shared library libhuman_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[34.861s] [ 62%] Built target human_interfaces__rosidl_typesupport_fastrtps_c
+[34.886s] [ 64%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35.920s] [ 65%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/dds_fastrtps/kick_command__type_support.cpp.o[0m
+[36.389s] [ 67%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/srv/detail/dds_fastrtps/inverse_kinematics__type_support.cpp.o[0m
+[37.073s] [ 68%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/action/detail/dds_fastrtps/gait_path__type_support.cpp.o[0m
+[38.260s] [ 70%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/human_interfaces/msg/detail/dds_fastrtps/arm_swing_command__type_support.cpp.o[0m
+[38.848s] [ 71%] [32m[1mLinking CXX shared library libhuman_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[38.955s] [ 71%] Built target human_interfaces__rosidl_typesupport_fastrtps_cpp
+[38.987s] [ 73%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[39.520s] [ 75%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/human_interfaces/msg/kick_command__type_support.cpp.o[0m
+[39.584s] [ 76%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/human_interfaces/action/gait_path__type_support.cpp.o[0m
+[39.668s] [ 78%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/human_interfaces/srv/inverse_kinematics__type_support.cpp.o[0m
+[39.748s] [ 79%] [32mBuilding CXX object CMakeFiles/human_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/human_interfaces/msg/arm_swing_command__type_support.cpp.o[0m
+[39.819s] [ 81%] [32m[1mLinking CXX shared library libhuman_interfaces__rosidl_typesupport_c.so[0m
+[39.887s] [ 81%] Built target human_interfaces__rosidl_typesupport_c
+[39.934s] [ 81%] Built target human_interfaces
+[39.982s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[41.875s] [ 82%] Built target human_interfaces__py
+[41.922s] [ 84%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_interfaces/msg/_kick_command_s.c.o[0m
+[42.082s] [ 85%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_interfaces/action/_gait_path_s.c.o[0m
+[42.360s] [ 87%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_interfaces/srv/_inverse_kinematics_s.c.o[0m
+[42.580s] [ 89%] [32mBuilding C object CMakeFiles/human_interfaces__rosidl_generator_py.dir/rosidl_generator_py/human_interfaces/msg/_arm_swing_command_s.c.o[0m
+[42.735s] [ 90%] [32m[1mLinking C shared library libhuman_interfaces__rosidl_generator_py.so[0m
+[42.814s] [ 90%] Built target human_interfaces__rosidl_generator_py
+[42.860s] [ 92%] [32mBuilding C object CMakeFiles/human_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.068s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/human_interfaces/human_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[43.131s] [ 93%] Built target human_interfaces_s__rosidl_typesupport_fastrtps_c
+[43.175s] [ 95%] [32mBuilding C object CMakeFiles/human_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[43.348s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/human_interfaces/human_interfaces_s__rosidl_typesupport_c.so[0m
+[43.409s] [ 96%] Built target human_interfaces_s__rosidl_typesupport_c
+[43.452s] [ 98%] [32mBuilding C object CMakeFiles/human_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[43.621s] [100%] [32m[1mLinking C shared module rosidl_generator_py/human_interfaces/human_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[43.683s] [100%] Built target human_interfaces_s__rosidl_typesupport_introspection_c
+[43.708s] Invoked command in '/workspaces/ros2-coding/build/human_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/human_interfaces -- -j4 -l4
+[43.709s] Invoking command in '/workspaces/ros2-coding/build/human_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/human_interfaces
+[43.727s] -- Install configuration: ""
+[43.728s] -- Execute custom install script
+[43.729s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/ament_index/resource_index/rosidl_interfaces/human_interfaces
+[43.729s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/msg/KickCommand.json
+[43.730s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/msg/ArmSwingCommand.json
+[43.730s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/srv/InverseKinematics.json
+[43.731s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/action/GaitPath.json
+[43.731s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__functions.h
+[43.732s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__struct.h
+[43.732s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__type_support.h
+[43.733s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/gait_path.h
+[43.734s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/arm_swing_command.h
+[43.734s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__functions.h
+[43.734s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__struct.h
+[43.735s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__type_support.h
+[43.735s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__functions.h
+[43.735s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__struct.h
+[43.736s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__type_support.h
+[43.736s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/kick_command.h
+[43.737s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/rosidl_generator_c__visibility_control.h
+[43.737s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__functions.h
+[43.738s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__struct.h
+[43.738s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__type_support.h
+[43.738s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/inverse_kinematics.h
+[43.738s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/environment/library_path.sh
+[43.738s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/environment/library_path.dsv
+[43.739s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__rosidl_typesupport_fastrtps_c.h
+[43.739s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__rosidl_typesupport_fastrtps_c.h
+[43.739s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__rosidl_typesupport_fastrtps_c.h
+[43.739s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[43.740s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__rosidl_typesupport_fastrtps_c.h
+[43.740s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__rosidl_typesupport_introspection_c.h
+[43.741s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__rosidl_typesupport_introspection_c.h
+[43.741s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__rosidl_typesupport_introspection_c.h
+[43.742s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[43.742s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__rosidl_typesupport_introspection_c.h
+[43.742s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__builder.hpp
+[43.743s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__struct.hpp
+[43.745s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__traits.hpp
+[43.745s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__type_support.hpp
+[43.745s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/gait_path.hpp
+[43.745s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/arm_swing_command.hpp
+[43.745s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__builder.hpp
+[43.745s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__struct.hpp
+[43.745s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__traits.hpp
+[43.746s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__type_support.hpp
+[43.746s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__builder.hpp
+[43.746s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__struct.hpp
+[43.746s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__traits.hpp
+[43.747s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__type_support.hpp
+[43.748s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/kick_command.hpp
+[43.748s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[43.749s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__builder.hpp
+[43.749s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__struct.hpp
+[43.749s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__traits.hpp
+[43.750s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__type_support.hpp
+[43.750s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/inverse_kinematics.hpp
+[43.750s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__rosidl_typesupport_fastrtps_cpp.hpp
+[43.750s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__rosidl_typesupport_fastrtps_cpp.hpp
+[43.752s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__rosidl_typesupport_fastrtps_cpp.hpp
+[43.753s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[43.754s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__rosidl_typesupport_fastrtps_cpp.hpp
+[43.754s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/action/detail/gait_path__rosidl_typesupport_introspection_cpp.hpp
+[43.754s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/arm_swing_command__rosidl_typesupport_introspection_cpp.hpp
+[43.754s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/msg/detail/kick_command__rosidl_typesupport_introspection_cpp.hpp
+[43.754s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/include/human_interfaces/human_interfaces/srv/detail/inverse_kinematics__rosidl_typesupport_introspection_cpp.hpp
+[43.755s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/environment/pythonpath.sh
+[43.755s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/environment/pythonpath.dsv
+[43.755s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[43.755s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[43.756s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[43.756s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[43.756s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/__init__.py
+[43.756s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_c.c
+[43.757s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[43.757s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/_human_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[43.757s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/action/__init__.py
+[43.757s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/action/_gait_path.py
+[43.758s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/action/_gait_path_s.c
+[43.758s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/human_interfaces_s__rosidl_typesupport_c.so
+[43.758s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/human_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[43.758s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/human_interfaces_s__rosidl_typesupport_introspection_c.so
+[43.758s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/msg/__init__.py
+[43.759s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/msg/_arm_swing_command.py
+[43.759s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/msg/_arm_swing_command_s.c
+[43.759s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/msg/_kick_command.py
+[43.759s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/msg/_kick_command_s.c
+[43.760s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/srv/__init__.py
+[43.760s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/srv/_inverse_kinematics.py
+[43.760s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/srv/_inverse_kinematics_s.c
+[43.760s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/human_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[43.761s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/human_interfaces_s__rosidl_typesupport_introspection_c.so
+[43.761s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/human_interfaces_s__rosidl_typesupport_c.so
+[43.761s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/msg/KickCommand.idl
+[43.761s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/msg/ArmSwingCommand.idl
+[43.761s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/srv/InverseKinematics.idl
+[43.761s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/action/GaitPath.idl
+[43.761s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/msg/KickCommand.msg
+[43.761s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/msg/ArmSwingCommand.msg
+[43.762s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/srv/InverseKinematics.srv
+[43.762s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/action/GaitPath.action
+[43.762s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/ament_index/resource_index/package_run_dependencies/human_interfaces
+[43.762s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/ament_index/resource_index/parent_prefix_path/human_interfaces
+[43.762s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/environment/ament_prefix_path.sh
+[43.762s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/environment/ament_prefix_path.dsv
+[43.762s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/environment/path.sh
+[43.763s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/environment/path.dsv
+[43.763s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/local_setup.bash
+[43.763s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/local_setup.sh
+[43.763s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/local_setup.zsh
+[43.763s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/local_setup.dsv
+[43.763s] -- Symlinking: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/package.dsv
+[43.782s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/ament_index/resource_index/packages/human_interfaces
+[43.782s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/rosidl_cmake-extras.cmake
+[43.782s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.782s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.783s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[43.784s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[43.785s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[43.785s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[43.785s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfacesConfig.cmake
+[43.786s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfacesConfig-version.cmake
+[43.786s] -- Up-to-date symlink: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/package.xml
+[43.786s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_generator_c.so
+[43.786s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_generator_c.so" to ""
+[43.787s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_fastrtps_c.so
+[43.788s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[43.789s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_introspection_c.so
+[43.792s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[43.792s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_c.so
+[43.792s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_c.so" to ""
+[43.793s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[43.795s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[43.796s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_introspection_cpp.so
+[43.798s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[43.799s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_cpp.so
+[43.800s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_typesupport_cpp.so" to ""
+[43.869s] Listing '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces'...
+[43.869s] Compiling '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/__init__.py'...
+[43.869s] Listing '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/action'...
+[43.869s] Compiling '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/action/__init__.py'...
+[43.870s] Compiling '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/action/_gait_path.py'...
+[43.870s] Listing '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/msg'...
+[43.870s] Compiling '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/msg/__init__.py'...
+[43.870s] Compiling '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/msg/_arm_swing_command.py'...
+[43.870s] Compiling '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/msg/_kick_command.py'...
+[43.870s] Listing '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/srv'...
+[43.870s] Compiling '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/srv/__init__.py'...
+[43.870s] Compiling '/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces/srv/_inverse_kinematics.py'...
+[43.874s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_generator_py.so
+[43.876s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2-coding/install/human_interfaces/lib/libhuman_interfaces__rosidl_generator_py.so" to ""
+[43.876s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/export_human_interfaces__rosidl_generator_cExport.cmake
+[43.876s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/export_human_interfaces__rosidl_generator_cExport-noconfig.cmake
+[43.877s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/export_human_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[43.877s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/export_human_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[43.878s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[43.879s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[43.879s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfaces__rosidl_typesupport_cExport.cmake
+[43.880s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[43.880s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/export_human_interfaces__rosidl_generator_cppExport.cmake
+[43.881s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/export_human_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[43.882s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/export_human_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[43.882s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[43.883s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[43.884s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfaces__rosidl_typesupport_cppExport.cmake
+[43.884s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/human_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[43.885s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/export_human_interfaces__rosidl_generator_pyExport.cmake
+[43.885s] -- Installing: /workspaces/ros2-coding/install/human_interfaces/share/human_interfaces/cmake/export_human_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[43.889s] Invoked command in '/workspaces/ros2-coding/build/human_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/human_interfaces

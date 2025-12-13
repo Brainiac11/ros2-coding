@@ -111,7 +111,7 @@ rosidl_typesupport_introspection_c/custom_message/msg/detail/sample_msg__rosidl_
 rosidl_typesupport_introspection_c/custom_message/msg/detail/sample_msg__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_introspection_c/custom_message/msg/detail/sample_msg__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /workspaces/ros2-coding/build/custom_message/rosidl_typesupport_introspection_c__arguments.json
+	/workspaces/ros2-coding/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /workspaces/ros2-coding/build/custom_message/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/custom_message/msg/detail/sample_msg__type_support.c: rosidl_typesupport_introspection_c/custom_message/msg/detail/sample_msg__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/custom_message/msg/detail/sample_msg__type_support.c

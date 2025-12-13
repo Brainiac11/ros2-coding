@@ -6,8 +6,8 @@
 
 #include "rosidl_typesupport_interface/macros.h"
 #include "isaac_ros2_messages/srv/detail/get_prim_attribute__type_support.h"
-#include "isaac_ros2_messages/srv/detail/get_prim_attribute__functions.h"
 #include "isaac_ros2_messages/srv/detail/get_prim_attribute__struct.h"
+#include "isaac_ros2_messages/srv/detail/get_prim_attribute__functions.h"
 
 #ifdef __cplusplus
 extern "C"

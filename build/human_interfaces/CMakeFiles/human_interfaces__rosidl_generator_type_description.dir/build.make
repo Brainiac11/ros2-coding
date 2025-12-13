@@ -78,7 +78,7 @@ rosidl_generator_type_description/human_interfaces/msg/KickCommand.json: rosidl_
 rosidl_generator_type_description/human_interfaces/msg/KickCommand.json: rosidl_adapter/human_interfaces/srv/InverseKinematics.idl
 rosidl_generator_type_description/human_interfaces/msg/KickCommand.json: rosidl_adapter/human_interfaces/action/GaitPath.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_type_description__arguments.json
+	/workspaces/ros2-coding/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/human_interfaces/msg/ArmSwingCommand.json: rosidl_generator_type_description/human_interfaces/msg/KickCommand.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/human_interfaces/msg/ArmSwingCommand.json

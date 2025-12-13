@@ -1,0 +1,23 @@
+[2.172s] Invoking command in '/workspaces/ros2-coding/build/my_turtlesim': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build --no-deps symlink_data
+[3.081s] running develop
+[3.668s] running egg_info
+[3.707s] writing my_turtlesim.egg-info/PKG-INFO
+[3.708s] writing dependency_links to my_turtlesim.egg-info/dependency_links.txt
+[3.708s] writing entry points to my_turtlesim.egg-info/entry_points.txt
+[3.709s] writing requirements to my_turtlesim.egg-info/requires.txt
+[3.710s] writing top-level names to my_turtlesim.egg-info/top_level.txt
+[3.785s] reading manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+[3.786s] writing manifest file 'my_turtlesim.egg-info/SOURCES.txt'
+[3.830s] running build_ext
+[3.830s] Creating /workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages/my-turtlesim.egg-link (link to .)
+[3.832s] Installing better_move script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+[3.833s] Installing move_turtle script to /workspaces/ros2-coding/install/my_turtlesim/lib/my_turtlesim
+[3.833s] 
+[3.834s] Installed /workspaces/ros2-coding/build/my_turtlesim
+[3.834s] running symlink_data
+[3.835s] creating /workspaces/ros2-coding/install/my_turtlesim/share/ament_index
+[3.835s] creating /workspaces/ros2-coding/install/my_turtlesim/share/ament_index/resource_index
+[3.837s] creating /workspaces/ros2-coding/install/my_turtlesim/share/ament_index/resource_index/packages
+[3.838s] symbolically linking /workspaces/ros2-coding/build/my_turtlesim/resource/my_turtlesim -> /workspaces/ros2-coding/install/my_turtlesim/share/ament_index/resource_index/packages
+[3.838s] symbolically linking /workspaces/ros2-coding/build/my_turtlesim/package.xml -> /workspaces/ros2-coding/install/my_turtlesim/share/my_turtlesim
+[3.895s] Invoked command in '/workspaces/ros2-coding/build/my_turtlesim' returned '0': PYTHONPATH=/workspaces/ros2-coding/build/my_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2-coding/install/my_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2-coding/build/my_turtlesim/build --no-deps symlink_data

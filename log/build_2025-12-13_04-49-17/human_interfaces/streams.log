@@ -1,0 +1,45 @@
+[0.046s] Invoking command in '/workspaces/ros2-coding/build/human_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/human_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/human_interfaces
+[0.093s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.624s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.654s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.005s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.014s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.904s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.624s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.005s] -- Found PythonExtra: /workspaces/ros2-coding/.venv/bin/python3  
+[10.380s] -- Found Python3: /workspaces/ros2-coding/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[10.722s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[11.266s] -- Added test 'lint_cmake' to check CMake code style
+[11.278s] -- Added test 'xmllint' to check XML markup files
+[11.310s] -- Configuring done (11.2s)
+[11.550s] -- Generating done (0.2s)
+[11.643s] -- Build files have been written to: /workspaces/ros2-coding/build/human_interfaces
+[11.675s] Invoked command in '/workspaces/ros2-coding/build/human_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/human_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/human_interfaces
+[11.677s] Invoking command in '/workspaces/ros2-coding/build/human_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/human_interfaces -- -j4 -l4
+[12.041s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[12.122s] [  1%] Built target ament_cmake_python_symlink_human_interfaces
+[12.175s] Traceback (most recent call last):
+[12.175s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 21, in <module>
+[12.175s]     from rosidl_generator_type_description import generate_type_hash
+[12.176s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 24, in <module>
+[12.177s]     from rosidl_parser.parser import parse_idl_file
+[12.178s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[12.180s]     from lark import Lark
+[12.180s] ModuleNotFoundError: No module named 'lark'
+[12.198s] gmake[2]: *** [CMakeFiles/human_interfaces__rosidl_generator_type_description.dir/build.make:81: rosidl_generator_type_description/human_interfaces/msg/KickCommand.json] Error 1
+[12.198s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/human_interfaces__rosidl_generator_type_description.dir/all] Error 2
+[12.198s] gmake[1]: *** Waiting for unfinished jobs....
+[13.539s] running egg_info
+[13.571s] creating human_interfaces.egg-info
+[13.572s] writing human_interfaces.egg-info/PKG-INFO
+[13.573s] writing dependency_links to human_interfaces.egg-info/dependency_links.txt
+[13.573s] writing top-level names to human_interfaces.egg-info/top_level.txt
+[13.574s] writing manifest file 'human_interfaces.egg-info/SOURCES.txt'
+[13.698s] reading manifest file 'human_interfaces.egg-info/SOURCES.txt'
+[13.698s] writing manifest file 'human_interfaces.egg-info/SOURCES.txt'
+[13.788s] [  1%] Built target ament_cmake_python_build_human_interfaces_egg
+[13.795s] gmake: *** [Makefile:146: all] Error 2

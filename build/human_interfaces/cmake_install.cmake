@@ -210,7 +210,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/usr/bin/python3" "-m" "compileall"
+        "/workspaces/ros2-coding/.venv/bin/python3" "-m" "compileall"
         "/workspaces/ros2-coding/install/human_interfaces/lib/python3.12/site-packages/human_interfaces"
       )
 endif()

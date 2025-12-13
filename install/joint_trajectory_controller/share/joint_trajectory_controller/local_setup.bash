@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/joint_trajectory_controller/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/urdf/nao_world.sdf
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/__pycache__/spawn_model.cpython-312.pyc
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/__pycache__/view_h1.launch.cpython-312.pyc
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/model_spawn.py
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/spawn_model.py
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/test_robot_launch.py
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/view_h1.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/ament_index/resource_index/package_run_dependencies/diff_drive_mover
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/ament_index/resource_index/parent_prefix_path/diff_drive_mover
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/ament_index/resource_index/packages/diff_drive_mover
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/cmake/diff_drive_moverConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/cmake/diff_drive_moverConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/package.xml

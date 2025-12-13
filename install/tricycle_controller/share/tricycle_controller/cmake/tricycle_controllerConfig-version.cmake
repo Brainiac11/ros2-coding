@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/tricycle_controller/ament_cmake_core/tricycle_controllerConfig-version.cmake

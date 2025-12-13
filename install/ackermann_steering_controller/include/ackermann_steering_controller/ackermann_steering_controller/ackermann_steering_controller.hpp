@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller.hpp

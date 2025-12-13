@@ -4,3 +4,6 @@ source;share/human_controller/hook/pythonpath.sh
 source;share/human_controller/hook/ament_prefix_path.ps1
 source;share/human_controller/hook/ament_prefix_path.dsv
 source;share/human_controller/hook/ament_prefix_path.sh
+source;../../build/human_controller/share/human_controller/hook/pythonpath_develop.ps1
+source;../../build/human_controller/share/human_controller/hook/pythonpath_develop.dsv
+source;../../build/human_controller/share/human_controller/hook/pythonpath_develop.sh

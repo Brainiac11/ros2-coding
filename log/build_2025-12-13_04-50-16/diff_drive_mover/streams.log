@@ -1,0 +1,28 @@
+[0.042s] Invoking command in '/workspaces/ros2-coding/build/diff_drive_mover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/diff_drive_mover -- -j4 -l4
+[0.426s] Invoked command in '/workspaces/ros2-coding/build/diff_drive_mover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/diff_drive_mover -- -j4 -l4
+[0.427s] Invoking command in '/workspaces/ros2-coding/build/diff_drive_mover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/diff_drive_mover
+[0.488s] -- Install configuration: ""
+[0.493s] -- Execute custom install script
+[0.495s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/urdf/nao_world.sdf
+[0.505s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/__pycache__/spawn_model.cpython-312.pyc
+[0.505s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/__pycache__/view_h1.launch.cpython-312.pyc
+[0.505s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/model_spawn.py
+[0.506s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/spawn_model.py
+[0.506s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/test_robot_launch.py
+[0.506s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/launch/view_h1.launch.py
+[0.515s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/ament_index/resource_index/package_run_dependencies/diff_drive_mover
+[0.516s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/ament_index/resource_index/parent_prefix_path/diff_drive_mover
+[0.516s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/environment/ament_prefix_path.sh
+[0.516s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/environment/ament_prefix_path.dsv
+[0.517s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/environment/path.sh
+[0.519s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/environment/path.dsv
+[0.521s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/local_setup.bash
+[0.521s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/local_setup.sh
+[0.521s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/local_setup.zsh
+[0.521s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/local_setup.dsv
+[0.521s] -- Symlinking: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/package.dsv
+[0.643s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/ament_index/resource_index/packages/diff_drive_mover
+[0.646s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/cmake/diff_drive_moverConfig.cmake
+[0.646s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/cmake/diff_drive_moverConfig-version.cmake
+[0.646s] -- Up-to-date symlink: /workspaces/ros2-coding/install/diff_drive_mover/share/diff_drive_mover/package.xml
+[0.674s] Invoked command in '/workspaces/ros2-coding/build/diff_drive_mover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/diff_drive_mover

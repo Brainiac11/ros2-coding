@@ -1,0 +1,24 @@
+[0.082s] Invoking command in '/workspaces/ros2-coding/build/moveit_nao_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/moveit_nao_config -- -j4 -l4
+[2.209s] Invoked command in '/workspaces/ros2-coding/build/moveit_nao_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/moveit_nao_config -- -j4 -l4
+[2.211s] Invoking command in '/workspaces/ros2-coding/build/moveit_nao_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/moveit_nao_config
+[2.274s] -- Install configuration: ""
+[2.294s] -- Execute custom install script
+[2.294s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/config/kinematics.yaml
+[2.294s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/launch/move_group.launch.py
+[2.294s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/srdf/nao.srdf
+[2.294s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/package_run_dependencies/moveit_nao_config
+[2.295s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/parent_prefix_path/moveit_nao_config
+[2.295s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/ament_prefix_path.sh
+[2.308s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/ament_prefix_path.dsv
+[2.308s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/path.sh
+[2.308s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/environment/path.dsv
+[2.308s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.bash
+[2.308s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.sh
+[2.309s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.zsh
+[2.309s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/local_setup.dsv
+[2.309s] -- Symlinking: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/package.dsv
+[2.385s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/ament_index/resource_index/packages/moveit_nao_config
+[2.385s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/cmake/moveit_nao_configConfig.cmake
+[2.385s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/cmake/moveit_nao_configConfig-version.cmake
+[2.385s] -- Up-to-date symlink: /workspaces/ros2-coding/install/moveit_nao_config/share/moveit_nao_config/package.xml
+[2.400s] Invoked command in '/workspaces/ros2-coding/build/moveit_nao_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/moveit_nao_config

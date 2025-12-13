@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_custom_message_egg.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_build_custom_message_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_custom_message_egg:
-	cd /workspaces/ros2-coding/build/custom_message/ament_cmake_python/custom_message && /usr/bin/python3 setup.py egg_info
+	cd /workspaces/ros2-coding/build/custom_message/ament_cmake_python/custom_message && /workspaces/ros2-coding/.venv/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_custom_message_egg: CMakeFiles/ament_cmake_python_build_custom_message_egg
 ament_cmake_python_build_custom_message_egg: CMakeFiles/ament_cmake_python_build_custom_message_egg.dir/build.make

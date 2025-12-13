@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/scripts/__init__.py
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/scripts/h1_fullbody_controller.py
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/launch/h1_fullbody_controller.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/policy/h1_env.yaml
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/policy/h1_policy.pt
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/lib/h1_fullbody_controller/h1_fullbody_controller.py
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/ament_index/resource_index/package_run_dependencies/h1_fullbody_controller
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/ament_index/resource_index/parent_prefix_path/h1_fullbody_controller
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/ament_index/resource_index/packages/h1_fullbody_controller
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/cmake/h1_fullbody_controllerConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/cmake/h1_fullbody_controllerConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/h1_fullbody_controller/share/h1_fullbody_controller/package.xml

@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/tricycle_steering_controller/include/tricycle_steering_controller/tricycle_steering_controller.hpp

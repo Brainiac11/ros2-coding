@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "isaac_ros2_messages/srv/detail/set_prim_attribute__struct.h"
-#include "isaac_ros2_messages/srv/detail/set_prim_attribute__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "isaac_ros2_messages/srv/detail/set_prim_attribute__functions.h"
+#include "isaac_ros2_messages/srv/detail/set_prim_attribute__struct.h"
 #include "isaac_ros2_messages/srv/detail/set_prim_attribute__type_support.h"
 
 #ifdef __cplusplus

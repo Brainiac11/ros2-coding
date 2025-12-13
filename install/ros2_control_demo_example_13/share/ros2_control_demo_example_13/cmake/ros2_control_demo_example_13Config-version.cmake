@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/ros2_control_demo_example_13/ament_cmake_core/ros2_control_demo_example_13Config-version.cmake

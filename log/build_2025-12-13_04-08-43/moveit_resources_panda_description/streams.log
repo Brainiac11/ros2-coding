@@ -1,0 +1,63 @@
+[0.107s] Invoking command in '/workspaces/ros2-coding/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/panda_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/moveit_resources_panda_description
+[2.790s] -- The C compiler identification is GNU 13.3.0
+[4.379s] -- The CXX compiler identification is GNU 13.3.0
+[4.419s] -- Detecting C compiler ABI info
+[4.793s] -- Detecting C compiler ABI info - done
+[4.817s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.817s] -- Detecting C compile features
+[4.821s] -- Detecting C compile features - done
+[4.841s] -- Detecting CXX compiler ABI info
+[5.307s] -- Detecting CXX compiler ABI info - done
+[5.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.354s] -- Detecting CXX compile features
+[5.354s] -- Detecting CXX compile features - done
+[5.444s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.125s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.282s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.060s] -- Configuring done (6.9s)
+[7.066s] -- Generating done (0.0s)
+[7.070s] -- Build files have been written to: /workspaces/ros2-coding/build/moveit_resources_panda_description
+[7.075s] Invoked command in '/workspaces/ros2-coding/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/panda_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/moveit_resources_panda_description
+[7.076s] Invoking command in '/workspaces/ros2-coding/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/moveit_resources_panda_description -- -j4 -l4
+[7.177s] Invoked command in '/workspaces/ros2-coding/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/moveit_resources_panda_description -- -j4 -l4
+[7.178s] Invoking command in '/workspaces/ros2-coding/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/moveit_resources_panda_description
+[7.205s] -- Install configuration: ""
+[7.206s] -- Execute custom install script
+[7.207s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[7.232s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[7.252s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[7.279s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[7.303s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[7.330s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[7.357s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[7.391s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[7.416s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[7.438s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[7.464s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[7.486s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[7.516s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[7.534s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[7.552s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[7.572s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[7.592s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[7.612s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[7.638s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[7.661s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[7.678s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[7.699s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[7.717s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[7.734s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[7.754s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[7.775s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[7.794s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[7.814s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[7.833s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[7.850s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[7.869s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[7.889s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[7.906s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[7.928s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[7.953s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[7.971s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[7.993s] -- Symlinking: /workspaces/ros2-coding/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf.xacro
+[8.014s] Invoked command in '/workspaces/ros2-coding/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/moveit_resources_panda_description

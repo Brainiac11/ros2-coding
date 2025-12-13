@@ -1,0 +1,47 @@
+[0.048s] Invoking command in '/workspaces/ros2-coding/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/navigation/iw_hub_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/iw_hub_navigation
+[0.301s] -- The C compiler identification is GNU 13.3.0
+[0.466s] -- The CXX compiler identification is GNU 13.3.0
+[0.540s] -- Detecting C compiler ABI info
+[1.097s] -- Detecting C compiler ABI info - done
+[1.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.181s] -- Detecting C compile features
+[1.185s] -- Detecting C compile features - done
+[1.256s] -- Detecting CXX compiler ABI info
+[1.801s] -- Detecting CXX compiler ABI info - done
+[1.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.886s] -- Detecting CXX compile features
+[1.893s] -- Detecting CXX compile features - done
+[1.954s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.817s] -- Found Python3: /workspaces/ros2-coding/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.276s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.520s] -- Configuring done (5.4s)
+[5.539s] -- Generating done (0.0s)
+[5.546s] -- Build files have been written to: /workspaces/ros2-coding/build/iw_hub_navigation
+[5.567s] Invoked command in '/workspaces/ros2-coding/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/navigation/iw_hub_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/iw_hub_navigation
+[5.568s] Invoking command in '/workspaces/ros2-coding/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/iw_hub_navigation -- -j4 -l4
+[5.802s] Invoked command in '/workspaces/ros2-coding/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /workspaces/ros2-coding/build/iw_hub_navigation -- -j4 -l4
+[5.803s] Invoking command in '/workspaces/ros2-coding/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/iw_hub_navigation
+[5.850s] -- Install configuration: ""
+[5.851s] -- Execute custom install script
+[5.857s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/launch/iw_hub_navigation.launch.py
+[5.857s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/launch/iw_hub_navigation_isaacsim.launch.py
+[5.857s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/params/iw_hub_navigation_params.yaml
+[5.857s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/maps/iw_hub_warehouse_navigation.png
+[5.857s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/maps/iw_hub_warehouse_navigation.yaml
+[5.859s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/rviz2/iw_hub_navigation.rviz
+[5.859s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/ament_index/resource_index/package_run_dependencies/iw_hub_navigation
+[5.862s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/ament_index/resource_index/parent_prefix_path/iw_hub_navigation
+[5.862s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/environment/ament_prefix_path.sh
+[5.862s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/environment/ament_prefix_path.dsv
+[5.864s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/environment/path.sh
+[5.864s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/environment/path.dsv
+[5.864s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.bash
+[5.865s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.sh
+[5.867s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.zsh
+[5.868s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.dsv
+[5.868s] -- Symlinking: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/package.dsv
+[5.920s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/ament_index/resource_index/packages/iw_hub_navigation
+[5.920s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/cmake/iw_hub_navigationConfig.cmake
+[5.920s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/cmake/iw_hub_navigationConfig-version.cmake
+[5.920s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/package.xml
+[5.955s] Invoked command in '/workspaces/ros2-coding/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /workspaces/ros2-coding/build/iw_hub_navigation

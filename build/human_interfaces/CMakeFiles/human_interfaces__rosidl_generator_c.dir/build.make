@@ -131,7 +131,7 @@ rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/act
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 rosidl_generator_c/human_interfaces/msg/kick_command.h: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/ros2-coding/build/human_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c__arguments.json
+	/workspaces/ros2-coding/.venv/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /workspaces/ros2-coding/build/human_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.h: rosidl_generator_c/human_interfaces/msg/kick_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/human_interfaces/msg/detail/kick_command__functions.h

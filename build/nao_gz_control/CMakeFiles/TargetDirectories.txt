@@ -1,9 +1,0 @@
-/workspaces/ros2-coding/build/nao_gz_control/CMakeFiles/uninstall.dir
-/workspaces/ros2-coding/build/nao_gz_control/CMakeFiles/nao_gz_control_uninstall.dir
-/workspaces/ros2-coding/build/nao_gz_control/CMakeFiles/test.dir
-/workspaces/ros2-coding/build/nao_gz_control/CMakeFiles/edit_cache.dir
-/workspaces/ros2-coding/build/nao_gz_control/CMakeFiles/rebuild_cache.dir
-/workspaces/ros2-coding/build/nao_gz_control/CMakeFiles/list_install_components.dir
-/workspaces/ros2-coding/build/nao_gz_control/CMakeFiles/install.dir
-/workspaces/ros2-coding/build/nao_gz_control/CMakeFiles/install/local.dir
-/workspaces/ros2-coding/build/nao_gz_control/CMakeFiles/install/strip.dir

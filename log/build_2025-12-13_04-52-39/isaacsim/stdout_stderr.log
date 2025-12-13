@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/scripts/open_isaacsim_stage.py
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/scripts/run_isaacsim.py
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/launch/run_isaacsim.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/lib/isaacsim/run_isaacsim.py
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/lib/isaacsim/open_isaacsim_stage.py
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/ament_index/resource_index/package_run_dependencies/isaacsim
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/ament_index/resource_index/parent_prefix_path/isaacsim
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/ament_index/resource_index/packages/isaacsim
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/cmake/isaacsimConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/cmake/isaacsimConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/isaacsim/share/isaacsim/package.xml

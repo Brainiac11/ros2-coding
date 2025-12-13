@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "human_interfaces/action/detail/gait_path__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "human_interfaces/action/detail/gait_path__struct.h"
 #include "human_interfaces/action/detail/gait_path__functions.h"
+#include "human_interfaces/action/detail/gait_path__type_support.h"
+#include "human_interfaces/action/detail/gait_path__struct.h"
 
 #ifdef __cplusplus
 extern "C"

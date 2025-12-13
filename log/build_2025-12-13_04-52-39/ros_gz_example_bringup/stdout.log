@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/launch/diff_drive.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/launch/rrbot_setup.launch.py
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/config/diff_drive.rviz
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/config/ros_gz_example_bridge.yaml
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/config/rrbot.rviz
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_bringup
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_bringup
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/environment/path.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/environment/path.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/local_setup.bash
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/local_setup.sh
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/local_setup.zsh
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/local_setup.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/package.dsv
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ament_index/resource_index/packages/ros_gz_example_bringup
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/cmake/ros_gz_example_bringupConfig.cmake
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/cmake/ros_gz_example_bringupConfig-version.cmake
+-- Symlinking: /workspaces/ros2-coding/install/ros_gz_example_bringup/share/ros_gz_example_bringup/package.xml

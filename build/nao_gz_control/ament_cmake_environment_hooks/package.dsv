@@ -1,4 +1,0 @@
-source;share/nao_gz_control/local_setup.bash
-source;share/nao_gz_control/local_setup.dsv
-source;share/nao_gz_control/local_setup.sh
-source;share/nao_gz_control/local_setup.zsh

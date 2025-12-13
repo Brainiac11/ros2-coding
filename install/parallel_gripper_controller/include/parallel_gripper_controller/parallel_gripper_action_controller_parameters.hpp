@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_parameters.hpp

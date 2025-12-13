@@ -1,3 +1,0 @@
-/workspaces/ros2-coding/install/position_controllers/lib/libposition_controllers.so
-/workspaces/ros2-coding/install/position_controllers/share/position_controllers/cmake/export_position_controllersExport.cmake
-/workspaces/ros2-coding/install/position_controllers/share/position_controllers/cmake/export_position_controllersExport-noconfig.cmake

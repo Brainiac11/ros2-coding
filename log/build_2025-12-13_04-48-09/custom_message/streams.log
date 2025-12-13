@@ -1,0 +1,58 @@
+[0.053s] Invoking command in '/workspaces/ros2-coding/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/rqt_joint_trajectory_controller:/workspaces/ros2-coding/install/rqt_controller_manager:/workspaces/ros2-coding/install/ros2controlcli:/workspaces/ros2-coding/install/ros2_controllers_test_nodes:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /workspaces/ros2-coding/turtlesim_ws/src/custom_message -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2-coding/install/custom_message
+[0.280s] -- The C compiler identification is GNU 13.3.0
+[0.383s] -- The CXX compiler identification is GNU 13.3.0
+[0.418s] -- Detecting C compiler ABI info
+[0.732s] -- Detecting C compiler ABI info - done
+[0.753s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.754s] -- Detecting C compile features
+[0.755s] -- Detecting C compile features - done
+[0.777s] -- Detecting CXX compiler ABI info
+[1.114s] -- Detecting CXX compiler ABI info - done
+[1.138s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.139s] -- Detecting CXX compile features
+[1.140s] -- Detecting CXX compile features - done
+[1.183s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.623s] -- Found Python3: /workspaces/ros2-coding/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.783s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.457s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.894s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.026s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.342s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.789s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.266s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.992s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[4.992s]   execute_process(/workspaces/ros2-coding/.venv/bin/python3 -m rosidl_adapter
+[4.992s]   --package-name custom_message --arguments-file
+[4.992s]   /workspaces/ros2-coding/build/custom_message/rosidl_adapter__arguments__custom_message.json
+[4.992s]   --output-dir
+[4.993s]   /workspaces/ros2-coding/build/custom_message/rosidl_adapter/custom_message
+[4.993s]   --output-file
+[4.993s]   /workspaces/ros2-coding/build/custom_message/rosidl_adapter/custom_message.idls)
+[4.993s]   returned error code 1:
+[4.993s] 
+[4.994s]   Traceback (most recent call last):
+[4.994s] 
+[4.994s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[4.994s]     File "<frozen runpy>", line 88, in _run_code
+[4.999s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[5.000s]       sys.exit(main())
+[5.000s]                ^^^^^^
+[5.000s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[5.000s]       abs_idl_file = convert_to_idl(
+[5.000s]                      ^^^^^^^^^^^^^^^
+[5.001s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[5.001s]       from rosidl_adapter.msg import convert_msg_to_idl
+[5.001s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[5.003s]       from rosidl_adapter.resource import expand_template
+[5.004s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[5.004s]       import em
+[5.004s] 
+[5.007s]   ModuleNotFoundError: No module named 'em'
+[5.008s] 
+[5.008s] Call Stack (most recent call first):
+[5.008s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[5.008s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[5.008s] 
+[5.009s] [0m
+[5.009s] -- Configuring incomplete, errors occurred!

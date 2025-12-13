@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/gpio_controllers/include/gpio_controllers/gpio_command_controller.hpp

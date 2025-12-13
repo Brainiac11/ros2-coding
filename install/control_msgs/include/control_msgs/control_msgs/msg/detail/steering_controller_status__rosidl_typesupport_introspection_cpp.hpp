@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/control_msgs/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_introspection_cpp.hpp

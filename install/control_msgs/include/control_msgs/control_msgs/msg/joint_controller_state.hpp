@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/control_msgs/rosidl_generator_cpp/control_msgs/msg/joint_controller_state.hpp

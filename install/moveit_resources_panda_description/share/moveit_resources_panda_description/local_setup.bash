@@ -1,0 +1,1 @@
+/workspaces/ros2-coding/build/moveit_resources_panda_description/ament_cmake_environment_hooks/local_setup.bash

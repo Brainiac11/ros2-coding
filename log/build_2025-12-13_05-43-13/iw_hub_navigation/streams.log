@@ -1,0 +1,27 @@
+[0.031s] Invoking command in '/workspaces/ros2-coding/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/iw_hub_navigation -- -j4 -l4
+[0.296s] Invoked command in '/workspaces/ros2-coding/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2-coding/build/iw_hub_navigation -- -j4 -l4
+[0.297s] Invoking command in '/workspaces/ros2-coding/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/iw_hub_navigation
+[0.348s] -- Install configuration: ""
+[0.351s] -- Execute custom install script
+[0.352s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/launch/iw_hub_navigation.launch.py
+[0.353s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/launch/iw_hub_navigation_isaacsim.launch.py
+[0.355s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/params/iw_hub_navigation_params.yaml
+[0.356s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/maps/iw_hub_warehouse_navigation.png
+[0.357s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/maps/iw_hub_warehouse_navigation.yaml
+[0.359s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/rviz2/iw_hub_navigation.rviz
+[0.360s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/ament_index/resource_index/package_run_dependencies/iw_hub_navigation
+[0.361s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/ament_index/resource_index/parent_prefix_path/iw_hub_navigation
+[0.362s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/environment/ament_prefix_path.sh
+[0.363s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/environment/ament_prefix_path.dsv
+[0.364s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/environment/path.sh
+[0.366s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/environment/path.dsv
+[0.366s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.bash
+[0.367s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.sh
+[0.367s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.zsh
+[0.368s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.dsv
+[0.370s] -- Symlinking: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/package.dsv
+[0.412s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/ament_index/resource_index/packages/iw_hub_navigation
+[0.419s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/cmake/iw_hub_navigationConfig.cmake
+[0.419s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/cmake/iw_hub_navigationConfig-version.cmake
+[0.419s] -- Up-to-date symlink: /workspaces/ros2-coding/install/iw_hub_navigation/share/iw_hub_navigation/package.xml
+[0.427s] Invoked command in '/workspaces/ros2-coding/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2-coding/install/my_turtlesim:/workspaces/ros2-coding/install/issac_sim:/workspaces/ros2-coding/install/isaac_ros_navigation_goal:/workspaces/ros2-coding/install/human_controller:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2-coding/build/iw_hub_navigation

@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/build/control_msgs/rosidl_generator_c/control_msgs/msg/detail/dynamic_interface_group_values__type_support.h

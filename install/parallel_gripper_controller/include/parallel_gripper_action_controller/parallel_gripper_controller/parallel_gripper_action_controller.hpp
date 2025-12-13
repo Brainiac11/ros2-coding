@@ -1,1 +1,0 @@
-/workspaces/ros2-coding/turtlesim_ws/src/ros-controls/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller.hpp
